@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/ephemeral_duration_setting_row_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0765" android:layout_marginBottom="@dimen/dimen0765" app:attr0456="@color/color04d2" app:attr0459="@drawable/ic_group_ephemeral_v3" app:attr045c="@string/str0707" style="?attr/attr0457"/>
+    <View android:background="@color/color01d5" android:layout_width="match_parent" android:layout_height="@dimen/dimen0762"/>
+</LinearLayout>

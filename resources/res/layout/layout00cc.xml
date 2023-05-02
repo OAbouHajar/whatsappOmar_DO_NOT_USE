@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/contact_photo_layout" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/contact_photo" android:background="@color/color009e" android:layout_width="@dimen/dimen00f1" android:layout_height="@dimen/dimen00f1" android:layout_margin="@dimen/dimen00ee" android:scaleType="fitCenter" app:attr0163="6dp" app:attr04b4="@drawable/vec_avatar_contact_voice_call"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Көшіру үшін бұл құрылғыға %1$s қажет. WhatsApp-тың жадты реттеу құралын қолданып, жадты тазалаңыз.</item>
+    </plurals>
+</resources>

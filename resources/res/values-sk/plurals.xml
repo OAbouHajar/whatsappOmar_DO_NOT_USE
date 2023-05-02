@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Na prenos správ je treba %1$s. Uvoľnite miesto vo svojom zariadení pomocou nástroja na správu úložiska v aplikácii WhatsApp.</item>
+    </plurals>
+</resources>

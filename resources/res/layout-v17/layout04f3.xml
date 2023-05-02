@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/recording_info" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.obwhatsapp.CircularProgressBar android:layout_gravity="center_vertical" android:id="@+id/recording_progress" android:layout_width="18dp" android:layout_height="18dp" android:indeterminate="false" android:indeterminateOnly="false" app:attr0113="@color/color08d6" app:attr0114="@android:color/white" app:attr0115="@color/color08d6" app:attr0118="4"/>
+        <com.obwhatsapp.WaTextView android:textColor="@android:color/white" android:id="@+id/recording_time" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00" android:paddingStart="8dp"/>
+    </LinearLayout>
+</merge>

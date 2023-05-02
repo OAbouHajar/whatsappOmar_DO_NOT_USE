@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/business_profile_info_activity_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/style01b6"/>
+        <com.obwhatsapp.InfoCard android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02bd="@color/color065f" style="@style/style019e">
+            <com.obwhatsapp.biz.BusinessHoursView android:id="@+id/business_hours" android:visibility="gone" style="@style/style00ed"/>
+            <com.obwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_location" android:visibility="gone" app:attr0077="@drawable/ic_business_location" style="@style/style00ed"/>
+            <com.obwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_vertical" android:visibility="gone" app:attr0077="@drawable/ic_business_category" style="@style/style00ed"/>
+            <com.obwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_link" android:tag="website" android:visibility="gone" app:attr0075="3" app:attr0077="@drawable/ic_business_link" app:attr0078="true" style="@style/style00ed"/>
+            <com.obwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_link_2" android:tag="website" android:visibility="gone" app:attr0075="3" app:attr0077="@drawable/ic_business_link" app:attr0078="true" style="@style/style00ed"/>
+            <com.obwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_email" android:visibility="gone" app:attr0075="3" app:attr0077="@drawable/ic_business_email" app:attr0078="true" style="@style/style00ed"/>
+        </com.obwhatsapp.InfoCard>
+        <com.obwhatsapp.InfoCard android:id="@+id/brand_link_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02bd="@color/color065f" style="@style/style019e">
+            <com.obwhatsapp.biz.BusinessProfileFieldView android:id="@+id/brand_link" android:tag="website" android:visibility="gone" app:attr0075="3" app:attr0077="@drawable/ic_business_link" app:attr0078="true" style="@style/style00ed"/>
+            <com.obwhatsapp.biz.BusinessProfileFieldView android:id="@+id/brand_link_2" android:tag="website" android:visibility="gone" app:attr0075="3" app:attr0077="@drawable/ic_business_link" app:attr0078="true" style="@style/style00ed"/>
+        </com.obwhatsapp.InfoCard>
+    </LinearLayout>
+</ScrollView>

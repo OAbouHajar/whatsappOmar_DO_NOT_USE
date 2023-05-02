@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yosettings_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar"/>
+        <com.obwhatsapp.yo.tf android:orientation="horizontal" android:background="@drawable/Abu3rab_WA1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:text="@string/abu3rab_alert" style="@style/abu3rab_alert"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+            <ImageView android:background="@color/abu3rab_accent" android:layout_width="0dp" android:layout_height="2dp" android:layout_weight="1"/>
+            <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="@color/abu3rab_accent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/app_abu3rab_wa"/>
+            <ImageView android:background="@color/abu3rab_accent" android:layout_width="0dp" android:layout_height="2dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA2" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downWaGoldLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlwagold" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/wagold"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA3" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downWaBlueLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlwablue" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/wablue"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA2" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downWaRedLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlwared" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/wared"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA3" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downWaPlusLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlwaplus" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/waplus"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA2" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downWaAGLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlwhatsblue" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/whatsblue"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA3" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downWaAG2Link">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlwhatsred" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/whatsred"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+            <ImageView android:layout_width="0dp" android:layout_height="2dp" android:src="@color/abu3rab_accent" android:layout_weight="1"/>
+            <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="@color/abu3rab_accent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/app_abu3rab"/>
+            <ImageView android:layout_width="0dp" android:layout_height="2dp" android:src="@color/abu3rab_accent" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA2" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downInstaLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlgoldinsta" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/instagold"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA3" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downTeleLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlgoldttelegram" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/goldttelegram"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA2" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downYTLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/dlgoldyoutube" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/goldyoutube"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/Abu3rab_WA3" android:padding="10dp" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginBottom="5dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" android:onClick="downYmateLink">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1">
+                    <com.obwhatsapp.yo.tf android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exo_download_description" android:maxLines="1"/>
+                    <com.obwhatsapp.yo.tf android:textSize="12sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/YMate_video_down" android:maxLines="1"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end" android:layout_width="62dp" android:layout_height="62dp" android:src="@drawable/down_YMate_video"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

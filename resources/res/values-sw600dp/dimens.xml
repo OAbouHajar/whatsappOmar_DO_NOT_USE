@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cancel_button_image_alpha">24dp</dimen>
+    <dimen name="status_bar_notification_info_maxnum">80dp</dimen>
+    <dimen name="dimen0002">64dp</dimen>
+    <dimen name="dimen0003">8dp</dimen>
+    <dimen name="dimen0004">8dp</dimen>
+    <dimen name="dimen0017">580dp</dimen>
+    <dimen name="dimen004e">16dp</dimen>
+    <dimen name="dimen0050">20dp</dimen>
+    <dimen name="dimen01ef">64dp</dimen>
+    <dimen name="dimen01f0">12dp</dimen>
+    <dimen name="dimen02d5">320dp</dimen>
+    <dimen name="dimen02d8">0dp</dimen>
+    <dimen name="dimen02d9">2dp</dimen>
+    <dimen name="dimen02db">24dp</dimen>
+    <dimen name="dimen02dc">576dp</dimen>
+    <dimen name="dimen02dd">320dp</dimen>
+    <dimen name="dimen02e0">@dimen/dimen02df</dimen>
+    <dimen name="dimen02e3">160dp</dimen>
+    <dimen name="dimen035b">54dp</dimen>
+</resources>

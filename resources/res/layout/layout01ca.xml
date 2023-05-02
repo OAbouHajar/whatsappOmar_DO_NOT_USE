@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@+id/sticker_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp">
+        <LinearLayout android:id="@+id/sticker_bubble_header" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/layout01c1"/>
+            <include layout="@layout/layout01e6"/>
+        </LinearLayout>
+        <include layout="@layout/layout0580"/>
+    </LinearLayout>
+</merge>

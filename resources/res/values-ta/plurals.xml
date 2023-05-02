@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">இந்தப் பரிமாற்றத்திற்கு %1$s தேவைப்படுகிறது. WhatsApp இன் சேமிப்பக நிர்வாகக் கருவியைப் பயன்படுத்தி இடத்தைக் காலியாக்கவும்.</item>
+    </plurals>
+</resources>

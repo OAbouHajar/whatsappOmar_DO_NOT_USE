@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/primary_surface" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/Toolbar.Neutral"/>
+        <View android:id="@+id/separator" style="@style/SectionDivider"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@+id/preview_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/appbar">
+        <com.obwhatsapp.mediaview.PhotoView android:id="@+id/wallpaper_photo_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/control_holder" android:background="@color/primary_surface" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.obwhatsapp.WaButton android:id="@+id/cancel_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0173" android:layout_weight="1" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        <com.obwhatsapp.WaButton android:id="@+id/set_wallpaper_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1b49" android:layout_weight="1" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">‎%1$s nevojiten në këtë pajisje për transferimin. Pastro hapësirën duke përdorur mjetin e menaxhimit të hapësirës ruajtëse të WhatsApp.</item>
+        <item quantity="one">‎%1$s nevojitet në këtë pajisje për transferimin. Pastro hapësirën duke përdorur mjetin e menaxhimit të hapësirës ruajtëse të WhatsApp.</item>
+    </plurals>
+</resources>

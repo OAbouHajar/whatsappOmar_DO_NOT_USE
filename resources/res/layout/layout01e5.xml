@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/conversation_row_root" android:layout_width="317dp" android:layout_height="wrap_content" android:layout_marginLeft="40dp">
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01e6"/>
+        <RelativeLayout android:paddingLeft="7dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="62dp">
+            <com.obwhatsapp.search.views.itemviews.VoiceNoteProfileAvatarView android:id="@+id/conversation_row_voice_note_profile_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:attr0380="@drawable/mic_background_outgoing" app:attr0381="@color/color06e8" app:attr0383="38dp" app:attr03ed="2dp" app:attr03ef="2dp" app:attr03f2="48dp"/>
+            <com.obwhatsapp.search.views.itemviews.AudioPlayerView android:id="@+id/conversation_row_audio_player_view" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_toRightOf="@+id/conversation_row_voice_note_profile_avatar" android:layout_centerVertical="true" app:attr03d6="54dp" app:attr03fb="44dp" app:attr0443="8dp"/>
+            <com.obwhatsapp.search.views.itemviews.AudioPlayerMetadataView android:paddingLeft="54dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignLeft="@+id/conversation_row_audio_player_view" android:layout_alignRight="@+id/conversation_row_audio_player_view" android:layout_alignParentBottom="true" app:attr012f="7dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

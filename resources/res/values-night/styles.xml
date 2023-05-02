@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0002">
+        <item name="android:colorBackground">@color/color05d6</item>
+    </style>
+    <style name="style0003">
+    </style>
+    <style name="style00d5">
+        <item name="android:windowBackground">@color/color00b1</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="attr0069">@style/style0231</item>
+    </style>
+    <style name="style0140">
+        <item name="android:background">@color/color05d6</item>
+    </style>
+    <style name="style0144">
+        <item name="android:background">@drawable/enc_backup_enc_key_bg_hidden_night</item>
+    </style>
+    <style name="style01f5">
+        <item name="android:popupBackground">@color/color05d6</item>
+    </style>
+    <style name="style024d">
+        <item name="android:visibility">@null</item>
+    </style>
+    <style name="style0303">
+    </style>
+    <style name="style0324">
+    </style>
+    <style name="style032a">
+    </style>
+    <style name="style032c">
+    </style>
+    <style name="style032f">
+    </style>
+    <style name="style0382">
+        <item name="android:colorBackground">@color/color05d6</item>
+    </style>
+    <style name="Theme.App.CondensedActionBar">
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.Condensed</item>
+        <item name="actionButtonStyle">@style/ActionBarCondensedButtonStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Aktarım için bu cihazda %1$s boş alan olması gerekiyor. Lütfen WhatsApp&apos;ın depolama yönetimi aracını kullanarak depolama alanında yer açın.</item>
+    </plurals>
+</resources>

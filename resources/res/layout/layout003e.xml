@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/app_bar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/attr0007">
+    <com.google.android.material.appbar.CollapsingToolbarLayout android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0335="13">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/attr0007" app:attr0100="0dp" app:attr0102="0dp" app:attr0103="0dp" app:attr02fd="1" style="@style/style037e">
+            <androidx.appcompat.widget.SearchView android:layout_gravity="center_vertical" android:id="@+id/search_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style024a"/>
+        </com.obwhatsapp.BidiToolbar>
+        <RelativeLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/headerView" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/communityName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0765" android:layout_marginTop="@dimen/dimen0765" android:layout_marginRight="@dimen/dimen0765" android:maxLines="3" android:layout_below="@+id/communityPhoto" android:layout_centerHorizontal="true" style="@style/style02cf"/>
+            <com.obwhatsapp.WaTextView android:ellipsize="end" android:gravity="center" android:id="@+id/communityStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0765" android:layout_marginTop="@dimen/dimen0762" android:layout_marginRight="@dimen/dimen0765" android:maxLines="3" android:layout_below="@+id/communityName" android:layout_centerHorizontal="true" style="@style/style02cd"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/communityPhoto" android:layout_width="@dimen/dimen01c9" android:layout_height="@dimen/dimen01c9" android:layout_marginTop="@dimen/dimen0769" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+            <Space android:layout_width="match_parent" android:layout_height="12dp" android:layout_below="@+id/communityStatus"/>
+        </RelativeLayout>
+        <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:layout_width="@dimen/dimen01cd" android:layout_height="@dimen/dimen0002">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/change_subject_and_desription_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+        </FrameLayout>
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+</com.google.android.material.appbar.AppBarLayout>

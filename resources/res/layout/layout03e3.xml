@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:gravity="center" android:id="@+id/control_button_container" android:layout_width="32dp" android:layout_height="32dp">
+        <com.obwhatsapp.WaImageButton android:gravity="center" android:id="@+id/control_btn" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/inline_audio_play" android:scaleType="center" android:contentDescription="@string/str1d62" app:attr0532="@color/color005c"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/progress_bar" android:layout="@layout/layout0102" android:inflatedId="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/controls" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.conversation.waveforms.VoiceVisualizer android:layout_gravity="center_vertical" android:id="@+id/audio_visualizer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="24dp" app:attr03fa="@color/color07d2" app:attr0447="@color/color07d3" app:attr0448="4.8dp" app:attr0449="2.5dp"/>
+        <com.obwhatsapp.voicerecorder.VoiceNoteSeekBar android:layout_gravity="center_vertical" android:id="@+id/audio_seekbar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" app:attr056f="12dp" app:attr0570="3dp" style="@style/style0391"/>
+    </FrameLayout>
+</merge>

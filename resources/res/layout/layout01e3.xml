@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/conversation_row_root" android:clipChildren="false" android:layout_width="317dp" android:layout_height="wrap_content" android:layout_marginRight="40dp">
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01e6"/>
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <include layout="@layout/layout01b5"/>
+                <com.obwhatsapp.search.views.itemviews.AudioPlayerView android:layout_gravity="center_vertical" android:id="@+id/conversation_row_audio_player_view" android:paddingTop="0dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr03d5="4dp" app:attr03d6="54dp" app:attr03fb="44dp"/>
+                <com.obwhatsapp.search.views.itemviews.AudioPlayerMetadataView android:layout_gravity="bottom" android:paddingLeft="58dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr012e="3dp" app:attr02a9="false"/>
+            </FrameLayout>
+            <com.obwhatsapp.search.views.itemviews.VoiceNoteProfileAvatarView android:layout_gravity="center_vertical" android:id="@+id/conversation_row_voice_note_profile_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0380="@drawable/mic_background_incoming" app:attr0381="@color/color06e2" app:attr0382="5dp" app:attr0383="12dp" app:attr03ee="10dp" app:attr03f2="62dp" app:attr03f3="7dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style0369" android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/wallpaper_thumbnail_recyclerview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/wallpaper_thumbnail_error_container" android:padding="@dimen/dimen084d" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaTextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1b6f"/>
+        <com.obwhatsapp.WaButton android:id="@+id/wallpaper_thumbnail_reload_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140dp" android:layout_marginBottom="140dp" android:text="@string/str1b70" style="@style/style03a2"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/wallpaper_thumbnails_progress_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:indeterminate="true" style="?android:attr/progressBarStyleLarge"/>
+    </FrameLayout>
+</LinearLayout>

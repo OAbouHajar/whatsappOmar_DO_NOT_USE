@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/yo_toolbar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/preview" android:paddingLeft="@dimen/settings_divider_vertical_margin" android:paddingTop="@dimen/settings_divider_text_margin_top" android:paddingRight="@dimen/settings_divider_vertical_margin" android:paddingBottom="@dimen/settings_divider_text_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="100dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.youbasha.ui.TextBubbleLeft android:gravity="start" android:id="@+id/left" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/forward" android:background="@drawable/forward_background_normal" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ic_action_forward" android:scaleType="centerInside" android:tint="@color/quickActionIconTint"/>
+        </LinearLayout>
+        <com.obwhatsapp.youbasha.ui.TextBubbleRight android:gravity="end" android:id="@+id/right" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:divider="@drawable/divider_gray"/>
+</LinearLayout>

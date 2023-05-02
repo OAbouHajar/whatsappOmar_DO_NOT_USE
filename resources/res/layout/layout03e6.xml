@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="@dimen/dimen0154" android:paddingRight="@dimen/dimen0154" android:layout_width="match_parent" android:layout_height="@dimen/dimen0422">
+    <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:id="@+id/mde_agent_attr_ic" android:layout_width="22dp" android:layout_height="wrap_content" app:attr0532="@color/color055a"/>
+            <com.obwhatsapp.TextEmojiLabel android:id="@+id/biz_agent_name" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01bc"/>
+        </LinearLayout>
+        <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/biz_agent_sent_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b9"/>
+    </LinearLayout>
+    <View android:id="@+id/agent_separator" style="@style/style00f7"/>
+</FrameLayout>

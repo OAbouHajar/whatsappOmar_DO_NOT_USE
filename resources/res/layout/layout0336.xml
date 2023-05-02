@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/dimen0653" android:paddingTop="@dimen/dimen0652" android:paddingRight="@dimen/dimen0653" android:paddingBottom="@dimen/dimen0652" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:id="@+id/mandate_icon" android:layout_width="@dimen/dimen0601" android:layout_height="@dimen/dimen0601" android:layout_marginRight="@dimen/dimen0703" android:src="@drawable/ic_auto_pay"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0713" android:textColor="@color/color0711" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str192e" android:layout_weight="1"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/pending_badge" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/green_circle"/>
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@+id/payment_settings_fb_pay_separator" android:background="@drawable/list_separator_top" android:layout_width="match_parent" android:layout_height="@dimen/dimen05fe"/>
+</LinearLayout>

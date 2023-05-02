@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/catalog_image_list" android:background="@color/color0106" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/catalog_image_list_toolbar" android:background="@color/color064b" android:layout_width="match_parent" android:layout_height="@dimen/dimen005e" app:attr03dc="@style/style0382" app:attr0529="@style/style036b"/>
+    </FrameLayout>
+    <View android:layout_gravity="top" android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str1dd3"/>
+    <View android:layout_gravity="bottom" android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str1dd2"/>
+</FrameLayout>

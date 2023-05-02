@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.chatinfo.view.custom.ChatInfoLayoutV2 android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/selector_orange_gradient" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never"/>
+        <FrameLayout android:gravity="center_vertical" android:id="@+id/header" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:id="@+id/picture" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@string/str1d6a"/>
+            <View android:layout_gravity="bottom" android:id="@+id/bottom_shade" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="96dp"/>
+            <View android:layout_gravity="top" android:id="@+id/top_shade" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48dp"/>
+            <View android:id="@+id/photo_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/attr0007" app:attr03dc="@style/style0382" app:attr0529="@style/style037e"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/photo_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+            <FrameLayout android:layout_gravity="center" android:id="@+id/subject_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0002">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/dimen005e" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.components.ScalingFrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/conversation_contact_name_scaler" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.obwhatsapp.TextEmojiLabel android:id="@+id/conversation_contact_name" android:visibility="gone" style="@style/style0114"/>
+                    </com.obwhatsapp.components.ScalingFrameLayout>
+                </LinearLayout>
+                <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="48dp" android:layout_height="@dimen/dimen0002">
+                    <ProgressBar android:layout_gravity="center" android:id="@+id/change_subject_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+                </FrameLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.components.ScalingFrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/profile_picture_scaler" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout0249"/>
+                    </com.obwhatsapp.components.ScalingFrameLayout>
+                </LinearLayout>
+                <com.obwhatsapp.chatinfo.view.custom.CollapsingProfilePhotoView android:id="@+id/collapsing_profile_photo_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </FrameLayout>
+        </FrameLayout>
+    </com.obwhatsapp.chatinfo.view.custom.ChatInfoLayoutV2>
+    <FrameLayout android:id="@+id/search_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.WaImageView android:id="@+id/video_call_participant_photo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:attr04b4="@drawable/vec_avatar_contact_video_call"/>
+    <com.obwhatsapp.WaImageView android:id="@+id/frame_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/mute_layout" android:visibility="gone" android:layout_width="100dp" android:layout_height="100dp">
+        <com.obwhatsapp.WaImageView android:id="@+id/mute_image" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/videocall_mute" android:alpha="0.9"/>
+    </FrameLayout>
+    <com.obwhatsapp.WaImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/camera_off_image" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="@dimen/dimen0128" android:src="@drawable/videocall_video_off" android:alpha="0.9"/>
+    <FrameLayout android:gravity="center" android:id="@+id/status_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/video_status_container" android:background="@drawable/video_call_status_background" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/status" android:padding="@dimen/dimen00f9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:text="@string/str1b08" android:fontFamily="sans-serif-medium"/>
+            <com.obwhatsapp.WaImageButton android:id="@+id/video_call_status_button" android:background="@null" android:padding="@dimen/dimen00f9" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="-8dp" android:scaleType="centerInside" android:contentDescription="@string/str0394" android:layout_marginStart="-8dp" app:attr04b4="@drawable/vec_ic_cancel_black_24dp" app:attr0532="@color/color00be"/>
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@+id/dark_overlay" android:background="@color/color009f" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/group_info_add_group_to_community" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02bd="@color/color065f" style="@style/style019e">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/dimen0457" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/add_to_community_icon" android:layout_width="@dimen/dimen076e" android:layout_height="@dimen/dimen076e" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0457" android:layout_weight="1">
+            <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen041b" android:textColor="@color/color0660" android:id="@+id/add_to_community_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0a9c"/>
+            <com.obwhatsapp.WaTextView android:textColor="@color/color06c5" android:id="@+id/add_to_community_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0a9b"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.obwhatsapp.InfoCard>

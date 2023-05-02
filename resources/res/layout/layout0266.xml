@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen035e" android:layout_marginRight="@dimen/dimen035e">
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_title" android:text="@string/str07a6" style="@style/style014a"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_instruction" android:text="@string/str07a4" style="@style/style0148"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_forgot_password" android:text="@string/str07cb" style="@style/style0149"/>
+            <com.obwhatsapp.CodeInputField android:id="@+id/enc_backup_password_input" android:hint="@string/str07cc" style="@style/style0145"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_requirement" style="@style/style0148"/>
+        </com.obwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/enc_backup_password_input_button" android:text="@string/str07a3" style="@style/style03a2"/>
+    <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_use_encryption_key_button" android:visibility="gone" style="@style/style0149"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/polls_main_layout" android:layout_width="@dimen/dimen027c" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minHeight="30dp">
+        <include layout="@layout/layout01c1"/>
+        <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style03b3" android:layout_gravity="left" android:id="@+id/poll_name" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:attr028d="sans-serif-medium"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/poll_options" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:importantForAccessibility="no"/>
+        <ViewStub android:id="@+id/invalid_poll_text" android:visibility="gone" android:layout="@layout/layout016e" android:inflatedId="@+id/invalid_poll_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingRight="5dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b2"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/status" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:background="@color/color0621" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="8dp" android:importantForAccessibility="no"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0299" android:textColor="@color/color06e9" android:gravity="center" android:id="@+id/view_details" android:padding="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str12e6" app:attr028d="sans-serif-medium"/>
+    </LinearLayout>
+</merge>

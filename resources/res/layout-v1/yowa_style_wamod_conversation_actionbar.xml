@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/custom_view" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize">
+    <include layout="@layout/layout0150"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/conversation_contact" android:paddingLeft="4dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="2dp" android:clickable="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/back" android:layout_centerVertical="true" android:animateLayoutChanges="true" android:paddingStart="4dp" android:paddingEnd="0dp" style="@style/ActionBarButtonStyle">
+        <FrameLayout android:layout_gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textStyle="bold" android:ellipsize="end" android:gravity="left" android:id="@+id/conversation_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" android:singleLine="true" style="@style/Theme.ActionBar.TitleTextStyle.Condensed"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="left" android:layout_gravity="left" android:orientation="horizontal" android:id="@+id/conversation_contact_status_holder" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="false">
+            <LinearLayout android:gravity="left" android:layout_gravity="left" android:orientation="horizontal" android:id="@+id/business_holder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/subtitle_text_size" android:textStyle="bold" android:ellipsize="end" android:gravity="left" android:id="@+id/business_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                <com.obwhatsapp.yo.tf android:textSize="@dimen/subtitle_text_size" android:textStyle="bold" android:gravity="left" android:id="@+id/business_separator" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" android:paddingStart="4dp" android:paddingEnd="4dp"/>
+            </LinearLayout>
+            <com.obwhatsapp.yo.tf android:textStyle="bold" android:ellipsize="end" android:gravity="left" android:id="@+id/conversation_contact_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/Theme.ActionBar.SubtitleTextStyle"/>
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

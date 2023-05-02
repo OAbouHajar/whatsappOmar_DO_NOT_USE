@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_shimmer" android:layout_width="match_parent" android:layout_height="@dimen/dimen05d4" style="@style/style01e0">
+        <View android:background="@drawable/payment_loading_box" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/payment_loading_error" android:background="@drawable/payment_loading_error_box" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen05d4">
+        <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0611" android:textColorHighlight="@color/color0610" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0f4d" android:maxLines="4" app:attr028d="sans-serif"/>
+        <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0611" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0fc7" android:maxLines="4" app:attr028d="sans-serif"/>
+    </LinearLayout>
+</merge>

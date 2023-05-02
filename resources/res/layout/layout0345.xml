@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="28dp">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/name_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:src="@drawable/ic_settings_name" android:scaleType="fitCenter" app:attr0532="@color/color05e5"/>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/name_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0774" android:ellipsize="end" android:id="@+id/profile_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0c17" android:singleLine="true"/>
+                        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0773" android:id="@+id/profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="24dp">
+                    <com.obwhatsapp.WaImageView android:id="@+id/vpa_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:src="@drawable/ic_attachment_payment_inr" android:scaleType="fitXY" app:attr0532="@color/color05e5"/>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/vpa_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0774" android:ellipsize="end" android:id="@+id/profile_vpa_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0b6e" android:singleLine="true"/>
+                        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0773" android:id="@+id/profile_vpa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <include android:id="@+id/default_payment_method_divider" layout="@layout/layout0236"/>
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@+id/shimmer_layout_row" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+                    <View android:id="@+id/banner_image_circle_background" android:background="@drawable/payment_shimmer_icon_background_circle" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" app:attr0304="0" app:attr031d="0" app:attr0321="0" app:attr0532="@color/color0523"/>
+                    <com.obwhatsapp.WaImageView android:id="@+id/loading_icon" android:layout_width="12dp" android:layout_height="20dp" android:src="@drawable/ic_load_upi_number" app:attr0304="@+id/banner_image_circle_background" app:attr030a="@+id/banner_image_circle_background" app:attr031d="@+id/banner_image_circle_background" app:attr0321="@+id/banner_image_circle_background" app:attr0532="@color/color0522"/>
+                    <com.facebook.shimmer.ShimmerFrameLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" app:attr0304="0" app:attr031c="@+id/loading_icon" app:attr0321="0" style="@style/style01e0">
+                        <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color0507" android:gravity="center_horizontal" android:background="@drawable/payment_loading_box" android:layout_width="276dp" android:layout_height="16dp" android:layout_marginLeft="20dp" android:text=" " style="@style/style01bc"/>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/set_up_upi_number_container" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="28dp">
+                    <com.obwhatsapp.WaImageView android:background="@drawable/selector_orange_gradient" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:src="@drawable/ic_settings_add" android:scaleType="fitXY" app:attr0532="@color/color04d1"/>
+                    <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0773" android:ellipsize="end" android:id="@+id/set_up_upi_number_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0c23" android:singleLine="true"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linked_upi_number_container" android:paddingTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="24dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/linked_number_image" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="24dp" android:src="@drawable/ic_settings_phone" android:scaleType="fitCenter" app:attr0304="0" app:attr031d="0" app:attr0321="0" app:attr0532="@color/color05e5"/>
+                        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0774" android:id="@+id/upi_number_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/str1942" app:attr0305="@+id/upi_number_text" app:attr031c="@+id/linked_number_image" app:attr0321="0"/>
+                        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0773" android:id="@+id/upi_number_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="24dp" app:attr0304="0" app:attr031c="@+id/linked_number_image" app:attr0320="@+id/upi_number_title"/>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0774" android:id="@+id/upi_number_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:layout_marginTop="10dp" android:layout_marginBottom="7dp" android:text="@string/str0c5c"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/remove_upi_number_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+                        <com.obwhatsapp.WaImageView android:layout_width="22dp" android:layout_height="24dp" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:src="@drawable/ic_settings_delete" android:scaleType="fitXY" app:attr0532="@color/color07ae"/>
+                        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color07ae" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str13fd" android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="30dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.obwhatsapp.WaImageView android:layout_gravity="bottom" style="@style/style01f6"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

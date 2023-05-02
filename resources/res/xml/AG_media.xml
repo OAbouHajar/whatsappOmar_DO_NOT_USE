@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/abu3rab_video_player_title">
+        <SwitchPreference android:title="@string/abu3rab_video_player" android:key="abu3rab_media_video_player" android:summary="@string/abu3rab_video_player_sum" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/yoImg">
+        <SwitchPreference android:title="@string/yoImgHiBtn" android:key="abu3rab_image_quality" android:summary="@string/yoImgHiBtnSum" android:defaultValue="true"/>
+        <SwitchPreference android:title="@string/yoImgShareLimit" android:key="Img_share_limit" android:summary="@string/yoImgShareLimitSum" android:defaultValue="true"/>
+        <SwitchPreference android:title="@string/abu3rab_docshare_limit" android:key="key_more_docs_send" android:summary="@string/abu3rab_docshare_limit_sum" android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

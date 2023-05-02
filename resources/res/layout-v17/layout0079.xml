@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.WaImageView android:id="@+id/tile_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/voice_call_grid_pip_background"/>
+    <com.obwhatsapp.WaDynamicRoundCornerImageView android:id="@+id/call_grid_blur_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.3" app:attr040f="@dimen/dimen0116"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@+id/audio_call_grid" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/audio_call_participant_photo" android:focusable="false" android:visibility="visible" android:layout_width="0dp" android:layout_height="0dp" android:layout_margin="8dp" android:importantForAccessibility="no" app:attr0304="0" app:attr0309="h,1:1" app:attr030b="@+id/audio_call_participant_wave" app:attr0312="0.6" app:attr0314="2" app:attr031d="0" app:attr0321="0"/>
+        <com.obwhatsapp.calling.callgrid.view.VoiceParticipantAudioWave android:id="@+id/audio_call_participant_wave" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginRight="8dp" android:layout_marginEnd="8dp" app:attr0304="0" app:attr030a="0" app:attr0312="0.6" app:attr031c="@+id/audio_call_participant_photo" app:attr0321="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@+id/dark_overlay" android:background="@drawable/voice_call_grid_pip_dark_overlay" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+</FrameLayout>

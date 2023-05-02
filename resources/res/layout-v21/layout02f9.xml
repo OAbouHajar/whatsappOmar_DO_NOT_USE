@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionGroup="true">
+    <com.obwhatsapp.StickyHeadersRecyclerView android:id="@+id/grid" android:paddingBottom="64dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/color0792" app:attr0497="@dimen/dimen03f9" app:attr0498="@dimen/dimen03f8"/>
+    <com.obwhatsapp.scroller.RecyclerFastScroller android:id="@+id/scroller" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ScrollView android:id="@+id/no_media" android:background="@color/color0543" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorPrimary" android:layout_gravity="center" android:paddingBottom="64dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0b37"/>
+    </ScrollView>
+    <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="64dp" android:layout_height="64dp" android:indeterminateOnly="true" app:attr0113="@color/color0792" app:attr0114="@color/color0659"/>
+    <View android:layout_gravity="top" android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/dimen0526" android:transitionName="@string/str1dd3"/>
+    <View android:layout_gravity="top" android:id="@+id/header_transition" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="-56dp" android:transitionName="@string/str1dd6"/>
+    <View android:layout_gravity="bottom" android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str1dd2"/>
+    <View android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/gallery_filter_swipe_transition" android:layout_width="0dp" android:layout_height="0dp" android:transitionName="@string/str1dd4"/>
+    <View android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/gallery_send_button_transition" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginRight="44dp" android:transitionName="@string/str1dd8"/>
+</FrameLayout>

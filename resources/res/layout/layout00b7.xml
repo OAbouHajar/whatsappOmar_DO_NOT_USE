@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.ui.media.MediaCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/product_catalog_media_card_view" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02bd="@color/color065f" app:attr0379="@string/str0311" app:attr037a="@string/str0310" style="@style/style019e"/>

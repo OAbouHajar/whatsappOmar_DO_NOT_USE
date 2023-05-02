@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/add_groups_new_group" android:background="@drawable/simple_feedback_background" android:layout_width="match_parent" android:layout_height="@dimen/dimen0061">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:background="@drawable/green_circle" android:padding="@dimen/dimen0062" android:layout_width="@dimen/dimen076e" android:layout_height="@dimen/dimen076e" android:layout_marginLeft="@dimen/dimen0765" android:src="@drawable/ic_add_new_group"/>
+            <com.obwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0765" android:text="@string/str0614" android:layout_weight="1" style="@style/style02c6"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/add_groups_link_existing_groups" android:background="@drawable/simple_feedback_background" android:layout_width="match_parent" android:layout_height="@dimen/dimen0061">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:background="@drawable/green_circle" android:padding="@dimen/dimen0062" android:layout_width="@dimen/dimen076e" android:layout_height="@dimen/dimen076e" android:layout_marginLeft="@dimen/dimen0765" android:src="@drawable/ic_action_add"/>
+            <com.obwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0765" android:text="@string/str0c20" android:layout_weight="1" style="@style/style02c6"/>
+        </LinearLayout>
+        <View android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="@dimen/dimen0762"/>
+        <com.obwhatsapp.WaTextView android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/dimen076d" android:layout_marginLeft="@dimen/dimen0765" android:layout_marginTop="@dimen/dimen0763" android:text="@string/str0b20"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/added_groups" android:paddingBottom="@dimen/dimen01c5" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatSpinner android:layout_gravity="center_horizontal" android:id="@+id/add_groups_subgroup_spinner" android:visibility="gone" android:layout_width="@dimen/dimen076e" android:layout_height="@dimen/dimen076e"/>
+    </LinearLayout>
+    <com.obwhatsapp.components.FloatingActionButton android:id="@+id/community_add_groups_done_button" android:src="@drawable/ic_fab_next" android:contentDescription="@string/str0de0" style="@style/style03ac"/>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.obwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/fingerprint_icon" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginBottom="16dp" android:contentDescription="@string/str08f6"/>
+    <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen006e" android:textColor="@color/color0710" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/fingerprint_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str08f7"/>
+</merge>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:attr037b="@+id/bottom_sheet">
+    <FrameLayout android:id="@+id/content_sheet" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.obwhatsapp.WaTextView android:textSize="22sp" android:textColor="@color/color090b" android:gravity="center" android:id="@+id/error" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/click_handler" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/caption_container" android:background="@color/color009f" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.ui.media.MediaCaptionTextView android:textSize="18sp" android:textColor="@color/color090b" android:layout_gravity="bottom" android:id="@+id/caption" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:shadowColor="@color/color0092" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="2.5" android:lineSpacingMultiplier="1.12" app:attr041f="3" app:attr0420="true" app:attr0421="@color/color090b" app:attr0422="@string/str134e"/>
+            <View android:id="@+id/caption_padding" android:layout_width="match_parent" android:layout_height="54dp"/>
+            <RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="5dp">
+                <ImageView android:id="@+id/div" android:background="@drawable/input_circle_green" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_views" android:scaleType="center" android:layout_alignBottom="@+id/div2" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+                <ImageView android:id="@+id/div2" android:background="@drawable/input_circle_green" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_downloadstatus" android:scaleType="center" android:layout_below="@+id/hb" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+                <ImageView android:id="@+id/hb" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginBottom="0dp" android:src="@drawable/repost" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/control_frame" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="64dp" android:layout_height="64dp" android:indeterminateOnly="false" app:attr0113="@color/color0792" app:attr0114="@color/color0928" app:attr0115="@color/color0792" app:attr0116="@color/color0097" app:attr0117="1dp" app:attr0118="5"/>
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/cancel_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_cancel"/>
+            <com.obwhatsapp.WaButton android:id="@+id/control_btn" android:text="@string/str0326" style="@style/style0126"/>
+        </FrameLayout>
+        <View android:id="@+id/status_details_background" android:background="@color/color009f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_sheet" android:paddingTop="96dp" android:paddingBottom="144dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0061="@dimen/dimen0775" app:attr02fc="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/info" android:background="@drawable/ic_center_shadow" android:layout_width="wrap_content" android:layout_height="76dp">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color090b" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/info_btn" android:paddingTop="0dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="0dp" android:text="@string/str0b72" android:shadowColor="@color/color00a0" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="3" android:drawableTop="@drawable/ic_caret_up" android:textAllCaps="true" style="@style/style0000"/>
+            <androidx.recyclerview.widget.RecyclerView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/extra_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.obwhatsapp.components.MainChildCoordinatorLayout>

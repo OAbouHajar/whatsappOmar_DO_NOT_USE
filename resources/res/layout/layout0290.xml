@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/font_item_background" android:layout_width="@dimen/dimen03ea" android:layout_height="@dimen/dimen03ea" android:layout_marginLeft="@dimen/dimen03e9" android:layout_marginRight="@dimen/dimen03e9">
+    <com.obwhatsapp.yo.tf android:textColor="@color/color0450" android:layout_gravity="center" android:id="@+id/font_item_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Aa"/>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0051">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="style0058">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="style0072">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>

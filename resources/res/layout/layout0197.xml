@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/frame_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen00ca">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/header" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/thumbnail" android:layout_width="@dimen/dimen04c9" android:layout_height="@dimen/dimen04c8" android:scaleType="centerCrop"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/text_linear_layout" android:paddingLeft="8dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textStyle="bold" android:textColor="@color/color0660" android:ellipsize="end" android:id="@+id/header_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:lineSpacingMultiplier="1.08" app:attr0339="18sp"/>
+                <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color06c5" android:ellipsize="end" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/items_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

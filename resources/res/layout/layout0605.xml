@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/loading" android:visibility="gone" android:layout_width="118dp" android:layout_height="118dp" android:indeterminateOnly="true" app:attr0113="@android:color/transparent" app:attr0114="@color/color0582" app:attr0115="@android:color/transparent" app:attr0116="@color/color0583" app:attr0117="1dp" app:attr0118="10"/>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/selector_orange_gradient" android:paddingRight="@dimen/dimen043b" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:id="@+id/cart_item_thumbnail_card" android:layout_width="@dimen/dimen063f" android:layout_height="@dimen/dimen063f" android:layout_marginLeft="@dimen/dimen063d" android:layout_marginTop="@dimen/dimen063e" android:layout_marginBottom="@dimen/dimen063e" app:attr009c="@dimen/dimen016c">
+        <com.obwhatsapp.WaImageView android:id="@+id/cart_item_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cart_item_description_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/cart_item_price_container" android:layout_toRightOf="@+id/cart_item_thumbnail_card" android:layout_centerVertical="true">
+        <com.obwhatsapp.TextEmojiLabel android:id="@+id/cart_item_title" android:layout_marginLeft="16dp" style="@style/style0221"/>
+        <com.obwhatsapp.biz.catalog.view.widgets.QuantitySelector android:id="@+id/cart_item_quantity_selector" android:layout_width="wrap_content" android:layout_height="42dp" android:layout_marginLeft="10dp" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cart_item_price_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.obwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color0660" android:id="@+id/cart_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr030a="0"/>
+        <com.obwhatsapp.TextEmojiLabel android:layout_gravity="end" android:id="@+id/cart_item_original_price" style="@style/style0220"/>
+    </LinearLayout>
+</RelativeLayout>

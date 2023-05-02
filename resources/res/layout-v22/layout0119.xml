@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/header_image" android:layout_width="@dimen/dimen0626" android:layout_height="@dimen/dimen0626" app:attr04b4="@drawable/vec_ic_companion_logout"/>
+        <com.obwhatsapp.WaTextView android:gravity="center" android:id="@+id/post_logout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/str12ee" style="@style/style010c"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/post_logout_content" android:paddingTop="60dp" android:paddingBottom="60dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="60dp">
+            <com.obwhatsapp.WaTextView android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/post_logout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen0625" android:text="@string/str12ec" style="@style/style010b"/>
+            <com.obwhatsapp.WaTextView android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/post_logout_text_2" android:paddingTop="36dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen0625" android:text="@string/str12ed" style="@style/style010b"/>
+        </LinearLayout>
+        <com.obwhatsapp.components.Button android:id="@+id/continue_button" android:text="@string/str02ac" style="@style/style03a2"/>
+    </LinearLayout>
+</ScrollView>

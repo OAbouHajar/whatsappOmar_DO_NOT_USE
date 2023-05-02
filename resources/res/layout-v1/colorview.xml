@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/llColorView" android:background="@drawable/transparentbackrepeat" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp">
+    <ImageView android:id="@+id/imgColorView" android:background="#ff333333" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:minWidth="60dp" android:minHeight="30dp"/>
+</LinearLayout>

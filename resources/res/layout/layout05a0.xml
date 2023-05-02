@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaImageView android:id="@+id/subgroup_pile_bottom_cresents" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="@dimen/dimen076e" android:layout_marginRight="@dimen/dimen07c7" app:attr04b4="@drawable/vec_ic_subgroup_bottom_cresents"/>
+    <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/subgroup_pile_top_profile_photo" android:layout_width="@dimen/dimen076e" android:layout_height="@dimen/dimen076e" android:scaleType="fitCenter" app:attr04fd="@dimen/dimen076b" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+</merge>

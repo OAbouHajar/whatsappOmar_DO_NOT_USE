@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/request_phone_number_main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minHeight="30dp">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/pnh_message_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="4dp">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:background="@drawable/pnh_share_phone_number_icon_bg" android:padding="6dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="@dimen/dimen0762" app:attr04b4="@drawable/ic_pn_sharing_on_24" app:attr0532="@color/color08f2"/>
+            <view android:id="@+id/conversation_text_row" android:paddingLeft="@dimen/dimen076b" android:paddingRight="@dimen/dimen0767" android:paddingBottom="@dimen/dimen076b" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.obwhatsapp.components.TextAndDateLayout">
+                <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen073c" android:textColor="@color/color0660" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="@dimen/dimen026f" android:paddingTop="2dp" android:paddingRight="@dimen/dimen026f" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingRight="5dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b2"/>
+                    <com.obwhatsapp.WaImageView android:id="@+id/status" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </view>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

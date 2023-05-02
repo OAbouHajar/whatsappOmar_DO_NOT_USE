@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2147483647" android:versionName="2.23.1.76" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.obwhatsapp" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="29"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <queries>
+        <package android:name="com.facebook.orca"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https" android:host="messenger.com"/>
+        </intent>
+        <package android:name="com.facebook.adsmanager"/>
+        <package android:name="com.facebook.analytics"/>
+        <package android:name="com.facebook.talk"/>
+        <package android:name="com.facebook.arstudio.player"/>
+        <package android:name="com.instagram.boomerang"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.oculus.home"/>
+        <package android:name="com.oculus.horizon"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.HOME"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND_MULTIPLE"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <package android:name="com.facebook.services"/>
+        <intent>
+            <action android:name="com.obwhatsapp.action.INSTRUMENTATION_CALLBACK_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="whatsapp.payments.intent.action.STEP_UP"/>
+        </intent>
+        <package android:name="com.google.android.apps.pixelmigrate"/>
+        <package android:name="com.google.android.apps.restore"/>
+        <package android:name="com.obwhatsapp.w4b"/>
+        <intent>
+            <action android:name="com.obwhatsapp.otp.OTP_RETRIEVED"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+    </queries>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"/>
+    <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.obwhatsapp.permission.BROADCAST"/>
+    <uses-permission android:name="com.obwhatsapp.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.obwhatsapp.permission.REGISTRATION"/>
+    <uses-permission android:name="com.whatsapp.sticker.READ"/>
+    <uses-permission-sdk-23 android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_CALL_LOG"/>
+    <permission android:name="com.obwhatsapp.permission.BROADCAST" android:protectionLevel="signature"/>
+    <permission android:name="com.obwhatsapp.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.obwhatsapp.permission.REGISTRATION" android:protectionLevel="signature"/>
+    <permission android:name="com.obwhatsapp.permission.MIGRATION_CONTENT_PROVIDER" android:protectionLevel="signature"/>
+    <permission android:label="@string/str1dbb" android:name="com.obwhatsapp.sticker.READ" android:description="@string/str1dba"/>
+    <uses-permission android:name="com.facebook.services.identity.FEO2"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:theme="@style/style02eb" android:label="@string/yoShareSbj" android:icon="@mipmap/icon" android:name="com.obwhatsapp.AppShell" android:backupAgent="com.obwhatsapp.registration.backuptoken.BackupTokenAgentHelper" android:allowBackup="true" android:vmSafeMode="@bool/compat_button_padding_vertical_material" android:restoreAnyVersion="true" android:hardwareAccelerated="@bool/notification_action_text_size" android:supportsRtl="true" android:fullBackupOnly="false" android:extractNativeLibs="true" android:fullBackupContent="false" android:networkSecurityConfig="@xml/xml0005" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hasFragileUserData="true" android:requestLegacyExternalStorage="true" android:preserveLegacyExternalStorage="true">
+        <uses-library android:name="com.sec.android.app.multiwindow" android:required="false"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="@string/google_api_key"/>
+        <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/xml0002"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/integer0010"/>
+        <meta-data android:name="com.google.android.ALLOW_PHISHING_DETECTION" android:value="false"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:value="598.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <activity android:theme="@style/style02eb" android:label="@string/str1ced" android:name="com.obwhatsapp.instrumentation.ui.InstrumentationAuthActivity" android:exported="true"/>
+        <receiver android:name="com.obwhatsapp.instrumentation.notification.DelayedNotificationReceiver" android:exported="false"/>
+        <service android:name="com.obwhatsapp.instrumentation.service.InstrumentationFGService"/>
+        <service android:name="com.obwhatsapp.instrumentation.api.InstrumentationService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.obwhatsapp.instrumentation.REQUEST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.obwhatsapp.instrumentation.api.InstrumentationProvider" android:enabled="true" android:exported="false" android:authorities="com.obwhatsapp.provider.instrumentation" android:grantUriPermissions="true"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.polls.PollResultsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.polls.PollCreatorActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.conversation.EditBroadcastRecipientsSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.conversation.conversationrow.ContactSyncActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0304" android:name="com.obwhatsapp.conversation.conversationrow.album.MediaAlbumActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02fb" android:name="com.obwhatsapp.conversation.conversationrow.message.MessageDetailsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0300" android:name="com.obwhatsapp.conversation.conversationrow.message.KeptMessagesActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0317" android:name="com.obwhatsapp.conversation.conversationrow.message.StarredMessagesActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f4" android:name="com.obwhatsapp.Conversation" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged">
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.obwhatsapp.Conversation"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/style0315" android:name="com.obwhatsapp.conversationslist.ArchiveNotificationSettingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.conversationslist.ArchivedConversationsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.conversationslist.HiddenConversationsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.conversationslist.SmsDefaultAppWarning" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.community.CommunityMembersActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.community.deactivate.DeactivateCommunityDisclaimerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.community.EditCommunityActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.community.ManageGroupsInCommunityActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style030a" android:name="com.obwhatsapp.community.CommunityNUXActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.community.AddGroupsToCommunityActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style030a" android:name="com.obwhatsapp.community.CommunityHomeActivity"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.community.NewCommunityActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.community.LinkExistingGroups" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.group.GroupMembersSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.group.GroupSettingsActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.group.NewGroup" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.group.GroupAddPrivacyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02fc" android:name="com.obwhatsapp.group.GroupAdminPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.group.EditGroupAdminsSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.group.GroupAddBlacklistPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style030a" android:name="com.obwhatsapp.group.GroupProfileEmojiEditor" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.group.GroupPendingParticipantsActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0364" android:name="com.obwhatsapp.acceptinvitelink.AcceptInviteLinkActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0364" android:name="com.obwhatsapp.invites.ViewGroupInviteActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0364" android:name="com.obwhatsapp.invites.InviteGroupParticipantsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.shareinvitelink.ShareInviteLinkActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.writenfctag.WriteNfcTagActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0366" android:name="com.whatsapp.voipcalling.VoipActivityV2" android:exported="false" android:taskAffinity=":voip" android:finishOnTaskLaunch="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:supportsPictureInPicture="true"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.calling.calllink.view.CallLinkActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02fe" android:name="com.obwhatsapp.calling.callhistory.group.GroupCallParticipantPickerSheet" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.calling.callhistory.group.GroupCallLogActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.calling.callhistory.group.GroupCallParticipantPicker" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.calling.callhistory.CallLogActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f2" android:name="com.obwhatsapp.calling.spam.CallSpamActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style02f1" android:name="com.obwhatsapp.calling.callrating.CallRatingActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.calling.callrating.CallRatingActivityV2" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|adjustResize"/>
+        <activity android:theme="@style/style031f" android:name="com.obwhatsapp.calling.VoipAppUpdateActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.calling.VoipNotAllowedActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.calling.VoipPermissionsActivity" android:exported="false"/>
+        <activity android:theme="@style/style02f3" android:name="com.obwhatsapp.group.GroupChatInfoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f3" android:name="com.obwhatsapp.chatinfo.ListChatInfoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f3" android:name="com.obwhatsapp.chatinfo.ContactInfoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.businessupsell.BusinessProfileEducation" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.businessdirectory.view.activity.BusinessDirectoryActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.businessdirectory.view.activity.DirectoryBusinessChainingActivity"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.businessdirectory.view.activity.BusinessDirectoryMapViewActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.businessdirectory.view.activity.DirectorySetLocationMapActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0004" android:name="org.npci.commonlibrary.GetCredential" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentMethodSelectionActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiBalanceDetailsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentsValuePropsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentsValuePropsBottomSheetActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiIncentivesValuePropsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiPinPrimerFullSheetActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiPinSetUpCompletedActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentsTosActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentTransactionDetailsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentsAccountSetupActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiBankPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiBankAccountPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiDebitCardVerificationActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiBankAccountAddedLandingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiSimVerificationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiOnboardingErrorEducationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiBankAccountDetailsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiDeviceBindStepActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiVpaContactInfoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.payments.ui.IndiaUpiChangePinActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.ui.IndiaUpiCheckBalanceActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiSendPaymentActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiCheckOrderDetailsActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentSettingsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiMandateHistoryActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiContactPicker" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiInteropSendToUpiActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.payments.ui.IndiaUpiQrCodeScanActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.payments.ui.IndiaUpiQrTabActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.ui.IndiaUpiQrCodeUrlValidationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0362" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentLauncherActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.ui.IndiaUpiMandatePaymentActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.ui.IndiaUpiQuickBuyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.IndiaUpiProfileDetailsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.ui.IndiaUpiStepUpActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.receiver.IndiaUpiPayIntentReceiverActivity" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="upi" android:host="pay"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaPaymentTransactionHistoryActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.mapper.register.IndiaUpiMapperValuePropsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.mapper.register.IndiaUpiMapperLinkActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.mapper.register.IndiaUpiMapperPendingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiPauseMandateActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0312" android:name="com.obwhatsapp.payments.ui.IndiaUpiPaymentsBlockScreenShareActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustPan"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.mapper.register.IndiaUpiMapperConfirmationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiProvideMoreInfoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.ui.IndiaUpiProvideMoreInfoBottomSheetActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IndiaUpiAccountRecoveryFinishActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.phoenix.flowconfigurationservice.activities.IndiaUpiFcsPinHandlerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.IndiaUpiPaymentInvitePickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.phoenix.flowconfigurationservice.activities.IndiaUpiFcsAddPaymentMethodActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.payments.phoenix.flowconfigurationservice.activities.IndiaUpiFcsConsumerOnboardingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.international.IndiaUpiInternationalActivationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.international.IndiaUpiInternationalValidateQrActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentSettingsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0327" android:name="com.obwhatsapp.payments.ui.BrazilPayBloksActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilSmbPaymentActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentTransactionDetailActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f6" android:name="com.obwhatsapp.payments.ui.BrazilPaymentCardDetailsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f6" android:name="com.obwhatsapp.payments.ui.BrazilFbPayHubActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f6" android:name="com.obwhatsapp.payments.ui.BrazilMerchantDetailsListActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0364" android:name="com.obwhatsapp.payments.ui.BrazilViralityLinkVerifierActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f6" android:name="com.obwhatsapp.payments.ui.BrazilDyiReportActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentContactSupportActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentContactSupportP2pActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.BrazilPaymentCareTransactionSelectorActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentReportPaymentActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentDPOActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentIntegrityAppealActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.BrazilPaymentContactOmbudsmanActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02fa" android:name="com.obwhatsapp.payments.ui.BrazilOrderDetailsActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.BrazilAccountRecoveryPinActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.framework.alerts.ui.AlertCardListActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.P2mLitePaymentSettingsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.P2mLiteOrderDetailsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style030b" android:name="com.obwhatsapp.payments.ui.P2mLiteDyiReportActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style030c" android:name="com.obwhatsapp.payments.ui.P2mLiteWebViewActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.P2mLitePaymentTransactionDetailActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f6" android:name="com.obwhatsapp.payments.ui.BusinessHubActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f6" android:name="com.obwhatsapp.payments.ui.MerchantPayoutTransactionHistoryActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.PaymentTransactionHistoryActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.PaymentGroupParticipantPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.PaymentTransactionDetailsListActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.PaymentDeleteAccountActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.phoenix.WaPhoenixNativeFlowFragmentHolderActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.PaymentContactPicker" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.PaymentsUpdateRequiredActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0364" android:name="com.obwhatsapp.payments.ui.ViralityLinkVerifierActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.PaymentInvitePickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.payments.ui.IncentiveValuePropsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.payments.ui.PaymentCheckoutOrderDetailsItemListActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02ef" android:name="com.obwhatsapp.payments.care.csat.CsatSurveyBloksActivity"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contact.picker.ContactsAttachmentSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.contact.picker.ContactPickerHelp" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contact.picker.invite.InviteNonWhatsAppContactPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contact.picker.AddGroupParticipantsSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contact.picker.ListMembersSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contact.picker.PhoneContactsSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0362" android:name="com.obwhatsapp.quickcontact.QuickContactActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contact.picker.ContactPicker" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:relinquishTaskIdentity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.obwhatsapp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter android:label="@string/str1c43">
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+            <meta-data android:name="android.service.chooser.chooser_target_service" android:value="androidx.sharetarget.ChooserTargetServiceCompat"/>
+        </activity>
+        <activity-alias android:label="@string/str1c43" android:name="com.obwhatsapp.CreateConversationShortcut" android:targetActivity="com.obwhatsapp.contact.picker.ContactPicker"/>
+        <service android:name="com.obwhatsapp.contact.sync.ContactsSyncAdapterService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/xml000a"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/xml0003"/>
+        </service>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contact.ContactFormActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:theme="@style/style031b" android:name="com.obwhatsapp.textstatuscomposer.TextStatusComposerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.status.playback.MyStatusesActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.status.audienceselector.StatusPrivacyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.status.playback.StatusReplyActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.status.audienceselector.StatusTemporalRecipientsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.status.audienceselector.StatusRecipientsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.status.playback.MessageReplyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style0318" android:name="com.obwhatsapp.status.playback.StatusPlaybackActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style030f" android:name="com.obwhatsapp.storage.StorageUsageActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style030f" android:name="com.obwhatsapp.storage.StorageUsageGalleryActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0306" android:icon="@drawable/ic_gallery_picker" android:name="com.obwhatsapp.gallery.NewMediaPicker" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f8" android:name="com.obwhatsapp.gallery.MediaGalleryActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0325" android:name="com.obwhatsapp.home.ui.HomePlaceholderActivity"/>
+        <activity android:theme="@style/style02ff" android:name="com.obwhatsapp.HomeActivity" android:exported="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
+            <intent-filter android:label="@string/yoShareSbj">
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/com.obwhatsapp.chat"/>
+                <data android:mimeType="application/com.obwhatsapp.join"/>
+            </intent-filter>
+            <intent-filter android:label="@string/yoShareSbj">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="whatsapp" android:host="chat"/>
+            </intent-filter>
+            <intent-filter android:label="@string/yoShareSbj">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="whatsapp" android:host="call"/>
+            </intent-filter>
+            <intent-filter android:label="@string/yoShareSbj" android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="call.whatsapp.com"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="com.obwhatsapp.AcceptInviteLinkActivityDeepLink" android:exported="true" android:targetActivity="com.obwhatsapp.HomeActivity">
+            <intent-filter android:label="@string/yoShareSbj" android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="chat.whatsapp.com"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/style0342" android:label="@string/str1c18" android:name="com.obwhatsapp.camera.LauncherCameraActivity" android:exported="true" android:taskAffinity=":camera" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize|adjustPan|adjustNothing"/>
+        <activity android:theme="@style/style0342" android:label="@string/str1c18" android:name="com.obwhatsapp.camera.CameraActivity" android:exported="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize|adjustPan|adjustNothing">
+            <intent-filter android:label="@string/str1c18">
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.obwhatsapp.ShareProductLinkActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.ShareCatalogLinkActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.CatalogImageListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style035e" android:name="com.obwhatsapp.CatalogMediaView" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.biz.catalog.view.activity.CatalogListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.biz.catalog.view.activity.ProductListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.biz.catalog.view.activity.CatalogCategoryTabsActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.biz.product.view.activity.ProductDetailActivity" android:taskAffinity="com.obwhatsapp.biz.product.view.activity.CatalogDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:icon="@drawable/ic_gallery" android:name="com.obwhatsapp.gallerypicker.GalleryPickerLauncher" android:exported="false"/>
+        <activity android:theme="@style/style0308" android:icon="@drawable/ic_gallery" android:name="com.obwhatsapp.gallerypicker.GalleryPicker" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f7" android:icon="@drawable/ic_gallery_picker" android:name="com.obwhatsapp.gallerypicker.MediaPicker" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02ed" android:icon="@drawable/ic_gallery_picker" android:name="com.obwhatsapp.mediacomposer.MediaComposerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="false"/>
+        <activity android:theme="@style/style02ec" android:name="com.obwhatsapp.gifvideopreview.GifVideoPreviewActivity" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style02ec" android:name="com.obwhatsapp.documentpicker.DocumentPreviewActivity" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style0308" android:name="com.whatsapp.stickers.store.preview.StickerStorePackPreviewActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/style0319" android:name="com.whatsapp.stickers.store.StickerStoreActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.whatsapp.stickers.thirdparty.AddThirdPartyStickerPackActivity" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="com.whatsapp.intent.action.ENABLE_STICKER_PACK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.whatsapp.stickers.storage.WhitelistPackQueryContentProvider" android:exported="true" android:authorities="com.obwhatsapp.provider.sticker_whitelist_check"/>
+        <activity android:theme="@style/style0365" android:name="com.obwhatsapp.messaging.ViewOnceViewerActivity"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.biz.BusinessProfileExtraFieldsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.businessupsell.BusinessAppEducation" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style035e" android:name="com.obwhatsapp.biz.linkedaccounts.LinkedAccountMediaView" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.companiondevice.optin.ui.ForcedOptInActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.companiondevice.LinkedDevicesActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.companiondevice.LinkedDevicesEnterCodeActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0311" android:name="com.obwhatsapp.qrcode.DevicePairQrScannerActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.deeplink.DeepLinkActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity-alias android:name="com.obwhatsapp.TextAndDirectChatDeepLink" android:exported="true" android:targetActivity="com.obwhatsapp.deeplink.DeepLinkActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="api.whatsapp.com"/>
+                <data android:host="wa.me"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.obwhatsapp.DEEP_LINK_REDIRECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="whatsapp" android:host="send"/>
+                <data android:scheme="whatsapp" android:host="catalog"/>
+                <data android:scheme="whatsapp" android:host="product"/>
+                <data android:scheme="whatsapp" android:host="message"/>
+                <data android:scheme="whatsapp" android:host="pay"/>
+                <data android:scheme="whatsapp" android:host="stickerpack"/>
+                <data android:scheme="whatsapp" android:host="settings"/>
+                <data android:scheme="whatsapp" android:host="qr"/>
+                <data android:scheme="whatsapp" android:host="archive_settings"/>
+                <data android:scheme="whatsapp" android:host="disappearing_messages"/>
+                <data android:scheme="whatsapp" android:host="tos"/>
+                <data android:scheme="whatsapp" android:host="support"/>
+                <data android:scheme="whatsapp" android:host="directory"/>
+                <data android:scheme="whatsapp" android:host="guia"/>
+                <data android:scheme="whatsapp" android:host="ph"/>
+                <data android:scheme="whatsapp" android:host="status"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.obwhatsapp.DEEP_LINK_REDIRECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="whatsapp-consumer" android:host="send"/>
+                <data android:scheme="whatsapp-consumer" android:host="premium"/>
+                <data android:scheme="whatsapp-consumer" android:host="biztools"/>
+                <data android:scheme="whatsapp-consumer" android:host="advertise"/>
+                <data android:scheme="whatsapp-consumer" android:host="manage-ads"/>
+                <data android:scheme="whatsapp-consumer" android:host="biztab"/>
+                <data android:scheme="whatsapp-consumer" android:host="biz-edit-profile"/>
+                <data android:scheme="whatsapp-consumer" android:host="biz-edit-catalog"/>
+                <data android:scheme="whatsapp-consumer" android:host="biz-hours"/>
+                <data android:scheme="whatsapp-consumer" android:host="biz-location"/>
+                <data android:scheme="whatsapp-consumer" android:host="biz-edit-description"/>
+                <data android:scheme="whatsapp-consumer" android:host="biz-linked-accounts"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/style030d" android:name="com.obwhatsapp.notification.PopupNotification" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.settings.About"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.settings.Licenses"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsAccount" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsSecurity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsChatHistory" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsHelpV2" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsNotifications" android:exported="true" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize">
+            <intent-filter android:label="@string/str1da5">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsJidNotificationActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsUserProxyActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0315" android:name="com.obwhatsapp.settings.Settings" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsDataUsageActivity" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
+            <intent-filter android:label="@string/str1da6">
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsNetworkUsage" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f8" android:name="com.obwhatsapp.settings.chat.wallpaper.downloadable.picker.DownloadableWallpaperPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0321" android:name="com.obwhatsapp.settings.chat.wallpaper.downloadable.picker.DownloadableWallpaperPreviewActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0320" android:name="com.obwhatsapp.settings.chat.wallpaper.DefaultWallpaperPreview" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.settings.chat.wallpaper.WallpaperCurrentPreviewActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f8" android:name="com.obwhatsapp.settings.chat.wallpaper.SolidColorWallpaper"/>
+        <activity android:theme="@style/style0321" android:name="com.obwhatsapp.settings.chat.wallpaper.SolidColorWallpaperPreview" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.settings.chat.wallpaper.WallpaperCategoriesActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0320" android:name="com.obwhatsapp.settings.chat.wallpaper.GalleryWallpaperPreview" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/style0320" android:name="com.obwhatsapp.settings.chat.wallpaper.YoGalleryWallpaperPreview" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsPrivacy" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.settings.SettingsChat" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.registration.ChangeNumberNotifyContacts" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.registration.ChangeNumberOverview" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.registration.NotifyContactsSelector" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.registration.ChangeNumber" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.VerifyTwoFactorAuth" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0324" android:name="com.obwhatsapp.registration.EULA" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|smallestScreenSize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.PrimaryFlashCallEducationScreen" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0312" android:name="com.obwhatsapp.registration.directmigration.RequestPermissionFromSisterAppActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustPan"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.RegisterPhone" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateVisible|stateAlwaysVisible|adjustResize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.VerifyPhoneNumber" android:exported="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+            <intent-filter android:label="@string/str1d75">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="whatsapp" android:host="r"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="com.obwhatsapp.VerifySmsDeepLink" android:exported="true" android:targetActivity="com.obwhatsapp.registration.VerifyPhoneNumber">
+            <intent-filter android:label="@string/str1d75" android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="v.whatsapp.com"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.accountdefence.DeviceConfirmationRegistrationActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.accountdefence.ui.OldDeviceSecureAccountActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.accountdefence.ui.OldDeviceSecureAccount2FaActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <receiver android:name="com.obwhatsapp.registration.RegRetryVerificationReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.obwhatsapp.alarm.REGISTRATION_RETRY"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.directmigration.RestoreFromConsumerDatabaseActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustPan"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.accountdefence.ui.OldDeviceMoveAccountNoticeActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.registration.RegisterName" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0324" android:name="com.obwhatsapp.companionmode.registration.RegisterAsCompanionActivity"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.companionmode.registration.ConvertPrimaryToCompanionActivity"/>
+        <activity android:theme="@style/style0324" android:name="com.obwhatsapp.companionmode.registration.CompanionBootstrapActivity"/>
+        <activity android:theme="@style/style0324" android:name="com.obwhatsapp.companionmode.registration.CompanionPostLogoutActivity"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.qrcode.contactqr.ContactQrActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.qrcode.AuthenticationActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.qrcode.GroupLinkQrActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <receiver android:name="com.obwhatsapp.calling.calllink.CallLinkShareReceiver" android:exported="false"/>
+        <service android:name="com.obwhatsapp.calling.service.VoiceFGService" android:exported="false" android:foregroundServiceType="c0"/>
+        <service android:name="com.obwhatsapp.calling.telecom.SelfManagedConnectionService" android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" android:exported="false">
+            <intent-filter>
+                <action android:name="android.telecom.ConnectionService"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.backup.google.RestoreFromBackupActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustPan"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.backup.google.GoogleDriveNewUserSetupActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.backup.google.SettingsGoogleDrive" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <service android:name="com.obwhatsapp.backup.google.GoogleBackupService" android:exported="false"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.contextualhelp.ContextualHelpActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0361" android:name="com.obwhatsapp.profile.ViewProfilePhoto" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.profile.ProfilePhotoBlockListPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:icon="@drawable/ic_search_web" android:name="com.obwhatsapp.profile.WebImagePicker" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateVisible|stateAlwaysVisible|adjustResize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.profile.ProfileInfoActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <activity-alias android:name="com.obwhatsapp.SetAsProfilePhoto" android:exported="true" android:targetActivity="com.obwhatsapp.profile.ProfileInfoActivity">
+            <intent-filter android:label="@string/str1d89">
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.profile.ProfilePhotoReminder" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style031c" android:icon="@drawable/clear" android:name="com.obwhatsapp.profile.ResetGroupPhoto"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.profile.ProfilePhotoPrivacyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style031c" android:icon="@drawable/clear" android:name="com.obwhatsapp.profile.ResetPhoto"/>
+        <activity android:theme="@style/Theme.NoDisplay" android:icon="@drawable/attach_gallery" android:name="com.obwhatsapp.profile.ViewProfilePhoto$SavePhoto"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.profile.AboutStatusPrivacyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.profile.AboutStatusBlockListPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <receiver android:name="com.obwhatsapp.registration.RegistrationCompletedReceiver" android:permission="com.obwhatsapp.permission.REGISTRATION" android:exported="true">
+            <intent-filter>
+                <action android:name="com.obwhatsapp.SMBRegistrationCompleted"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.avatar.home.AvatarHomeActivity"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.avatar.profilephoto.AvatarProfilePhotoActivity"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.inappsupport.ui.ContactUsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:theme="@style/style02ee" android:name="com.obwhatsapp.wabloks.commerce.ui.view.WaBkExtensionsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.wabloks.commerce.ui.view.WaExtensionsBottomsheetModalActivity" android:screenOrientation="unspecified" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02ee" android:name="com.obwhatsapp.wabloks.ui.WaBloksActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02ee" android:name="com.obwhatsapp.wabloks.ui.WaFcsModalActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02ee" android:name="com.obwhatsapp.wabloks.ui.WaFcsPreloadedBloksActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style033d" android:name="com.obwhatsapp.wabloks.ui.WaFcsBottomsheetModalActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.account.delete.DeleteAccountActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.account.delete.DeleteAccountConfirmation" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.phonematching.CountryPicker" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.account.delete.DeleteAccountFeedback" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.accountsync.LoginActivity" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter android:label="@string/str1bd4">
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.obwhatsapp.accountsync.ProfileActivity" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.contacts"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.obwhatsapp.profile"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.obwhatsapp.accountsync.CallContactLandingActivity" android:permission="android.permission.CALL_PHONE" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.contacts"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.obwhatsapp.voip.call"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.obwhatsapp.video.call"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.obwhatsapp.accountsync.AccountAuthenticatorService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/xml0001"/>
+        </service>
+        <service android:name="com.obwhatsapp.AlarmService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.AlarmBroadcastReceiver" android:permission="com.obwhatsapp.permission.BROADCAST" android:exported="true"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.authentication.AppAuthenticationActivity" android:exported="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.authentication.AppAuthSettingsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.backup.encryptedbackup.EncBackupMainActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.blockbusiness.BlockBusinessActivity"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.blockinguserinteraction.BlockingUserInteractionActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.blocklist.BlockList" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.businesscollection.view.activity.CollectionProductListActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.biz.compliance.view.BusinessComplianceDetailActivity"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.catalogcategory.view.activity.CatalogAllCategoryActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.corruptinstallation.CorruptInstallationActivity" android:launchMode="singleInstance"/>
+        <activity android:theme="@style/style0309" android:name="com.obwhatsapp.crop.CropImage"/>
+        <activity android:theme="@style/style0315" android:name="com.obwhatsapp.dmsetting.ChangeDMSettingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0315" android:name="com.obwhatsapp.dmsetting.DisappearingMessagesSettingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.ephemeral.ChangeEphemeralSettingActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.documentpicker.DocumentPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.greenalert.GreenAlertActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.identity.IdentityVerificationActivity" android:exported="true" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
+            <intent-filter android:label="@string/str1ddb">
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/com.obwhatsapp.identity"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.obwhatsapp.inappbugreporting.InAppBugReportingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.lastseen.TrustedContactsPresencePrivacyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.lastseen.LastSeenBlockListPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.location.LocationPicker" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.location.LocationPicker2" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.obwhatsapp.location.GroupChatLiveLocationsActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.location.GroupChatLiveLocationsActivity2" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.location.LiveLocationPrivacyActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style035e" android:name="com.obwhatsapp.mediaview.MediaViewActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.migration.export.ui.ExportMigrationActivity" android:permission="com.apple.movetoios.ACCESS" android:enabled="false" android:exported="true" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="uiMode">
+            <intent-filter>
+                <action android:name="com.obwhatsapp.intent.action.migrate.ios.START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.obwhatsapp.migration.export.api.ExportMigrationContentProvider" android:permission="com.apple.movetoios.ACCESS" android:enabled="false" android:exported="true" android:authorities="com.obwhatsapp.provider.migrate.ios"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.migration.android.view.GoogleMigrateImporterActivity" android:configChanges="uiMode"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.migration.export.ui.ExportMigrationDataExportedActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.migration.transfer.ui.DeviceTransferActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0311" android:name="com.obwhatsapp.migration.transfer.ui.DeviceTransferQrScannerActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <service android:name="com.obwhatsapp.migration.transfer.service.DonorDeviceTransferService" android:enabled="true"/>
+        <service android:name="com.obwhatsapp.migration.transfer.service.ReceiverDeviceTransferService" android:enabled="true"/>
+        <service android:name="com.obwhatsapp.migration.android.integration.service.GoogleMigrateService"/>
+        <service android:name="com.obwhatsapp.migration.export.service.MessagesExporterService"/>
+        <receiver android:name="com.obwhatsapp.migration.android.api.DeferredRestoreBroadcastReceiver" android:permission="android.permission.BACKUP" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.apps.pixelmigrate.IOS_APP_DATA_AVAILABLE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.businessapisearch.view.activity.BusinessApiSearchActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.softenforcementsmb.BusinessPolicyView" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.systemstatus.SystemStatusActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.twofactor.SettingsTwoFactorAuthActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.twofactor.TwoFactorAuthActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.userban.ui.BanAppealActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true"/>
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAImRFQvx8szY9HcRV2sTL7zp5DyY5Lr6ldGt0Z1Q"/>
+        <activity android:theme="@style/style0301" android:label="@string/yoShareSbj" android:name="com.obwhatsapp.Main" android:exported="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="false">
+            <intent-filter android:label="@string/yoShareSbj">
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/xml0009"/>
+        </activity>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@mipmap/icon" android:name="com.obwhatsapp.0" android:enabled="true" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_01" android:name="com.obwhatsapp.1" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_02" android:name="com.obwhatsapp.2" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_03" android:name="com.obwhatsapp.3" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_04" android:name="com.obwhatsapp.4" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_05" android:name="com.obwhatsapp.5" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_06" android:name="com.obwhatsapp.6" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_07" android:name="com.obwhatsapp.7" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_08" android:name="com.obwhatsapp.8" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_09" android:name="com.obwhatsapp.9" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_10" android:name="com.obwhatsapp.10" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_11" android:name="com.obwhatsapp.11" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_12" android:name="com.obwhatsapp.12" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_13" android:name="com.obwhatsapp.13" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_14" android:name="com.obwhatsapp.14" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_15" android:name="com.obwhatsapp.15" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_16" android:name="com.obwhatsapp.16" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_17" android:name="com.obwhatsapp.17" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_18" android:name="com.obwhatsapp.18" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_19" android:name="com.obwhatsapp.19" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_20" android:name="com.obwhatsapp.20" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_21" android:name="com.obwhatsapp.21" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_22" android:name="com.obwhatsapp.22" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_23" android:name="com.obwhatsapp.23" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_24" android:name="com.obwhatsapp.24" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_25" android:name="com.obwhatsapp.25" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_26" android:name="com.obwhatsapp.26" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_27" android:name="com.obwhatsapp.27" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_28" android:name="com.obwhatsapp.28" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_29" android:name="com.obwhatsapp.29" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_30" android:name="com.obwhatsapp.30" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_31" android:name="com.obwhatsapp.31" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_32" android:name="com.obwhatsapp.32" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_33" android:name="com.obwhatsapp.33" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_34" android:name="com.obwhatsapp.34" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_35" android:name="com.obwhatsapp.35" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_36" android:name="com.obwhatsapp.36" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_37" android:name="com.obwhatsapp.37" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_38" android:name="com.obwhatsapp.38" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_39" android:name="com.obwhatsapp.39" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_40" android:name="com.obwhatsapp.40" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_41" android:name="com.obwhatsapp.41" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_42" android:name="com.obwhatsapp.42" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_43" android:name="com.obwhatsapp.43" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_44" android:name="com.obwhatsapp.44" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_45" android:name="com.obwhatsapp.45" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_46" android:name="com.obwhatsapp.46" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_47" android:name="com.obwhatsapp.47" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_48" android:name="com.obwhatsapp.48" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_49" android:name="com.obwhatsapp.49" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_50" android:name="com.obwhatsapp.50" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_51" android:name="com.obwhatsapp.51" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_52" android:name="com.obwhatsapp.52" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_53" android:name="com.obwhatsapp.53" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_54" android:name="com.obwhatsapp.54" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_55" android:name="com.obwhatsapp.55" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_56" android:name="com.obwhatsapp.56" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_57" android:name="com.obwhatsapp.57" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_58" android:name="com.obwhatsapp.58" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_59" android:name="com.obwhatsapp.59" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_60" android:name="com.obwhatsapp.60" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_61" android:name="com.obwhatsapp.61" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_62" android:name="com.obwhatsapp.62" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_63" android:name="com.obwhatsapp.63" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_64" android:name="com.obwhatsapp.64" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_65" android:name="com.obwhatsapp.65" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_66" android:name="com.obwhatsapp.66" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_67" android:name="com.obwhatsapp.67" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_68" android:name="com.obwhatsapp.68" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_69" android:name="com.obwhatsapp.69" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_70" android:name="com.obwhatsapp.70" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_71" android:name="com.obwhatsapp.71" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_72" android:name="com.obwhatsapp.72" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_73" android:name="com.obwhatsapp.73" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_74" android:name="com.obwhatsapp.74" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/yoShareSbj" android:icon="@drawable/icon_75" android:name="com.obwhatsapp.75" android:enabled="false" android:targetActivity="com.obwhatsapp.Main">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.profile.SetAboutInfo" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.support.DescribeProblemActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.inappsupport.ui.SupportTopicsActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.inappsupport.ui.FaqItemActivityV2" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0314" android:name="com.obwhatsapp.report.ReportActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.support.faq.SearchFAQ" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="com.obwhatsapp.support.faq.FaqItemActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.viewsharedcontacts.ViewSharedContactArrayActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:icon="@drawable/ic_capture" android:name="com.obwhatsapp.profile.CapturePhoto"/>
+        <activity android:theme="@style/Theme.NoDisplay" android:icon="@drawable/clear" android:name="com.obwhatsapp.support.Remove"/>
+        <activity android:theme="@style/style0360" android:name="com.obwhatsapp.messaging.CaptivePortalActivity" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleInstance"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.insufficientstoragespace.InsufficientStorageSpaceActivity" android:launchMode="singleTop"/>
+        <activity android:theme="@style/style02f9" android:name="com.obwhatsapp.spamwarning.SpamWarningActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/Theme.Translucent" android:name="com.obwhatsapp.VoiceMessagingActivity" android:exported="true" android:taskAffinity=":voice" android:showOnLockScreen="true" android:showForAllUsers="true" android:showWhenLocked="true">
+            <intent-filter>
+                <action android:name="com.google.android.voicesearch.SEND_MESSAGE_TO_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="audio/wav"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/style0364" android:name="com.obwhatsapp.qrcode.contactqr.QrSheetDeepLinkActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.audiopicker.AudioPickerActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/style0308" android:name="com.obwhatsapp.WaInAppBrowsingActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <receiver android:name="com.obwhatsapp.ExternalMediaManager$ExternalMediaStateReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL"/>
+                <action android:name="android.intent.action.MEDIA_EJECT"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_REMOVED"/>
+                <action android:name="android.intent.action.MEDIA_SHARED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.obwhatsapp.appwidget.WidgetProvider" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/xml000b"/>
+        </receiver>
+        <receiver android:name="com.obwhatsapp.notification.MessageNotificationDismissedReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.notification.MissedCallNotificationDismissedReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.notification.MessageOTPNotificationBroadcastReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.location.FinalLiveLocationBroadcastReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.registration.directmigration.MigrationProviderOrderedBroadcastReceiver" android:permission="com.obwhatsapp.permission.REGISTRATION" android:exported="true">
+            <intent-filter>
+                <action android:name="com.obwhatsapp.registration.directmigration.initialMigrationInfoAction"/>
+                <action android:name="com.obwhatsapp.registration.directmigration.recoveryTokenAction"/>
+                <action android:name="com.obwhatsapp.registration.directmigration.setMigrationStateOnProviderSide"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.obwhatsapp.registration.directmigration.MigrationRequesterBroadcastReceiver" android:permission="com.obwhatsapp.permission.REGISTRATION" android:exported="true">
+            <intent-filter>
+                <action android:name="com.obwhatsapp.registration.directmigration.providerIsLoggedOutAction"/>
+                <action android:name="com.obwhatsapp.registration.directmigration.providerAppMigrationSpaceNeededAction"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.obwhatsapp.registration.PreRegNotificationLearnMoreReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.accounttransfer.AccountTransferReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.START_ACCOUNT_EXPORT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.obwhatsapp.TellAFriendReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.otp.OTPRequestedReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.obwhatsapp.otp.OTP_REQUESTED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.obwhatsapp.contentprovider.MediaProvider" android:exported="false" android:authorities="com.obwhatsapp.provider.media" android:grantUriPermissions="true"/>
+        <provider android:name="com.obwhatsapp.registration.directmigration.MigrationContentProvider" android:readPermission="com.obwhatsapp.permission.MIGRATION_CONTENT_PROVIDER" android:enabled="true" android:exported="true" android:authorities="com.obwhatsapp.provider.MigrationContentProvider" android:grantUriPermissions="false"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.obwhatsapp.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/xml0004"/>
+        </provider>
+        <service android:name="com.obwhatsapp.messaging.MessageService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.ExternalMediaManager" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.obwhatsapp.media.transcode.MediaTranscodeService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.media.download.service.MediaDownloadService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.location.LocationSharingService" android:exported="false" android:foregroundServiceType="8"/>
+        <service android:name="com.obwhatsapp.service.BackgroundMediaControlService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.notification.AndroidWear" android:exported="false"/>
+        <service android:name="com.obwhatsapp.VoiceMessagingService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.appwidget.WidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:exported="false"/>
+        <service android:name="com.obwhatsapp.service.MDSyncService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.notification.DirectReplyService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.service.GcmFGService" android:exported="false"/>
+        <service android:name="com.obwhatsapp.service.YoHiddenService"/>
+        <service android:name="com.obwhatsapp.service.UnsentMessagesNetworkAvailableJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.push.WAFbnsPreloadReceiver" android:exported="true">
+            <intent-filter>
+                <category android:name="com.obwhatsapp"/>
+                <action android:name="com.facebook.rti.fbns.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.obwhatsapp.push.GcmListenerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.obwhatsapp.push.RegistrationIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <activity android:theme="@style/style0312" android:name="com.obwhatsapp.RequestPermissionActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustPan"/>
+        <activity android:theme="@style/style0323" android:name="com.obwhatsapp.xfamily.accountlinking.ui.AccountLinkingNativeAuthActivity" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <receiver android:name="com.obwhatsapp.companionmode.CompanionStateHolder$CompanionPreferenceStateReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.companionmode.CompanionStateHolder$CompanionLogoutStateReceiver" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.companionmode.CompanionStateHolder$CompanionKillswitchStateReceiver" android:exported="false"/>
+        <activity android:theme="@style/style031c" android:name="com.obwhatsapp.privacy.disclosure.standalone.PrivacyDisclosureStandaloneContainerActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <receiver android:name="com.obwhatsapp.companiondevice.CompanionDeviceVerificationReceiver" android:exported="false"/>
+        <activity android:theme="@style/style02eb" android:name="com.obwhatsapp.contactinput.contactscreen.NativeContactActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"/>
+        <service android:name="com.obwhatsapp.perf.profilo.ProfiloUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.phoneid.PhoneIdRequestReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.facebook.GET_PHONE_ID"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.obwhatsapp.crash.upload.ExceptionsUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.obwhatsapp.systemreceivers.boot.BootReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.obwhatsapp.systemreceivers.appupdated.AppUpdatedReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.facebook.services.fbpermission.FEO2" android:value=""/>
+        <meta-data android:name="com.facebook.services.fbpermission.FEO2_IMPLICIT_CALLER" android:value=""/>
+        <meta-data android:name="com.facebook.services.fbpermission.FEO2_READ_DEVICE_COOKIE" android:value=""/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"/>
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" android:visibleToInstantApps="true"/>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.obwhatsapp.firebaseinitprovider" android:initOrder="100"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="androidx.car.app.CarAppPermissionActivity" android:exported="false"/>
+        <receiver android:name="androidx.car.app.notification.CarAppNotificationBroadcastReceiver"/>
+        <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:enabled="@bool/compat_control_corner_material" android:exported="false" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="@bool/compat_notification_large_icon_max_width" android:exported="true" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.foreground.SystemForegroundService" android:enabled="@bool/compat_notification_large_icon_max_height" android:exported="false" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:enabled="true" android:exported="false" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:enabled="@bool/compat_control_corner_material" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="androidx.room.MultiInstanceInvalidationService" android:exported="false" android:directBootAware="true"/>
+        <service android:name="androidx.sharetarget.ChooserTargetServiceCompat" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+        <receiver android:label="OBWA Widget" android:name="com.obwhatsapp.yo.WidgetProvider" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/yo_widget"/>
+        </receiver>
+        <activity android:name="com.obwhatsapp.yo.x.rlf"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.lockV2.locktypes.Pattern"/>
+        <activity android:theme="@style/Theme.App.MediaPreview" android:name="com.obwhatsapp.youbasha.ui.lockV2.locktypes.Fingerprint"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.lockV2.locktypes.Pin"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.themeserver.OnThemesActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.themeserver.SingleItemView" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.AllSettings" android:exported="true"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.IconChoose"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.activity.CustomList"/>
+        <activity android:theme="@style/Theme.App.NoActionBar" android:name="com.obwhatsapp.youbasha.ui.activity.ContactsPicker"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.activity.CallsPrivacy"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.activity.VoiceNoteSounds"/>
+        <activity android:name="com.obwhatsapp.yo.ChatGenSingle" android:parentActivityName="com.obwhatsapp.Conversation"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.Home"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.Convo"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.Universal"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.Updates"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.Support"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.About"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.BaseSettingsActivity"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.Themes"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.YoWAWidget"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.BasePreferenceActivity"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.HideMedia"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.UniversalSettings"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.BackupRestore"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.UniversalColors"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.SecPrivacy"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.HomeFAB"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.HomeRows"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.HomeHeader"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.HomeStatus"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.ConvoActionBar"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.ConvoEntry" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.UniversalStyle"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.ConvoMore"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.ConvoBubbleTicks"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.ConvoPicsInChat"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.activity.RestartAppActivity"/>
+        <activity android:theme="@style/Theme.App.StatusPlayback" android:name="com.obwhatsapp.youbasha.ui.activity.FMNewsActivity" android:parentActivityName="com.obwhatsapp.HomeActivity"/>
+        <activity android:name="com.obwhatsapp.yo.massmsger.SavedCollections"/>
+        <activity android:name="com.obwhatsapp.yo.massmsger.MassSender"/>
+        <activity android:name="com.obwhatsapp.yo.autoschedreply.ListMessages"/>
+        <activity android:name="com.obwhatsapp.yo.autoschedreply.AddMessage"/>
+        <activity android:name="com.obwhatsapp.yo.autoschedreply.EditMessage"/>
+        <activity android:name="com.obwhatsapp.yo.autoschedreply.AutoMsg"/>
+        <activity android:name="com.obwhatsapp.yo.autoschedreply.Auto_message"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.AG_Not"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.AG_media"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.AllSettings_islamic"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.AG_Effect"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.Assem_Clear"/>
+        <activity android:name="com.example.quran.MainActivity_quran" android:screenOrientation="portrait"/>
+        <activity android:name="com.example.quran.MainActivity_quran_gz" android:screenOrientation="portrait"/>
+        <activity android:name="com.obwhatsapp.youbasha.ui.YoSettings.GoldenApps"/>
+        <receiver android:name="com.obwhatsapp.yo.autoschedreply.Receiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.obwhatsapp.yo.FMBackupReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

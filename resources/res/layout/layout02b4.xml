@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:textColorPrimary="@color/color045f" android:id="@+id/toolbar" android:background="@color/color045d" android:layout_width="match_parent" android:layout_height="?attr/attr0007" android:minHeight="?attr/attr0007" android:layout_alignParentTop="true" app:attr037f="@menu/menu0014" app:attr03dc="@style/style0382" app:attr0529="@style/style037f"/>
+    <com.google.android.material.tabs.TabLayout android:id="@+id/gallery_tab_layout" android:background="@color/color045d" android:layout_width="match_parent" android:layout_height="46dp" android:layout_below="@+id/toolbar" app:attr04e0="0" app:attr04ea="0dp" app:attr04ec="1" app:attr04f3="@color/color0660" app:attr04f5="@style/style0276" app:attr04f6="@color/color06c5"/>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/gallery_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/gallery_tab_layout"/>
+    <include layout="@layout/layout02ae"/>
+</RelativeLayout>

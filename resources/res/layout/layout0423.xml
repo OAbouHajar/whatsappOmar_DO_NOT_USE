@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:id="@+id/one_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/two_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/three_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:id="@+id/four_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/five_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/six_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:id="@+id/seven_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/eight_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/nine_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/custom_key_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/zero_key" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01d2"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/backspace_key" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/ic_key_delete" android:scaleType="centerInside" android:layout_weight="1" app:attr0532="@color/color0599"/>
+    </LinearLayout>
+</merge>

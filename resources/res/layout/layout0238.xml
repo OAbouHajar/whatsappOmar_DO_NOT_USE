@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/document_picker_activity" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ListView android:id="@android:id/list" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:textFilterEnabled="true" android:cacheColorHint="@null" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dp" android:fastScrollEnabled="false"/>
+    <FrameLayout android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/search_no_matches" android:paddingLeft="12dp" android:paddingTop="96dp" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.TextEmojiLabel android:textColorLink="@color/color04f8" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1844" style="@style/style027d"/>
+        <com.obwhatsapp.WaEditText android:textColor="@color/color0660" android:textColorHint="@color/color06c5" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="40dp" android:layout_marginRight="20dp" android:hint="@string/str1842" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionDone"/>
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0699" android:gravity="center" android:id="@+id/error" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="32dp" layout="@layout/layout042a"/>
+        <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/submit" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:text="@string/str1857" style="@style/style03a2"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.biz.catalog.view.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0042="@dimen/dimen0639">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/product_detail_image_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.biz.catalog.view.CarouselScrollbarView android:layout_gravity="bottom" android:id="@+id/scrollbar" android:layout_width="match_parent" android:layout_height="@dimen/dimen0646" android:layout_margin="@dimen/dimen0647"/>
+</com.obwhatsapp.biz.catalog.view.AspectRatioFrameLayout>

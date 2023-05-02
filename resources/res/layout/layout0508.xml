@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen02fb" android:paddingTop="@dimen/dimen0656" android:paddingRight="@dimen/dimen02fb" android:paddingBottom="@dimen/dimen0656" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/category_layout" android:background="@drawable/circular_background_primary" android:layout_width="@dimen/dimen0183" android:layout_height="@dimen/dimen0183" app:attr0304="0" app:attr031d="0" app:attr0321="0">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/category_icon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <com.obwhatsapp.WaTextView android:id="@+id/category_name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen02fc" app:attr0304="0" app:attr030a="0" app:attr031c="@+id/category_layout" app:attr0321="0" style="@style/style01bc"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

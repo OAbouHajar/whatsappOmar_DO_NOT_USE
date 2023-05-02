@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/attr044d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:id="@+id/display_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen070b" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen070b" android:text="@string/str0705" style="?attr/attr0462"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/settings_theme" android:layout_width="0dp" android:layout_height="0dp" app:attr0456="@color/color070f" app:attr0459="@drawable/ic_brightness" app:attr045c="@string/str15cd" style="?attr/attr0457"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/wallpaper_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0456="@color/color070f" app:attr0459="@drawable/ic_settings_wallpaper" app:attr045c="@string/str1b3e" style="?attr/attr0457"/>
+        <View style="?attr/attr044e"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/chat_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen070b" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen070b" android:text="@string/str0444" style="?attr/attr0462"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/enter_key_preference" android:background="?android:attr/selectableItemBackground" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1588" style="?attr/attr0467"/>
+                <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str158a" style="?attr/attr0463"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:id="@+id/enter_key_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/media_visibility_preference" android:background="?android:attr/selectableItemBackground" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1591" style="?attr/attr0467"/>
+                <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str15c6" style="?attr/attr0463"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:id="@+id/media_visibility_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/font_size_preference" android:background="?android:attr/selectableItemBackground" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1547" style="?attr/attr0467"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/font_size_preference_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/attr0463"/>
+        </LinearLayout>
+        <View style="?attr/attr044e"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/archived_chats_main_setting_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen070b" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen070b" android:text="@string/str0100" style="?attr/attr0462"/>
+        <com.obwhatsapp.components.WaSwitchView android:id="@+id/chat_settings_notify_new_message_switch_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0585="@string/str1be0" app:attr0586="?attr/attr0463" app:attr0587="@string/str1bdf" app:attr0588="?attr/attr0467" style="@style/style0451"/>
+        <View android:id="@+id/read_later_setting_divider" android:visibility="gone" style="?attr/attr044e"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/chat_backup_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0456="@color/color070f" app:attr0459="@drawable/ic_settings_backup" app:attr045c="@string/str1529" style="?attr/attr0457"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/chat_transfer_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0456="@color/color070f" app:attr0459="@drawable/ic_settings_change_number" app:attr045c="@string/str1d92" style="?attr/attr0457"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/chat_history_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0456="@color/color070f" app:attr0459="@drawable/ic_settings_chathistory" app:attr045c="@string/str1536" style="?attr/attr0457"/>
+    </LinearLayout>
+</ScrollView>

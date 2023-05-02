@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/style036b" android:id="@+id/toolbar" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="?attr/attr0007" app:attr0103="0dp" app:attr03dc="@style/style0382">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:animateLayoutChanges="true">
+                <com.obwhatsapp.WaImageView android:id="@+id/icon_lock" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_settings_privacy" android:layout_centerVertical="true" app:attr0532="@color/color0667"/>
+                <com.obwhatsapp.TextEmojiLabel android:textStyle="normal" android:textColor="@color/color06c5" android:ellipsize="end" android:gravity="left" android:id="@+id/website_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:singleLine="true" android:layout_toRightOf="@+id/icon_lock" style="@style/style02ea"/>
+                <com.obwhatsapp.WaTextView android:textColor="@color/color06c5" android:ellipsize="end" android:gravity="left" android:layout_gravity="bottom" android:id="@+id/website_url" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@+id/website_title" android:layout_alignLeft="@+id/website_title" style="@style/style02e8"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <ProgressBar android:id="@+id/progress_bar_page_progress" android:visibility="visible" android:layout_width="match_parent" android:layout_height="2dp" style="?android:attr/progressBarStyleHorizontal"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/footer_stub" android:layout_below="@+id/appbar">
+        <WebView android:id="@+id/web_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/footer_stub" android:inflatedId="@+id/footer_stub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

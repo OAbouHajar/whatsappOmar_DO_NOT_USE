@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">転送するにはこのデバイスに%1$s必要です。WhatsAppのストレージ管理ツールを使用して、容量を空けてください。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/filler" android:background="@color/color0792" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/container" android:layout_alignParentTop="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/container" android:background="@drawable/bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="@color/color0659" android:id="@+id/send_invite_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/str14f2"/>
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="left" android:id="@+id/invite_contacts_recycler" android:paddingLeft="4dp" android:paddingRight="4dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="5dp"/>
+                <com.obwhatsapp.WaFrameLayout android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="5dp" android:layout_marginRight="4dp" android:layout_marginBottom="10dp" android:foreground="@drawable/balloon_incoming_frame" app:attr058c="@color/color00c6">
+                    <LinearLayout android:orientation="horizontal" android:padding="@dimen/dimen0420" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.obwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/group_photo" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="@dimen/dimen041f" android:src="@drawable/avatar_group" android:scaleType="fitCenter" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <com.obwhatsapp.TextEmojiLabel android:textSize="17sp" android:textColor="@color/color0507" android:ellipsize="end" android:id="@+id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="right" android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <com.obwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color0505" android:gravity="left" android:layout_gravity="left" android:id="@+id/group_invite_subtitle" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str0aa4" android:layout_weight="1"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.obwhatsapp.WaFrameLayout>
+            </LinearLayout>
+        </ScrollView>
+        <include layout="@layout/layout02d6"/>
+    </LinearLayout>
+</com.obwhatsapp.KeyboardPopupLayout>

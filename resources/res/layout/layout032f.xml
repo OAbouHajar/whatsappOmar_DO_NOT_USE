@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/grid_view_shimmer_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style01e0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0659" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/title" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0ff1" app:attr030a="0" app:attr031d="0" app:attr0321="0" style="?attr/attr0356"/>
+            <include android:id="@+id/p_bank_1" android:layout_width="0dp" android:layout_height="wrap_content" app:attr030b="@+id/p_bank_2" app:attr031d="0" app:attr0320="@+id/title" layout="@layout/layout032b"/>
+            <include android:id="@+id/p_bank_2" android:layout_width="0dp" android:layout_height="wrap_content" app:attr030b="@+id/p_bank_3" app:attr031c="@+id/p_bank_1" app:attr0320="@+id/title" layout="@layout/layout032b"/>
+            <include android:id="@+id/p_bank_3" android:layout_width="0dp" android:layout_height="wrap_content" app:attr030a="@+id/p_bank_4" app:attr031c="@+id/p_bank_2" app:attr0320="@+id/title" layout="@layout/layout032b"/>
+            <include android:id="@+id/p_bank_4" android:layout_width="0dp" android:layout_height="wrap_content" app:attr030a="0" app:attr031c="@+id/p_bank_3" app:attr0320="@+id/title" layout="@layout/layout032b"/>
+            <View android:id="@+id/shimmer_separator" android:background="@color/color0509" android:layout_width="match_parent" android:layout_height="@dimen/dimen05fe" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/p_bank_1"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/list_view_shimmer_layout" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style01e0">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0659" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/list_view_title" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A" app:attr030a="0" app:attr031d="0" app:attr0321="0" style="?attr/attr0356"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/list_items_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

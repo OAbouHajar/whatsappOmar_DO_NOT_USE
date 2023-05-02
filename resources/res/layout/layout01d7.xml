@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40dp" android:minHeight="30dp">
+        <include layout="@layout/layout01e6"/>
+        <view android:layout_gravity="left" android:id="@+id/conversation_text_row" android:padding="@dimen/dimen076b" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.obwhatsapp.components.TextAndDateLayout">
+            <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style03b3" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="@dimen/dimen026f" android:paddingRight="@dimen/dimen026f" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:id="@+id/date" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b1"/>
+            </LinearLayout>
+        </view>
+    </LinearLayout>
+</merge>

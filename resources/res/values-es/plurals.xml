@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Para poder realizar la transferencia, se necesitan %1$s en el dispositivo. Por favor, usa la herramienta de administración de almacenamiento de WhatsApp para liberar espacio.</item>
+        <item quantity="one">Para poder realizar la transferencia, se necesita %1$s en el dispositivo. Por favor, usa la herramienta de administración de almacenamiento de WhatsApp para liberar espacio.</item>
+    </plurals>
+</resources>

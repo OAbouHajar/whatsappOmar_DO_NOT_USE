@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <FrameLayout android:layout_width="80dp" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_in_progress" android:tint="#ff321622" app:tint="#ff321622"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="18dp" android:layout_weight="1">
+        <com.obwhatsapp.yo.tf android:textSize="15sp" android:textColor="#ff111b21" android:tag="titleline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0cc9" android:includeFontPadding="false" app:fontFamily="sans-serif-medium"/>
+        <com.obwhatsapp.yo.tf android:textSize="15sp" android:textColor="#ff111b21" android:tag="tagline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/str09c9" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <FrameLayout android:background="?android:attr/selectableItemBackground" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp">
+        <ImageView android:layout_gravity="center" android:tag="im_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:tint="#ff321622" app:tint="#ff321622"/>
+    </FrameLayout>
+</LinearLayout>

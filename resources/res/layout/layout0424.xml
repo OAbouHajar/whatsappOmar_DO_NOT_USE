@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View style="@style/style024c"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <com.obwhatsapp.WaButton android:ellipsize="end" android:id="@+id/cancel_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str0394" android:layout_weight="1" style="@style/style0000"/>
+        <View style="@style/style0250"/>
+        <com.obwhatsapp.WaButton android:ellipsize="end" android:id="@+id/ok_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str0e87" android:layout_weight="1" style="@style/style0000"/>
+    </LinearLayout>
+</LinearLayout>

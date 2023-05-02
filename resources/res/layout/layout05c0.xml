@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.WaTextView android:id="@+id/two_fa_help_dialog_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str184b"/>
+    </ScrollView>
+    <androidx.appcompat.widget.ButtonBarLayout android:gravity="bottom|right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:paddingLeft="12dp" android:paddingTop="4dp" android:paddingRight="12dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaButton android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1855" app:attr0568="3" style="?attr/attr0080"/>
+        <com.obwhatsapp.WaButton android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0394" app:attr0568="3" style="?attr/attr007e"/>
+        <Space android:id="@+id/spacer" android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.obwhatsapp.WaButton android:id="@android:id/button3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str184a" app:attr0568="3" style="?attr/attr007f"/>
+    </androidx.appcompat.widget.ButtonBarLayout>
+</LinearLayout>

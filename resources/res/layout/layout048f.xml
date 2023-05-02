@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="@dimen/dimen04ec" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/dimen074d">
+        <FrameLayout android:id="@+id/contact_selector" android:layout_width="@dimen/dimen021b" android:layout_height="@dimen/dimen074d">
+            <com.obwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@+id/contactpicker_row_photo" android:layout_width="@dimen/dimen074c" android:layout_height="@dimen/dimen074c" android:scaleType="fitCenter" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+            <com.obwhatsapp.components.SelectionCheckView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/selection_check" android:layout_width="@dimen/dimen06e6" android:layout_height="@dimen/dimen06e6" android:layout_marginRight="10dp" android:layout_marginBottom="9dp"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.TextEmojiLabel android:gravity="left" android:id="@+id/name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01bc"/>
+            </LinearLayout>
+            <com.obwhatsapp.TextEmojiLabel android:gravity="left" android:id="@+id/phone_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b9"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0dp"/>
+</LinearLayout>

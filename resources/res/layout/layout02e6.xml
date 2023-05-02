@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.group.GroupSettingMembershipApprovalRowV2 xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/require_membership_approval" android:background="@color/color065f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0344="@string/str0b06" app:attr0345="@drawable/vec_ic_pending_participants" app:attr0348="@string/str0b0a"/>

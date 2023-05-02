@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:attr0305="@+id/content" app:attr030b="@+id/content" app:attr031d="0" app:attr0321="0" layout="@layout/layout05b7"/>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_method_name_shimmer" android:visibility="visible" android:layout_width="match_parent" android:layout_height="50dp" android:layout_weight="1" app:attr031c="@+id/toolbar" app:attr0320="@+id/toolbar" app:attr046d="false" style="@style/style0016">
+        <View android:textSize="13sp" android:layout_gravity="center" android:background="@drawable/payments_divider_gray" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="52dp" android:layout_marginRight="48dp" style="@style/style01bc"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_method_name_shimmer2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="50dp" android:layout_weight="1" app:attr031d="0" app:attr0320="@+id/payment_method_name_shimmer" app:attr046d="false" style="@style/style0016">
+        <View android:textSize="13sp" android:layout_gravity="center" android:background="@drawable/payments_divider_gray" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="52dp" android:layout_marginRight="48dp" style="@style/style01bc"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

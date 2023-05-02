@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:windowIsFloating="false" android:id="@+id/emoji_edit_text_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:id="@+id/top_layout" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:background="@color/color090b" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/dimen005d">
+                    <include layout="@layout/layout05b7"/>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/view_placeholder" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                <RelativeLayout android:layout_gravity="bottom" android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0741">
+                    <View android:id="@+id/link_preview_divider" android:background="@color/color05c3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                    <com.obwhatsapp.WaFrameLayout android:id="@+id/web_page_preview_container" android:background="@color/color0907" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/recipients_container" android:layout_below="@+id/link_preview_divider"/>
+                    <RelativeLayout android:id="@+id/recipients_container" android:background="@color/color064b" android:paddingRight="60dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                        <com.obwhatsapp.WaImageView android:id="@+id/recipients_chevron" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="15dp" android:src="@drawable/chevron_right" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerInParent="true"/>
+                        <HorizontalScrollView android:id="@+id/recipients_scroller" android:paddingLeft="7dp" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/recipients_chevron" android:layout_alignParentTop="true" android:requiresFadingEdge="horizontal" android:layoutDirection="ltr">
+                            <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color090b" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@+id/recipients" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="@dimen/dimen0741" android:singleLine="true"/>
+                        </HorizontalScrollView>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <com.obwhatsapp.components.FloatingActionButton android:id="@+id/send" android:src="@drawable/input_send" android:contentDescription="@string/str14e7" style="@style/style03ac"/>
+        </FrameLayout>
+        <com.obwhatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.obwhatsapp.KeyboardPopupLayout>

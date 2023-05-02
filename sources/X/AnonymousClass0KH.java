@@ -1,0 +1,17 @@
+package X;
+
+/* renamed from: X.0KH  reason: invalid class name */
+public enum AnonymousClass0KH {
+    BACKGROUND_DIMMER,
+    BODY_TEXT,
+    CLOSE_BUTTON,
+    HEADLINE_TEXT,
+    ERROR_ICON,
+    PRIMARY_BUTTON_BACKGROUND,
+    PRIMARY_BUTTON_TEXT,
+    SECONDARY_BUTTON_BACKGROUND,
+    SECONDARY_BUTTON_TEXT,
+    SPINNER,
+    BACKGROUND_BLOBS_DISABLED,
+    BACKGROUND_BLOBS_ENABLED
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="74dp">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@+id/audio_file_thumb_frame" android:background="@drawable/audio_picker_thumb_frame_background" android:visibility="visible" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/audio_file_thumb" android:background="@drawable/audio_picker_filled_thumb_background" android:layout_width="40dp" android:layout_height="40dp" android:layout_margin="1dp"/>
+        </FrameLayout>
+        <com.obwhatsapp.components.SelectionCheckView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/selection_check" android:visibility="invisible" android:layout_width="@dimen/dimen06e7" android:layout_height="@dimen/dimen06e7" android:layout_marginTop="34dp" android:layout_marginRight="8dp"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/audio_file_details" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:layout_weight="1">
+        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0507" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/audio_file_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" app:attr028d="sans-serif"/>
+        <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0505" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/audio_file_artist" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0505" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/audio_file_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/bullet_duration_size" android:paddingLeft="4sp" android:paddingRight="4sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1c3e"/>
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0505" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/audio_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/play_button_frame" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="16dp">
+        <com.obwhatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/audio_file_play_btn" android:background="@drawable/audio_picker_row_start_button_background" android:padding="9dp" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" app:attr0532="@color/color005d"/>
+        <com.obwhatsapp.CircularProgressBar android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:indeterminateOnly="false"/>
+    </FrameLayout>
+</LinearLayout>

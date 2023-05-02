@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/dimen06d7">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/contact_selector" android:layout_width="@dimen/dimen06db" android:layout_height="@dimen/dimen06da">
+        <com.obwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center_horizontal" android:id="@+id/contact_row_photo" android:layout_width="@dimen/dimen06d6" android:layout_height="@dimen/dimen06d6" android:scaleType="fitCenter" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+        <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/close" android:layout_width="21dp" android:layout_height="21dp">
+            <com.obwhatsapp.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/grey_circle" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_profile_x" android:scaleType="center" android:contentDescription="@string/str13e4" app:attr0532="@color/color06d0"/>
+        </FrameLayout>
+    </FrameLayout>
+    <com.obwhatsapp.WaTextView android:textSize="12sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxWidth="@dimen/dimen06db" android:singleLine="true"/>
+</LinearLayout>

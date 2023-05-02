@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="@dimen/dimen0653" android:paddingTop="@dimen/dimen0653" android:paddingBottom="@dimen/dimen0653" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ProgressBar android:id="@+id/progressbar" android:layout_width="@dimen/dimen0653" android:layout_height="@dimen/dimen0653"/>
+    <com.obwhatsapp.WaTextView android:textAppearance="@style/style02c6" android:paddingLeft="@dimen/dimen0652" android:paddingRight="@dimen/dimen0652" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0205" android:layout_toRightOf="@+id/progressbar"/>
+</RelativeLayout>

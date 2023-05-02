@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Per fer aquesta transferència hi ha d&apos;haver %1$s d&apos;espai lliure al dispositiu. Allibera espai d&apos;emmagatzematge amb l&apos;eina de gestió de l&apos;espai d&apos;emmagatzematge de WhatsApp.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/phone_container" android:layout_width="match_parent" android:layout_height="@dimen/dimen074d">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/phone_content" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/primary_action_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:layout_width="0dp" android:layout_height="@dimen/dimen074d" android:layout_weight="1">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/style01bc"/>
+                <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/subtitle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01bb"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/contact_info_phone_actions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:id="@+id/primary_action_icon" android:src="@drawable/ic_action_message" android:contentDescription="@string/str0d31" style="@style/style01b7"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/secondary_action_btn" android:src="@drawable/ic_action_call" android:contentDescription="@string/str011d" style="@style/style01b7"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/third_action_btn" android:visibility="gone" android:src="@drawable/ic_action_videocall" android:contentDescription="@string/str19b6" style="@style/style01b7"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:layout_marginLeft="@dimen/dimen0457" style="@style/style024b"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/call_row_container" android:background="@null" android:layout_width="match_parent" android:layout_height="@dimen/dimen02a6">
+    <FrameLayout android:id="@+id/contact_selector" android:layout_width="@dimen/dimen04e5" android:layout_height="@dimen/dimen02a6" android:layout_alignParentLeft="true">
+        <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/contact_photo" android:layout_width="@dimen/dimen0200" android:layout_height="@dimen/dimen0200" android:scaleType="fitCenter" app:attr04fe="true" app:attr0500="@dimen/dimen0748"/>
+        <com.obwhatsapp.ui.voip.MultiContactThumbnail android:layout_gravity="center" android:id="@+id/multi_contact_photo" android:visibility="gone" android:layout_width="@dimen/dimen0200" android:layout_height="@dimen/dimen0200" app:attr037c="0.75dp" app:attr037d="24dp"/>
+    </FrameLayout>
+    <com.obwhatsapp.components.SelectionCheckView android:id="@+id/selection_check" android:visibility="gone" android:layout_width="@dimen/dimen06e6" android:layout_height="@dimen/dimen06e6" android:layout_marginLeft="@dimen/dimen06e8" android:layout_marginTop="@dimen/dimen06e9" android:layout_alignParentLeft="true"/>
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingRight="@dimen/dimen04ec" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/call_btns_container" android:layout_toRightOf="@+id/contact_selector" android:layout_centerVertical="true">
+        <com.obwhatsapp.TextEmojiLabel android:layout_gravity="left" android:id="@+id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen01ff" style="?attr/attr0343"/>
+        <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/call_type_icon" android:layout_width="@dimen/dimen0120" android:layout_height="@dimen/dimen0120"/>
+            <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/count" android:paddingLeft="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/attr0342"/>
+            <com.obwhatsapp.WaTextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/date_time" android:paddingLeft="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?attr/attr0342"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/call_btns_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <com.obwhatsapp.WaImageView android:gravity="center" android:id="@+id/voice_call" android:background="@drawable/selector_orange_gradient" android:layout_width="@dimen/dimen0118" android:layout_height="@dimen/dimen02a6" android:src="@drawable/ic_action_call" android:scaleType="center" android:contentDescription="@string/str011d" app:attr0532="@color/color00eb"/>
+        <com.obwhatsapp.WaImageView android:gravity="center" android:id="@+id/video_call" android:background="@drawable/selector_orange_gradient" android:layout_width="@dimen/dimen0118" android:layout_height="@dimen/dimen02a6" android:src="@drawable/ic_action_videocall" android:scaleType="center" android:contentDescription="@string/str19b6" app:attr0532="@color/color00eb"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/color01f5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen07b0">
+    <FrameLayout android:id="@+id/sticker_header_recycler_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="8">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="left" android:id="@+id/sticker_header_recycler" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/store_button_view_top" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.obwhatsapp.WaImageView android:id="@+id/sticker_store_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/open_sticker_store" android:contentDescription="@string/str16d0" app:attr0532="@color/color0753" style="@style/style0000"/>
+        <View android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/sticker_store_badge" android:visibility="gone" style="@style/style0272"/>
+    </FrameLayout>
+</LinearLayout>

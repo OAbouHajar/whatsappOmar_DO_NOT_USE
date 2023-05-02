@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container_catalog_search" android:background="@color/color065f" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/search_call_to_action" android:paddingLeft="@dimen/dimen0763" android:paddingTop="@dimen/dimen0765" android:paddingRight="@dimen/dimen0763" android:paddingBottom="@dimen/dimen0765" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0767">
+        <com.obwhatsapp.WaImageView android:id="@+id/search_call_to_action_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/str1d7c" app:attr04b4="@drawable/vec_ic_search_24dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0765" android:layout_marginStart="@dimen/dimen0765">
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen016f" android:textColor="@color/color06c5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str03e5" android:includeFontPadding="false"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen016f" android:textColor="@color/color0660" android:ellipsize="end" android:id="@+id/search_call_to_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0767" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/dimen0767"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/search_results_error_view_holder" android:paddingLeft="@dimen/dimen0763" android:paddingTop="@dimen/dimen0763" android:paddingRight="@dimen/dimen0763" android:paddingBottom="@dimen/dimen0763" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen076c">
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0172" android:gravity="center" android:id="@+id/search_results_error_view_text" android:layout_width="@dimen/dimen0170" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/dimen0171"/>
+        <com.obwhatsapp.WaButton android:id="@+id/search_results_error_view_retry_btn" android:text="@string/str146a" android:contentDescription="@string/str146a" style="@style/style03a4"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/search_child_fragment_holder" android:background="@color/color065f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/search_result_list_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/list_search_result" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02f8="androidx.recyclerview.widget.LinearLayoutManager"/>
+            <View android:layout_gravity="bottom" android:id="@+id/shadow_bottom_search_result_list" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen04e4"/>
+        </FrameLayout>
+        <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/view_cart" android:visibility="gone" android:layout_width="match_parent" android:layout_marginLeft="@dimen/dimen0656" android:layout_marginTop="@dimen/dimen0650" android:layout_marginRight="@dimen/dimen0656" android:layout_marginBottom="@dimen/dimen0650" android:text="@string/str19d0" style="@style/style03a2"/>
+    </LinearLayout>
+</FrameLayout>

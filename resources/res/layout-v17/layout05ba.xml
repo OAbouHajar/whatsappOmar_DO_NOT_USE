@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/trust_signal_card" android:paddingTop="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02c1="@null">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/color0796" android:paddingLeft="@dimen/dimen0760" android:paddingTop="@dimen/dimen075f" android:paddingRight="@dimen/dimen0760" android:paddingBottom="@dimen/dimen075f" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen07d3" android:textColor="@color/color0797" android:id="@+id/trust_banner_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/dimen0761" android:paddingEnd="@dimen/dimen0761" app:attr0317="0" app:attr031a="@+id/barrier" app:attr0321="0"/>
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@+id/follower_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen075e" android:paddingEnd="@dimen/dimen0761" app:attr0304="0" app:attr0317="0" app:attr031a="@+id/barrier" app:attr0320="@+id/trust_banner_title">
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fb_follower_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="12dp">
+                <com.obwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen0761" app:attr04b4="@drawable/ic_banner_facebook"/>
+                <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen07d3" android:textColor="@color/color0797" android:id="@+id/fb_follower_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ig_follower_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen0761" app:attr04b4="@drawable/ic_banner_instagram"/>
+                <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen07d3" android:textColor="@color/color0797" android:id="@+id/ig_follower_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.constraintlayout.widget.Barrier android:id="@+id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr005a="0" app:attr00f9="trust_banner_close_btn"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/trust_banner_close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0304="0" app:attr0318="@+id/barrier" app:attr031b="0" app:attr0321="0" app:attr04b4="@drawable/ic_close"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.obwhatsapp.InfoCard>

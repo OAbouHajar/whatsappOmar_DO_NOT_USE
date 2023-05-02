@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minHeight="30dp">
+        <include layout="@layout/layout01c1"/>
+        <FrameLayout android:id="@+id/requested_message_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen05d9" android:layout_marginTop="@dimen/dimen05d9" android:layout_marginRight="@dimen/dimen05d9">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="120dp" android:minHeight="48dp">
+                <com.obwhatsapp.TextEmojiLabel android:ellipsize="end" android:layout_gravity="left" android:id="@+id/request_text" android:paddingLeft="@dimen/dimen026f" android:paddingTop="4dp" android:paddingRight="@dimen/dimen026f" android:paddingBottom="4dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1"/>
+                <FrameLayout android:gravity="center" android:id="@+id/requested_payment_amount_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <com.obwhatsapp.WaImageView android:id="@+id/requested_payment_amount_expressive_background" android:layout_width="52dp" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                    <com.obwhatsapp.WaTextView android:textSize="20sp" android:textColor="@color/color05f5" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/requested_payment_amount_text" android:paddingLeft="@dimen/dimen0762" android:paddingRight="@dimen/dimen0762" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1"/>
+                </FrameLayout>
+                <com.obwhatsapp.WaTextView android:textSize="20sp" android:textColor="@color/color05f5" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/requested_payment_amount" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/layout01b6"/>
+        <FrameLayout android:id="@+id/payment_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen05d9">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen05d5">
+                <FrameLayout android:id="@+id/payment_amount_container" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" app:attr030a="0" app:attr031d="0" app:attr0321="0">
+                    <include layout="@layout/layout0458"/>
+                    <ViewStub android:id="@+id/payment_amount_summary_stub" android:inflatedId="@+id/payment_amount_summary_inflated" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </FrameLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/payments_message_bubble_background" android:layout_width="0dp" android:layout_height="wrap_content" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/payment_amount_container">
+                    <FrameLayout android:id="@+id/payment_security_strip" android:background="@drawable/payment_security_strip_background" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" app:attr0304="0" app:attr030a="0" app:attr031d="0" app:attr0321="0">
+                        <com.obwhatsapp.WaImageView android:id="@+id/security_strip_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/payments_security_strip" android:scaleType="centerCrop"/>
+                    </FrameLayout>
+                    <com.obwhatsapp.WaTextView android:textSize="15sp" android:id="@+id/payment_symbol" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen026f" app:attr0304="0" app:attr031d="0" app:attr0321="0"/>
+                    <com.obwhatsapp.WaImageView android:id="@+id/payment_unsupported_icon" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen026f" android:src="@drawable/ic_unsupported" app:attr031d="0" app:attr0321="0" app:attr0532="@color/color05e6"/>
+                    <androidx.constraintlayout.widget.Barrier android:id="@+id/payment_status_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr005a="6" app:attr00f9="payment_symbol,payment_unsupported_icon"/>
+                    <com.obwhatsapp.conversation.conversationrow.ConversationPaymentRowTransactionLayout android:orientation="vertical" android:id="@+id/transaction_status_container" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen026f" app:attr030a="0" app:attr031c="@+id/payment_status_barrier" app:attr0321="0">
+                        <com.obwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color0612" android:textColorHighlight="@color/color0610" android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/message_text" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:lineSpacingExtra="4sp" app:attr028d="sans-serif"/>
+                        <com.obwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color0612" android:textColorHighlight="@color/color0610" android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/transaction_status" android:paddingTop="1dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:lineSpacingExtra="4sp"/>
+                    </com.obwhatsapp.conversation.conversationrow.ConversationPaymentRowTransactionLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+        <include layout="@layout/layout0466"/>
+        <com.obwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style03b3" android:textSize="@dimen/dimen0299" android:layout_gravity="left" android:id="@+id/payment_note" android:paddingLeft="@dimen/dimen026f" android:paddingRight="@dimen/dimen026f" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1dp"/>
+            <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b2"/>
+                <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/status" android:paddingLeft="4dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.obwhatsapp.components.TextAndDateLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/send_payment_again_container" android:paddingTop="7dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/send_payment_again_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color04f8" android:layout_gravity="center" android:id="@+id/send_payment_again" android:paddingLeft="10dp" android:paddingTop="9dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str10ca" app:attr028d="sans-serif-medium"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/review_and_cancel_container" android:paddingTop="7dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/review_and_cancel_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color04f8" android:layout_gravity="center" android:id="@+id/review_and_cancel" android:paddingLeft="10dp" android:paddingTop="9dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str10c0" app:attr028d="sans-serif-medium"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

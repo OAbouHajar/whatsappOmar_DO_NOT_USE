@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">ຈຳເປັນຕ້ອງມີ %1$s ໃນອຸປະກອນນີ້ເພື່ອໂອນຍ້າຍ. ກະລຸນາລົບລ້າງບ່ອນຈັດເກັບຂໍ້ມູນໂດຍການໃຊ້ເຄື່ອງມືການຈັດການພື້ນທີ່ບ່ອນຈັດເກັບຂໍ້ມູນຂອງ WhatsApp</item>
+    </plurals>
+</resources>

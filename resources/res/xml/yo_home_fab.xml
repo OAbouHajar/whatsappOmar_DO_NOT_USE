@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <SwitchPreference android:title="@string/HideFAB" android:key="hide_fab" android:defaultValue="false"/>
+    <com.obwhatsapp.yo.ColorPref android:title="@string/acj_fab_normal" android:key="ModFabNormalColor" android:summary="@string/acj_fab_normal_sum"/>
+    <com.obwhatsapp.yo.ColorPref android:title="@string/acj_fab_pressed" android:key="ModFabPressedColor" android:summary="@string/acj_fab_pressed_sum"/>
+    <com.obwhatsapp.yo.ColorPref android:title="@string/acj_fab_icons" android:key="ModFabTextColor"/>
+    <SwitchPreference android:title="@string/hide_action_s" android:key="hide_action_s" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/hide_actionm" android:key="hide_action_m" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/hide_actionb" android:key="hide_action_b" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/hide_actiona" android:key="hide_action_a" android:defaultValue="false"/>
+</PreferenceScreen>

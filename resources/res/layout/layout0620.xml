@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout0623"/>
+        <include layout="@layout/layout0622"/>
+        <include layout="@layout/layout0621"/>
+    </LinearLayout>
+    <com.obwhatsapp.WaImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/cancel" android:background="?attr/attr044c" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="29dp" android:layout_height="29dp" android:src="@drawable/ic_close" android:contentDescription="@string/str0394"/>
+</merge>

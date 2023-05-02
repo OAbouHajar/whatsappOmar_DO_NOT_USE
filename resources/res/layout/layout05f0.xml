@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bottom_sheet_parent" android:paddingTop="@dimen/dimen0103" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr037b="@+id/bottom_sheet">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/bottom_sheet" android:background="?attr/attr0573" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/container" android:layout_width="0dp" android:layout_height="match_parent" app:attr0304="0" app:attr030a="0" app:attr031d="0" app:attr0321="0" app:attr0326="@dimen/dimen083f">
+            <LinearLayout android:orientation="vertical" android:id="@+id/call_upgrade_row" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginRight="14dp" android:minHeight="@dimen/dimen00fe">
+                    <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color090b" android:gravity="center_vertical" android:id="@+id/upgrade_text" android:focusable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:text="@string/str1b0f" android:layout_weight="1" android:lineSpacingExtra="3sp" android:fontFamily="sans-serif"/>
+                    <com.obwhatsapp.components.Button android:theme="@style/style039f" android:textSize="14sp" android:textColor="@color/color0931" android:id="@+id/upgrade_cancel" android:background="@drawable/btn_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="44dp" android:text="@string/str0394" app:primary_text_default_material_dark="2" app:attr0568="1" app:attr0594="1"/>
+                </LinearLayout>
+                <View android:layout_gravity="bottom" android:background="@color/color092f" style="@style/style024b"/>
+            </LinearLayout>
+            <FrameLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.calling.views.VoipCallControlBottomSheetDragIndicator android:layout_gravity="center_horizontal" android:id="@+id/call_controls_sheet_drag_indicator" android:paddingLeft="68dp" android:paddingTop="10dp" android:paddingRight="68dp" android:paddingBottom="4dp" android:layout_width="164dp" android:layout_height="24dp"/>
+                <FrameLayout android:gravity="center" android:id="@+id/call_controls_btns_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen00fd"/>
+            </FrameLayout>
+            <View android:layout_gravity="top" android:background="@color/color092f" style="@style/style024b"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <androidx.core.widget.NestedScrollView android:id="@+id/participant_list_nested_scroll_view" android:layout_width="0dp" android:layout_height="wrap_content" app:attr0317="0" app:attr031a="@+id/call_control_buttons_guideline" app:attr0321="0" app:attr0325="0">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/participant_list" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="0dp" android:minHeight="200dp" android:layout_weight="1"/>
+                </androidx.core.widget.NestedScrollView>
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/call_control_buttons_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr030e="1"/>
+                <FrameLayout android:gravity="center" android:id="@+id/call_controls_btns_container_landscape_flex" android:visibility="gone" android:layout_width="@dimen/dimen00ff" android:layout_height="wrap_content" android:minHeight="@dimen/dimen00fd" app:attr0304="0" app:attr0318="@+id/call_control_buttons_guideline" app:attr031b="0" app:attr0321="0"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.obwhatsapp.components.MainChildCoordinatorLayout>

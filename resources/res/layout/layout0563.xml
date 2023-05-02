@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:paddingTop="10dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+    <com.obwhatsapp.WaTextView android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1c16" style="@style/style01bc"/>
+    <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0502" android:ellipsize="end" android:gravity="left" android:layout_gravity="left" android:id="@+id/other_business_details_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+</LinearLayout>

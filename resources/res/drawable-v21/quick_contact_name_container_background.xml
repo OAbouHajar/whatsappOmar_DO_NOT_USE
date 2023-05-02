@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?attr/attr00eb">
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="8dp"/>
+            <solid android:color="@color/color067f"/>
+        </shape>
+    </item>
+</ripple>

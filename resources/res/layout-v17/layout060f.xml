@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+        <FrameLayout android:id="@+id/left_decoration" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/image" android:visibility="gone" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:layout_marginEnd="16dp"/>
+            <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="center_vertical" android:id="@+id/radio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32dp" android:layout_marginEnd="32dp"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.obwhatsapp.WaTextView android:layout_gravity="start" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" android:textAlignment="viewStart" style="@style/style01bc"/>
+            <com.obwhatsapp.WaTextView android:layout_gravity="start" android:id="@+id/description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="4" android:singleLine="false" android:textIsSelectable="false" android:textAlignment="viewStart" style="@style/style01ba"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@+id/right_radio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/divider" android:background="@color/color01db" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="1dp"/>
+</FrameLayout>

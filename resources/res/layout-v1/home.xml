@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/navigation_bar_protection" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@+id/mWall" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/out_of_chat_playback_holder" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/call_notification_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@android:id/content" android:paddingBottom="56dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <rc.whatsapp.rounded.statusbarAux android:layout_gravity="top" android:id="@+id/aux_statubar" android:background="@color/accent" android:layout_width="match_parent" android:layout_height="30dp"/>
+                <rc.whatsapp.rounded.RoundedLayout android:id="@+id/bgCurveContent" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <com.google.android.material.appbar.AppBarLayout android:id="@+id/main_appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+                            <rc.whatsapp.rounded.RoundedLayoutLinearToolbar android:id="@+id/holder" android:layout_width="match_parent" android:layout_height="250dp" app:attr0335="13" app:attr0529="@style/style0385">
+                                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/titulo_big" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02fd="2" app:layout_collapseParallaxMultiplier="0.4">
+                                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/titulo_anim" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/mIconT" android:layout_width="38dp" android:layout_height="38dp" android:layout_margin="3dp" android:src="@drawable/ic_icon_wa"/>
+                                            <com.obwhatsapp.yo.tf android:textSize="30sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/titulo_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1b78" android:singleLine="true"/>
+                                        </LinearLayout>
+                                        <com.obwhatsapp.yo.tf android:textSize="14sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/mSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-open &apos;Settings&apos; page&apos;-" android:singleLine="true" android:layout_marginStart="45dp" android:layout_marginEnd="45dp"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <com.obwhatsapp.BidiToolbar android:layout_gravity="bottom" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/attr0007" android:minHeight="?attr/attr0007" app:elevation="0dp" app:attr0529="@style/style0385" app:layout_collapseMode="0" app:title="">
+                                    <com.obwhatsapp.yo.tf android:textSize="24sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/titulo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:text="WhatsApp" android:singleLine="true"/>
+                                </com.obwhatsapp.BidiToolbar>
+                            </rc.whatsapp.rounded.RoundedLayoutLinearToolbar>
+                        </com.google.android.material.appbar.AppBarLayout>
+                        <FrameLayout android:orientation="vertical" android:id="@+id/scrolling_content_oneui" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02fc="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+                            <rc.whatsapp.rounded.RoundedLayoutHome android:orientation="vertical" android:id="@+id/bgLisBg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="6dp"/>
+                            <FrameLayout android:id="@+id/pager_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp">
+                                <view android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent" class="com.obwhatsapp.HomeActivity$TabsPager"/>
+                                <FrameLayout android:layout_gravity="top" android:id="@+id/mStatusContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                            </FrameLayout>
+                        </FrameLayout>
+                    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.obwhatsapp.HomePagerSlidingTabStrip android:id="@+id/tabs" android:background="@color/primary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" app:attr0403="@color/color0792" app:attr0404="@color/color04c4"/>
+                        <View android:id="@+id/toolbar_padding" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+                    </LinearLayout>
+                    <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen00a4" android:textColor="@color/color06ff" android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/biz_tools_tool_tip" android:paddingLeft="@dimen/dimen00b2" android:paddingTop="@dimen/dimen00ac" android:paddingRight="@dimen/dimen00ab" android:paddingBottom="@dimen/dimen00a9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen00a6" android:layout_marginTop="@dimen/dimen00a7" android:maxWidth="@dimen/dimen00a8" android:text="@string/str02fb" app:attr028d="sans-serif-medium" app:attr0339="@dimen/dimen00a5"/>
+                    <LinearLayout android:id="@+id/search_fragment_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <FrameLayout android:id="@+id/media_fragment_holder" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <FrameLayout android:id="@+id/search_holder" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/abc_action_bar_default_height_material"/>
+                    <ViewStub android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/filter_chat_tip_view_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_action_bar_default_height_material"/>
+                    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <include layout="@layout/yo_fab_aux"/>
+                        <com.obwhatsapp.components.FloatingActionButton android:id="@+id/fab_third" android:visibility="gone" android:layout_marginBottom="@dimen/fab_third_margin_bottom" android:src="@drawable/input_mic_white" app:attr0532="@color/fabSecondaryContent" style="@style/style03ad"/>
+                        <com.obwhatsapp.components.FloatingActionButton android:id="@+id/fab_second" android:visibility="gone" android:contentDescription="@string/str0ca8" app:attr0532="@color/fabSecondaryContent" style="@style/style03ad"/>
+                        <com.obwhatsapp.components.FloatingActionButton android:id="@+id/fab" style="@style/style03ac"/>
+                        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@+id/fabText" android:background="@drawable/rounded_rect" android:padding="@dimen/space_loose" android:visibility="gone" android:layout_height="@dimen/fab_button_size" android:layout_marginLeft="@dimen/fab_button_margin" android:layout_marginRight="@dimen/fab_button_margin" android:layout_marginBottom="@dimen/fab_button_margin" android:maxLines="1" android:textAllCaps="true" style="@style/style03ac"/>
+                        <include layout="@layout/yo_fab"/>
+                    </FrameLayout>
+                </rc.whatsapp.rounded.RoundedLayout>
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/bottom_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <rc.whatsapp.rounded.RoundedLayoutLinear android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/rc_tab_oneui"/>
+                </rc.whatsapp.rounded.RoundedLayoutLinear>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/preview_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

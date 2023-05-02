@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen035e" android:layout_marginRight="@dimen/dimen035e">
+            <com.obwhatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/dimen035d" android:layout_marginTop="@dimen/dimen0362" android:layout_marginBottom="@dimen/dimen0361" android:src="@drawable/illust_welcome_cloud_lock"/>
+            <com.obwhatsapp.WaTextView android:text="@string/str07b2" style="@style/style014a"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enable_info_enc_backup_info" android:text="@string/str07b1" style="@style/style0141"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enable_info_backup_size_message" android:visibility="gone" style="@style/style0141"/>
+        </com.obwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:id="@+id/enable_info_turn_on_button" android:text="@string/str07b3" style="@style/style0146"/>
+</LinearLayout>

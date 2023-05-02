@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.obwhatsapp.text.ShadowDimsTextView android:textColor="@color/color090b" android:layout_gravity="center_horizontal" android:id="@+id/filter_swipe_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_caret_up" android:drawablePadding="@dimen/dimen03c5" app:attr0469="@color/color00a3" app:attr046b="1dp" app:attr046c="6dp"/>
+</merge>

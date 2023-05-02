@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/hb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.youbasha.ui.views.ConversationView android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.getbase.floatingactionbutton.FloatingActionsMenu android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/multiple_actions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7dp" android:layout_marginBottom="4dp" fab:fab_size="mini" fab:fab_addButtonColorPressed="@color/primary_accent_light_psy" fab:fab_addButtonColorNormal="@color/primary_accent_psy" fab:fab_labelStyle="@style/menu_labels_style">
+            <com.obwhatsapp.youbasha.ui.views.FabButton android:id="@+id/action_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rlog" android:onClick="FABLg" fab:fab_plusIconColor="@color/primary_accent_light_psy" fab:fab_colorPressed="@color/primary_accent_psy" fab:fab_size="mini" fab:fab_title="Read Log"/>
+            <com.obwhatsapp.youbasha.ui.views.FabButton android:id="@+id/action_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/acj_fab" android:onClick="FABAcj" fab:fab_plusIconColor="@color/primary_accent_light_psy" fab:fab_colorPressed="@color/primary_accent_psy" fab:fab_size="mini" fab:fab_title="Theme Settings"/>
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </com.obwhatsapp.youbasha.ui.views.ConversationView>
+</FrameLayout>

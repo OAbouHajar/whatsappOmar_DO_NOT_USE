@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/border" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.yo.tf android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_autoreply_receive" style="@style/YoSettings_row"/>
+                <com.obwhatsapp.yo.tf android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/msg_received" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="6" style="@style/YoSettings_row_subtitle"/>
+            </LinearLayout>
+            <View android:layout_height="1dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginStart="12dp" style="@style/FlatCardSeparator"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.yo.tf android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_autoreply_send" style="@style/YoSettings_row"/>
+                <com.obwhatsapp.yo.tf android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/reply_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="6" style="@style/YoSettings_row_subtitle"/>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.SwitchCompat android:id="@+id/img_disable_toggle" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:layout_height="2dp" android:layout_marginTop="2dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" style="@style/FlatCardSeparator"/>
+    <LinearLayout android:orientation="horizontal" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:weightSum="2">
+        <com.obwhatsapp.yo.tf android:gravity="center" android:id="@+id/automsgtv_delete_item" android:background="?android:attr/selectableItemBackground" android:paddingTop="10dp" android:paddingBottom="10dp" android:focusable="true" android:clickable="true" android:text="@string/str068c" android:layout_weight="1" style="@style/YoSettings_row"/>
+        <View android:background="@color/divider_gray" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp"/>
+        <com.obwhatsapp.yo.tf android:gravity="center" android:id="@+id/automsgtv_edit_item" android:background="?android:attr/selectableItemBackground" android:paddingTop="10dp" android:paddingBottom="10dp" android:focusable="true" android:clickable="true" android:text="@string/str05cb" android:layout_weight="1" android:paddingStart="@dimen/info_screen_padding" android:paddingEnd="@dimen/info_screen_padding" style="@style/YoSettings_row"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/header_placeholder" android:layout_width="match_parent" android:layout_height="@dimen/dimen0455"/>
+    <include layout="@layout/layout0562"/>
+    <com.obwhatsapp.group.view.custom.GroupDetailsCard android:id="@+id/group_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/layout0381"/>
+    <include layout="@layout/layout0216"/>
+    <include layout="@layout/privacy_card_v2"/>
+    <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0660" android:gravity="center" android:id="@+id/no_participant" android:paddingLeft="@dimen/dimen0154" android:paddingTop="@dimen/dimen0156" android:paddingRight="@dimen/dimen0154" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0e17"/>
+    <include layout="@layout/layout039c"/>
+    <com.obwhatsapp.chatinfo.view.custom.ChatInfoMediaCardV2 android:id="@+id/media_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02bd="@color/color065f" app:attr037a="@string/str19d9" style="@style/style019e"/>
+    <include layout="@layout/layout002b"/>
+    <include layout="@layout/layout0136"/>
+    <com.obwhatsapp.InfoCard android:orientation="vertical" android:id="@+id/invites_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style019e">
+        <FrameLayout android:background="@color/color065f" android:paddingLeft="@dimen/dimen0457" style="@style/style0183">
+            <com.obwhatsapp.WaTextView android:ellipsize="end" android:paddingRight="@dimen/dimen041e" android:text="@string/str0bd0" android:singleLine="true" style="@style/style0186"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/invites_info" style="@style/style0184"/>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/invites_recycler_view" android:background="@color/color065f" android:paddingTop="@dimen/dimen041d" android:paddingBottom="@dimen/dimen041c" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.obwhatsapp.InfoCard>
+    <include layout="@layout/layout02d5"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/participants_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/style01c4"/>
+        <LinearLayout android:orientation="horizontal" android:background="@color/color065f" android:paddingLeft="@dimen/dimen0457" android:paddingTop="0dp" style="@style/style0183">
+            <com.obwhatsapp.WaTextView android:id="@+id/participants_title" android:paddingTop="@dimen/dimen0765" android:paddingBottom="@dimen/dimen0763" android:layout_width="0dp" android:layout_weight="1" style="@style/style0187"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/participants_info" android:paddingTop="12dp" style="@style/style0184"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/participants_search" android:background="?attr/secondary_text_default_material_dark" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="-12dp" android:src="@drawable/ic_action_search" android:contentDescription="@string/str14a0" app:attr0532="@color/color04d2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/add_participant_layout" android:background="@color/color065f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/add_participant_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="@dimen/dimen074d">
+            <com.obwhatsapp.WaImageView android:id="@+id/add_participant_icon" android:background="@drawable/primary_light_circle_background" android:src="@drawable/ic_action_add_person" style="@style/style01b8"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/add_participant_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str00ba" android:layout_toRightOf="@+id/add_participant_icon" android:layout_centerVertical="true" style="@style/style01bc"/>
+        </RelativeLayout>
+        <include layout="@layout/layout0364"/>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/pending_participants_list_item" android:background="@drawable/selector_orange_gradient" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen074d">
+            <LinearLayout android:gravity="center_vertical" android:background="@drawable/selector_orange_gradient" android:layout_width="0dp" android:layout_height="@dimen/dimen074d" android:layout_weight="1">
+                <com.obwhatsapp.WaImageView android:id="@+id/pending_participants_icon" android:background="@drawable/gray_circle_background" android:src="@drawable/vec_ic_pending_participants" app:attr0532="@color/color061b" style="@style/style01b8"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/pending_participant_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0aa3" style="@style/style01bd"/>
+            </LinearLayout>
+            <com.obwhatsapp.WaTextView android:id="@+id/pending_participants_count_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen074b" style="@style/style0452"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

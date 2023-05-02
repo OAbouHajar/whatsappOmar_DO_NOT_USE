@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/online_toast_main"/>
+    <SwitchPreference android:title="@string/yoOnlineTo" android:key="chats_show_contact_online_toast_check" android:summary="@string/yoOnline" android:defaultValue="false"/>
+    <ListPreference android:entries="@array/online_toast_location" android:title="@string/yoOnlineToLocation" android:key="chats_show_contact_online_toast_location" android:summary="%s" android:defaultValue="Top" android:entryValues="@array/online_toast_location_values"/>
+    <PreferenceCategory android:title="@string/status_toast_main"/>
+    <SwitchPreference android:title="@string/viewed_your_status_toast" android:key="statuses_toast" android:summary="@string/viewed_your_status_toastS" android:defaultValue="true"/>
+    <PreferenceCategory android:title="@string/profile_toast_main"/>
+    <SwitchPreference android:title="@string/photo_changed_toast_t" android:key="profile_toast" android:summary="@string/photo_changed_toast_s" android:defaultValue="false"/>
+    <ListPreference android:entries="@array/online_tone_mode" android:title="@string/contact_online_tone_do" android:key="contact_online_tone_do" android:summary="%s" android:defaultValue="0" android:entryValues="@array/online_tone_values"/>
+    <com.obwhatsapp.yo.ColorPref android:title="@string/yoTost" android:key="yoTostC" android:summary="@string/yoTostSum"/>
+    <com.obwhatsapp.yo.ColorPref android:title="@string/yoText" android:key="yoTostT" android:summary="@string/yoTextSum"/>
+</PreferenceScreen>

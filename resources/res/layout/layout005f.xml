@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:background="@color/color04e6" android:padding="36dp" android:layout_width="match_parent" android:layout_height="150dp" android:src="@drawable/change_phone_alert"/>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/move_device_alert_info_and_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:textSize="20sp" android:textColor="@color/color0660" android:id="@+id/move_device_alert_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="20dp" android:layout_marginRight="24dp" android:text="@string/str005d" android:lineSpacingExtra="2sp" app:attr028d="sans-serif-medium"/>
+                <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:id="@+id/move_device_alert_desc_ph_num" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:lineSpacingExtra="3sp"/>
+                <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:id="@+id/move_device_alert_desc_time" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:drawableLeft="@drawable/clock_grey_filled" android:drawablePadding="8dp"/>
+                <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:id="@+id/move_device_alert_desc_to_device" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:drawableLeft="@drawable/device_icon" android:drawablePadding="8dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/loading_icon_and_message_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/loading_request_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" style="?android:attr/progressBarStyle"/>
+                <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/loading_request_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0070"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

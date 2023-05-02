@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.WaImageView android:background="@color/color04e6" android:padding="@dimen/dimen0513" android:layout_width="match_parent" android:layout_height="@dimen/dimen0512" android:src="@drawable/first_time_experience_header"/>
+    <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0515" android:textColor="@color/color0660" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0517" android:layout_marginTop="@dimen/dimen0514" android:layout_marginRight="@dimen/dimen0517" android:text="@string/str0cc9" android:lineSpacingExtra="@dimen/dimen0516" app:attr028d="sans-serif-medium"/>
+    <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen04da" android:textColor="@color/color06c5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0517" android:layout_marginTop="@dimen/dimen0511" android:layout_marginRight="@dimen/dimen0517" android:text="@string/str0cc8" android:lineSpacingExtra="@dimen/dimen04db"/>
+</LinearLayout>

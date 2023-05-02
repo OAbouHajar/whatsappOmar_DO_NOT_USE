@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen02a6">
+    <FrameLayout android:id="@+id/contact_selector" android:paddingLeft="@dimen/dimen04ec" android:layout_width="@dimen/dimen021a" android:layout_height="@dimen/dimen02a6" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.obwhatsapp.status.ContactStatusThumbnail android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/contact_photo" android:padding="2.5dp" android:layout_width="@dimen/dimen0799" android:layout_height="@dimen/dimen0799" android:scaleType="centerCrop" app:attr0120="@color/color0747" app:attr0121="@color/color0748" app:attr04fd="2.5dp" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+        <com.obwhatsapp.components.SelectionCheckView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/selection_check" android:layout_width="@dimen/dimen06e6" android:layout_height="@dimen/dimen06e6" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"/>
+    </FrameLayout>
+    <LinearLayout android:id="@+id/buttons" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.obwhatsapp.WaImageView android:id="@+id/overflow_icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_more_shadow" app:attr0532="@color/color0749" style="@style/style0000"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_upload" android:contentDescription="@string/str146a" app:attr0532="@color/color0659" style="@style/style0000"/>
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/progress" android:padding="12dp" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:indeterminate="true" android:indeterminateTint="@color/color0659" android:indeterminateTintMode="src_in" style="?android:attr/progressBarStyleLarge"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/title_container" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/buttons" android:layout_toRightOf="@+id/contact_selector" android:layout_centerVertical="true">
+        <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/views_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/attr0343"/>
+        <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/attr0342"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <include layout="@layout/yo_toolbar"/>
+    <com.obwhatsapp.yo.tf android:textSize="13sp" android:textStyle="normal" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/count" android:background="#44000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0d64" android:maxLines="1" android:lines="1" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/up" android:background="@drawable/fast_scroll_circle" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="75dp" android:src="@drawable/fast_scroll_arrow_down" android:scaleType="center" android:rotation="180" android:layout_marginEnd="16dp" app:tint="@color/secondary_text" app:tintMode="src_in"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/scroll_bottom" android:background="@drawable/fast_scroll_circle" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:src="@drawable/fast_scroll_arrow_down" android:scaleType="center" app:tint="@color/secondary_text" app:tintMode="src_in"/>
+    </FrameLayout>
+</LinearLayout>

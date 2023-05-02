@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/contact_photo_pos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_location_shadow"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="7dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="@drawable/primary_color_circle" android:layout_width="@dimen/dimen074a" android:layout_height="@dimen/dimen074a"/>
+            <com.obwhatsapp.location.ContactLiveLocationThumbnail android:layout_gravity="center" android:id="@+id/contact_photo" android:padding="2.5dp" android:layout_width="@dimen/dimen074a" android:layout_height="@dimen/dimen074a" android:scaleType="fitCenter" app:attr00d3="@color/color051b" app:attr00d4="2dp" app:attr00d5="12" app:attr04fc="@color/color051a" app:attr04fd="1dp" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+        </FrameLayout>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/contact_dot" android:background="@drawable/primary_color_circle" android:layout_width="4dp" android:layout_height="4dp" android:layout_marginTop="1dp" android:scaleType="center"/>
+    </LinearLayout>
+</FrameLayout>

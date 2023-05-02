@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout05b7"/>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/hero_img" android:layout_width="140dp" android:layout_height="140dp" android:layout_marginTop="16dp" android:src="@drawable/ic_hero_account_added_landing_mpin" android:contentDescription="@null"/>
+            <com.obwhatsapp.WaTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/str016a" style="@style/style01d4"/>
+            <com.obwhatsapp.WaTextView android:textColor="@color/color0505" android:gravity="center" android:layout_gravity="center" android:id="@+id/desc" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/str0166" android:lineSpacingExtra="6dp"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="24dp" android:layout_marginRight="16dp"/>
+            <include android:id="@+id/account_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0306"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0307"/>
+            <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0505" android:layout_gravity="center" android:id="@+id/overdraft_description" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:lineSpacingExtra="6dp"/>
+            <include layout="@layout/layout02fd"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/primary_button" android:layout_width="match_parent" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:maxLines="1" style="@style/style03a9"/>
+    <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/secondary_button" android:layout_width="match_parent" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:maxLines="1" style="@style/style03ab"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_marginTop="16dp" style="@style/style00d7"/>
+</LinearLayout>

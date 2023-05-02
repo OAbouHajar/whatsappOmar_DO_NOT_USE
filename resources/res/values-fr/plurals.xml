@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Il manque %1$s sur cet appareil pour le transfert. Veuillez libérer de l&apos;espace en utilisant l&apos;outil de gestion du stockage de WhatsApp.</item>
+    </plurals>
+</resources>

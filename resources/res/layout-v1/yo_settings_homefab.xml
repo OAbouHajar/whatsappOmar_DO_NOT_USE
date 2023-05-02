@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/yo_toolbar"/>
+    <FrameLayout android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/settings_divider_vertical_margin" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:layout_marginRight="@dimen/settings_divider_vertical_margin" android:layout_weight="1">
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/fab" android:background="@drawable/input_circle_green" android:visibility="invisible" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:layout_margin="8dp" android:src="@drawable/ic_action_message" android:scaleType="center"/>
+        <com.obwhatsapp.youbasha.ui.views.FloatingActionsMenu android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/multiple_actions" android:visibility="visible" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:layout_margin="8dp"/>
+    </FrameLayout>
+    <ListView android:id="@android:id/list" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:divider="@drawable/divider_gray" android:layout_weight="5"/>
+</LinearLayout>

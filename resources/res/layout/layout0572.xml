@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/status_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/title_protection" android:background="@drawable/status_playback_header" android:layout_width="match_parent" android:layout_height="150dp"/>
+    <FrameLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.status.playback.widget.StatusPlaybackProgressView android:id="@+id/playback_progress" android:padding="@dimen/dimen077a" android:layout_width="match_parent" android:layout_height="9dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_bar" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="?attr/attr0007">
+            <com.obwhatsapp.WaImageView android:id="@+id/back" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_cam_back" android:contentDescription="@string/str1baf" style="@style/style0000"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/profile_picture" android:background="@drawable/white_circle" android:padding="1.25dp" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop" style="@style/style0000"/>
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/status_header" android:background="?attr/attr044b" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color090b" android:ellipsize="end" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/style02ea"/>
+                <com.obwhatsapp.WaTextView android:ellipsize="end" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/style02e8"/>
+            </LinearLayout>
+            <com.obwhatsapp.status.playback.widget.AudioVolumeView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/volume" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24dp"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_shadow" style="@style/style03cc"/>
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    </FrameLayout>
+    <ViewStub android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/action_link_button_view_stub" android:layout="@layout/layout0579" android:layout_width="wrap_content" android:layout_height="@dimen/dimen005a" android:layout_marginLeft="@dimen/dimen005b" android:layout_marginRight="@dimen/dimen005b"/>
+</FrameLayout>

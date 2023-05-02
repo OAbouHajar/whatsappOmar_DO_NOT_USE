@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.youbasha.ui.views.YoFABView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:id="@+id/fab_yo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.obwhatsapp.youbasha.ui.views.FloatingActionsMenu android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/multiple_actions" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:layout_margin="8dp">
+        <com.obwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@+id/action_m" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/ic_action_compose" app:fab_title="Message Number"/>
+        <com.obwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@+id/action_b" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/lastoff" app:fab_title="Last Seen"/>
+        <com.obwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@+id/action_l" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/rlog" app:fab_title="Read Log"/>
+        <com.obwhatsapp.youbasha.ui.views.FloatingActionButton android:id="@+id/action_a" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/acj_fab" app:fab_title="OBMods"/>
+    </com.obwhatsapp.youbasha.ui.views.FloatingActionsMenu>
+</com.obwhatsapp.youbasha.ui.views.YoFABView>

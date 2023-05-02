@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/main_layout" android:background="?attr/attr044d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/proxy_switch_group" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/dimen070b" android:paddingTop="@dimen/dimen070e" android:paddingRight="@dimen/dimen070b" android:paddingBottom="@dimen/dimen070e" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.obwhatsapp.WaTextView android:id="@+id/use_proxy_title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str1329" android:singleLine="false" android:layout_weight="1" style="?attr/attr0467"/>
+                <androidx.appcompat.widget.SwitchCompat android:id="@+id/proxy_switcher" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <com.obwhatsapp.TextEmojiLabel android:id="@+id/proxy_info_description" android:paddingRight="48dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/attr0463"/>
+        </LinearLayout>
+        <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen070b" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen070b" android:text="@string/str1321" style="?attr/attr0462"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ip_connection_view_group" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:id="@+id/ip_address_text" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen070b" android:layout_marginTop="12dp" android:text="@string/str1326" android:singleLine="false" android:layout_weight="1" style="?attr/attr0467"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/connection_status_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen070b" android:layout_marginTop="6dp" android:layout_marginRight="@dimen/dimen070b" android:text="@string/str1325" style="?attr/attr0462"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

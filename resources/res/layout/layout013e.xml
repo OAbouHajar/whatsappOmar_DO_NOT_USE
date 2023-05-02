@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/contact_picker_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/layout05b9"/>
+        <FrameLayout android:id="@+id/frequently_forwarded_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include android:id="@+id/contact_list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/layout0140"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/footer_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-10dp" android:animateLayoutChanges="true">
+            <View android:id="@+id/shadow_top" android:background="@drawable/shadow_recipient_bar" android:layout_width="match_parent" android:layout_height="10dp"/>
+            <include android:visibility="gone" layout="@layout/layout0292"/>
+            <RelativeLayout android:id="@+id/recipients_container" android:background="@color/color064b" android:paddingRight="60dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaImageView android:id="@+id/recipients_chevron" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="15dp" android:src="@drawable/chevron_right" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerInParent="true" app:attr0532="@color/color0175"/>
+                <HorizontalScrollView android:id="@+id/recipients_scroller" android:paddingLeft="7dp" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/recipients_chevron" android:layout_alignParentTop="true" android:requiresFadingEdge="horizontal">
+                    <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color0177" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@+id/recipients" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="44dp" android:singleLine="true"/>
+                </HorizontalScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.obwhatsapp.components.FloatingActionButton android:id="@+id/send_old" android:visibility="gone" android:src="@drawable/input_send" android:contentDescription="@string/str14e7" style="@style/style03ac"/>
+</FrameLayout>

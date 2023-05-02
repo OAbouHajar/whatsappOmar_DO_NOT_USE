@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style02eb">
+        <item name="android:navigationBarColor">@color/color04f0</item>
+        <item name="?0x101056c">false</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/status_reactions" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen077f" android:textColor="@color/color090b" android:layout_gravity="center_horizontal" android:id="@+id/status_reactions_nux_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str168a"/>
+            <GridLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/emoji_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="4">
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_one" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077b" android:layout_marginTop="@dimen/dimen077b" android:layout_marginRight="@dimen/dimen077d" android:layout_marginBottom="@dimen/dimen077d">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_one" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_two" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077d" android:layout_marginTop="@dimen/dimen077b" android:layout_marginRight="@dimen/dimen077d" android:layout_marginBottom="@dimen/dimen077d" android:layout_marginHorizontal="@dimen/dimen077d">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_two" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_three" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077d" android:layout_marginTop="@dimen/dimen077b" android:layout_marginRight="@dimen/dimen077d" android:layout_marginBottom="@dimen/dimen077d" android:layout_marginHorizontal="@dimen/dimen077d">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_three" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_four" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077d" android:layout_marginTop="@dimen/dimen077b" android:layout_marginRight="@dimen/dimen077b" android:layout_marginBottom="@dimen/dimen077d">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_four" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_five" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077b" android:layout_marginTop="@dimen/dimen077d" android:layout_marginRight="@dimen/dimen077d" android:layout_marginBottom="@dimen/dimen077b">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_five" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_six" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077d" android:layout_marginTop="@dimen/dimen077d" android:layout_marginRight="@dimen/dimen077d" android:layout_marginBottom="@dimen/dimen077b" android:layout_marginHorizontal="@dimen/dimen077d">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_six" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_seven" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077d" android:layout_marginTop="@dimen/dimen077d" android:layout_marginRight="@dimen/dimen077d" android:layout_marginBottom="@dimen/dimen077b" android:layout_marginHorizontal="@dimen/dimen077d">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_seven" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+                <com.obwhatsapp.emoji.EmojiContainerView android:layout_gravity="center" android:id="@+id/emoji_container_eight" android:layout_width="@dimen/dimen077c" android:layout_height="@dimen/dimen077c" android:layout_marginLeft="@dimen/dimen077d" android:layout_marginTop="@dimen/dimen077d" android:layout_marginRight="@dimen/dimen077b" android:layout_marginBottom="@dimen/dimen077b">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/emoji_eight" android:layout_width="@dimen/dimen077e" android:layout_height="@dimen/dimen077e" android:scaleType="centerCrop"/>
+                </com.obwhatsapp.emoji.EmojiContainerView>
+            </GridLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/pen_mode_view_gradient_background" android:paddingBottom="@dimen/dimen0762" android:layout_width="match_parent" android:layout_height="@dimen/dimen0328">
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_thin" android:padding="@dimen/dimen060d" android:layout_width="@dimen/dimen060e" android:layout_height="@dimen/dimen060e" android:src="@drawable/pen_mode_thin"/>
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_medium" android:background="@drawable/pen_mode_selected_background" android:padding="@dimen/dimen060d" android:layout_width="@dimen/dimen060e" android:layout_height="@dimen/dimen060e" android:src="@drawable/pen_mode_medium"/>
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_thick" android:padding="@dimen/dimen060d" android:layout_width="@dimen/dimen060e" android:layout_height="@dimen/dimen060e" android:src="@drawable/pen_mode_thick"/>
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_blur" android:padding="@dimen/dimen00ba" android:layout_width="@dimen/dimen060e" android:layout_height="@dimen/dimen060e" android:src="@drawable/pen_mode_blur"/>
+    <Space android:id="@+id/pen_mode_blur_space" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content" android:background="@color/color0184" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+    <View android:background="@color/color0185" android:layout_width="match_parent" android:layout_height="0.3dp"/>
+    <com.obwhatsapp.WaTextView android:id="@+id/header" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="8dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/positive_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="8dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/positive_btn_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0532="@color/normal"/>
+        <com.obwhatsapp.WaTextView android:textSize="15sp" android:textColor="@color/normal" android:id="@+id/positive_btn_text" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:textAllCaps="true" android:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/negative_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="8dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" app:attr0532="@color/normal"/>
+        <com.obwhatsapp.WaTextView android:textSize="15sp" android:textColor="@color/normal" android:id="@+id/negative_btn_text" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:textAllCaps="true" android:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="4dp"/>
+    <View android:background="@color/color0186" android:layout_width="match_parent" android:layout_height="0.3dp"/>
+</LinearLayout>

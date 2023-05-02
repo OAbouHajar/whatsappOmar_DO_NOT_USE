@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.WaImageButton android:id="@+id/nux_close_button" android:background="?attr/attr044c" android:paddingLeft="20dp" android:paddingTop="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str1c24" app:attr0532="@color/color04d2"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_business_api_nux"/>
+            <com.obwhatsapp.WaTextView android:textSize="24sp" android:textColor="@color/color0660" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/str017c" android:fontFamily="sans-serif-medium"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color06c5" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/str017a" android:fontFamily="sans-serif" app:attr0339="24sp"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color06c5" android:gravity="center" android:id="@+id/nux_privacy_policy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str017b" android:fontFamily="sans-serif"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/btn_continue" android:layout_width="wrap_content" android:layout_margin="16dp" android:text="@string/str02ac" android:textAllCaps="false" style="@style/style03a2"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/dm_setting_header_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0765" android:layout_marginBottom="@dimen/dimen0769" android:src="@drawable/vec_ephemeral_account_setting"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/dm_setting_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762" android:layout_marginBottom="@dimen/dimen0762" android:text="@string/str0716" style="@style/style025c"/>
+            <RadioGroup android:orientation="vertical" android:id="@+id/dm_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color06c5" android:id="@+id/dm_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762" android:layout_marginBottom="@dimen/dimen0769"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color04f8" android:id="@+id/dm_learn_more" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762" android:layout_marginBottom="@dimen/dimen0769" android:text="@string/str1cf6"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

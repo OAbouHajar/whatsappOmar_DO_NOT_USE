@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:background="@drawable/category_media_card_thumbnail_image_bg" android:layout_width="@dimen/dimen017a" android:layout_height="@dimen/dimen017a"/>
+    <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/category_thumbnail_image" android:layout_width="@dimen/dimen017a" android:layout_height="@dimen/dimen017a"/>
+    <View android:id="@+id/category_thumbnail_text_bg" android:background="@drawable/category_media_card_thumbnail_text_bg" android:layout_width="@dimen/dimen017a" android:layout_height="@dimen/dimen017b" android:layout_alignBottom="@+id/category_thumbnail_image" android:alpha="0.4"/>
+    <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen017e" android:textColor="@color/color090b" android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/category_thumbnail_text" android:paddingLeft="@dimen/dimen017c" android:paddingTop="@dimen/dimen017d" android:paddingRight="@dimen/dimen017c" android:paddingBottom="@dimen/dimen017c" android:layout_width="@dimen/dimen017a" android:layout_height="@dimen/dimen017b" android:layout_alignBottom="@+id/category_thumbnail_image" app:attr028d="sans-serif-medium"/>
+</RelativeLayout>

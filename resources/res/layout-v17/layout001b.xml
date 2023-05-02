@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.obwhatsapp.yo.tf android:textAppearance="@style/style029e" android:textColor="?attr/attr0544" android:ellipsize="end" android:id="@+id/message" android:background="?attr/attr0545" android:paddingLeft="@dimen/dimen07e1" android:paddingTop="@dimen/dimen07e5" android:paddingRight="@dimen/dimen07e1" android:paddingBottom="@dimen/dimen07e5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen07e2" android:maxWidth="256dp" android:maxLines="3" android:paddingStart="@dimen/dimen07e1" android:paddingEnd="@dimen/dimen07e1"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.util.MarqueeToolbar android:id="@+id/title_toolbar" style="@style/style0381"/>
+    <FrameLayout android:id="@+id/search_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?attr/attr0007" android:elevation="@dimen/dimen005d"/>
+    <View style="@style/style024f"/>
+    <ListView android:id="@android:id/list" android:paddingLeft="@dimen/dimen01fc" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dp" android:choiceMode="singleChoice"/>
+</LinearLayout>

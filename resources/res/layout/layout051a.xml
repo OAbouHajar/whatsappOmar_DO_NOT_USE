@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/business_search_location" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style00da">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/divider" android:background="@color/color070c" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginBottom="@dimen/dimen0656"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/search_filter_recycler_view" android:paddingLeft="@dimen/dimen02fa" android:paddingRight="@dimen/dimen02fa" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0656"/>
+    </LinearLayout>
+</com.obwhatsapp.InfoCard>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="integer0000">220</integer>
+    <integer name="integer0001">150</integer>
+    <integer name="integer0002">150</integer>
+    <integer name="integer0003">150</integer>
+    <integer name="integer0005">150</integer>
+    <integer name="integer000b">2</integer>
+    <integer name="integer000c">300</integer>
+    <integer name="integer000f">150</integer>
+    <integer name="integer0010">12451000</integer>
+    <integer name="integer0011">320</integer>
+    <integer name="integer0012">100</integer>
+    <integer name="integer0013">100</integer>
+    <integer name="integer0014">100</integer>
+    <integer name="integer0015">250</integer>
+    <integer name="integer0016">200</integer>
+    <integer name="integer0017">999</integer>
+    <integer name="integer0018">2</integer>
+</resources>

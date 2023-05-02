@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bottom_sheet_parent" android:layout_width="match_parent" android:layout_height="match_parent" app:attr037b="@+id/bottom_sheet">
+    <View android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_sheet" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02fc="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View style="@style/style01c4"/>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/group_call_participant_picker_sheet_background" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/search_holder_sheet" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0419" android:elevation="@dimen/dimen005d">
+                <include layout="@layout/layout02f3"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_holder" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/dimen0419">
+                <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="@color/color00af" android:id="@+id/sheet_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <com.obwhatsapp.WaImageView android:id="@+id/search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_search_teal" android:contentDescription="@string/str1d7c" app:attr0532="@color/color00af" style="@style/style0000"/>
+            </LinearLayout>
+            <include android:id="@+id/multiple_picker" layout="@layout/layout03f2"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.obwhatsapp.components.MainChildCoordinatorLayout>

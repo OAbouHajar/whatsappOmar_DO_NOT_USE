@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/check_balance_divider" android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/check_balance_container" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/dimen070b" android:paddingTop="@dimen/dimen070f" android:paddingRight="@dimen/dimen070b" android:paddingBottom="@dimen/dimen070f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/check_balance_icon" android:layout_width="@dimen/dimen0601" android:layout_height="@dimen/dimen0601" android:layout_marginRight="@dimen/dimen0703" android:src="@drawable/bank_logo_placeholder"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0713" android:textColor="@color/color0711" android:id="@+id/check_balance_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str044f"/>
+    </LinearLayout>
+</LinearLayout>

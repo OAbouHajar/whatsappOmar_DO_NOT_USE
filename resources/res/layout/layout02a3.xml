@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageButton android:id="@+id/order_detail_close_btn" style="@style/style01d8"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/order_detail_title" android:text="@string/str1bab" android:layout_alignTop="@+id/order_detail_close_btn" android:layout_alignBottom="@+id/order_detail_close_btn" style="@style/style01d9"/>
+        <View android:id="@+id/order_detail_title_divider" android:layout_below="@+id/order_detail_close_btn" style="@style/style024c"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.obwhatsapp.components.Button android:enabled="false" android:id="@+id/create_order" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0615" style="@style/style03a2"/>
+            <com.obwhatsapp.components.Button android:id="@+id/decline_order" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0655" style="@style/style03aa"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/order_detail_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/button_container" android:layout_below="@+id/order_detail_title_divider" app:attr02f8="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/order_detail_loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

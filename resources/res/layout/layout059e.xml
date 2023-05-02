@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:background="?attr/attr044b" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen07c2" android:layout_marginTop="8dp" android:layout_marginRight="@dimen/dimen07c2">
+        <com.obwhatsapp.storage.SizeTickerView android:id="@+id/used_space_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr04c2="@dimen/dimen07c3" app:attr04c3="@dimen/dimen07c4"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen07c1" android:textColor="@color/color0710" android:id="@+id/used_space_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@+id/used_space_text"/>
+        <com.obwhatsapp.storage.SizeTickerView android:id="@+id/free_space_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:attr04c2="@dimen/dimen07c3" app:attr04c3="@dimen/dimen07c4"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/free_space_text" android:layout_alignParentRight="true">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/free_space_critical_icon" android:visibility="gone" android:layout_width="@dimen/dimen07c5" android:layout_height="@dimen/dimen07c5" android:layout_marginRight="3dp" android:src="@drawable/ic_settings_warning" android:includeFontPadding="false" app:attr0532="@color/color075f"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen07c1" android:textColor="@color/color0710" android:id="@+id/free_space_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.obwhatsapp.components.SegmentedProgressBar android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen07c2" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/dimen07c2" android:layout_marginBottom="14dp" app:attr04a6="@color/color065f" app:attr04a7="1dp" app:attr04a8="@color/color065f" app:attr04a9="@color/color075e" app:attr04aa="12dp"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/progress_bar_legend_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen07c2" android:layout_marginRight="@dimen/dimen07c2">
+        <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0710" android:layout_gravity="right" android:id="@+id/media_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="@string/str16fc" android:includeFontPadding="false" android:drawablePadding="8dp"/>
+        </FrameLayout>
+        <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0710" android:id="@+id/other_description_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/str16fe" android:includeFontPadding="false" android:drawablePadding="8dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="24dp"/>
+</LinearLayout>

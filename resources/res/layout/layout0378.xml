@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/screen_share_warning_dialog" android:layout_width="0dp" android:layout_height="wrap_content" app:attr0304="0" app:attr030a="0" app:attr031d="0" app:attr0321="0" app:attr0326="560dp">
+        <com.obwhatsapp.WaFrameLayout android:layout_gravity="center" android:background="@drawable/panel_popup_top" android:layout_width="match_parent" android:layout_height="112dp" app:attr058a="@color/color05db">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/keep_warning_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kic_sender_super_power_image"/>
+        </com.obwhatsapp.WaFrameLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr058d="@color/color05da">
+                <com.obwhatsapp.WaTextView android:textSize="20sp" android:textStyle="bold" android:gravity="left" android:id="@+id/sender_super_power_title" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0c07" style="@style/style027b"/>
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color06c5" android:gravity="left" android:id="@+id/sender_super_power_message" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0c06" style="@style/style027b"/>
+                <com.obwhatsapp.components.AutoOrientationLinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/footer_layout" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaButton android:id="@+id/learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1cf6" style="@style/style03a5"/>
+                    <com.obwhatsapp.WaButton android:id="@+id/ok_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0e89" style="@style/style03a5"/>
+                </com.obwhatsapp.components.AutoOrientationLinearLayout>
+            </com.obwhatsapp.WaLinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

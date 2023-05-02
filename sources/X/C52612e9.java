@@ -1,0 +1,143 @@
+package X;
+
+/* renamed from: X.2e9  reason: invalid class name and case insensitive filesystem */
+public final class C52612e9 extends C16470t7 {
+    public Boolean A00;
+    public Boolean A01;
+    public Boolean A02;
+    public Boolean A03;
+    public Boolean A04;
+    public Boolean A05;
+    public Double A06;
+    public Double A07;
+    public Double A08;
+    public Double A09;
+    public Integer A0A;
+    public Integer A0B;
+    public Integer A0C;
+    public Integer A0D;
+    public Integer A0E;
+    public Integer A0F;
+    public Integer A0G;
+    public Integer A0H;
+    public Long A0I;
+    public Long A0J;
+    public Long A0K;
+    public Long A0L;
+    public Long A0M;
+    public Long A0N;
+    public Long A0O;
+    public Long A0P;
+    public Long A0Q;
+    public Long A0R;
+    public Long A0S;
+    public Long A0T;
+    public Long A0U;
+    public Long A0V;
+    public Long A0W;
+    public String A0X;
+    public String A0Y;
+    public String A0Z;
+    public String A0a;
+    public String A0b;
+    public String A0c;
+
+    public C52612e9() {
+        super(1590, new AnonymousClass00F(1, 1, 5), 0, -1);
+    }
+
+    public void serialize(C29081Zz r3) {
+        r3.AdT(31, this.A0A);
+        r3.AdT(24, this.A0X);
+        r3.AdT(22, this.A0Y);
+        r3.AdT(23, this.A0Z);
+        r3.AdT(20, this.A06);
+        r3.AdT(15, this.A0I);
+        r3.AdT(18, this.A0J);
+        r3.AdT(17, this.A00);
+        r3.AdT(19, this.A01);
+        r3.AdT(16, this.A0K);
+        r3.AdT(37, this.A0B);
+        r3.AdT(14, this.A0L);
+        r3.AdT(21, this.A0M);
+        r3.AdT(36, this.A07);
+        r3.AdT(42, this.A08);
+        r3.AdT(43, this.A0N);
+        r3.AdT(44, this.A02);
+        r3.AdT(41, this.A03);
+        r3.AdT(38, this.A0O);
+        r3.AdT(30, this.A0C);
+        r3.AdT(4, this.A0P);
+        r3.AdT(39, this.A0D);
+        r3.AdT(10, this.A0Q);
+        r3.AdT(29, this.A0a);
+        r3.AdT(27, this.A0R);
+        r3.AdT(5, this.A0b);
+        r3.AdT(11, this.A0E);
+        r3.AdT(35, this.A0F);
+        r3.AdT(25, this.A0G);
+        r3.AdT(13, this.A0S);
+        r3.AdT(28, this.A04);
+        r3.AdT(26, this.A05);
+        r3.AdT(7, this.A09);
+        r3.AdT(1, this.A0H);
+        r3.AdT(6, this.A0T);
+        r3.AdT(9, this.A0U);
+        r3.AdT(3, this.A0V);
+        r3.AdT(8, this.A0W);
+        r3.AdT(40, this.A0c);
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder("WamMediaDownload2 {");
+        Integer num = this.A0A;
+        C16470t7.appendFieldToStringBuilder(sb, "connectionType", num == null ? null : num.toString());
+        C16470t7.appendFieldToStringBuilder(sb, "debugMediaException", this.A0X);
+        C16470t7.appendFieldToStringBuilder(sb, "debugMediaIp", this.A0Y);
+        C16470t7.appendFieldToStringBuilder(sb, "debugUrl", this.A0Z);
+        C16470t7.appendFieldToStringBuilder(sb, "downloadBytesTransferred", this.A06);
+        C16470t7.appendFieldToStringBuilder(sb, "downloadConnectT", this.A0I);
+        C16470t7.appendFieldToStringBuilder(sb, "downloadHttpCode", this.A0J);
+        C16470t7.appendFieldToStringBuilder(sb, "downloadIsReuse", this.A00);
+        C16470t7.appendFieldToStringBuilder(sb, "downloadIsStreaming", this.A01);
+        C16470t7.appendFieldToStringBuilder(sb, "downloadNetworkT", this.A0K);
+        Integer num2 = this.A0B;
+        C16470t7.appendFieldToStringBuilder(sb, "downloadQuality", num2 == null ? null : num2.toString());
+        C16470t7.appendFieldToStringBuilder(sb, "downloadResumePoint", this.A0L);
+        C16470t7.appendFieldToStringBuilder(sb, "downloadTimeToFirstByteT", this.A0M);
+        C16470t7.appendFieldToStringBuilder(sb, "estimatedBandwidth", this.A07);
+        C16470t7.appendFieldToStringBuilder(sb, "expressPathBytesSaved", this.A08);
+        C16470t7.appendFieldToStringBuilder(sb, "expressPathTimeSavedMs", this.A0N);
+        C16470t7.appendFieldToStringBuilder(sb, "hasLeveragedExpressPath", this.A02);
+        C16470t7.appendFieldToStringBuilder(sb, "isViewOnce", this.A03);
+        C16470t7.appendFieldToStringBuilder(sb, "mediaId", this.A0O);
+        Integer num3 = this.A0C;
+        C16470t7.appendFieldToStringBuilder(sb, "networkStack", num3 == null ? null : num3.toString());
+        C16470t7.appendFieldToStringBuilder(sb, "overallAttemptCount", this.A0P);
+        Integer num4 = this.A0D;
+        C16470t7.appendFieldToStringBuilder(sb, "overallBackendStore", num4 == null ? null : num4.toString());
+        C16470t7.appendFieldToStringBuilder(sb, "overallConnBlockFetchT", this.A0Q);
+        C16470t7.appendFieldToStringBuilder(sb, "overallConnectionClass", this.A0a);
+        C16470t7.appendFieldToStringBuilder(sb, "overallCumT", this.A0R);
+        C16470t7.appendFieldToStringBuilder(sb, "overallDomain", this.A0b);
+        Integer num5 = this.A0E;
+        C16470t7.appendFieldToStringBuilder(sb, "overallDownloadMode", num5 == null ? null : num5.toString());
+        Integer num6 = this.A0F;
+        C16470t7.appendFieldToStringBuilder(sb, "overallDownloadOrigin", num6 == null ? null : num6.toString());
+        Integer num7 = this.A0G;
+        C16470t7.appendFieldToStringBuilder(sb, "overallDownloadResult", num7 == null ? null : num7.toString());
+        C16470t7.appendFieldToStringBuilder(sb, "overallFileValidationT", this.A0S);
+        C16470t7.appendFieldToStringBuilder(sb, "overallIsEncrypted", this.A04);
+        C16470t7.appendFieldToStringBuilder(sb, "overallIsFinal", this.A05);
+        C16470t7.appendFieldToStringBuilder(sb, "overallMediaSize", this.A09);
+        Integer num8 = this.A0H;
+        C16470t7.appendFieldToStringBuilder(sb, "overallMediaType", num8 == null ? null : num8.toString());
+        C16470t7.appendFieldToStringBuilder(sb, "overallMmsVersion", this.A0T);
+        C16470t7.appendFieldToStringBuilder(sb, "overallQueueT", this.A0U);
+        C16470t7.appendFieldToStringBuilder(sb, "overallRetryCount", this.A0V);
+        C16470t7.appendFieldToStringBuilder(sb, "overallT", this.A0W);
+        C16470t7.appendFieldToStringBuilder(sb, "usedFallbackHint", this.A0c);
+        sb.append("}");
+        return sb.toString();
+    }
+}

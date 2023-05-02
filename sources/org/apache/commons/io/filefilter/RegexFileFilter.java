@@ -1,0 +1,50 @@
+package org.apache.commons.io.filefilter;
+
+import java.io.File;
+import java.io.Serializable;
+import java.util.regex.Pattern;
+import org.apache.commons.io.IOCase;
+
+public class RegexFileFilter extends AbstractFileFilter implements Serializable {
+    private final Pattern pattern;
+
+    public RegexFileFilter(String str) {
+        if (str != null) {
+            this.pattern = Pattern.compile(str);
+            return;
+        }
+        throw new IllegalArgumentException("Pattern is missing");
+    }
+
+    public RegexFileFilter(String str, int i2) {
+        if (str != null) {
+            this.pattern = Pattern.compile(str, i2);
+            return;
+        }
+        throw new IllegalArgumentException("Pattern is missing");
+    }
+
+    public RegexFileFilter(String str, IOCase iOCase) {
+        if (str != null) {
+            int i2 = 0;
+            if (iOCase != null && !iOCase.isCaseSensitive()) {
+                i2 = 2;
+            }
+            this.pattern = Pattern.compile(str, i2);
+            return;
+        }
+        throw new IllegalArgumentException("Pattern is missing");
+    }
+
+    public RegexFileFilter(Pattern pattern2) {
+        if (pattern2 != null) {
+            this.pattern = pattern2;
+            return;
+        }
+        throw new IllegalArgumentException("Pattern is missing");
+    }
+
+    public boolean accept(File file, String str) {
+        return this.pattern.matcher(str).matches();
+    }
+}

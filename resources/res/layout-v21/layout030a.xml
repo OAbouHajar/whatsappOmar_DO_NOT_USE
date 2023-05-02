@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:attr030a="0" app:attr031d="0" app:attr0321="0" layout="@layout/layout05b7"/>
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" app:attr0305="@+id/bottom_barrier" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/hero_img" android:visibility="invisible" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="16dp" android:src="@drawable/ic_account_found" android:contentDescription="@string/str0f6c"/>
+            <com.obwhatsapp.WaTextView android:gravity="center" android:id="@+id/bank_account_picker_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/str1296" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/style01d4"/>
+            <com.obwhatsapp.WaTextView android:textColor="@color/color0505" android:gravity="center" android:id="@+id/bank_account_picker_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/str1295" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+            <View android:id="@+id/header_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="24dp" android:layout_marginRight="16dp"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:attr02f8="androidx.recyclerview.widget.LinearLayoutManager"/>
+            <include android:id="@+id/shimmer_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0327"/>
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0307"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.Barrier android:id="@+id/bottom_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr005a="2" app:attr00f9="add_button,progress,upi_logo"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginBottom="16dp" app:attr0305="@+id/upi_logo" app:attr030a="0" app:attr031d="0" style="?android:attr/progressBarStyleInverse"/>
+    <com.obwhatsapp.components.Button android:gravity="center" android:id="@+id/add_button" android:visibility="gone" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:text="@string/str0fe3" android:maxLines="1" app:attr0304="@+id/progress" app:attr030a="0" app:attr031d="0" app:attr0321="@+id/progress" style="@style/style03a9"/>
+    <com.obwhatsapp.WaImageView android:id="@+id/upi_logo" android:visibility="gone" android:layout_marginBottom="16dp" app:attr0304="0" app:attr030a="0" app:attr031d="0" style="@style/style01f6"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

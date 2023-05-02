@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/acjtoolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:elevation="3dp" app:navigationIcon="?attr/homeAsUpIndicator" app:title="Who Blocked You" app:titleTextColor="@android:color/white">
+    <androidx.appcompat.widget.SwitchCompat android:textColor="#ffffffff" android:layout_gravity="right" android:id="@+id/disable_who_blocked_you" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:checked="false" android:text="Disable " android:layout_marginEnd="10dp"/>
+</androidx.appcompat.widget.Toolbar>

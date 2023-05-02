@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen043b" android:paddingTop="6dp" android:paddingRight="@dimen/dimen043b" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str05a6" android:lineSpacingMultiplier="1" style="@style/style027d"/>
+            <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaTextView android:textStyle="bold" android:paddingRight="8dp" android:layout_width="wrap_content" android:text="@string/str1c3e" style="@style/style0281"/>
+                    <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:text="@string/str05a7" style="@style/style0281"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaTextView android:textStyle="bold" android:paddingRight="8dp" android:layout_width="wrap_content" android:text="@string/str1c3e" style="@style/style0281"/>
+                    <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:text="@string/str05a8" style="@style/style0281"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

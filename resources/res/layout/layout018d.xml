@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="@dimen/dimen0268" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0274">
+        <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout01b4"/>
+            <include layout="@layout/layout01c1"/>
+            <include layout="@layout/layout01e6"/>
+            <include layout="@layout/layout018f"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/suspicious_link_indicator_holder" android:paddingLeft="@dimen/dimen0767" android:paddingRight="@dimen/dimen0767" android:paddingBottom="@dimen/dimen076b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.obwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style03b3" android:layout_gravity="left" android:id="@+id/caption" android:paddingLeft="@dimen/dimen00c8" android:paddingRight="@dimen/dimen00c8" android:paddingBottom="@dimen/dimen00c7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen023e"/>
+            <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b1"/>
+            </LinearLayout>
+        </com.obwhatsapp.components.TextAndDateLayout>
+    </LinearLayout>
+</merge>

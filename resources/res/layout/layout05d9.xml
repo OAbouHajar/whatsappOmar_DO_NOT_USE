@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dimen005e" app:attr03dc="@style/style0382" app:attr0529="@style/style036b"/>
+    <FrameLayout android:id="@+id/content" android:paddingTop="@dimen/dimen005e" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/picture_animation" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+        <com.obwhatsapp.mediaview.PhotoView android:id="@+id/picture" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.obwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

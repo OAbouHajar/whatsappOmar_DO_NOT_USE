@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">ট্রান্সফার করার জন্য এই ডিভাইসে %1$s জায়গার প্রয়োজন। অনুগ্রহ করে WhatsApp-এর স্টোরেজ ম্যানেজমেন্ট টুল ব্যবহার করে জায়গা খালি করুন।</item>
+    </plurals>
+</resources>

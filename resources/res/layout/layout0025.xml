@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/action_button" android:background="@drawable/forward_background" android:padding="@dimen/dimen0767" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <android.widget.Space android:id="@+id/space" android:layout_width="@dimen/dimen0762" android:layout_height="@dimen/dimen0762"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/rate_button" android:background="@drawable/forward_background" android:padding="@dimen/dimen0767" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_rate" android:contentDescription="@string/str05d0" app:attr0532="@color/color0675"/>
+</merge>

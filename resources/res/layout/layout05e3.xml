@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/virality_activity_root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/virality_bottom_sheet" android:background="@drawable/bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="225dp" app:attr02fc="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <com.obwhatsapp.WaFrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/progress_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:textColor="@color/color06c5" android:id="@+id/progress_text" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1a1f"/>
+                <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/virality_texts_container" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color06c5" android:id="@+id/payment_enabled_or_not_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/str1a21" app:attr028d="sans-serif-medium"/>
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color06c5" android:gravity="center_horizontal" android:id="@+id/virality_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1a20"/>
+            </LinearLayout>
+        </com.obwhatsapp.WaFrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/actionable_container" android:padding="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaButton android:textColor="@color/color090b" android:id="@+id/go_to_payments_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1a1e" style="@style/style03a2"/>
+            <com.obwhatsapp.WaButton android:id="@+id/done_or_cancel_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/str072c" style="@style/style03aa"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

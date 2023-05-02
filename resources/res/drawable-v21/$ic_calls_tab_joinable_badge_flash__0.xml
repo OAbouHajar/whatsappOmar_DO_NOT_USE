@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="@drawable/$ic_calls_tab_joinable_badge_flash__1" android:duration="1000" android:repeatCount="infinite" android:repeatMode="reverse" android:valueFrom="0.4" android:valueTo="0" android:valueType="floatType" android:propertyName="fillAlpha"/>

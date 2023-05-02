@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/postcode_item" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@color/color065f" android:paddingTop="@dimen/dimen064c" android:paddingBottom="@dimen/dimen064c" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dimen064c">
+        <com.obwhatsapp.WaImageView android:id="@+id/postcode_item_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen064d" android:src="@drawable/ic_business_location" android:tint="@color/color0472" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen064d"/>
+        <RelativeLayout android:paddingLeft="@dimen/dimen064e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/postcode_item_location" android:layout_centerVertical="true" android:paddingStart="@dimen/dimen064e" android:layout_toEndOf="@+id/postcode_item_location">
+            <com.obwhatsapp.WaTextView android:id="@+id/postcode_item_text" android:text="@string/str03cf" android:letterSpacing="0.02" style="@style/style0221"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06f2" android:id="@+id/postcode_item_location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/postcode_item_text" android:letterSpacing="0.02" style="@style/style0220"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/color0097" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

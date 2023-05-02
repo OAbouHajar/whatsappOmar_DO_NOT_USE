@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/camera_layout" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/camera_view_holder" android:layout_width="0dp" android:layout_height="0dp" app:attr0304="0" app:attr0317="0" app:attr031b="0" app:attr0321="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@+id/camera_protection" android:background="@color/color087c" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/camera_overlays_holder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/save_progress" android:background="@drawable/image_download_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge"/>
+</FrameLayout>

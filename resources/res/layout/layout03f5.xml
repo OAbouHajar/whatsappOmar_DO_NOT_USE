@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/contact_list_shimmer_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr046d="false">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="8dp" android:paddingRight="@dimen/dimen04ec" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0205">
+        <include layout="@layout/layout03f6"/>
+        <include layout="@layout/layout03f6"/>
+        <include layout="@layout/layout03f6"/>
+        <include layout="@layout/layout03f6"/>
+        <include layout="@layout/layout03f6"/>
+        <include layout="@layout/layout03f6"/>
+        <include layout="@layout/layout03f6"/>
+        <include layout="@layout/layout03f6"/>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

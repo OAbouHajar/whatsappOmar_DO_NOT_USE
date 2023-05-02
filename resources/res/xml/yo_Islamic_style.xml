@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceScreen android:icon="@drawable/quran_by_omar_ob_pic" android:title="@string/quran_by_omar_ob_title" android:summary="@string/quran_by_omar_ob_summary">
+        <Preference android:layout="@layout/quran_pic_by_Omar_Batheeb_OB"/>
+        <PreferenceScreen android:title="@string/quran_chosen_by_omar_ob">
+            <Preference android:layout="@layout/quran_chosen_by_omar_ob" android:selectable="true"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/read_as_sora_by_omar_ob">
+            <intent android:targetPackage="com.obwhatsapp" android:targetClass="com.example.quran.MainActivity_quran"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/read_as_part_by_omar_ob">
+            <intent android:targetPackage="com.obwhatsapp" android:targetClass="com.example.quran.MainActivity_quran_gz"/>
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/islamic_add_pic_by_omar_ob" android:title="@string/islamic_add_by_omar_ob" android:summary="@string/islamic_add_sum_by_omar_ob">
+        <Preference android:layout="@layout/oasis_of_athkar_by_omar_ob"/>
+        <PreferenceScreen android:icon="@drawable/legend_hadeeth" android:title="@string/ha_legend" android:summary="@string/ha_legend_sum">
+            <Preference android:layout="@layout/ha" android:selectable="true"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/morning_pic_by_omar_ob" android:title="@string/morning_azkar_by_omar_ob" android:summary="@string/morning_azkar_sum_by_omar_ob">
+            <Preference android:layout="@layout/morning_pic_by_omar_ob"/>
+            <Preference android:layout="@layout/morning_azkar_by_Omar_Batheeb_OB" android:selectable="true"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/evening_pic_by_omar_ob" android:title="@string/evening_azkar_by_omar_ob" android:summary="@string/evening_azkar_sum_by_omar_ob">
+            <Preference android:layout="@layout/evening_pic_by_omar_ob"/>
+            <Preference android:layout="@layout/evening_azkar_by_omar_ob" android:selectable="true"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/sleep_pic_by_omar_ob" android:title="@string/sleep_azkar_by_omar_ob" android:summary="@string/sleep_azkar_sum_by_omar_ob">
+            <Preference android:layout="@layout/sleep_pic_by_omar_ob"/>
+            <Preference android:layout="@layout/sleep_azkar_by_omar_ob" android:selectable="true"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/wakingup_pic_by_omar_ob" android:title="@string/wakingup_azkar_by_omar_ob" android:summary="@string/wakingup_azkar_sum_by_omar_ob">
+            <Preference android:layout="@layout/wakingup_pic_by_omar_ob"/>
+            <Preference android:layout="@layout/wakingup_azkar_by_omar_ob" android:selectable="true"/>
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <Preference android:icon="@drawable/update_by_omar_ob" android:title="@string/update_by_ob_omar" android:key="donate_key">
+        <intent android:action="android.intent.action.VIEW" android:data="http://updateomar.com/obwh"/>
+    </Preference>
+    <PreferenceScreen android:icon="@drawable/problem_by_omar_ob" android:title="@string/problem_by_omar_ob" android:summary="@string/problem_by_omar_ob_sum">
+        <Preference android:layout="@layout/problem_by_omar_ob_pic" android:selectable="true"/>
+        <Preference android:layout="@layout/problem_by_omar_ob" android:selectable="true"/>
+    </PreferenceScreen>
+</PreferenceScreen>

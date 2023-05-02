@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:attr0305="@+id/community_members_recycler_view" app:attr030a="0" app:attr031d="0" app:attr0321="0" layout="@layout/layout05b7"/>
+    <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/loading_community_member_progress_bar" android:visibility="gone" android:layout_width="@dimen/dimen04f7" android:layout_height="@dimen/dimen04f7" android:indeterminate="true" app:attr0114="@color/color090b" app:attr0305="0" app:attr030a="0" app:attr031d="0" app:attr0320="0"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/community_members_recycler_view" android:layout_width="0dp" android:layout_height="wrap_content" app:attr02ff="true" app:attr0305="@+id/footer" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/toolbar" app:attr0322="0" app:attr0323="2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

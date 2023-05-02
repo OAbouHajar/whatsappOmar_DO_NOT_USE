@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:gravity="center" android:id="@+id/title" android:paddingLeft="@dimen/dimen0652" android:paddingTop="10dp" android:paddingRight="@dimen/dimen0652" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/style01b9"/>
+    <View android:layout_width="match_parent" style="@style/style024b"/>
+</LinearLayout>

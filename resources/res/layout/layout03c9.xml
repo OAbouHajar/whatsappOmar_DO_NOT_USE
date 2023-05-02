@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/coordinator" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style0369" android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" app:attr0335="15" style="@style/style0380"/>
+        <androidx.appcompat.widget.SearchView android:id="@+id/search_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0403"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr04e0="0" app:attr04e5="@color/color053e" app:attr04e8="3dp" app:attr04ea="0dp" app:attr04ec="1" app:attr04ef="@dimen/dimen0519" app:attr04f0="@dimen/dimen0519" app:attr04f2="@color/color053a"/>
+        <View android:id="@+id/separator" style="@style/style024b"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02fc="@string/str1bdb"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

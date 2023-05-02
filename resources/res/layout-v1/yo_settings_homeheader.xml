@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/yo_toolbar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:visibility="gone" layout="@layout/layout05b7"/>
+        <include android:visibility="gone" layout="@layout/yo_settings_homeheader_tabs"/>
+        <include android:visibility="gone" layout="@layout/yo_settings_homeheader_one"/>
+        <FrameLayout android:id="@+id/yo_igstories_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <ListView android:id="@android:id/list" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:divider="@drawable/divider_gray" android:layout_weight="0.95"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/div2" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:layout_weight="0.05"/>
+    </LinearLayout>
+</LinearLayout>

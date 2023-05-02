@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/scroll_view" android:background="?attr/attr044d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/attr0466" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp" android:layout_marginBottom="8dp" android:text="@string/str14d4" app:attr028d="sans-serif-medium"/>
+        <RadioGroup android:paddingLeft="34dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:theme="?attr/attr0453" android:id="@+id/my_contacts_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <RadioButton android:theme="?attr/attr0453" android:id="@+id/my_contacts_except_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <RadioButton android:theme="?attr/attr0453" android:id="@+id/only_share_with_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <ViewStub android:id="@+id/status_privacy_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/attr0464" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp" android:text="@string/str14d3"/>
+    </LinearLayout>
+</ScrollView>

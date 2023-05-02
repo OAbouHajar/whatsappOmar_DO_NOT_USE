@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/pending_requests_notification" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:paddingLeft="@dimen/dimen0766" android:paddingRight="@dimen/dimen0763" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_pending_participants" app:attr0532="@color/color0478"/>
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0773" android:id="@+id/pending_requests_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0763" android:layout_weight="1" android:fontFamily="Roboto"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/pending_participants_dismiss" android:paddingLeft="@dimen/dimen0765" android:paddingTop="@dimen/dimen0765" android:paddingRight="14dp" android:paddingBottom="@dimen/dimen0765" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" app:attr0532="@color/color0478"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/style024d"/> &gt; 
+</LinearLayout>

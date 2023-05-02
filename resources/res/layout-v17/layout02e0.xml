@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/tab_container" android:layout_width="wrap_content" android:layout_height="@dimen/dimen07cb" android:animateLayoutChanges="true">
+        <com.obwhatsapp.WaTextView android:id="@+id/tab_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style0276"/>
+    </LinearLayout>
+</FrameLayout>

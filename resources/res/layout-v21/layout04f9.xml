@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.util.MarqueeToolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0529="@style/style0447">
+        <com.obwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/register_phone_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1d75" style="@style/style0228"/>
+    </com.whatsapp.util.MarqueeToolbar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:gravity="center_horizontal" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str138e" android:lineSpacingMultiplier="@dimen/dimen0686" style="@style/style027d"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:ellipsize="end" android:gravity="center" android:id="@+id/registration_country" android:focusableInTouchMode="false" android:layout_width="260dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="@string/str12a2" android:singleLine="true" android:inputType="none" android:backgroundTint="@color/color0659" style="@style/style00cb"/>
+            <com.obwhatsapp.components.PhoneNumberEntry android:gravity="center_vertical" android:id="@+id/registration_fields" android:layout_width="260dp" android:layout_height="45dp" app:attr03da="@color/color0659"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColorLink="@color/color04f8" android:gravity="center_horizontal" android:id="@+id/mistyped_undercard_text" android:paddingBottom="8dp" android:layout_width="match_parent" android:text="@string/str1389" style="@style/style027d"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color01b8" android:gravity="center_horizontal" android:id="@+id/carrier_charge_warning" android:paddingTop="8dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="match_parent" android:text="@string/str138c" style="@style/style027d"/>
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/registration_submit" android:layout_marginTop="8dp" android:layout_marginBottom="14dp" android:text="@string/str0de0" style="@style/style03a2"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color00ae" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/registration_info" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25"/>
+            <ViewStub android:id="@+id/tablet_beta_label_stub" android:paddingBottom="14dp" android:layout="@layout/layout05a8" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

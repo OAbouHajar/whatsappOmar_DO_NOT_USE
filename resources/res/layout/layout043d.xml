@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/order_details" android:background="@color/color05a0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/payment_details" android:background="@color/color05a1" android:paddingTop="@dimen/dimen05ae" android:paddingBottom="@dimen/dimen05ae" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/payment_currency_symbol_icon" android:layout_width="@dimen/dimen05b8" android:layout_height="@dimen/dimen05b6"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen05b3" android:textColor="@color/color0660" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0eb0"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen05b2" android:textColor="@color/color06c5" android:id="@+id/payment_details_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/message_biz" android:background="@color/color05a1" android:paddingTop="@dimen/dimen05ae" android:paddingBottom="@dimen/dimen05ae" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/message_biz_icon" android:layout_width="@dimen/dimen05b8" android:layout_height="@dimen/dimen05b6" android:src="@drawable/ic_settings_chats" app:attr0532="@color/color0791"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen05b3" android:textColor="@color/color0660" android:id="@+id/message_biz_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0ea1"/>
+    </LinearLayout>
+</LinearLayout>

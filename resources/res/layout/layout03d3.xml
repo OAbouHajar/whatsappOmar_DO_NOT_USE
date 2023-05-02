@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/video_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/thumbnailBackground" android:background="@color/color0092" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.mediaview.PhotoView android:layout_gravity="center" android:id="@+id/thumbnail" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+    <View android:id="@+id/footer" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.obwhatsapp.videoplayback.ExoPlayerErrorFrame android:id="@+id/exoplayer_error_elements" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.videoplayback.ExoPlaybackControlView android:id="@+id/controlView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

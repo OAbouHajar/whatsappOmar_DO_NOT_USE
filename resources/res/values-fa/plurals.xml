@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">‏برای انتقال، %1$s فضای خالی روی این دستگاه نیاز است. لطفاً با استفاده از ابزار مدیریت فضای ذخیره‌سازی واتساپ، مقداری فضا آزاد کنید.</item>
+    </plurals>
+</resources>

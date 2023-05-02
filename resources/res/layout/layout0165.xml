@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/rounded_corner_icebreaker_dialog_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/close" android:background="?attr/attr044c" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="16dp" android:src="@drawable/ic_close" android:layout_alignParentLeft="true" android:contentDescription="@string/str1c24" app:attr028d="sans-serif"/>
+        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0194" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str12a3" android:layout_alignTop="@+id/close" android:layout_alignBottom="@+id/close" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium"/>
+    </RelativeLayout>
+    <com.obwhatsapp.webpagepreview.WebPagePreviewView android:id="@+id/web_page_preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0652" android:layout_marginRight="@dimen/dimen0652" android:layout_marginBottom="@dimen/dimen0652"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/questions_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen0652" android:layout_marginRight="@dimen/dimen0652" android:layout_marginBottom="@dimen/dimen0652" android:layout_weight="1"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp">
+        <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0192" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str178a" android:fontFamily="sans-serif"/>
+        <com.obwhatsapp.WaButton android:textSize="@dimen/dimen00d4" android:id="@+id/send_button" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str14e6" android:fontFamily="sans-serif" style="@style/style03a2"/>
+    </FrameLayout>
+</LinearLayout>

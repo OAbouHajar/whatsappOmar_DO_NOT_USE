@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Для переноса на этом устройстве потребуется %1$s свободного места. Освободите место с помощью инструмента управления хранилищем WhatsApp.</item>
+    </plurals>
+</resources>

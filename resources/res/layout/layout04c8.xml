@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/attr044d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/faq_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0459="@drawable/ic_settings_help" app:attr045c="@string/str1546" style="?attr/attr0457"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/contact_us_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0459="@drawable/ic_settings_contacts" app:attr045b="@string/str0542" app:attr045c="@string/str1c3b" style="?attr/attr0457"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/get_help_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0459="@drawable/ic_settings_contacts" app:attr045c="@string/str1586" style="?attr/attr0457"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/terms_and_privacy_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0459="@drawable/ic_settings_terms_policy" app:attr045c="@string/str15cb" style="?attr/attr0457"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/upi_payment_notice" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr045c="@string/str15e1" style="?attr/attr0457"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/notice_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.obwhatsapp.settings.SettingsRowIconText android:id="@+id/about_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0459="@drawable/ic_settings_info" app:attr045c="@string/str151d" style="?attr/attr0457"/>
+    </LinearLayout>
+</ScrollView>

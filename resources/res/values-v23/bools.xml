@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="compat_control_corner_material">false</bool>
+    <bool name="compat_notification_large_icon_max_width">true</bool>
+</resources>

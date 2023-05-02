@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color046f" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/dimen0409">
+    <View android:background="@color/color01f6" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.gifsearch.controls.AdaptiveRecyclerView android:id="@+id/search_result" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="4dp"/>
+        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color00ae" android:gravity="center" android:layout_gravity="center" android:id="@+id/no_results" android:layout_width="match_parent" android:layout_height="@dimen/dimen0407" android:text="@string/str09c5"/>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/progress_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0407">
+            <ProgressBar android:layout_gravity="center" android:id="@+id/gif_trending_progress" android:layout_width="36dp" android:layout_height="36dp"/>
+        </FrameLayout>
+        <include layout="@layout/layout02be"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/search_container" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:layout_marginBottom="4dp">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/back" android:layout_width="40dp" android:layout_height="match_parent" android:src="@drawable/ic_back" android:contentDescription="@string/str014a" app:attr0532="@color/color04d2" app:attr0533="9" style="@style/style0000"/>
+        <com.obwhatsapp.WaEditText android:layout_gravity="center_vertical" android:id="@+id/search_bar" android:background="@android:color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:hint="@string/str09c2" android:singleLine="true" android:layout_weight="1" android:inputType="text" android:imeOptions="actionSearch"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/clear_search_btn" android:layout_width="40dp" android:layout_height="match_parent" android:src="@drawable/ic_close" android:contentDescription="@string/str045e" app:attr0532="@color/color04d2" app:attr0533="9" style="@style/style0000"/>
+    </LinearLayout>
+</LinearLayout>

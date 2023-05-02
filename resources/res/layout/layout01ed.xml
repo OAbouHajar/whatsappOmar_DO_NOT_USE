@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/conversations_archive_header" android:layout_width="match_parent" android:layout_height="@dimen/dimen0234">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/archived_row_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageView android:id="@+id/archived_row_image" android:layout_width="@dimen/dimen04e5" android:layout_height="match_parent" android:src="@drawable/ic_archive_chatcell" android:scaleType="center" app:attr0532="@color/color003b"/>
+        <com.obwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/archived_row" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str0102" style="@style/style01bc"/>
+        <FrameLayout android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/content_indicator_container" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen04e7" android:layout_weight="1">
+            <com.obwhatsapp.WaImageView android:layout_gravity="right" android:id="@+id/archive_row_important_chat_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen026e" android:src="@drawable/important_message" android:contentDescription="@string/str0cf8" app:attr0532="@color/color07a8"/>
+            <com.obwhatsapp.WaTextView android:textSize="12sp" android:textStyle="normal" android:gravity="center" android:layout_gravity="right" android:id="@+id/archive_row_counter" android:paddingLeft="@dimen/dimen0289" android:paddingTop="0dp" android:paddingRight="@dimen/dimen0289" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen026e" android:minWidth="21dp" android:minHeight="21dp" style="@style/style01bc"/>
+        </FrameLayout>
+    </LinearLayout>` 
+</LinearLayout>

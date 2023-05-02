@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/contact_picker_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/layout05b9"/>
+        <FrameLayout android:id="@+id/frequently_forwarded_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include android:id="@+id/contact_list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" layout="@layout/layout0140"/>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@+id/footer_container" android:background="@color/color0178" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <View android:id="@+id/shadow_top" android:background="@drawable/shadow_recipient_bar" android:layout_width="match_parent" android:layout_height="10dp" app:attr0305="0"/>
+        <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0dp" app:attr0305="@+id/recipients_container" app:attr032c="@dimen/dimen0762" layout="@layout/layout0292"/>
+        <RelativeLayout android:id="@+id/recipients_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0304="0">
+            <HorizontalScrollView android:layout_gravity="center_horizontal" android:id="@+id/recipients_scroller" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="50dp" android:layout_width="wrap_content" android:layout_height="@dimen/dimen0522" android:layout_marginLeft="@dimen/dimen0765" android:layout_marginRight="@dimen/dimen0524" android:layout_alignParentLeft="true" android:requiresFadingEdge="horizontal">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/status_icon" android:visibility="gone" android:layout_width="@dimen/dimen051f" android:layout_height="@dimen/dimen051f" android:layout_marginRight="@dimen/dimen0767" android:layout_marginBottom="1dp" android:src="@drawable/ic_status_recipient" app:attr0532="@color/color0660"/>
+                    <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color0660" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/recipients" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.obwhatsapp.WaImageButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/send" android:background="@drawable/input_circle" android:visibility="gone" android:layout_width="@dimen/dimen0527" android:layout_height="@dimen/dimen0527" android:layout_marginRight="@dimen/dimen0762" android:layout_marginBottom="@dimen/dimen0762" android:src="@drawable/input_send" android:scaleType="center" android:contentDescription="@string/str14e7"/>
+    <com.obwhatsapp.components.FloatingActionButton android:id="@+id/save_button" android:visibility="gone" android:src="@drawable/ic_fab_check" android:contentDescription="@string/str1482" style="@style/style03ac"/>
+</FrameLayout>

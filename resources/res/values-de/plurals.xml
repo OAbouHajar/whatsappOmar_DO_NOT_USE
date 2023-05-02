@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">‎%1$s werden auf diesem Gerät für die Übertragung benötigt. Bitte schaffe freien Speicherplatz, indem du das Speicherverwaltungstool von WhatsApp verwendest.</item>
+        <item quantity="one">‎%1$s wird auf diesem Gerät für die Übertragung benötigt. Bitte schaffe freien Speicherplatz, indem du das Speicherverwaltungstool von WhatsApp verwendest.</item>
+    </plurals>
+</resources>

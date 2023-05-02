@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.AssemMods.fakechat.utils.CircleImageView android:id="@+id/picture" android:layout_width="42dp" android:layout_height="42dp" android:layout_marginLeft="16dp" android:layout_marginRight="20dp" android:layout_marginStart="16dp" android:layout_marginEnd="20dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/sender_identity" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="16.5sp" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AGMods"/>
+        <TextView android:textSize="12sp" android:id="@+id/phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="+91 XXXXXXXXXX"/>
+    </LinearLayout>
+</LinearLayout>

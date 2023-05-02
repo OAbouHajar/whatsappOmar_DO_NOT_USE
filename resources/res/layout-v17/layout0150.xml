@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:enabled="false" android:orientation="horizontal" android:id="@+id/back" android:paddingLeft="@dimen/dimen0255" android:paddingRight="0dp" android:layout_width="@dimen/dimen0238" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/str1baf" android:paddingStart="@dimen/dimen0255" android:paddingEnd="0dp" style="@style/style0000">
+    <com.obwhatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/whatsapp_toolbar_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:attr04b4="?attr/attr02b9"/>
+    <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/icon_layout_anchor" android:layout_width="@dimen/dimen029e" android:layout_height="@dimen/dimen029d" android:layout_marginRight="0dp">
+        <com.obwhatsapp.WaImageView android:id="@+id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/style0133"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/subgroup_facepile_toolbar_photo" android:visibility="gone" android:layout="@layout/layout05e2" android:inflatedId="@+id/subgroup_facepile_toolbar_photo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@+id/transition_start" style="@style/style0133"/>
+        <ViewStub android:id="@+id/change_photo_progress_stub" android:layout="@layout/layout0151" style="@style/style0133"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ephemeral" app:attr0053="@color/color064b" app:attr0532="@color/color06ac"/>
+    </FrameLayout>
+</LinearLayout>

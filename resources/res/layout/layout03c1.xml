@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/background" android:background="@color/color01d5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/title_background" android:background="@color/color00a3" android:paddingBottom="@dimen/dimen005e" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ListView android:id="@android:id/list" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/color0792" android:textFilterEnabled="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0dp" android:fastScrollEnabled="false"/>
+        <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:background="@color/color064b" android:layout_width="match_parent" android:layout_height="@dimen/dimen005e" app:attr03dc="@style/style0382" app:attr0529="@style/style036b"/>
+        </FrameLayout>
+        <View android:layout_gravity="top" android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <View android:layout_gravity="bottom" android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.obwhatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</com.obwhatsapp.KeyboardPopupLayout>

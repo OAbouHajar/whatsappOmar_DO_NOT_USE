@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ban_info" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color0660" android:id="@+id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="24dp" android:layout_marginRight="24dp" android:text="@string/str0152" android:lineSpacingExtra="4sp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/appeal_submitted_view" android:background="@drawable/ban_appeal_form_submitted_background" android:paddingLeft="36dp" android:paddingTop="16dp" android:paddingRight="36dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="24dp">
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0660" android:gravity="center_horizontal" android:id="@+id/appeal_submitted_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0154" android:lineSpacingExtra="4sp"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color06c5" android:gravity="center_horizontal" android:id="@+id/appeal_submitted_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/str0155" android:lineSpacingExtra="4sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

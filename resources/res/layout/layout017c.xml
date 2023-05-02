@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0274" android:minWidth="@dimen/dimen0268">
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01e6"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout05aa"/>
+        <com.obwhatsapp.conversation.conversationrow.DynamicButtonsRowContentLayout android:id="@+id/dynamic_reply_buttons_message_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.obwhatsapp.conversation.conversationrow.NativeFlowButtonsRowContentLayout android:id="@+id/native_flow_action_button_content" android:layout_width="@dimen/dimen0268" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.obwhatsapp.conversation.conversationrow.DynamicButtonsLayout android:id="@+id/dynamic_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</merge>

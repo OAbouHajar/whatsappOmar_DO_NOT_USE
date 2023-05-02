@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/action_bar" layout="@layout/layout05b9"/>
+    <com.obwhatsapp.contact.picker.BidiContactListView android:id="@android:id/list" android:background="@android:color/transparent" android:paddingLeft="@dimen/dimen01fc" android:paddingRight="@dimen/dimen01fd" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true"/>
+    <FrameLayout android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/init_contacts_progress" android:padding="@dimen/dimen0765" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/share_link_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/contacts_section" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:gravity="center" android:id="@+id/invite_empty_description" android:paddingLeft="@dimen/dimen043b" android:paddingTop="@dimen/dimen076e" android:paddingRight="@dimen/dimen043b" android:paddingBottom="@dimen/dimen076c" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style027b"/>
+            <com.obwhatsapp.components.Button android:layout_gravity="center" android:id="@+id/button_open_permission_settings" android:layout_marginBottom="@dimen/dimen0766" android:text="@string/str11f1" style="@style/style03a2"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

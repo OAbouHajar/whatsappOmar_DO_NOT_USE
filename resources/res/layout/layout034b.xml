@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaTextView android:textColor="@color/color0660" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str10f5" app:attr030a="0" app:attr031d="0" app:attr0321="0" style="@style/style0038"/>
+    <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" app:attr031d="0" app:attr0320="@+id/title"/>
+    <com.obwhatsapp.WaTextView android:id="@+id/notes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/str10f4" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/radio_group"/>
+    <com.obwhatsapp.components.Button android:id="@+id/cancel_button" android:text="@string/str0394" app:attr028d="sans-serif-medium" app:attr030b="@+id/confirm_button" app:attr0320="@+id/notes" style="@style/style03a4"/>
+    <com.obwhatsapp.components.Button android:id="@+id/confirm_button" android:text="@string/str051f" app:attr030a="0" app:attr0320="@+id/notes" style="@style/style03a4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

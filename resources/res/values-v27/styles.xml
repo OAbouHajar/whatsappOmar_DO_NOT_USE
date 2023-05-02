@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0232">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/color04f0</item>
+        <item name="?0x101056c">true</item>
+    </style>
+    <style name="style0233">
+        <item name="android:windowBackground">@color/color0792</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/color04f0</item>
+        <item name="?0x101056c">true</item>
+    </style>
+    <style name="style02eb">
+        <item name="android:navigationBarColor">@color/color04f0</item>
+        <item name="?0x101056c">true</item>
+    </style>
+    <style name="style02ec">
+        <item name="android:windowBackground">@color/color0092</item>
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="?0x101056c">false</item>
+        <item name="attr0009">@style/style0442</item>
+        <item name="attr00ee">@color/color0092</item>
+        <item name="attr00ef">@color/color0792</item>
+        <item name="attr02b9">@drawable/ic_back</item>
+    </style>
+    <style name="style0309">
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="style0311">
+        <item name="android:windowBackground">@color/color0092</item>
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="style031b">
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="?0x101056c">false</item>
+        <item name="attr00ea">@android:color/white</item>
+    </style>
+    <style name="style0342">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="?0x101056c">false</item>
+        <item name="attr00e6">@color/color0659</item>
+        <item name="attr00ee">@color/color064b</item>
+        <item name="attr00ef">@color/color0655</item>
+    </style>
+</resources>

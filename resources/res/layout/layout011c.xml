@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="?attr/attr0007">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/close_btn" android:visibility="visible" android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/ic_close" android:scaleType="center" android:contentDescription="@string/str1c24"/>
+        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color06c5" android:gravity="center" android:layout_gravity="center" android:id="@+id/confirm_dob_title_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1d46" app:attr028d="sans-serif-medium"/>
+    </FrameLayout>
+    <View android:id="@+id/extra_info_education_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color06c5" android:id="@+id/confirm_dob_desc_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1d45" android:lineSpacingExtra="5sp"/>
+            <com.obwhatsapp.WaEditText android:id="@+id/dob_edit_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/str1d4a"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.obwhatsapp.WaButton android:id="@+id/continue_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="32dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/str1d49" style="@style/style03a2"/>
+</LinearLayout>

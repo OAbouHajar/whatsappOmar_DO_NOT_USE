@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/reactions_bottom_sheet" android:background="@drawable/bottom_sheet_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="center_horizontal" android:id="@+id/reactions_bottom_sheet_handle" android:background="@drawable/reactions_bottom_sheet_handle" android:layout_width="@dimen/dimen067e" android:layout_height="@dimen/dimen067d" android:layout_marginTop="@dimen/dimen0762"/>
+    <com.obwhatsapp.WaTabLayout android:layout_gravity="left" android:id="@+id/reactions_bottom_sheet_tab_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr04e5="@color/color068a" app:attr04e6="false" app:attr04eb="@dimen/dimen0683" app:attr04ec="0" app:attr04ef="@dimen/dimen0767" app:attr04f0="@dimen/dimen0767"/>
+    <View android:id="@+id/reactions_bottom_sheet_divider" android:background="@color/color0687" android:layout_width="match_parent" android:layout_height="@dimen/dimen067b"/>
+    <com.obwhatsapp.WaViewPager android:id="@+id/reactions_bottom_sheet_view_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

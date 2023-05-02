@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@android:id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.collections.observablelistview.ObservableListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style019b"/>
+    <FrameLayout android:gravity="center" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaTextView android:textSize="17sp" android:textColor="@color/color090a" android:gravity="center" android:layout_gravity="center" android:id="@+id/welcome_statuses_message" android:paddingLeft="32dp" android:paddingTop="96dp" android:paddingRight="32dp" android:paddingBottom="48dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style027b"/>
+        <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/search_no_matches" android:paddingLeft="12dp" android:paddingRight="12dp" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="96dp"/>
+        <FrameLayout android:id="@+id/statuses_empty_no_contacts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/contacts_empty_permission_denied" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/init_statuses_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    </FrameLayout>
+</FrameLayout>

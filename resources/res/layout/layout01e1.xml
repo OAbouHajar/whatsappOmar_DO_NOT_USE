@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/conversation_row_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0274" android:minHeight="30dp">
+        <include layout="@layout/layout01b6"/>
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01e6"/>
+        <FrameLayout android:id="@+id/view_once_media_container_large" android:layout_width="match_parent" android:layout_height="@dimen/dimen022a" android:layout_margin="@dimen/dimen0767">
+            <include layout="@layout/layout01e0"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/view_once_media_container_small" android:paddingLeft="@dimen/dimen0231" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.obwhatsapp.conversation.conversationrow.components.ViewOnceDownloadProgressView android:gravity="center" android:layout_gravity="center" android:id="@+id/view_once_download_small" android:paddingRight="@dimen/dimen022f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0230" android:layout_marginBottom="@dimen/dimen0230"/>
+            <com.obwhatsapp.components.TextAndDateLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0299" android:gravity="center_vertical" android:layout_gravity="left" android:id="@+id/view_once_media_type_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0233" android:layout_marginBottom="@dimen/dimen0233" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="0dp"/>
+                <include android:gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout0186"/>
+            </com.obwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

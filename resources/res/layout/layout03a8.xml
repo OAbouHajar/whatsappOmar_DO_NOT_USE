@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/nearby_places_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36dp">
+    <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:gravity="left" android:id="@+id/nearby_places" android:paddingLeft="16dp" android:paddingTop="11dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str0c96"/>
+</FrameLayout>

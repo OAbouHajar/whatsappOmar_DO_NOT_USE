@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style00da">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="@dimen/dimen02f6" android:src="@drawable/ic_location_nearby_disabled" android:scaleType="center" app:attr0304="0" app:attr031d="0" app:attr0321="0" app:attr0532="@color/color04cd"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/default_location" android:paddingTop="@dimen/dimen0653" android:paddingBottom="@dimen/dimen0653" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen02f6" android:layout_marginRight="@dimen/dimen0652" android:text="@string/str0220" app:attr0304="0" app:attr031c="@+id/icon" app:attr0321="0" style="@style/style01bd"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.obwhatsapp.InfoCard>

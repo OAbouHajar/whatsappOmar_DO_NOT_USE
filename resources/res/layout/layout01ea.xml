@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:background="@color/color07a4" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:textSize="13sp" android:textStyle="bold" android:textColor="@color/color07a3" android:gravity="center" android:layout_gravity="center" android:id="@+id/unread_divider_tv" android:background="@drawable/bar_new_messages_rounded" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0053="@color/color07a2"/>
+    </FrameLayout>
+</FrameLayout>

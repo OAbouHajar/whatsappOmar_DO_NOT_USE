@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/bg_map_entrypoint" android:layout_width="match_parent" android:layout_height="150dp" android:layout_margin="@dimen/dimen0652" app:attr009c="16dp" app:attr009d="0dp">
+    <FrameLayout android:id="@+id/map_preview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.WaFrameLayout android:id="@+id/map_overlay" android:background="@drawable/bg_map_entrypoint_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color0659" android:layout_gravity="center" android:id="@+id/discover_businesses_btn" android:background="@drawable/bg_map_view_entrypoint_button" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str01bf" app:attr028d="sans-serif-medium" app:attr0317="0" app:attr031b="0" app:attr0320="@+id/nearby_hint"/>
+    <com.obwhatsapp.WaFrameLayout android:id="@+id/border" android:background="@drawable/bg_map_entrypoint" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0301">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="?0x101062c">@color/color073a</item>
+        <item name="?0x101062d">@drawable/splash_logo</item>
+        <item name="?0x101062f">@drawable/splash_screen_branding_logo_padded</item>
+        <item name="attr0597">false</item>
+        <item name="attr05a0">true</item>
+    </style>
+</resources>

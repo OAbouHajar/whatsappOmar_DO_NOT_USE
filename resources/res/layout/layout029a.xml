@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cart_empty_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cart_title_divider">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.core.widget.NestedScrollView android:layout_gravity="center" android:id="@+id/cart_empty_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/dimen015c" android:paddingTop="@dimen/dimen043b" android:paddingRight="@dimen/dimen015c" android:paddingBottom="@dimen/dimen043b" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/layout00f2"/>
+                    <com.obwhatsapp.WaTextView android:textSize="20sp" android:textColor="@color/color06f1" android:id="@+id/empty_cart_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/str078d" app:attr028d="sans-serif-medium"/>
+                    <com.obwhatsapp.WaTextView android:textSize="17sp" android:textColor="@color/color06f2" android:gravity="center" android:id="@+id/empty_cart_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen043b" android:text="@string/str078c" android:lineSpacingExtra="4dp"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </FrameLayout>
+        <com.obwhatsapp.components.Button android:id="@+id/cart_empty_view_catalog_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen043b" android:layout_marginTop="12dp" android:layout_marginRight="@dimen/dimen043b" android:layout_marginBottom="12dp" android:text="@string/str19d1" android:layout_weight="0" style="@style/style03a2"/>
+    </LinearLayout>
+</merge>

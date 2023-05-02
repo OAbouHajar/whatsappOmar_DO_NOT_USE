@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape>
+            <solid android:color="@color/color01fc"/>
+            <corners android:radius="11dp"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="fill" android:src="@drawable/encr_key_reveal" android:alpha="0.1"/>
+    </item>
+</layer-list>

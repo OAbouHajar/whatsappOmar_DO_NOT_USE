@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">转移数据需要 %1$s 的存储空间，请使用 WhatsApp 的存储管理工具清理出一些空间。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/header_placeholder" android:layout_width="match_parent" android:layout_height="@dimen/dimen0455"/>
+    <include layout="@layout/layout0562"/>
+    <View android:id="@+id/header_bottom_shadow" android:visibility="gone" style="@style/style01b6"/>
+    <ViewStub android:id="@+id/business_details_card_stub" android:inflatedId="@+id/business_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/contact_details_card_stub" android:inflatedId="@+id/contact_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/layout0139"/>
+    <include layout="@layout/privacy_card_v2"/>
+    <com.obwhatsapp.chatinfo.view.custom.ChatInfoMediaCardV2 android:id="@+id/media_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02bd="@color/color065f" app:attr037a="@string/str19d9" style="@style/style019e"/>
+    <include layout="@layout/layout039c"/>
+    <include layout="@layout/layout002b"/>
+    <include layout="@layout/layout0136"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/groups_card" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/style01c4"/>
+        <FrameLayout android:background="@color/color065f" android:paddingLeft="@dimen/dimen0457" style="@style/style0183">
+            <com.obwhatsapp.WaTextView android:ellipsize="end" android:id="@+id/groups_in_common" android:singleLine="true" style="@style/style0187"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout0200"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

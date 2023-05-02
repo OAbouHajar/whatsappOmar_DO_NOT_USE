@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.obwhatsapp.WaImageButton android:id="@+id/speaker_btn" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_voip_speaker_control" style="?attr/attr0574"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bluetooth_btn_layout" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.obwhatsapp.WaImageButton android:id="@+id/bluetooth_btn" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_voip_bluetooth_control" style="?attr/attr0574"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/toggle_video_btn_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.obwhatsapp.WaImageButton android:id="@+id/toggle_video_btn" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_voip_video_control" style="?attr/attr0574"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.obwhatsapp.WaImageButton android:id="@+id/mute_btn" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_voip_mute_control" style="?attr/attr0574"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/end_call_btn_layout" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.obwhatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/footer_end_call_btn" android:background="@drawable/call_control_sheet_end_call" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_voip_end_call_control" android:contentDescription="@string/str1ac4" app:attr0532="@color/color090b"/>
+    </FrameLayout>
+</merge>

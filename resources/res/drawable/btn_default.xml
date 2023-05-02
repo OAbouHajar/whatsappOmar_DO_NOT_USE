@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:insetLeft="@dimen/dimen00e8" android:insetRight="@dimen/dimen00e8" android:insetTop="@dimen/dimen00e9" android:insetBottom="@dimen/dimen00e9">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/dimen00c6"/>
+        <solid android:color="@color/color090b"/>
+        <padding android:left="@dimen/dimen00ea" android:top="@dimen/dimen00eb" android:right="@dimen/dimen00ea" android:bottom="@dimen/dimen00eb"/>
+    </shape>
+</inset>

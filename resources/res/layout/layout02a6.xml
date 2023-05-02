@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageView android:id="@+id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen06f1" android:src="@drawable/settings_2fa_done"/>
+        <com.obwhatsapp.WaTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/str1854" style="@style/style027d"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <include android:layout_width="wrap_content" android:layout_height="32dp" android:layout_above="@+id/done_button" android:layout_centerHorizontal="true" layout="@layout/layout042a"/>
+            <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/done_button" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" android:text="@string/str072c" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/style03a2"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

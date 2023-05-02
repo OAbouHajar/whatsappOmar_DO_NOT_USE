@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen015f">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@drawable/category_image_bg" style="@style/style00ff"/>
+        <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/image_category_list_item" style="@style/style0100"/>
+    </FrameLayout>
+    <com.obwhatsapp.WaTextView android:id="@+id/title_category_list_item" android:layout_width="0dp" android:layout_weight="1" style="@style/style0105"/>
+    <com.obwhatsapp.WaImageView android:id="@+id/indicator_category_list_item" android:layout_width="@dimen/dimen0169" android:layout_height="@dimen/dimen0169" android:layout_marginRight="@dimen/dimen0161"/>
+</LinearLayout>

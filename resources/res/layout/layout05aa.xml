@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content" android:paddingLeft="@dimen/dimen0296" android:paddingTop="@dimen/dimen0296" android:paddingRight="@dimen/dimen0296" android:paddingBottom="@dimen/dimen0297" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <view android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="@dimen/dimen0266" android:scaleType="centerCrop" class="com.obwhatsapp.conversation.conversationrow.ConversationRowDocument$DocumentPreviewView"/>
+    <View android:id="@+id/preview_separator" android:background="@color/color01a8" android:layout_width="match_parent" android:layout_height="0.3dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/document_info_container" android:background="@color/color0722" android:paddingLeft="@dimen/dimen026f" android:paddingRight="@dimen/dimen026f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/icon" android:paddingTop="@dimen/dimen026f" android:paddingBottom="@dimen/dimen026f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen026f" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/dimen026f" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.obwhatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="@color/color01b0" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/media_transfer_eta" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0122"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/metadata_container" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:id="@+id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0122"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/bullet_info" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0123"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0122"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/bullet_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0123"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/file_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0122"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/control_btn_holder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/control_btn" android:background="@color/color01ad" android:padding="@dimen/dimen026f" android:layout_width="42dp" android:layout_height="42dp" android:scaleType="fitCenter" android:alpha="0.7" app:attr0532="@color/color01dd"/>
+            <ViewStub android:layout_gravity="center" android:id="@+id/progress_bar" android:layout="@layout/layout0102" android:inflatedId="@+id/progress_bar" android:layout_width="42dp" android:layout_height="42dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

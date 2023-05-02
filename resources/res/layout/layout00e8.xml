@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.camera.overlays.AutofocusOverlay android:id="@+id/autofocus_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.camera.overlays.ZoomOverlay android:id="@+id/zoom_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.camera.overlays.ShutterOverlay android:id="@+id/shutter_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

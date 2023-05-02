@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/list_row_container" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+        <LinearLayout android:orientation="vertical" android:id="@+id/thumbnail" android:padding="3dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/list_image" android:layout_width="40dp" android:layout_height="40dp" xmlns:ns1="http://schemas.android.com/apk/it.neokree.materialtabs" ns1:civ_border_width="1dp" xmlns:ns2="http://schemas.android.com/apk/it.neokree.materialtabs" ns2:civ_border_color="#ffcccccc"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/centerContent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="4">
+            <com.obwhatsapp.yo.tf android:textSize="17sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff555555" android:id="@+id/name_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" "/>
+            <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.yo.tf android:textSize="15sp" android:textColor="#ff888888" android:id="@+id/status_privacy" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" "/>
+                <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@+id/block_date_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.yo.tf android:textSize="15sp" android:textColor="#ff888888" android:id="@+id/block_date" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="01/01/2022 00:01"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

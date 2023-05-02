@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/str050f" style="@style/style010c"/>
+        <com.obwhatsapp.WaTextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str050e" style="@style/style010b"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/header_image" android:layout_width="@dimen/dimen01da" android:layout_height="@dimen/dimen01d8" android:layout_marginTop="@dimen/dimen01d9" android:layout_marginBottom="@dimen/dimen01d7" android:src="@drawable/ic_linked_android"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress_indicator" android:layout_width="@dimen/dimen01db" android:layout_height="wrap_content" android:progressTint="@color/color0659" android:indeterminateTint="@color/color0659" android:indeterminateTintMode="src_atop" style="?android:attr/progressBarStyleHorizontal"/>
+        <com.obwhatsapp.WaLinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp">
+            <com.obwhatsapp.WaImageView android:layout_width="@dimen/dimen04bf" android:layout_height="@dimen/dimen04bf" android:src="@drawable/ic_encryption_lock"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen04bf" android:textColor="@color/color06c5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/str07f1" style="@style/style029a"/>
+        </com.obwhatsapp.WaLinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/payment_entry_action" android:background="@drawable/selector_next_payment_entry_action_button" android:layout_width="match_parent" android:layout_height="45dp" android:minWidth="72dp" android:minHeight="45dp">
+    <com.obwhatsapp.WaTextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/color090b" android:gravity="center" android:layout_gravity="center" android:id="@+id/send_payment_send" android:layout_width="wrap_content" android:layout_height="@dimen/dimen0494" android:text="@string/str0de0" android:contentDescription="@string/str0de0" android:textAllCaps="true" android:lineHeight="16dp"/>
+</FrameLayout>

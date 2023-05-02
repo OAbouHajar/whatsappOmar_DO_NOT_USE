@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Thiết bị này cần có %1$s trống để chuyển tệp. Vui lòng giải phóng dung lượng bằng công cụ quản lý bộ nhớ của WhatsApp.</item>
+    </plurals>
+</resources>

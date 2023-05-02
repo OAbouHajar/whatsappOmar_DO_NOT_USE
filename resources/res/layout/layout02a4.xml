@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/dimen0454" android:paddingBottom="@dimen/dimen0454" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/shops_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shops_logo" app:attr0304="@+id/see_all" app:attr031d="0" app:attr0532="@color/color00cc"/>
+        <com.obwhatsapp.WaTextView android:textColor="@color/color00d7" android:id="@+id/see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0311" android:contentDescription="@string/str0311" android:textAllCaps="true" app:attr030a="0" app:attr0321="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginTop="4dp">
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_container" android:layout_width="match_parent" android:layout_height="match_parent" app:attr046d="false" app:attr0478="0.7">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/placeholder_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <com.facebook.rendercore.RootHostView android:id="@+id/bk_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/order_detail_shimmer_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/color05a1" android:paddingLeft="@dimen/dimen05a7" android:paddingTop="@dimen/dimen05a5" android:paddingRight="@dimen/dimen05a7" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen05a7">
+        <View android:layout_gravity="center" android:id="@+id/shimmer_order_description" android:background="@drawable/category_loading_bg" android:paddingTop="@dimen/dimen05a9" android:paddingRight="@dimen/dimen05ad" android:paddingBottom="@dimen/dimen05aa" android:layout_width="120dp" android:layout_height="14dp" android:layout_centerHorizontal="true"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/dashed_divider" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="@dimen/dimen05a7" android:layout_marginBottom="@dimen/dimen05ad" android:src="@drawable/order_details_dashed_underline_gray" android:layout_below="@+id/shimmer_order_description"/>
+    </RelativeLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

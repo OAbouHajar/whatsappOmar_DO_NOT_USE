@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">‏يجب توفر مساحة %1$s على هذا الجهاز للنقل. يُرجى إخلاء مساحة باستخدام أداة إدارة التخزين الخاصة بواتساب.</item>
+    </plurals>
+</resources>

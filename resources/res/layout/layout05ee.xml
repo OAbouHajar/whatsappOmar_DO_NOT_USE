@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/dimen04ec" android:paddingTop="18dp" android:paddingRight="@dimen/dimen04ec" android:paddingBottom="18dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen00fd">
+    <com.google.android.material.button.MaterialButton android:theme="@style/style0398" android:id="@+id/negative_button" style="@style/style039e"/>
+    <com.google.android.material.button.MaterialButton android:theme="@style/style0399" android:id="@+id/positive_button" style="@style/style039e"/>
+</LinearLayout>

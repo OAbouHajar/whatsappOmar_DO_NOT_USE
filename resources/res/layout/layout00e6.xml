@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/camera_coordinator" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" app:attr037b="@+id/bottom_sheet">
+    <FrameLayout android:id="@+id/bottom_sheet" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0061="@dimen/dimen056f" app:attr02fc="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <FrameLayout android:id="@+id/gallery_container" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/drag_gallery_strip_layout" android:layout_width="@dimen/dimen0341" android:layout_height="@dimen/dimen0340">
+            <com.obwhatsapp.camera.DragGalleryStripIndicator android:id="@+id/drag_gallery_strip_indicator" android:padding="4dp" android:visibility="invisible" android:layout_width="@dimen/dimen033f" android:layout_height="@dimen/dimen033e"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/gallery_strip_container" android:focusable="false" android:clickable="false" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="72dp">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@+id/recent_media" android:layout_width="match_parent" android:layout_height="72dp"/>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.camera.CameraActionsLayout android:id="@+id/camera_actions" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0321="0"/>
+        <com.obwhatsapp.camera.mode.CameraModeTabLayout android:id="@+id/camera_mode_tab_layout" android:background="@color/color00ed" android:paddingTop="@dimen/dimen0141" android:paddingBottom="@dimen/dimen0141" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0304="@+id/camera_actions" app:attr04e3="@drawable/camera_tab_selected_background" app:attr04e5="@color/color00ee" app:attr04e7="1" app:attr04e8="@dimen/dimen013f" app:attr04ec="0" app:attr04f2="@null" app:attr04f3="@color/color08f2" app:attr04f5="@style/style00f4" app:attr04f6="@color/color0928"/>
+        <com.obwhatsapp.camera.recording.RecordingView android:id="@+id/recording_view" android:background="@drawable/camera_info_background" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:attr0317="0" app:attr031b="0" app:attr0321="@+id/camera_actions"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/layout00e9"/>
+</com.obwhatsapp.components.MainChildCoordinatorLayout>

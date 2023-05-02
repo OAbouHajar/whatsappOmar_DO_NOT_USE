@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:id="@+id/play_store_div" android:background="@drawable/panel" android:paddingLeft="@dimen/dimen0155" android:paddingTop="@dimen/dimen0157" android:paddingRight="@dimen/dimen0155" android:paddingBottom="@dimen/dimen0157" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr058d="@color/color0075">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:paddingTop="@dimen/dimen0157" android:paddingBottom="@dimen/dimen0158" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/version_unsupported_icon" app:attr0532="@color/color059d"/>
+            <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="@color/color06c5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/str0602" android:fontFamily="sans-serif-light"/>
+            <com.obwhatsapp.components.Button android:id="@+id/btn_play_store" android:layout_width="match_parent" android:layout_marginTop="16dp" android:text="@string/str02af" style="@style/style03a2"/>
+        </com.obwhatsapp.WaLinearLayout>
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:id="@+id/website_div" android:background="@drawable/panel" android:paddingLeft="@dimen/dimen0155" android:paddingTop="@dimen/dimen0157" android:paddingRight="@dimen/dimen0155" android:paddingBottom="@dimen/dimen0157" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr058d="@color/color0075">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:paddingTop="@dimen/dimen0157" android:paddingBottom="@dimen/dimen0158" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/version_unsupported_icon" app:attr0532="@color/color059d"/>
+            <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="@color/color06c5" android:id="@+id/corrupt_installation_description_website_distribution_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:fontFamily="sans-serif-light"/>
+            <com.obwhatsapp.components.Button android:id="@+id/btn_uninstall" android:layout_width="match_parent" android:layout_marginTop="16dp" android:text="@string/str02b2" style="@style/style03a2"/>
+        </com.obwhatsapp.WaLinearLayout>
+        <com.obwhatsapp.WaTextView android:textColor="@color/color06c5" android:id="@+id/corrupt_installation_contact_support_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0155" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/dimen0155"/>
+    </LinearLayout>
+</ScrollView>

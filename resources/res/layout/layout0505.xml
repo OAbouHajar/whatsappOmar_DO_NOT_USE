@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/layout042e"/>
+    <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0600" android:layout_gravity="center_vertical" android:id="@+id/retos_bottom_sheet_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1469" app:attr028d="sans-serif-medium"/>
+    <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color06c5" android:id="@+id/retos_bottom_sheet_desc" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" app:attr028d="sans-serif"/>
+    <FrameLayout android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.components.Button android:id="@+id/retos_bottom_sheet_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/str02ac" style="@style/style03a2"/>
+        <com.obwhatsapp.CircularProgressBar android:layout_gravity="center_horizontal" android:id="@+id/progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0113="@android:color/transparent" app:attr0114="@color/color022e"/>
+    </FrameLayout>
+</LinearLayout>

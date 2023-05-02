@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/chat_bubble_container" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color06c5" android:id="@+id/kept_by_footer_tv" android:paddingLeft="46dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str0bfb" android:translationY="-8dp"/>
+</LinearLayout>

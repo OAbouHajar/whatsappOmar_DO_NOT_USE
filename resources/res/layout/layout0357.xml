@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView style="@style/style01ab">
+        <LinearLayout style="@style/style01ad">
+            <com.caverock.androidsvg.SVGImageView app:attr04d5="graphics/stella_wa.svg" style="@style/style01a5"/>
+            <com.obwhatsapp.WaTextView android:text="@string/str0b92" style="@style/style01ac"/>
+            <com.obwhatsapp.WaTextView android:text="@string/str0b8f" style="@style/style01aa"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/instrumentation_auth_perm_paragraph_two" android:text="@string/str0b90" style="@style/style01aa"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/style01a3">
+        <com.obwhatsapp.components.Button android:id="@+id/instrumentation_auth_perm_button" android:text="@string/str0b8e" style="@style/style01a4"/>
+    </LinearLayout>
+</LinearLayout>

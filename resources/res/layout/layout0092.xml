@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/bk_bottom_sheet_toolbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0399="@drawable/ic_back_teal"/>
+    <include android:id="@+id/bs_bloks_fragment" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout0294"/>
+</LinearLayout>

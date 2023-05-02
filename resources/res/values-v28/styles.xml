@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style004f">
+    </style>
+    <style name="style0056">
+    </style>
+    <style name="style008c">
+        <item name="attr013d">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="style008d">
+        <item name="attr013d">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="style017f">
+        <item name="android:textSize">@dimen/dimen03e7</item>
+        <item name="android:textColor">@color/color06c5</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="?0x101057f">@dimen/dimen03e6</item>
+    </style>
+    <style name="style019c">
+        <item name="android:textSize">42dp</item>
+        <item name="android:textColor">@color/color05f5</item>
+        <item name="android:textColorHint">@color/color05f4</item>
+        <item name="android:gravity">left|center_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/payment_amount_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="?0x101057f">48dp</item>
+    </style>
+    <style name="style019d">
+        <item name="android:textSize">42dp</item>
+        <item name="android:textColor">@color/color05f5</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="?0x101057f">48dp</item>
+    </style>
+    <style name="style0251">
+        <item name="android:textSize">42dp</item>
+        <item name="android:textColor">@color/color05f5</item>
+        <item name="android:textColorHint">@color/color05f4</item>
+        <item name="android:gravity">left|center_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/payment_amount_cursor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="?0x101057f">48dp</item>
+    </style>
+    <style name="style0252">
+        <item name="android:textSize">42dp</item>
+        <item name="android:textColor">@color/color05f5</item>
+        <item name="android:layout_gravity">left|center_horizontal</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="?0x101057f">48dp</item>
+    </style>
+    <style name="style0253">
+        <item name="android:textSize">42dp</item>
+        <item name="android:textColor">@color/color05f5</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="?0x101057f">48dp</item>
+    </style>
+</resources>

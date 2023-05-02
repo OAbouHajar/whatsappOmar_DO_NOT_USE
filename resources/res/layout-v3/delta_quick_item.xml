@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/mHolder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="70dp" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="54dp" android:layout_height="54dp">
+                <com.obwhatsapp.status.ContactStatusThumbnail android:layout_gravity="center" android:id="@+id/mContactPhoto" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:layout_marginBottom="4dp" app:tbtnBorderSize="2.5dp" app:tbtnForegroundOnly="false" app:tbtnRadius="@dimen/small_avatar_radius"/>
+                <com.OM7753.SideBar.views.BadgeTextView android:textSize="10sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/mCounter" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_margin="2dp" android:minWidth="20dp" android:singleLine="true"/>
+            </FrameLayout>
+            <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="?android:attr/textColorPrimary" android:gravity="center" android:id="@+id/mContactName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="8dp" android:maxLines="2"/>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout05b7"/>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/hero_img" android:layout_width="64dp" android:layout_height="64dp" android:src="@drawable/ic_hero_pin_primer" android:contentDescription="@null"/>
+            <com.obwhatsapp.WaTextView android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/str1178" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/hero_img" style="@style/style01d4"/>
+            <com.obwhatsapp.WaTextView android:gravity="center_horizontal" android:id="@+id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/str1175" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/title"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="24dp"/>
+            <include android:id="@+id/account_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0306"/>
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" layout="@layout/layout0341"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:gravity="center" android:id="@+id/continue_button" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:text="@string/str02ac" android:maxLines="1" style="@style/style03a9"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/upi_logo" android:layout_marginBottom="16dp" style="@style/style01f6"/>
+</LinearLayout>

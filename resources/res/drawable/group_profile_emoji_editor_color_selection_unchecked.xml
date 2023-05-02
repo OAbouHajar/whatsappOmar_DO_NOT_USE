@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/color0792"/>
+            <padding android:left="@dimen/dimen0423" android:right="@dimen/dimen0423"/>
+        </shape>
+    </item>
+    <item android:id="@+id/color_selection_ring">
+        <shape android:shape="oval">
+            <solid android:color="@color/color0792"/>
+            <size android:height="41.5dp" android:width="41.5dp"/>
+        </shape>
+    </item>
+    <item android:id="@+id/color_selection_circle" android:left="1.5dp" android:top="1.5dp" android:right="1.5dp" android:bottom="1.5dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/color090b"/>
+        </shape>
+    </item>
+</layer-list>

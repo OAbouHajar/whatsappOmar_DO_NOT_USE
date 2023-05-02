@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="top|left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40dp" android:minHeight="30dp">
+        <include layout="@layout/layout01b6"/>
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="top" android:id="@+id/icon" android:paddingLeft="@dimen/dimen026f" android:paddingTop="@dimen/dimen0768" android:paddingBottom="@dimen/dimen0767" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:attr04b4="@drawable/message_got_receipt_revoked" app:attr0532="@color/color018a"/>
+            <com.obwhatsapp.components.TextAndDateLayout android:layout_gravity="left|center_vertical|center_horizontal|center" android:paddingRight="@dimen/dimen076b" android:paddingBottom="@dimen/dimen076b" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0299" android:textStyle="italic" android:textColor="@color/color018b" android:gravity="center_vertical" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="@dimen/dimen0767" android:paddingTop="@dimen/dimen0768" android:paddingRight="@dimen/dimen026f" android:paddingBottom="@dimen/dimen0768" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0155="@color/color018b"/>
+                <include layout="@layout/layout0186"/>
+            </com.obwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

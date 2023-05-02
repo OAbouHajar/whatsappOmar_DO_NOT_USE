@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="26dp" android:paddingRight="16dp" android:paddingBottom="26dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:gravity="center" android:id="@+id/companion_registration_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str051d" style="@style/style010c"/>
+            <com.obwhatsapp.WaTextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0517" style="@style/style010b"/>
+            <androidx.cardview.widget.CardView android:gravity="center" android:id="@+id/companion_registration_linking_instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen01df" android:layout_marginBottom="@dimen/dimen01df" android:minWidth="@dimen/dimen0227" app:attr009b="@color/color01d5" app:attr009c="@dimen/dimen01dd" app:attr009d="0dp">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="24dp" android:paddingBottom="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/companion_registration_linking_instructions_step_one" android:paddingTop="@dimen/dimen01de" android:paddingBottom="@dimen/dimen01de" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0519" style="@style/style0109"/>
+                    <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/companion_registration_linking_instructions_step_two" android:paddingTop="@dimen/dimen01de" android:paddingBottom="@dimen/dimen01de" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str051c" style="@style/style0109"/>
+                    <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/companion_registration_linking_instructions_step_three" android:paddingTop="@dimen/dimen01de" android:paddingBottom="@dimen/dimen01de" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str051b" style="@style/style0109"/>
+                    <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:paddingTop="@dimen/dimen01de" android:paddingBottom="@dimen/dimen01de" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0518" style="@style/style0109"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@+id/qr_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen01df" app:attr009b="@color/color090b" app:attr009c="@dimen/dimen01e1" app:attr009d="0dp">
+                <ProgressBar android:layout_gravity="center" android:id="@+id/loading_spinner" android:padding="@dimen/dimen01e5" android:layout_width="@dimen/dimen01e4" android:layout_height="@dimen/dimen01e4"/>
+                <com.obwhatsapp.QrImageView android:layout_gravity="center" android:id="@+id/registration_qr" android:layout_width="@dimen/dimen01e4" android:layout_height="@dimen/dimen01e4" android:layout_margin="@dimen/dimen01e2" app:attr0483="false" app:attr04b7="@drawable/ic_qr_walogo"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/reload_qr_layout" android:background="@drawable/reload_qr_background" android:visibility="invisible" android:layout_width="@dimen/dimen01e4" android:layout_height="@dimen/dimen01e4" android:layout_margin="@dimen/dimen01e2">
+                    <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1330" style="@style/style010a"/>
+                    <com.obwhatsapp.components.Button android:textColor="@color/color090b" android:id="@+id/reload_qr_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="16dp" android:layout_marginRight="15dp" android:text="@string/str13e3" android:drawableLeft="@drawable/ic_action_refresh" android:drawablePadding="8dp" style="@style/style03a2"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <include layout="@layout/layout05a8"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.util.MarqueeToolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0529="@style/style0447"/>
+</merge>

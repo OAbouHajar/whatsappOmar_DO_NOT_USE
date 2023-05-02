@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/name_in_group" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0128">
+    <com.obwhatsapp.TextEmojiLabel android:id="@+id/name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style012c"/>
+    <com.obwhatsapp.WaImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/div2" android:visibility="invisible" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/admin_shield"/>
+    <com.obwhatsapp.TextEmojiLabel android:id="@+id/secondary_name_in_group_tv" android:paddingLeft="6sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style012e"/>
+</com.obwhatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView>

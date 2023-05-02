@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">በዚህ መሳሪያ ላይ ለማስተላለፍ %1$s ያስፈልጋሉ። የWhatsApp የማከማቻ አስተዳደር መሳሪያን በመጠቀም እባክዎ ቦታ ያጽዱ።</item>
+        <item quantity="one">በዚህ መሳሪያ ላይ ለማስተላለፍ %1$s ያስፈልጋል። የWhatsApp የማከማቻ አስተዳደር መሳሪያን በመጠቀም እባክዎ ቦታ ያጽዱ።</item>
+    </plurals>
+</resources>

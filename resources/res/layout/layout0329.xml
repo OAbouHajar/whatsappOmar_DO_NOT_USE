@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout05b9"/>
+    <androidx.core.widget.NestedScrollView android:id="@+id/data_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/grid_view_title" android:layout_width="0dp" android:layout_height="wrap_content" app:attr030b="@+id/upi_logo" app:attr031d="0" app:attr0321="0" layout="@layout/layout032c"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/upi_logo" android:layout_marginRight="16dp" app:attr0304="@+id/grid_view_title" app:attr030a="0" app:attr0321="@+id/grid_view_title" style="@style/style01f6"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/grid_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:splitMotionEvents="false" app:attr02f8="androidx.recyclerview.widget.GridLayoutManager" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/grid_view_title" app:attr04a5="4"/>
+            <View android:id="@+id/separator" android:background="@color/color0509" android:layout_width="match_parent" android:layout_height="@dimen/dimen05fe" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/grid_view"/>
+            <androidx.constraintlayout.widget.Group android:id="@+id/popular_banks_group" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr00f9="grid_view_title, upi_logo, grid_view, separator"/>
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/bank_picker_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:splitMotionEvents="false" app:attr02f8="androidx.recyclerview.widget.LinearLayoutManager" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/separator"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.obwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color0660" android:gravity="center" android:id="@+id/bank_picker_empty_tv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@+id/shimmer_layout" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout032f"/>
+</LinearLayout>

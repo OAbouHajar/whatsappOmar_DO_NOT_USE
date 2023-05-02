@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/business_balloon" android:paddingLeft="@dimen/dimen02b6" android:paddingTop="@dimen/dimen02b7" android:paddingRight="@dimen/dimen02b6" android:paddingBottom="@dimen/dimen02b5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen023d" android:textColor="@color/color00a3" android:gravity="center" android:id="@+id/info" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@+id/divider" android:background="@drawable/payments_system_message_divider_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0718" android:gravity="center" android:layout_gravity="center" android:id="@+id/setup_payment_account_button" android:background="@drawable/selector_orange_gradient" android:paddingLeft="7dp" android:paddingTop="7dp" android:paddingRight="7dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr028d="sans-serif-medium"/>
+    </LinearLayout>
+</merge>

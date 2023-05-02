@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/user_problems_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen012d"/>
+    <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:id="@+id/user_problem_free_text_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen012d">
+        <com.obwhatsapp.WaTextView android:textStyle="bold" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_marginTop="@dimen/dimen012d" android:text="@string/str0343" style="@style/style0340"/>
+        <com.obwhatsapp.WaEditText android:id="@+id/user_problem_descriptive_text" android:layout_marginTop="@dimen/dimen012d" android:hint="@string/str1975" style="@style/style0341"/>
+    </com.obwhatsapp.WaLinearLayout>
+</com.obwhatsapp.WaLinearLayout>

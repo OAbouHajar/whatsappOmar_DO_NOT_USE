@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="48dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp">
+        <com.obwhatsapp.text.ReadMoreTextView android:textColor="@color/color0197" android:id="@+id/cag_png_banner_content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.obwhatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/cag_png_banner_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str1c24" style="@style/style0000"/>
+    <View android:layout_gravity="bottom" style="@style/style024d"/>
+</merge>

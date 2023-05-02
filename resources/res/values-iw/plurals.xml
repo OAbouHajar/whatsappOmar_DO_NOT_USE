@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">‏כדי להשלים את ההעברה נדרשים %1$s פנויים במכשיר. עליך לפנות מקום בעזרת הכלי של WhatsApp לניהול האחסון.</item>
+        <item quantity="one">‏כדי להשלים את ההעברה נדרש %1$s פנוי במכשיר. עליך לפנות מקום בעזרת הכלי של WhatsApp לניהול האחסון.</item>
+    </plurals>
+</resources>

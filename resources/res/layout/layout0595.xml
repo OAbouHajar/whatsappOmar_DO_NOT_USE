@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginRight="16dp" android:text="@string/str16f4" style="@style/style025c"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/forwarded_files_container" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str16fa" android:layout_weight="1"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0710" android:id="@+id/forwarded_files_size_text_view" android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.WaImageView android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/chevron_right" app:attr0532="@color/color0710"/>
+        </LinearLayout>
+        <com.obwhatsapp.storage.StorageUsageMediaPreviewView android:id="@+id/forwarded_files_preview_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/large_files_container" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:id="@+id/large_files_title_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str16fb" android:layout_weight="1"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0710" android:id="@+id/large_files_size_text_view" android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.WaImageView android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/chevron_right" app:attr0532="@color/color0710"/>
+        </LinearLayout>
+        <com.obwhatsapp.storage.StorageUsageMediaPreviewView android:id="@+id/large_files_preview_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="8dp"/>
+</LinearLayout>

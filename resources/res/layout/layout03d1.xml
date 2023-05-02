@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/color0092" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:paddingTop="64dp" android:paddingBottom="64dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/audio_controls" android:paddingBottom="32dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.obwhatsapp.WaImageButton android:id="@+id/audio_control_btn" android:padding="0dp" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/inline_audio_play" app:attr0532="@color/color090b" style="@style/style0000"/>
+            <com.obwhatsapp.voicerecorder.VoiceNoteSeekBar android:id="@+id/audio_seekbar" android:layout_width="0dp" android:layout_height="64dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_weight="1" app:attr056d="@color/color0928" app:attr056e="@color/color090b" app:attr056f="12dp" app:attr0570="3dp" style="@style/style0391"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color090b" android:id="@+id/progress_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="00:00"/>
+        </LinearLayout>
+        <com.obwhatsapp.WaImageView android:id="@+id/audio_icon" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="24dp" android:src="@drawable/mviewer_thumb_audio" android:layout_above="@+id/audio_controls" android:contentDescription="@string/str0121" app:attr0532="@color/color0538"/>
+    </RelativeLayout>
+    <include layout="@layout/layout03d5"/>
+</FrameLayout>

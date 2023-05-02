@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:attr030a="0" app:attr031d="0" app:attr0321="0" layout="@layout/layout05b7"/>
+    <ScrollView android:id="@+id/scroll_view" android:scrollbars="none" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" app:attr0305="@+id/account_recovery_info_continue" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:id="@+id/account_recovery_info_image" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="16dp" android:src="@drawable/ic_hero_payments_tos" app:attr030a="0" app:attr031d="0" app:attr0321="0"/>
+            <com.obwhatsapp.WaTextView android:textSize="20sp" android:textColor="@color/color0507" android:gravity="center" android:id="@+id/account_recovery_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/str18b8" android:fontFamily="sans-serif-medium" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/account_recovery_info_image"/>
+            <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color06c5" android:gravity="center" android:id="@+id/account_recovery_info_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/str18b7" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/account_recovery_info_title"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:gravity="center" android:id="@+id/account_recovery_info_continue" android:visibility="visible" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:text="@string/str02ac" android:maxLines="1" app:attr0304="0" app:attr030a="0" app:attr031d="0" style="@style/style03a9"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

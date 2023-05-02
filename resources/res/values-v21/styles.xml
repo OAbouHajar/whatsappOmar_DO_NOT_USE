@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0001">
+    </style>
+    <style name="style001f">
+    </style>
+    <style name="style0020">
+    </style>
+    <style name="style0021">
+    </style>
+    <style name="style0022">
+    </style>
+    <style name="style0023">
+    </style>
+    <style name="style0024">
+    </style>
+    <style name="style0025">
+    </style>
+    <style name="style0026">
+    </style>
+    <style name="style0027">
+    </style>
+    <style name="style0028">
+    </style>
+    <style name="style0029">
+    </style>
+    <style name="style002a">
+    </style>
+    <style name="style002b">
+    </style>
+    <style name="style002e">
+    </style>
+    <style name="style002f">
+    </style>
+    <style name="style0030">
+    </style>
+    <style name="style0032">
+    </style>
+    <style name="style0033">
+    </style>
+    <style name="style0034">
+    </style>
+    <style name="style0035">
+    </style>
+    <style name="style0036">
+    </style>
+    <style name="style0038">
+    </style>
+    <style name="style003c">
+    </style>
+    <style name="style003e">
+    </style>
+    <style name="style0040">
+    </style>
+    <style name="style0041">
+    </style>
+    <style name="style0042">
+    </style>
+    <style name="style0047">
+        <item name="android:textSize">@dimen/dimen004a</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="style0048">
+    </style>
+    <style name="style0049">
+    </style>
+    <style name="style004a">
+    </style>
+    <style name="style004b">
+    </style>
+    <style name="style004d">
+    </style>
+    <style name="style004e">
+    </style>
+    <style name="style004f">
+    </style>
+    <style name="style0051">
+    </style>
+    <style name="style0056">
+    </style>
+    <style name="style0058">
+    </style>
+    <style name="style0072">
+    </style>
+    <style name="style0077">
+        <item name="android:timePickerDialogTheme">@style/style0376</item>
+        <item name="android:datePickerDialogTheme">@style/style0376</item>
+        <item name="attr0033">@style/style0377</item>
+        <item name="attr0065">@style/style0423</item>
+        <item name="attr0066">@style/style041a</item>
+        <item name="attr0067">@style/style041d</item>
+        <item name="attr00be">@style/style042e</item>
+        <item name="attr00c8">@style/style042c</item>
+        <item name="attr00cc">@style/style042a</item>
+        <item name="attr00e6">?attr/attr00f3</item>
+        <item name="attr00ee">@color/color01c4</item>
+        <item name="attr00ef">@color/color01c5</item>
+        <item name="attr0277">@style/style042f</item>
+        <item name="attr036e">@style/style041f</item>
+        <item name="attr036f">@style/style0429</item>
+        <item name="attr039b">@style/style0430</item>
+        <item name="attr04a3">?attr/attr0065</item>
+        <item name="attr04a4">@style/style0431</item>
+        <item name="attr04f4">@style/style0434</item>
+        <item name="attr0524">@style/style0419</item>
+        <item name="attr0543">@style/style043d</item>
+        <item name="attr056b">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="style0080">
+        <item name="android:colorControlNormal">?attr/attr00ec</item>
+        <item name="android:colorControlActivated">?attr/attr00ea</item>
+        <item name="android:colorButtonNormal">?attr/attr00e8</item>
+        <item name="android:colorControlHighlight">?attr/attr00eb</item>
+        <item name="android:colorPrimary">?attr/attr00ee</item>
+        <item name="android:colorPrimaryDark">?attr/attr00ef</item>
+        <item name="android:colorAccent">?attr/attr00e6</item>
+        <item name="ripple_material_light">?android:attr/actionBarDivider</item>
+        <item name="secondary_text_default_material_dark">@drawable/abc_action_bar_item_background_material</item>
+        <item name="attr0007">?android:attr/actionBarSize</item>
+        <item name="attr000f">?android:attr/actionButtonStyle</item>
+        <item name="attr0014">?android:attr/actionModeBackground</item>
+        <item name="attr0017">?android:attr/actionModeCloseDrawable</item>
+        <item name="attr0065">?android:attr/borderlessButtonStyle</item>
+        <item name="attr0087">?android:attr/buttonStyle</item>
+        <item name="attr0088">?android:attr/buttonStyleSmall</item>
+        <item name="attr00b5">?android:attr/checkboxStyle</item>
+        <item name="attr00ba">?android:attr/checkedTextViewStyle</item>
+        <item name="attr0148">?android:attr/dividerHorizontal</item>
+        <item name="attr014a">?android:attr/dividerVertical</item>
+        <item name="attr015e">@drawable/abc_edit_text_material</item>
+        <item name="attr015f">?android:attr/editTextColor</item>
+        <item name="attr02b9">?android:attr/homeAsUpIndicator</item>
+        <item name="attr033d">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="attr0350">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="attr040e">?android:attr/radioButtonStyle</item>
+        <item name="attr0410">?android:attr/ratingBarStyle</item>
+        <item name="attr044b">?android:attr/selectableItemBackground</item>
+        <item name="attr044c">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="attr04ad">?android:attr/spinnerStyle</item>
+        <item name="attr0515">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="attr051d">?android:attr/textAppearanceSmallPopupMenu</item>
+    </style>
+    <style name="style0081">
+        <item name="android:windowElevation">@dimen/dimen002f</item>
+    </style>
+    <style name="style0082">
+        <item name="android:colorControlNormal">?attr/attr00ec</item>
+        <item name="android:colorControlActivated">?attr/attr00ea</item>
+        <item name="android:colorButtonNormal">?attr/attr00e8</item>
+        <item name="android:colorControlHighlight">?attr/attr00eb</item>
+        <item name="android:colorPrimary">?attr/attr00ee</item>
+        <item name="android:colorPrimaryDark">?attr/attr00ef</item>
+        <item name="android:colorAccent">?attr/attr00e6</item>
+        <item name="ripple_material_light">?android:attr/actionBarDivider</item>
+        <item name="secondary_text_default_material_dark">@drawable/abc_action_bar_item_background_material</item>
+        <item name="attr0007">?android:attr/actionBarSize</item>
+        <item name="attr000f">?android:attr/actionButtonStyle</item>
+        <item name="attr0014">?android:attr/actionModeBackground</item>
+        <item name="attr0017">?android:attr/actionModeCloseDrawable</item>
+        <item name="attr0065">?android:attr/borderlessButtonStyle</item>
+        <item name="attr0087">?android:attr/buttonStyle</item>
+        <item name="attr0088">?android:attr/buttonStyleSmall</item>
+        <item name="attr00b5">?android:attr/checkboxStyle</item>
+        <item name="attr00ba">?android:attr/checkedTextViewStyle</item>
+        <item name="attr0148">?android:attr/dividerHorizontal</item>
+        <item name="attr014a">?android:attr/dividerVertical</item>
+        <item name="attr015e">@drawable/abc_edit_text_material</item>
+        <item name="attr015f">?android:attr/editTextColor</item>
+        <item name="attr02b9">?android:attr/homeAsUpIndicator</item>
+        <item name="attr033d">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="attr0350">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="attr040e">?android:attr/radioButtonStyle</item>
+        <item name="attr0410">?android:attr/ratingBarStyle</item>
+        <item name="attr044b">?android:attr/selectableItemBackground</item>
+        <item name="attr044c">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="attr04ad">?android:attr/spinnerStyle</item>
+        <item name="attr0515">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="attr051d">?android:attr/textAppearanceSmallPopupMenu</item>
+    </style>
+    <style name="style0083">
+        <item name="android:windowElevation">@dimen/dimen002f</item>
+    </style>
+    <style name="style0084">
+        <item name="android:windowElevation">@dimen/dimen002f</item>
+    </style>
+    <style name="style0099">
+    </style>
+    <style name="style009a">
+    </style>
+    <style name="style009b">
+    </style>
+    <style name="style009c">
+        <item name="android:minWidth">56dp</item>
+    </style>
+    <style name="style009d">
+        <item name="android:src">@null</item>
+        <item name="attr04b4">@drawable/abc_ic_menu_overflow_material</item>
+    </style>
+    <style name="style00a0">
+        <item name="android:background">?attr/attr015e</item>
+    </style>
+    <style name="style00a1">
+    </style>
+    <style name="style00a2">
+    </style>
+    <style name="style00a3">
+        <item name="android:textColor">@color/action_divider</item>
+    </style>
+    <style name="style00a6">
+    </style>
+    <style name="style00a7">
+    </style>
+    <style name="style00a9">
+    </style>
+    <style name="style00aa">
+    </style>
+    <style name="style00ae">
+    </style>
+    <style name="style00af">
+        <item name="android:background">?attr/attr015e</item>
+    </style>
+    <style name="style00b0">
+    </style>
+    <style name="style00b4">
+    </style>
+    <style name="style00b6">
+    </style>
+    <style name="style00b7">
+    </style>
+    <style name="style00b8">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="style00ba">
+    </style>
+    <style name="style00bb">
+    </style>
+    <style name="style00bc">
+    </style>
+    <style name="style00bd">
+    </style>
+    <style name="style00be">
+    </style>
+    <style name="style00bf">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="style00c2">
+    </style>
+    <style name="style00c3">
+    </style>
+    <style name="style00c8">
+    </style>
+    <style name="style00ca">
+    </style>
+    <style name="style00cc">
+    </style>
+    <style name="style00cd">
+    </style>
+    <style name="style00cf">
+    </style>
+    <style name="style00d1">
+        <item name="android:textAppearance">?attr/attr050c</item>
+        <item name="android:textColor">@color/color0569</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:text">@null</item>
+        <item name="android:checkable">false</item>
+        <item name="android:stateListAnimator">@animator/notify_panel_notification_icon_bg</item>
+        <item name="attr00b7">@drawable/ic_mtrl_chip_checked_circle</item>
+        <item name="attr00b9">true</item>
+        <item name="attr00bb">@color/color0566</item>
+        <item name="attr00bc">16dp</item>
+        <item name="attr00bd">6dp</item>
+        <item name="attr00bf">@null</item>
+        <item name="attr00c1">24dp</item>
+        <item name="attr00c3">true</item>
+        <item name="attr00c4">32dp</item>
+        <item name="attr00c9">4dp</item>
+        <item name="attr00ca">#00000000</item>
+        <item name="attr00cb">0dp</item>
+        <item name="attr00d7">@drawable/ic_mtrl_chip_close_circle</item>
+        <item name="attr00d9">2dp</item>
+        <item name="attr00da">18dp</item>
+        <item name="attr00db">2dp</item>
+        <item name="attr00dc">@color/color0567</item>
+        <item name="attr00dd">true</item>
+        <item name="attr0168">true</item>
+        <item name="attr02c3">0dp</item>
+        <item name="attr02c8">0dp</item>
+        <item name="attr041e">@color/color0568</item>
+        <item name="attr0523">6dp</item>
+        <item name="attr0528">8dp</item>
+    </style>
+    <style name="style00e2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color0660</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="style00ea">
+        <item name="android:colorButtonNormal">@android:color/transparent</item>
+        <item name="attr0568">3</item>
+    </style>
+    <style name="style00f4">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">@color/color08f2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.09</item>
+        <item name="attr050a">false</item>
+    </style>
+    <style name="style00fc">
+        <item name="android:colorAccent">@color/color0659</item>
+    </style>
+    <style name="style0119">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color00a2</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="style0125">
+        <item name="android:textColor">@color/color01a5</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="primary_text_default_material_dark">2</item>
+        <item name="attr0568">3</item>
+    </style>
+    <style name="style012a">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="style012b">
+        <item name="android:ellipsize">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="style0132">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="style0138">
+        <item name="android:textColorPrimary">@color/color0660</item>
+        <item name="android:textColor">@color/color0659</item>
+        <item name="android:background">@color/color065f</item>
+        <item name="android:headerBackground">#ff00c853</item>
+        <item name="android:datePickerStyle">@style/style0268</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/left</item>
+        <item name="attr00ea">@color/color0659</item>
+        <item name="attr00eb">@color/color0659</item>
+        <item name="attr00ec">@color/color01be</item>
+        <item name="attr048d">false</item>
+    </style>
+    <style name="style0189">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:actionModeBackground">@color/right_icon</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_back_gray</item>
+        <item name="android:actionModeCutDrawable">@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item name="android:actionModeCopyDrawable">@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item name="android:actionModePasteDrawable">@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item name="android:actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+    </style>
+    <style name="style0194">
+        <item name="android:background">@drawable/input_circle_green</item>
+        <item name="android:layout_width">@dimen/dimen03b7</item>
+        <item name="android:layout_height">@dimen/dimen03b7</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+    <style name="style01ae">
+        <item name="android:windowBackground">@color/color0792</item>
+        <item name="android:navigationBarColor">@color/color04f0</item>
+        <item name="attr0069">@style/style01af</item>
+    </style>
+    <style name="style01cf">
+        <item name="android:navigationBarColor">@color/color05d5</item>
+    </style>
+    <style name="style01e3">
+    </style>
+    <style name="style01e4">
+    </style>
+    <style name="style01e9">
+        <item name="android:colorControlNormal">?attr/attr00ec</item>
+        <item name="android:colorControlActivated">?attr/attr00ea</item>
+        <item name="android:colorButtonNormal">?attr/attr00e8</item>
+        <item name="android:colorControlHighlight">?attr/attr00eb</item>
+        <item name="android:colorPrimary">?attr/attr00ee</item>
+        <item name="android:colorPrimaryDark">?attr/attr00ef</item>
+        <item name="android:colorAccent">?attr/attr00e6</item>
+    </style>
+    <style name="style01ea">
+    </style>
+    <style name="style01eb">
+    </style>
+    <style name="style01ec">
+        <item name="android:textColorHintInverse">@color/blocking</item>
+        <item name="android:textColorHint">@color/async</item>
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:buttonBarStyle">?attr/attr0081</item>
+        <item name="android:buttonBarButtonStyle">?attr/attr007d</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+    </style>
+    <style name="style01ed">
+        <item name="android:textColorHintInverse">@color/async</item>
+        <item name="android:textColorHint">@color/blocking</item>
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:buttonBarStyle">?attr/attr0081</item>
+        <item name="android:buttonBarButtonStyle">?attr/attr007d</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+    </style>
+    <style name="style020d">
+        <item name="android:textAppearance">?attr/attr03e0</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
+    </style>
+    <style name="style0212">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSecondary</item>
+    </style>
+    <style name="style0232">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="style0268">
+        <item name="android:calendarViewShown">false</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    <style name="style0277">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">@color/color08f2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.025</item>
+    </style>
+    <style name="style0279">
+        <item name="android:background">@drawable/balloon_incoming_normal_stkr</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+    <style name="style027a">
+        <item name="android:textSize">@dimen/dimen0299</item>
+        <item name="android:textColor">@color/color01a0</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+    <style name="style02b2">
+    </style>
+    <style name="style02b3">
+    </style>
+    <style name="style02b8">
+    </style>
+    <style name="style02c6">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.025</item>
+    </style>
+    <style name="style02c9">
+        <item name="android:textColor">@color/color0773</item>
+        <item name="android:letterSpacing">0.025</item>
+    </style>
+    <style name="style02cc">
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="style02cd">
+        <item name="android:textSize">@dimen/dimen07cf</item>
+        <item name="android:textColor">@color/color06c5</item>
+        <item name="android:letterSpacing">0.025</item>
+    </style>
+    <style name="style02ce">
+        <item name="android:textColor">@color/color0773</item>
+        <item name="android:letterSpacing">0.015</item>
+    </style>
+    <style name="style02cf">
+        <item name="android:textSize">@dimen/dimen07d0</item>
+        <item name="android:letterSpacing">0.018</item>
+    </style>
+    <style name="style02d1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0312</item>
+        <item name="attr028d">sans-serif</item>
+    </style>
+    <style name="style02d2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0179</item>
+        <item name="attr028d">sans-serif</item>
+    </style>
+    <style name="style02d3">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0893</item>
+        <item name="attr028d">sans-serif-medium</item>
+    </style>
+    <style name="style02d4">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0333</item>
+        <item name="attr028d">sans-serif</item>
+    </style>
+    <style name="style02d6">
+        <item name="android:textSize">96sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">-0.0156</item>
+        <item name="attr028d">sans-serif-light</item>
+    </style>
+    <style name="style02d7">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">-0.0083</item>
+        <item name="attr028d">sans-serif-light</item>
+    </style>
+    <style name="style02d8">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="attr028d">sans-serif</item>
+    </style>
+    <style name="style02d9">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0074</item>
+        <item name="attr028d">sans-serif</item>
+    </style>
+    <style name="style02da">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="attr028d">sans-serif</item>
+    </style>
+    <style name="style02db">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0125</item>
+        <item name="attr028d">sans-serif-medium</item>
+    </style>
+    <style name="style02dc">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.1667</item>
+        <item name="attr028d">sans-serif-medium</item>
+    </style>
+    <style name="style02dd">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0094</item>
+        <item name="attr028d">sans-serif</item>
+    </style>
+    <style name="style02de">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="attr028d">sans-serif-medium</item>
+    </style>
+    <style name="style02ec">
+        <item name="android:windowBackground">@color/color0092</item>
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="attr0009">@style/style0442</item>
+        <item name="attr00ee">@color/color0092</item>
+        <item name="attr00ef">@color/color0792</item>
+        <item name="attr02b9">@drawable/ic_back</item>
+    </style>
+    <style name="style02ee">
+        <item name="android:windowBackground">@color/color00a9</item>
+        <item name="android:windowTitleSize">56dp</item>
+        <item name="android:navigationBarColor">@color/color057c</item>
+        <item name="attr00ee">@color/color0659</item>
+    </style>
+    <style name="style02f6">
+        <item name="android:windowBackground">@color/color0792</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">@color/color0792</item>
+    </style>
+    <style name="style0301">
+        <item name="android:background">@drawable/splash</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="attr0597">false</item>
+        <item name="attr05a0">true</item>
+    </style>
+    <style name="style0309">
+        <item name="android:navigationBarColor">@color/color087c</item>
+    </style>
+    <style name="style030b">
+        <item name="android:windowBackground">@color/color0792</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">@color/color0655</item>
+    </style>
+    <style name="style030c">
+        <item name="android:statusBarColor">@color/color0655</item>
+    </style>
+    <style name="style0311">
+        <item name="android:windowBackground">@color/color0092</item>
+        <item name="android:navigationBarColor">@color/color087c</item>
+    </style>
+    <style name="style031b">
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="attr00ea">@android:color/white</item>
+    </style>
+    <style name="style0322">
+        <item name="android:statusBarColor">@color/color069e</item>
+    </style>
+    <style name="style0324">
+        <item name="android:statusBarColor">@color/color065f</item>
+    </style>
+    <style name="style0342">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="attr00e6">@color/color0659</item>
+        <item name="attr00ee">@color/color064b</item>
+        <item name="attr00ef">@color/color0655</item>
+    </style>
+    <style name="style0365">
+        <item name="android:navigationBarColor">@color/color087c</item>
+        <item name="attr00ef">@color/color087c</item>
+    </style>
+    <style name="style038a">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/color0660</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:fontFamily">sans-serif-normal</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+    <style name="style039b">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/color0092</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/color07c9</item>
+    </style>
+    <style name="style03a2">
+        <item name="android:theme">@style/style044a</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:paddingLeft">@dimen/dimen00ea</item>
+        <item name="android:paddingTop">@dimen/dimen00eb</item>
+        <item name="android:paddingRight">@dimen/dimen00ea</item>
+        <item name="android:paddingBottom">@dimen/dimen00eb</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="primary_text_default_material_dark">@null</item>
+        <item name="attr0568">@null</item>
+    </style>
+    <style name="style03b7">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color0660</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.015</item>
+    </style>
+    <style name="style040e">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="style040f">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/dimen0585</item>
+        <item name="android:textColor">@color/color0038</item>
+    </style>
+    <style name="style0410">
+        <item name="android:background">?attr/attr00ee</item>
+        <item name="android:stateListAnimator">@animator/notification_action_background</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+    </style>
+    <style name="style0412">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:elevation">@dimen/dimen02c7</item>
+        <item name="attr005f">true</item>
+        <item name="attr0061">-1</item>
+        <item name="attr0062">false</item>
+    </style>
+    <style name="style041f">
+        <item name="android:textAppearance">?attr/attr050d</item>
+        <item name="android:textColor">@color/color0564</item>
+        <item name="android:paddingLeft">@dimen/dimen0546</item>
+        <item name="android:paddingTop">@dimen/dimen0548</item>
+        <item name="android:paddingRight">@dimen/dimen0547</item>
+        <item name="android:paddingBottom">@dimen/dimen0545</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">@dimen/dimen0543</item>
+        <item name="android:insetBottom">@dimen/dimen0543</item>
+        <item name="android:stateListAnimator">@animator/notification_template_icon_low_bg</item>
+        <item name="attr0053">@color/color055f</item>
+        <item name="attr010e">@dimen/dimen053a</item>
+        <item name="attr0168">true</item>
+        <item name="attr02c5">@dimen/dimen0542</item>
+        <item name="attr02c9">@color/color0564</item>
+        <item name="attr041e">@color/color0560</item>
+    </style>
+    <style name="style0427">
+        <item name="android:stateListAnimator">@animator/notification_tile_bg</item>
+    </style>
+    <style name="style043e">
+        <item name="android:titleTextStyle">@style/style02e9</item>
+        <item name="android:subtitleTextStyle">@style/style02e8</item>
+        <item name="android:elevation">@dimen/dimen005d</item>
+        <item name="attr0163">@dimen/dimen005d</item>
+        <item name="attr04cb">@style/style02e8</item>
+        <item name="attr053f">@style/style02e9</item>
+    </style>
+    <style name="style0440">
+        <item name="android:titleTextStyle">@style/style0441</item>
+        <item name="android:elevation">0dp</item>
+        <item name="attr0163">0dp</item>
+        <item name="attr053f">@style/style0441</item>
+    </style>
+    <style name="style0444">
+        <item name="android:background">@color/color0793</item>
+        <item name="android:elevation">0dp</item>
+        <item name="attr0050">@color/color0793</item>
+        <item name="attr0163">0dp</item>
+    </style>
+    <style name="style0447">
+        <item name="android:titleTextStyle">@style/style02e7</item>
+        <item name="android:elevation">4dp</item>
+        <item name="attr0050">@color/color065f</item>
+        <item name="attr0163">4dp</item>
+        <item name="attr053f">@style/style02e7</item>
+    </style>
+</resources>

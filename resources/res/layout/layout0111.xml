@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0765" android:paddingTop="@dimen/dimen0763" android:paddingRight="@dimen/dimen0765" android:paddingBottom="@dimen/dimen0763" android:layout_width="match_parent" android:layout_height="64dp">
+    <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/community_home_add_group_icon" android:background="@drawable/green_circle" android:layout_width="@dimen/dimen076e" android:layout_height="@dimen/dimen076e" android:src="@drawable/ic_add_new_group" android:scaleType="center"/>
+    <com.obwhatsapp.TextEmojiLabel android:layout_gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0765" android:text="@string/str00b0" android:lines="1" style="@style/style01bc"/>
+</LinearLayout>

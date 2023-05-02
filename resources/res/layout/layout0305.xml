@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/payment_method_container" android:background="@color/color065f" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0710" android:id="@+id/account" android:paddingTop="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0049"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:id="@+id/account_name_text" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0710" android:id="@+id/type" android:paddingTop="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str008d"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:id="@+id/account_type_text" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:id="@+id/divider_above_available_balance" android:background="@drawable/payments_divider_gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/available_balance_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0710" android:paddingTop="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str004a"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:id="@+id/available_balance_text" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="13sp" android:textColor="@color/color0710" android:id="@+id/balance" android:paddingTop="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str004b"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:id="@+id/balance_text" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageView android:layout_gravity="bottom" style="@style/style01f6"/>
+    </LinearLayout>
+</LinearLayout>

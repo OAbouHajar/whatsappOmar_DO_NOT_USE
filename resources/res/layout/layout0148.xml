@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+        <com.obwhatsapp.PagerSlidingTabStrip android:id="@+id/contact_qr_tab_strip" android:background="@color/color0580" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0403="@color/color0792" app:attr0404="@color/color066b"/>
+        <androidx.viewpager.widget.ViewPager android:id="@+id/contact_qr_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.obwhatsapp.WaImageView android:id="@+id/contact_qr_preview" android:background="@color/color065f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+</FrameLayout>

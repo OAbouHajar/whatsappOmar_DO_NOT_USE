@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@+id/web_page_preview_container" android:visibility="gone" android:layout_width="@dimen/dimen0791" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen078b" android:layout_marginRight="@dimen/dimen078b" android:layout_marginBottom="@dimen/dimen0798" app:attr009b="@color/color0779" app:attr009c="@dimen/dimen0793" app:attr009d="0dp">
+        <LinearLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/web_page_preview" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.webpagepreview.WebPagePreviewView android:id="@+id/link_preview_frame" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color090b" android:textColorLink="@color/color090b" android:gravity="center" android:id="@+id/message_text" android:paddingLeft="@dimen/dimen0795" android:paddingTop="@dimen/dimen0798" android:paddingRight="@dimen/dimen0795" android:paddingBottom="@dimen/dimen0798" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.15"/>
+</LinearLayout>

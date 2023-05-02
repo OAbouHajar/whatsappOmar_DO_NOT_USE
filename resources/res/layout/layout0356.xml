@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView style="@style/style01ab">
+        <LinearLayout style="@style/style01ad">
+            <com.caverock.androidsvg.SVGImageView app:attr04d5="graphics/stella_e2e.svg" style="@style/style01a5"/>
+            <com.obwhatsapp.WaTextView android:text="@string/str0b8d" style="@style/style01ac"/>
+            <LinearLayout style="@style/style01a6">
+                <com.obwhatsapp.WaImageView android:src="@drawable/ic_lock_black" style="@style/style01a7"/>
+                <com.obwhatsapp.WaTextView android:text="@string/str0b88" style="@style/style01a8"/>
+            </LinearLayout>
+            <LinearLayout style="@style/style01a6">
+                <com.obwhatsapp.WaImageView android:src="@drawable/ic_graphic_eq" style="@style/style01a7"/>
+                <com.obwhatsapp.WaTextView android:text="@string/str0b8a" style="@style/style01a8"/>
+            </LinearLayout>
+            <LinearLayout style="@style/style01a6">
+                <com.obwhatsapp.WaImageView android:src="@drawable/ic_chat_outline" style="@style/style01a7"/>
+                <com.obwhatsapp.WaTextView android:text="@string/str0b89" style="@style/style01a8"/>
+            </LinearLayout>
+            <com.obwhatsapp.WaTextView android:id="@+id/instrumentation_auth_complete_link" android:text="@string/str0b8c" style="@style/style01aa"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/style01a3">
+        <com.obwhatsapp.components.Button android:id="@+id/instrumentation_auth_complete_button" android:text="@string/str0b8b" style="@style/style01a4"/>
+    </LinearLayout>
+</LinearLayout>

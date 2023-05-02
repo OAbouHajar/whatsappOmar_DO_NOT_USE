@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/yosettings_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/yo_toolbar"/>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.obwhatsapp.yo.tf android:text="@string/yo_About" style="@style/YoSettings_row_title"/>
+            <LinearLayout android:orientation="vertical" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.obwhatsapp.yo.tf android:text="@string/about_me" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/icon_99" android:drawableTint="@null" style="@style/YoSettings_row"/>
+            </LinearLayout>
+            <View android:layout_marginStart="@dimen/settings_divider_horizontal_margin_left" android:layout_marginEnd="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator"/>
+            <LinearLayout android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="openWebsite">
+                <com.obwhatsapp.yo.tf android:text="@string/view_website" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ic_yoweb" style="@style/YoSettings_row"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.obwhatsapp.yo.tf android:text="@string/yo_follow" style="@style/YoSettings_row_title"/>
+            <LinearLayout android:orientation="horizontal" android:tag="twitter" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="openSocialMedia">
+                <com.obwhatsapp.yo.tf android:text="@string/twitter" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ic_yotwitter" style="@style/YoSettings_row"/>
+            </LinearLayout>
+            <View android:layout_marginStart="@dimen/settings_divider_horizontal_margin_left" android:layout_marginEnd="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator"/>
+            <LinearLayout android:orientation="horizontal" android:tag="telegram" android:background="?android:attr/selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="openSocialMedia">
+                <com.obwhatsapp.yo.tf android:text="@string/telegram" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ic_yotelegram" style="@style/YoSettings_row"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/div2" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:foreground="?android:attr/selectableItemBackground">
+            <com.obwhatsapp.yo.tf android:text="@string/creditsS" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ic_yoabout" style="@style/YoSettings_row"/>
+        </LinearLayout>
+        <com.obwhatsapp.yo.tf android:gravity="center" android:layout_marginTop="@dimen/info_screen_padding" android:text="@string/yowav" style="@style/YoSettings_row"/>
+    </LinearLayout>
+</ScrollView>

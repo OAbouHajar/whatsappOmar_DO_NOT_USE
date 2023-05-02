@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/conversation_row_margin_large">
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout01b4"/>
+            <include layout="@layout/layout01c1"/>
+            <include layout="@layout/layout01e6"/>
+            <FrameLayout android:id="@+id/media_container" android:padding="@dimen/conversation_video_thumb_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <view android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" class="com.obwhatsapp.conversation.conversationrow.ConversationRowImage$RowImageView"/>
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/control_frame" android:background="@drawable/fragment_transparent_divider" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_gravity="center" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ViewStub android:layout_gravity="center" android:id="@+id/progress_bar" android:layout="@layout/layout0105" android:inflatedId="@+id/progress_bar" android:layout_width="64dp" android:layout_height="64dp"/>
+                        <ViewStub android:layout_gravity="center" android:id="@+id/cancel_download" android:layout="@layout/layout00eb" android:inflatedId="@+id/cancel_download" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <com.obwhatsapp.WaButton android:id="@+id/control_btn" style="@style/style0126"/>
+                    </FrameLayout>
+                    <com.obwhatsapp.yo.mediapreviewbtn android:layout_gravity="center" android:id="@+id/hb" android:background="@drawable/download_background" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eye" android:scaleType="center"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/suspicious_link_indicator_holder" android:paddingLeft="4dp" android:paddingRight="4dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/WA.TextAppearance.ConversationRowMessage" android:layout_gravity="left" android:id="@+id/caption" android:paddingLeft="@dimen/bubble_horizontal_inner_frame_padding" android:paddingRight="@dimen/bubble_horizontal_inner_frame_padding" android:paddingBottom="@dimen/bubble_caption_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1dp"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaTextView android:textColor="@color/conversation_row_image_text" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WA.TextAppearance.ConversationRowDate"/>
+                </LinearLayout>
+            </com.obwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

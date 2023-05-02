@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/color01f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/sticker_grid" android:paddingBottom="@dimen/dimen0610" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/dimen0610" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/pack_loading" android:layout_width="32dp" android:layout_height="32dp" android:indeterminate="true" android:indeterminateOnly="false" android:indeterminateTint="@color/color0659" android:indeterminateTintMode="src_atop" app:attr0113="@color/color01f5" app:attr0114="@color/color0659" app:attr0118="4"/>
+        <com.obwhatsapp.WaTextView android:layout_gravity="center_horizontal" android:id="@+id/pack_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/str16a6"/>
+        <com.obwhatsapp.WaButton android:layout_gravity="center_horizontal" android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0394" style="@style/style03a5"/>
+    </LinearLayout>
+</FrameLayout>

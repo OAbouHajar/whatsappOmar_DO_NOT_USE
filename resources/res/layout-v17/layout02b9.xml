@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/color01f5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="36dp">
+    <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/gif_recents_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_emoji_recent" android:scaleType="center" android:contentDescription="@string/str1358"/>
+        <View android:layout_gravity="bottom" android:id="@+id/gif_recent_marker" android:background="@color/color061d" android:layout_width="match_parent" android:layout_height="2dp"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/gif_favorites_icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selector_gif_favorites" android:scaleType="center" android:contentDescription="@string/str1676"/>
+        <View android:layout_gravity="bottom" android:id="@+id/gif_favorites_marker" android:background="@color/color061d" android:layout_width="match_parent" android:layout_height="2dp"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/gif_category_recycler" android:paddingLeft="2dp" android:paddingRight="2dp" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7" android:paddingStart="2dp" android:paddingEnd="2dp"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.obwhatsapp.WaTextView android:gravity="start" android:id="@+id/business_hours_day_layout_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.45" style="@style/style00ec"/>
+    <com.obwhatsapp.WaTextView android:gravity="start" android:id="@+id/business_hours_day_layout_description" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.55" android:lineSpacingMultiplier="1.3" style="@style/style00ec"/>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/business_search_container_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/search_list" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.google.android.material.chip.Chip android:textColor="@color/color090b" android:id="@+id/update_results_chip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0301" android:text="@string/str1c0e" android:layout_centerHorizontal="true" app:attr00bb="@color/color06b8" app:attr00bd="@dimen/dimen02f9" app:attr00bf="@drawable/ic_action_refresh" app:attr00c9="@dimen/dimen02f9"/>
+</RelativeLayout>

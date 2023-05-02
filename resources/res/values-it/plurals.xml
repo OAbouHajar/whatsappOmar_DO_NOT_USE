@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">È necessario uno spazio di almeno %1$s per il trasferimento su questo dispositivo. Libera spazio utilizzando lo strumento di WhatsApp per gestire l&apos;archivio.</item>
+    </plurals>
+</resources>

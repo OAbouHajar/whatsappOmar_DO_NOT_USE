@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen035e" android:layout_marginRight="@dimen/dimen035e">
+            <com.obwhatsapp.WaTextView android:text="@string/str079c" style="@style/style014a"/>
+            <com.obwhatsapp.WaTextView android:text="@string/str07a9" style="@style/style0141"/>
+        </com.obwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:id="@+id/confirm_disable_disable_button" android:text="@string/str07a7" style="@style/style014b"/>
+    <com.obwhatsapp.components.Button android:id="@+id/confirm_disable_cancel_button" android:text="@string/str0394" style="@style/style0147"/>
+</LinearLayout>

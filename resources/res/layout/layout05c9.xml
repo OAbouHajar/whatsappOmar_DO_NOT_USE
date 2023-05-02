@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.WaRoundCornerImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/color092b" app:attr040f="@dimen/dimen0116"/>
+    <FrameLayout android:padding="1dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <SurfaceView android:id="@+id/surface_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextureView android:id="@+id/texture_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/video_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.obwhatsapp.WaRoundCornerImageView android:id="@+id/frame_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:attr040f="@dimen/dimen0116"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/mute_image" android:layout_width="@dimen/dimen0117" android:layout_height="@dimen/dimen0117" android:layout_margin="@dimen/dimen080b" android:contentDescription="@string/str1b08" app:attr031d="0" app:attr0321="0" app:attr04b4="@drawable/vec_ic_voip_video_mute"/>
+            <ViewStub android:layout_gravity="center" android:id="@+id/loading_spinner" android:layout="@layout/layout03a6" android:inflatedId="@+id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0304="0" app:attr030a="0" app:attr031d="0" app:attr0321="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/participant_photo_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.obwhatsapp.WaDynamicRoundCornerImageView android:id="@+id/tile_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/color07e2" app:attr040f="@dimen/dimen0116"/>
+            <com.obwhatsapp.WaDynamicRoundCornerImageView android:id="@+id/call_grid_blur_background" android:padding="1dp" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.3" app:attr040f="@dimen/dimen0116"/>
+            <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/participant_photo" android:focusable="false" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/avatar_contact_voip" android:importantForAccessibility="no" app:attr0304="0" app:attr0309="h,1:1" app:attr030a="0" app:attr0312="0.6" app:attr031d="0" app:attr0321="0" app:attr0323="2" app:attr0328="0.6"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <View android:id="@+id/dark_overlay" android:background="@color/color07c7" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+</FrameLayout>

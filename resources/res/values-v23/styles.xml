@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style003b">
+    </style>
+    <style name="style004f">
+    </style>
+    <style name="style0056">
+    </style>
+    <style name="style0087">
+        <item name="secondary_text_default_material_dark">?android:attr/actionBarItemBackground</item>
+        <item name="attr0012">?android:attr/actionMenuTextAppearance</item>
+        <item name="attr0013">?android:attr/actionMenuTextColor</item>
+        <item name="attr0023">?android:attr/actionOverflowButtonStyle</item>
+        <item name="attr010b">@drawable/abc_control_background_material</item>
+        <item name="attr0411">?android:attr/ratingBarStyleIndicator</item>
+        <item name="attr0412">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="style0088">
+        <item name="secondary_text_default_material_dark">?android:attr/actionBarItemBackground</item>
+        <item name="attr0012">?android:attr/actionMenuTextAppearance</item>
+        <item name="attr0013">?android:attr/actionMenuTextColor</item>
+        <item name="attr0023">?android:attr/actionOverflowButtonStyle</item>
+        <item name="attr010b">@drawable/abc_control_background_material</item>
+        <item name="attr0411">?android:attr/ratingBarStyleIndicator</item>
+        <item name="attr0412">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="style009d">
+    </style>
+    <style name="style00a3">
+    </style>
+    <style name="style00af">
+        <item name="?0x10104dd">@null</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="style00c4">
+    </style>
+    <style name="style00c5">
+    </style>
+    <style name="style00cb">
+    </style>
+    <style name="style00cc">
+        <item name="?0x10104dd">1</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="style00f9">
+        <item name="attr009b">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="style026c">
+        <item name="android:textColor">@color/start</item>
+        <item name="android:gravity">left|right|center_horizontal|fill_horizontal|clip_horizontal</item>
+        <item name="android:singleLine">false</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="style026d">
+        <item name="android:textSize">@dimen/dimen0713</item>
+        <item name="android:textColor">@color/color0711</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:paddingLeft">@dimen/dimen0763</item>
+        <item name="android:paddingTop">@dimen/dimen0778</item>
+        <item name="android:paddingRight">@dimen/dimen0762</item>
+        <item name="android:paddingBottom">@dimen/dimen0778</item>
+        <item name="android:singleLine">false</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="style030a">
+        <item name="?0x10104e0">true</item>
+        <item name="attr00ef">@color/color04f1</item>
+    </style>
+    <style name="style0324">
+        <item name="android:statusBarColor">@color/color065f</item>
+        <item name="?0x10104e0">true</item>
+    </style>
+</resources>

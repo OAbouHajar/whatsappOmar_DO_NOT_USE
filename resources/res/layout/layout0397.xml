@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/list_item_with_right_icon" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/encryption_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:paddingTop="10dp" android:paddingBottom="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/list_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01bc"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color0502" android:gravity="left" android:layout_gravity="left" android:id="@+id/list_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/list_item_icon" android:paddingLeft="20dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0532="@color/color01ff" app:attr0533="5"/>
+    </LinearLayout>
+</LinearLayout>

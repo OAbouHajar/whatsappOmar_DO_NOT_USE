@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/emoji_search_container">
+        <com.whatsapp.util.MarqueeToolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0529="@style/style0447">
+            <com.obwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0228"/>
+        </com.whatsapp.util.MarqueeToolbar>
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color00ae" android:gravity="center" android:id="@+id/biz_info_description" android:paddingLeft="16dp" android:paddingTop="24dp" android:paddingRight="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:gravity="center" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/change_photo_btn" android:layout_width="@dimen/dimen0694" android:layout_height="@dimen/dimen0694" android:src="@drawable/ic_reg_addphoto" android:scaleType="fitCenter" android:contentDescription="@string/str1d6a" app:attr0500="-1dp"/>
+                <ProgressBar android:layout_gravity="center" android:id="@+id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+            </FrameLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_weight="1">
+                <com.obwhatsapp.WaEditText android:textSize="16dp" android:textColorHint="@color/color06c5" android:ellipsize="end" android:id="@+id/registration_name" android:paddingRight="@dimen/dimen02af" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/str1380" android:maxLines="1" android:lines="1" android:singleLine="true" android:inputType="textCapWords" android:imeOptions="actionDone"/>
+                <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color06c5" android:id="@+id/name_counter_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignBaseline="@+id/registration_name" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <com.obwhatsapp.WaImageButton android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/emoji_btn" android:background="@null" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="48dp" android:src="@drawable/ib_emoji" android:minWidth="0dp" android:minHeight="0dp" android:contentDescription="@string/str1c81" app:attr0532="@color/color04ca"/>
+        </LinearLayout>
+        <View android:id="@+id/spacer" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/register_name_accept" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" android:text="@string/str0de0" style="@style/style03a2"/>
+        <RelativeLayout android:layout_gravity="bottom" android:id="@+id/shortcut_layout" android:background="@color/color0723" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="56dp">
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color00ad" android:gravity="left|center_vertical|center_horizontal|center" android:paddingRight="14dp" android:layout_width="wrap_content" android:text="@string/str0b87" android:layout_toLeftOf="@+id/cbx_app_shortcut" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/style027d"/>
+            <CheckBox android:gravity="center" android:id="@+id/cbx_app_shortcut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.obwhatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</com.obwhatsapp.KeyboardPopupLayout>

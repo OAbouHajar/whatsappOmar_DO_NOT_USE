@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color089c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:background="?attr/attr00ef" android:layout_width="match_parent" android:layout_height="?attr/attr0007" android:minHeight="?attr/attr0007" style="@style/style0380"/>
+    <com.obwhatsapp.KeyboardPopupLayout android:gravity="bottom" android:id="@+id/conversation_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/emoji_popup_anchor" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/message_bubble_place_holder" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <include layout="@layout/layout015f"/>
+            <com.obwhatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.obwhatsapp.KeyboardPopupLayout>
+</LinearLayout>

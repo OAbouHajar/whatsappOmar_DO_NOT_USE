@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/dimen0845">
+        <com.obwhatsapp.WaRoundCornerImageView android:id="@+id/wallpaper_category_preview" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:attr040f="@dimen/dimen0848"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/wallpaper_category_preview_icon" android:layout_width="@dimen/dimen0847" android:layout_height="@dimen/dimen0846" android:scaleType="fitCenter"/>
+    </FrameLayout>
+    <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0660" android:id="@+id/wallpaper_category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0849"/>
+</merge>

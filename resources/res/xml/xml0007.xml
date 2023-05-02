@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/str1536" android:key="settings_chat_history">
+    <com.obwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_settings_export" android:layout="@layout/layout04b7" android:title="@string/str1d93" android:key="email_chat_history"/>
+    <com.obwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_action_archive" android:layout="@layout/layout04b7" android:title="@string/str1bdc" android:key="msgstore_archive_all_chats"/>
+    <com.obwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_settings_clearchat" android:layout="@layout/layout04b7" android:title="@string/str1c23" android:key="msgstore_clear_all_chats"/>
+    <com.obwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_settings_delete" android:layout="@layout/layout04b7" android:title="@string/str1c4e" android:key="msgstore_delete_all_chats"/>
+</PreferenceScreen>

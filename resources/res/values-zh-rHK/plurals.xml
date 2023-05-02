@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">此裝置上需有 %1$s 儲存空間方可完成轉移。請使用 WhatsApp 儲存空間管理工具釋出更多空間。</item>
+    </plurals>
+</resources>

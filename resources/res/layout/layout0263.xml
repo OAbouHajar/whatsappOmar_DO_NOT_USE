@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen035e" android:layout_marginRight="@dimen/dimen035e">
+            <com.obwhatsapp.WaTextView android:text="@string/str07d3" style="@style/style014a"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_encryption_key_input_instructional" style="@style/style0148"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_encryption_key_input_forgot" android:text="@string/str07d1" style="@style/style0149"/>
+            <RelativeLayout android:id="@+id/enc_key_background" android:background="@drawable/enc_backup_enc_key_bg" android:layout_marginTop="@dimen/dimen0656" style="@style/style0143">
+                <FrameLayout android:id="@+id/encryption_key_input_encryption_key_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </com.obwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/encryption_key_input_next_button" android:text="@string/str07d2" style="@style/style03a2"/>
+</LinearLayout>

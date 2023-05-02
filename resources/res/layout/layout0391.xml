@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/color0120" android:paddingLeft="@dimen/dimen0181" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen015f">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@drawable/category_image_bg" style="@style/style00ff"/>
+        <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/image_category_list_item" style="@style/style0100"/>
+    </FrameLayout>
+    <com.obwhatsapp.TextEmojiLabel android:id="@+id/title_category_list_item" style="@style/style0105"/>
+</LinearLayout>

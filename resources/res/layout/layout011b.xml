@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0507" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" app:attr028d="sans-serif-medium"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/ic_fbpay_lock_gray" app:attr0532="@color/color0226"/>
+    </FrameLayout>
+</merge>

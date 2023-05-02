@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.util.MarqueeToolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0529="@style/style0447">
+        <com.obwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0228"/>
+    </com.whatsapp.util.MarqueeToolbar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColorLink="@color/color04f8" android:gravity="center_horizontal" android:id="@+id/send_code_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str19a1" android:lineSpacingMultiplier="@dimen/dimen0686" style="@style/style027d"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:gravity="center_horizontal" android:id="@+id/roaming_warning" android:visibility="gone" android:layout_width="match_parent" android:layout_marginTop="8dp" android:text="@string/str19a6" android:lineSpacingMultiplier="@dimen/dimen0686" style="@style/style027d"/>
+            <ViewStub android:id="@+id/verify_wa_old_content_stub" android:layout="@layout/layout05c7" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <RelativeLayout android:gravity="center_vertical" android:id="@+id/sms_pane_call_layout" android:paddingTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/code_input_and_progress_bar" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <FrameLayout android:id="@+id/code_input" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.obwhatsapp.CodeInputField android:textSize="22sp" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/verify_sms_code_input" android:background="@null" android:layout_width="160sp" android:layout_height="wrap_content" android:text="123-456" android:singleLine="true" android:digits=" 0123456789" android:inputType="phone"/>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/verify_sms_code_boxes" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </FrameLayout>
+                    <ProgressBar android:layout_gravity="bottom" android:id="@+id/progress_bar_code_input_blocked" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="@dimen/dimen0695" android:progressDrawable="@drawable/blocked_code_input_progress" android:layout_below="@+id/code_input" android:layout_alignLeft="@+id/code_input" android:layout_alignRight="@+id/code_input" style="@style/Widget.ProgressBar.Horizontal"/>
+                </RelativeLayout>
+                <com.obwhatsapp.WaImageButton android:id="@+id/verify_sms_retry_btn" android:background="@drawable/input_circle_green" android:visibility="gone" android:layout_width="@dimen/dimen0698" android:layout_height="@dimen/dimen0698" android:layout_marginLeft="@dimen/dimen0696" android:layout_marginTop="@dimen/dimen0697" android:layout_marginRight="@dimen/dimen0696" android:src="@drawable/ic_action_arrow_next" android:layout_toRightOf="@+id/code_input_and_progress_bar" android:contentDescription="@string/str146a"/>
+            </RelativeLayout>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color00ae" android:layout_gravity="center_horizontal" android:id="@+id/enter_code_description" android:paddingLeft="16dp" android:paddingTop="0dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:text="@string/str198a" android:labelFor="@+id/verify_sms_code_input" style="@style/style027d"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen02ed" android:textStyle="bold" android:textColor="@color/color00ae" android:layout_gravity="center_horizontal" android:id="@+id/fallback_methods_entry_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen02ec" android:text="@string/str06ea" style="@style/style027d"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/request_code_panel" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@+id/wa_old_progress_group" style="@style/style022a">
+                    <com.obwhatsapp.WaButton android:id="@+id/resend_wa_old_code_btn" android:text="@string/str199f" style="@style/style0229"/>
+                    <com.obwhatsapp.WaTextView android:id="@+id/countdown_time_wa_old" style="@style/style022b"/>
+                </LinearLayout>
+                <View android:id="@+id/verify_wa_old_divider" android:background="@color/color07c4" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:id="@+id/sms_progress_group" style="@style/style022a">
+                    <com.obwhatsapp.WaButton android:id="@+id/resend_sms_btn" android:text="@string/str199e" style="@style/style0229"/>
+                    <com.obwhatsapp.WaTextView android:id="@+id/countdown_time_sms" style="@style/style022b"/>
+                </LinearLayout>
+                <View android:id="@+id/verify_sms_divider" android:background="@color/color07c4" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:id="@+id/voice_progress_group" style="@style/style022a">
+                    <com.obwhatsapp.WaButton android:id="@+id/call_btn" android:text="@string/str19a9" style="@style/style0229"/>
+                    <com.obwhatsapp.WaTextView android:id="@+id/countdown_time_voice" style="@style/style022b"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

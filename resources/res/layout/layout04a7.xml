@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0656">
+    <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/nearby_title" android:paddingLeft="@dimen/dimen0652" android:paddingRight="@dimen/dimen0652" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/str01a5" android:fontFamily="sans-serif-medium" style="@style/style00d9"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/popular_categories_recycler_view" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cacheColorHint="@color/color0792"/>
+</LinearLayout>

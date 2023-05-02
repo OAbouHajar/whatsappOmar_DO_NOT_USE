@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionGroup="true">
+    <com.obwhatsapp.StickyHeadersRecyclerView android:id="@+id/grid" android:background="@null" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/color0792" app:attr0497="0dp"/>
+    <ScrollView android:id="@android:id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorPrimary" android:layout_gravity="center" android:id="@+id/empty_text" android:paddingBottom="64dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="64dp" android:layout_height="64dp" android:indeterminateOnly="true" app:attr0113="@color/color0792" app:attr0114="@color/color0659"/>
+</FrameLayout>

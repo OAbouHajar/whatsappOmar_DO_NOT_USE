@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/video_player" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/layout03cb"/>
+        <include layout="@layout/layout0241"/>
+        <include layout="@layout/layout023d"/>
+        <FrameLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/trim_info_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:id="@+id/trim_info" android:background="@drawable/video_preview_label_background" android:visibility="invisible" android:layout_marginTop="20dp" style="@style/style038f"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/video_controls" android:paddingTop="@dimen/dimen005e" android:paddingBottom="@dimen/dimen005e" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.mediacomposer.VideoTimelineView android:id="@+id/timeline_view" android:paddingLeft="16dp" android:paddingTop="1dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="44dp" app:attr057e="@color/color090b" app:attr057f="2dp" app:attr0580="@color/color07ca" app:attr0581="@color/color090b" app:attr0582="@color/color090b" app:attr0583="6dp" app:attr0584="8dp"/>
+                <RelativeLayout android:paddingLeft="16dp" android:paddingTop="4dp" android:paddingRight="16dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:id="@+id/mute_video_container" android:background="@drawable/video_preview_label_background" android:visibility="gone" android:layout_width="36dp" android:layout_height="26dp" android:layout_marginRight="8dp">
+                        <com.obwhatsapp.WaImageView android:id="@+id/mute_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mute" app:attr0532="@color/color0910"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="@drawable/video_preview_label_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/mute_video_container">
+                        <com.obwhatsapp.WaTextView android:id="@+id/duration" style="@style/style038f"/>
+                        <com.obwhatsapp.WaTextView android:id="@+id/bullet_size" android:paddingLeft="0dp" android:paddingRight="0dp" android:text="@string/str1c3e" style="@style/style038f"/>
+                        <com.obwhatsapp.WaTextView android:id="@+id/size" style="@style/style038f"/>
+                    </LinearLayout>
+                    <com.obwhatsapp.WaImageView android:id="@+id/video_gif_toggle" android:paddingLeft="12dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gif_off" android:layout_alignParentRight="true" android:contentDescription="@string/str19c1"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/play" android:background="@drawable/exo_player_gray_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_play" android:scaleType="center" android:contentDescription="@string/str12aa"/>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

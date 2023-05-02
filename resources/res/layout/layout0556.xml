@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:paddingLeft="32dp" android:paddingTop="16dp" android:paddingRight="12dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaImageView android:id="@+id/share_link_action_item_icon" android:layout_width="@dimen/dimen085a" android:layout_height="@dimen/dimen085a" android:src="@drawable/ic_action_copy" app:attr0532="@color/color088c"/>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="30dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.obwhatsapp.WaTextView android:textColor="@color/color0507" android:id="@+id/share_link_action_item_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/style01bc"/>
+        <com.obwhatsapp.WaTextView android:textColor="@color/color088e" android:id="@+id/share_link_action_item_description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style01b9"/>
+    </LinearLayout>
+</LinearLayout>

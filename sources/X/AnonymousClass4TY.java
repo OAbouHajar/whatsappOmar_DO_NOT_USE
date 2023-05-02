@@ -1,0 +1,19 @@
+package X;
+
+/* renamed from: X.4TY  reason: invalid class name */
+public abstract class AnonymousClass4TY {
+    public float A00 = 1.0f;
+    public boolean A01 = false;
+
+    public float A00() {
+        if (this.A01) {
+            return (Math.abs(this.A00) / 4.0f) + 0.75f;
+        }
+        return 1.0f;
+    }
+
+    public void A01() {
+        this.A01 = false;
+        this.A00 = 1.0f;
+    }
+}

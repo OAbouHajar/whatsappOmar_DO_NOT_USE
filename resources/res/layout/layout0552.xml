@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.WaTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/section_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:shadowColor="#80000000" android:shadowDy="1" android:shadowRadius="1" style="@style/style0265"/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40dp" android:minHeight="30dp">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout01b4"/>
+        <include layout="@layout/layout01c1"/>
+        <RelativeLayout android:id="@+id/invite_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/invite_layout" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center_vertical" android:id="@+id/avatar" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="@dimen/dimen0420" android:layout_marginRight="@dimen/dimen041f" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/str0aa8" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/dimen0421" android:paddingBottom="@dimen/dimen0421" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0420" android:layout_weight="1">
+                        <com.obwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color0507" android:ellipsize="end" android:id="@+id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                        <com.obwhatsapp.TextEmojiLabel android:id="@+id/instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0aa4"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/expired_invitation_container" android:background="@drawable/group_invite_expired_background" android:paddingLeft="@dimen/dimen0246" android:paddingTop="1dp" android:paddingRight="@dimen/dimen0246" android:paddingBottom="@dimen/dimen0244" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color01a2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0bb4"/>
+                </FrameLayout>
+            </LinearLayout>
+            <com.obwhatsapp.WaFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" android:layout_alignLeft="@+id/invite_layout" android:layout_alignTop="@+id/invite_layout" android:layout_alignRight="@+id/invite_layout" android:layout_alignBottom="@+id/invite_layout" app:attr058b="@color/color00c7" app:attr058c="@color/color00c6"/>
+            <com.obwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_alignBottom="@+id/invite_layout">
+                <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style03b3" android:layout_gravity="left" android:id="@+id/group_invite_caption" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="@dimen/dimen02a5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1dp"/>
+                <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="@dimen/dimen0246" android:paddingRight="@dimen/dimen0246" android:paddingBottom="@dimen/dimen0244" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b1"/>
+                </LinearLayout>
+            </com.obwhatsapp.components.TextAndDateLayout>
+        </RelativeLayout>
+        <View android:id="@+id/button_div" style="@style/style024c"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/group_view_contacts_btn" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:layout_gravity="center" android:id="@+id/action_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str0bd6" android:layout_weight="1" style="@style/style0131"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

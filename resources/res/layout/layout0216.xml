@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/description_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style019e">
+    <LinearLayout android:orientation="vertical" android:background="@color/color065f" android:padding="@dimen/dimen0457" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/has_description_view" android:paddingTop="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.text.ReadMoreTextView android:textSize="@dimen/dimen0145" android:textColor="@color/color07a0" android:id="@+id/group_description" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr041f="3" app:attr0421="@color/color0659" app:attr0422="@string/str134e"/>
+            <ProgressBar android:id="@+id/change_description_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+        </LinearLayout>
+        <com.obwhatsapp.WaTextView android:textColor="@color/color0659" android:id="@+id/no_description_view" android:paddingTop="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str00b1" style="@style/style01bd"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/creation_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762"/>
+    </LinearLayout>
+</com.obwhatsapp.InfoCard>

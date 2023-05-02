@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/business_compliance_frame_layout" android:background="@color/color00cf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/business_compliance_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/business_compliance_network_error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen00d1" android:layout_marginRight="@dimen/dimen00d1">
+        <com.obwhatsapp.WaTextView android:gravity="center" android:id="@+id/business_compliance_network_error_text" android:layout_marginLeft="@dimen/dimen0652" android:text="@string/str02ca" app:attr0339="@dimen/dimen0640" style="@style/style010e"/>
+        <com.obwhatsapp.WaButton android:textSize="14sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/business_compliance_network_error_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0652" android:text="@string/str02db" app:attr0339="@dimen/dimen0640" style="@style/style00ea"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@+id/business_compliance_wrapper_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr009d="@dimen/dimen0654">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/business_compliance_recyclerview" android:background="@color/color065f" android:paddingBottom="@dimen/dimen0656" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

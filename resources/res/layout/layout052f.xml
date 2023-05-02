@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.obwhatsapp.WaImageView android:id="@+id/search_map_preview_map_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/map_loading" android:scaleType="centerCrop"/>
+    <com.obwhatsapp.location.WaMapView android:id="@+id/search_map_preview_map" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/search_map_preview_avatar_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/ic_live_location_places" android:visibility="visible" android:layout_width="@dimen/dimen06cc" android:layout_height="@dimen/dimen06cc"/>
+        <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/search_map_preview_contact_thumbnail" android:visibility="visible" android:layout_width="@dimen/dimen06cd" android:layout_height="@dimen/dimen06cd" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" app:attr04fc="@color/color051a" app:attr04fd="1dp" app:attr04fe="false" app:attr0500="@dimen/dimen0748"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/search_map_preview_contact_thumbnail_overlay" android:visibility="visible" android:layout_width="@dimen/dimen06cd" android:layout_height="@dimen/dimen06cd" android:src="@drawable/live_location_expired_contact_mask"/>
+    </FrameLayout>
+    <com.obwhatsapp.WaTextView android:id="@+id/search_map_preview_thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

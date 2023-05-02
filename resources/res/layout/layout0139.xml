@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/status_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style019e">
+    <LinearLayout android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout style="@style/style0183">
+            <com.obwhatsapp.WaTextView android:id="@+id/status_and_phone_title" android:paddingLeft="@dimen/dimen0457" android:text="@string/str0553" style="@style/style0186"/>
+        </FrameLayout>
+        <include layout="@layout/layout0138"/>
+        <View android:id="@+id/status_separator" style="@style/style0185"/>
+        <include layout="@layout/layout0134"/>
+    </LinearLayout>
+</com.obwhatsapp.InfoCard>

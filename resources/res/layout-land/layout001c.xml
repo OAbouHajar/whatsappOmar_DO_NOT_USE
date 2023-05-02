@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:id="@+id/logo" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/about_logo" android:contentDescription="@string/str0007"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.obwhatsapp.WaTextView android:textSize="20sp" android:textStyle="normal" android:textColor="@color/color090b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str17a7"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="#ff86a9a8" android:id="@+id/version" android:paddingTop="2dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+            <com.obwhatsapp.WaTextView android:textSize="15sp" android:textColor="#ff86a9a8" android:paddingTop="10dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="@string/str1de4"/>
+            <com.obwhatsapp.WaButton android:textSize="17sp" android:textColor="#ff49d0fc" android:id="@+id/about_licenses" android:background="@drawable/selector_transparent_gray" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:minWidth="128dp" android:text="@string/str19e1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

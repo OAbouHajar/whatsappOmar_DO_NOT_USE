@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0317="0" app:attr031b="0">
+    <com.obwhatsapp.BidiToolbar android:theme="@style/style036b" android:id="@+id/toolbar" android:background="@color/color0793" android:layout_width="match_parent" android:layout_height="@dimen/dimen005e" app:attr0321="0"/>
+    <com.obwhatsapp.TextEmojiLabel android:layout_gravity="center_horizontal" android:id="@+id/date_bubble" app:attr0305="@+id/text_bubble" app:attr0317="0" app:attr031b="0" style="@style/style03b4"/>
+    <LinearLayout android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/text_bubble" android:background="@drawable/balloon_incoming_normal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="64dp" android:minHeight="30dp" app:attr0304="0" app:attr0317="0" app:attr031b="0" app:attr0321="0">
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01e6"/>
+        <view android:layout_gravity="left" android:id="@+id/conversation_text_row" android:paddingLeft="@dimen/dimen076b" android:paddingRight="@dimen/dimen076b" android:paddingBottom="@dimen/dimen076b" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.obwhatsapp.components.TextAndDateLayout">
+            <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style03b3" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="8dp" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <include layout="@layout/layout0186"/>
+        </view>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

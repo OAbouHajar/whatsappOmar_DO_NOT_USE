@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel" android:paddingLeft="@dimen/dimen0155" android:paddingTop="@dimen/dimen0157" android:paddingRight="@dimen/dimen0155" android:paddingBottom="@dimen/dimen0157" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr058d="@color/color0075">
+        <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="@color/color06c5" android:id="@+id/spam_warning_info_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-light"/>
+        <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="225dp" android:layout_height="225dp" android:layout_marginBottom="0dp" android:indeterminateOnly="false" app:attr0113="@color/color0738" app:attr0114="@color/color0739" app:attr0118="30" app:attr0119="@color/color06c5"/>
+        <com.obwhatsapp.components.Button android:id="@+id/btn_spam_warning_learn_more" android:layout_width="match_parent" android:layout_marginTop="12dp" android:text="@string/str1cf6" style="@style/style03a2"/>
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color04c0" android:id="@+id/spam_warning_generic_data_connection_missing_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/str166d" android:fontFamily="sans-serif-light"/>
+    </com.obwhatsapp.WaLinearLayout>
+</ScrollView>

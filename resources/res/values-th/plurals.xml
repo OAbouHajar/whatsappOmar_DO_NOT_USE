@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">ต้องมี %1$s ในอุปกรณ์นี้สำหรับการโอนข้อมูล โปรดล้างพื้นที่โดยใช้เครื่องมือจัดการพื้นที่เก็บข้อมูลของ WhatsApp</item>
+    </plurals>
+</resources>

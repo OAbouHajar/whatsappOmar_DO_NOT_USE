@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="50dp">
+    <com.obwhatsapp.bloks.ui.widgets.rangeslider.WaRangeSeekBar android:id="@+id/bloks_range_slider" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

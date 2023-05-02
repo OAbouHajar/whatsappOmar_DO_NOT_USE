@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:paddingTop="8dp" layout="@layout/yo_toolbar"/>
+        <com.obwhatsapp.yo.tf android:textColor="#ff333333" android:paddingTop="12dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/whocancall" android:paddingStart="20dp" android:paddingEnd="12dp" style="@style/ListItemTitle"/>
+        <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.yo.radiobtn android:id="@+id/seeeme" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str12f8" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+            <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+            <com.obwhatsapp.yo.radiobtn android:id="@+id/my_contacts_btn" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str12f7" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+            <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+            <com.obwhatsapp.yo.radiobtn android:id="@+id/black_list_btn" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0a2b" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+            <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+            <com.obwhatsapp.yo.radiobtn android:id="@+id/white_list_btn" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str14c4" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+            <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+            <com.obwhatsapp.yo.radiobtn android:id="@+id/div2" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str12ff" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+        </RadioGroup>
+        <LinearLayout android:orientation="vertical" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.yo.tf android:textColor="#ff333333" android:paddingTop="12dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0e38" android:paddingStart="20dp" android:paddingEnd="12dp" style="@style/ListItemTitle"/>
+            <RadioGroup android:id="@+id/div" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.yo.radiobtn android:tag="nointer_calling" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0df8" android:maxLines="2" android:singleLine="false" android:inputType="textMultiLine" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+                <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <com.obwhatsapp.yo.radiobtn android:tag="declined" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1a8f" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+                <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <com.obwhatsapp.yo.radiobtn android:tag="ended" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1af3" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+                <View android:background="@drawable/divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <com.obwhatsapp.yo.radiobtn android:tag="unabletoget" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1af1" android:maxLines="2" android:singleLine="false" android:inputType="textMultiLine" android:layout_marginStart="20dp" style="@style/ListItemTitle"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

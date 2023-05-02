@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@android:id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.collections.observablelistview.ObservableListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style019b"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/calls_recyclyerView" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style019b"/>
+    <FrameLayout android:gravity="center" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen013a" android:textColor="@color/color06c5" android:gravity="center" android:layout_gravity="center" android:id="@+id/welcome_calls_message" android:paddingLeft="@dimen/dimen0139" android:paddingTop="48dp" android:paddingRight="@dimen/dimen0139" android:paddingBottom="96dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@string/str0048" style="@style/style027b"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0138" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/search_no_matches" android:paddingLeft="@dimen/dimen0137" android:paddingRight="@dimen/dimen0137" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/calls_empty_no_contacts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include android:layout_gravity="center" android:id="@+id/contacts_empty_permission_denied" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0256"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/init_calls_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color04f8" android:id="@+id/order_message_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" style="@style/style0131"/>
+</merge>

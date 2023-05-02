@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/list_bottom_shadow" style="@style/style01b6"/>
+    <com.obwhatsapp.InfoCard android:orientation="vertical" android:id="@+id/other_phones_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02bd="@color/color065f" style="@style/style019e">
+        <FrameLayout android:paddingLeft="@dimen/dimen0457" style="@style/style0183">
+            <com.obwhatsapp.WaTextView android:text="@string/str0561" style="@style/style0186"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/other_phones_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.obwhatsapp.InfoCard>
+    <com.obwhatsapp.InfoCard android:id="@+id/block_and_report_contact_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02bd="@color/color065f" style="@style/style019e">
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/block_contact_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_spam_block" app:attr0348="@string/str0226"/>
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/report_contact_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_spam_report" app:attr0348="@string/str1416"/>
+    </com.obwhatsapp.InfoCard>
+</LinearLayout>

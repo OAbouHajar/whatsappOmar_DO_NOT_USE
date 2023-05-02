@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/dimen0652" android:paddingRight="@dimen/dimen02fb" android:paddingBottom="@dimen/dimen0652" android:layout_width="match_parent" android:layout_height="@dimen/dimen00e7">
+    <View android:id="@+id/business_avatar" android:background="@drawable/business_avatar_template" android:layout_width="@dimen/dimen0200" android:layout_height="@dimen/dimen0200" android:layout_margin="@dimen/dimen02f6" app:attr0304="0" app:attr030b="@+id/business_name" app:attr031d="0" app:attr0321="0"/>
+    <View android:id="@+id/business_name" android:background="@drawable/business_line_template" android:layout_width="0dp" android:layout_height="@dimen/dimen0309" app:attr0305="@+id/business_details" app:attr030a="0" app:attr031c="@+id/business_avatar" app:attr0321="0"/>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@+id/business_details" android:paddingRight="@dimen/dimen0300" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen02f6" android:layout_marginRight="@dimen/dimen0300" app:attr030a="0" app:attr031c="@+id/business_avatar" app:attr0320="@+id/business_name">
+        <View android:background="@drawable/business_line_template" android:layout_width="match_parent" android:layout_height="@dimen/dimen030a" android:layout_marginTop="@dimen/dimen0308"/>
+        <View android:id="@+id/category" android:background="@drawable/business_line_template" android:layout_width="match_parent" android:layout_height="@dimen/dimen030a" android:layout_marginTop="@dimen/dimen0308"/>
+        <View android:id="@+id/address" android:background="@drawable/business_line_template" android:layout_width="match_parent" android:layout_height="@dimen/dimen030a" android:layout_marginTop="@dimen/dimen0308"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

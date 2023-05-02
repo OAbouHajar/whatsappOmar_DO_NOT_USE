@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OB8_ob">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">#ff640150</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB9_ob">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">#ff640150</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar_ob">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar2_ob">
+        <item name="android:textColor">#ffff0000</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar3_ob">
+        <item name="android:textColor">#ff0000ff</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar4_ob">
+        <item name="android:textColor">#ff00ab00</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar5_ob">
+        <item name="android:textColor">#ff008bb9</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar6_ob">
+        <item name="android:textColor">#ff840089</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar7_ob">
+        <item name="android:textColor">#ffff6000</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar8_ob">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="omar9_ob">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="omar2_new">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff0000ff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sa_dev">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="sa2_dev">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="legend">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB2_ob">
+        <item name="android:textColor">#ffff0000</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB3_ob">
+        <item name="android:textColor">#ff0000ff</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB4_ob">
+        <item name="android:textColor">#ff00ab00</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB5_ob">
+        <item name="android:textColor">#ff008bb9</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB6_ob">
+        <item name="android:textColor">#ff840089</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB7_ob">
+        <item name="android:textColor">#ffff6000</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:background">#ffffe9fa</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OB10_ob">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ff0c3d60</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="VTSettingsDesign">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">#ffeaeaea</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">12dp</item>
+    </style>
+    <style name="altornedoSettingsDesign">
+        <item name="android:textColor">#ff00e7ff</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">#ff009459</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">12dp</item>
+    </style>
+</resources>

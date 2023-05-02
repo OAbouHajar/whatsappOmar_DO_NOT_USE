@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@android:id/widget_frame" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="90dp">
+    <com.obwhatsapp.yo.tf android:textSize="16sp" android:textColor="@color/primary_text" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TITLE" android:layout_toLeftOf="@+id/seekBarPrefUnitsLeft" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <com.obwhatsapp.yo.tf android:id="@+id/seekBarPrefUnitsRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SP" android:layout_alignParentRight="true"/>
+    <com.obwhatsapp.yo.tf android:gravity="right" android:id="@+id/seekBarPrefValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30" android:layout_toLeftOf="@+id/seekBarPrefUnitsRight"/>
+    <com.obwhatsapp.yo.tf android:id="@+id/seekBarPrefUnitsLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/seekBarPrefValue"/>
+    <com.obwhatsapp.yo.tf android:textSize="14sp" android:id="@android:id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="SUMMARY" android:layout_toLeftOf="@+id/seekBarPrefUnitsLeft" android:layout_below="@android:id/title" android:layout_alignParentLeft="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/seekBarPrefBarContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@android:id/summary" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <SeekBar android:id="@+id/seekbar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

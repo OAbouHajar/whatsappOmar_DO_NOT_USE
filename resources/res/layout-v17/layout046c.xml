@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/color065f" android:paddingLeft="@dimen/dimen05ff" android:paddingRight="@dimen/dimen05ff" android:paddingBottom="@dimen/dimen05ff" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.components.Button android:id="@+id/complaint_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:text="@string/str02ae" style="@style/style03aa"/>
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@+id/transaction_complaint_status" android:background="@drawable/txn_details_rounded_blurb_bg" android:paddingLeft="@dimen/dimen05ff" android:paddingTop="@dimen/dimen05df" android:paddingRight="@dimen/dimen05ff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/transaction_complaint_status_icon" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="18dp" android:scaleType="fitCenter"/>
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0712" android:textStyle="bold" android:textColor="@color/color0660" android:id="@+id/transaction_complaint_status_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" app:attr0339="20dp"/>
+                <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0712" android:textColor="@color/color0660" android:id="@+id/transaction_complaint_status_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" app:attr0339="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="start" android:orientation="horizontal" android:paddingTop="2dp" android:paddingRight="@dimen/dimen05ff" android:paddingBottom="@dimen/dimen05df" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/transaction_complaint_status_icon_placeholder" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="18dp" android:scaleType="fitCenter"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color06c5" android:id="@+id/transaction_complaint_status_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen05ff" android:layout_marginEnd="@dimen/dimen05ff" app:attr0339="@dimen/dimen05ff"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

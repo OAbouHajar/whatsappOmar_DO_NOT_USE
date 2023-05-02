@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/str19d9">
+        <SwitchPreference android:icon="@drawable/images_hide" android:title="@string/str1d80" android:key="yohide_inimages"/>
+        <SwitchPreference android:icon="@drawable/video_hide" android:title="@string/str1d84" android:key="yohide_invideos"/>
+        <SwitchPreference android:icon="@drawable/gif_hide" android:title="@string/str149f" android:key="yohide_ingifs"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/str13df">
+        <Preference android:icon="@drawable/ill_backup_restore" android:title="@string/str057d" android:key="yohide_mediashow" android:summary="@string/str01fb"/>
+        <Preference android:title="@string/media_in_gallery" android:summary="@string/restart_phone"/>
+    </PreferenceCategory>
+</PreferenceScreen>

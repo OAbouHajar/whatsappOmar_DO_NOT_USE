@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0274" android:minHeight="30dp">
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01e6"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/view_once_media_container_small" android:paddingLeft="@dimen/dimen0231" android:paddingRight="@dimen/dimen076b" android:paddingBottom="@dimen/dimen076b" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.conversation.conversationrow.components.ViewOnceDownloadProgressView android:gravity="center" android:layout_gravity="center" android:id="@+id/view_once_download_small" android:paddingTop="1dp" android:paddingRight="@dimen/dimen022f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0230" android:layout_marginBottom="@dimen/dimen0230"/>
+            <com.obwhatsapp.components.TextAndDateLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0299" android:gravity="center_vertical" android:layout_gravity="left" android:id="@+id/view_once_media_type_small" android:paddingTop="@dimen/dimen0233" android:paddingBottom="@dimen/dimen0233" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingVertical="@dimen/dimen0233"/>
+                <include layout="@layout/layout0187"/>
+            </com.obwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

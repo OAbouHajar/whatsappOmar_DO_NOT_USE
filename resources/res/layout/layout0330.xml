@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/screen_share_warning_dialog" android:layout_width="0dp" android:layout_height="wrap_content" app:attr0304="0" app:attr030a="0" app:attr031d="0" app:attr0321="0" app:attr0326="560dp">
+        <com.obwhatsapp.WaFrameLayout android:layout_gravity="center" android:background="@drawable/panel_popup_top" android:layout_width="match_parent" android:layout_height="112dp" app:attr058a="@color/color05db">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/warning_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_storage_warning" app:attr0532="@color/color090b"/>
+        </com.obwhatsapp.WaFrameLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr058d="@color/color05da">
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:gravity="left" android:id="@+id/permission_title" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str10c5" style="@style/style027b"/>
+                <com.obwhatsapp.components.AutoOrientationLinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/footer_layout" android:layout_width="match_parent" android:layout_height="52dp">
+                    <com.obwhatsapp.WaButton android:layout_gravity="center_vertical" android:id="@+id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1c24" style="@style/style03a5"/>
+                </com.obwhatsapp.components.AutoOrientationLinearLayout>
+            </com.obwhatsapp.WaLinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

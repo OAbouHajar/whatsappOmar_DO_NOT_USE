@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/preview_holder" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/view_stub_for_document_info" android:layout="@layout/layout023b" android:inflatedId="@+id/inflatedDocumentInfo" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dimen057f"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/thumb_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="64dp" android:scaleType="fitCenter" android:contentDescription="@string/str09b8"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/loading_progress" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginBottom="64dp"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/entry_container" android:paddingLeft="@dimen/dimen0148" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout0405"/>
+    </FrameLayout>
+</com.obwhatsapp.KeyboardPopupLayout>

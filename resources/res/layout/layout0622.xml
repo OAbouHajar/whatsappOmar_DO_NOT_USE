@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/webPagePreviewImageLarge_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/webPagePreviewImageLarge_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.obwhatsapp.webpagepreview.WebPagePreviewCornerShadowView android:id="@+id/webPagePreviewImageLarge_logo_platform_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/webPagePreviewImageLarge_logo_platform" android:padding="8dp" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style0369" android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/appbar" android:layout_alignParentBottom="true">
+        <com.obwhatsapp.settings.chat.wallpaper.WallpaperImagePreview android:id="@+id/wallpaper_preview_default_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.obwhatsapp.settings.chat.wallpaper.WallpaperMockChatView android:id="@+id/wallpaper_preview_default_chat_view" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/control_holder" android:background="@drawable/wallpaper_confirmation_background" android:padding="@dimen/dimen084c" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.obwhatsapp.WaButton android:textColor="@color/color090b" android:id="@+id/set_wallpaper_button" android:background="@drawable/color_wallpaper_set_background" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/str1b68" android:layout_weight="1" app:primary_text_default_material_dark="2" app:attr0568="2"/>
+    </LinearLayout>
+</RelativeLayout>

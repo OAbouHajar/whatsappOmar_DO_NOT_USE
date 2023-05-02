@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/template_message" android:layout_width="@dimen/dimen0268" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0274">
+        <include layout="@layout/layout05ad"/>
+        <com.obwhatsapp.conversation.conversationrow.TemplateRowContentLayout android:id="@+id/template_message_content" android:layout_width="@dimen/dimen0268" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/rounded_bottom_sheet_dialog" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:paddingRight="@dimen/dimen0765" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="@dimen/dimen0762" app:attr00fe="0dp" app:attr0100="0dp" app:attr0101="0dp" app:attr0102="0dp">
+        <com.obwhatsapp.WaTextView android:textAppearance="@style/style02ce" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0769" android:layout_marginStart="@dimen/dimen0769"/>
+    </com.obwhatsapp.BidiToolbar>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/intent_recycler" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0765" android:layout_marginBottom="@dimen/dimen0765" android:layout_marginStart="@dimen/dimen0762" android:layout_marginEnd="@dimen/dimen0762"/>
+</LinearLayout>

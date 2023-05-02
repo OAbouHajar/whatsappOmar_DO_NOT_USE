@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/alert_banner_component" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/alert_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="28dp" android:layout_marginRight="20dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/alert_info_layout" android:paddingRight="24dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.obwhatsapp.WaTextView android:id="@+id/alert_title" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style000b"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/alert_details" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0006"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/alert_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0005"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/alert_count_icon_layout" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/color088e" android:id="@+id/multi_alert_count" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/alert_right_icon" android:layout_width="16dp" android:layout_height="16dp" app:attr04b4="@drawable/ic_action_navigate" app:attr0532="@color/color088e"/>
+        </LinearLayout>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/alert_close_icon" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr04b4="@drawable/ic_backup_cancel" app:attr0532="@color/color088c"/>
+    </LinearLayout>
+</merge>

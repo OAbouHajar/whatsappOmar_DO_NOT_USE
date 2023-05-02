@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/catalog_product_placeholder" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@drawable/catalog_product_placeholder_background" style="@style/style021f"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="15dp">
+        <View android:background="@drawable/catalog_product_placeholder_background" android:layout_width="216dp" android:layout_height="20dp"/>
+        <View android:background="@drawable/catalog_product_placeholder_background" android:layout_width="51dp" android:layout_height="20dp" android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</LinearLayout>

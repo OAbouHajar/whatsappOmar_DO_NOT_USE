@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/mRootLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:textSize="17sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@+id/mTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/rmods_message_bomber"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/message_bomber_shape" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp">
+        <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/rmods_type_message"/>
+        <com.obwhatsapp.WaEditText android:id="@+id/mInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+        <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/rmods_numoftimes"/>
+        <com.obwhatsapp.WaEditText android:id="@+id/mCount" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:singleLine="true" android:inputType="number"/>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/message_bomber_shape" android:padding="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@+id/mBlankMessageBomber" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/Blank_Bomber"/>
+            <CheckBox android:id="@+id/mEmojiBomberCB" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/Emoji_Bomber"/>
+            <Spinner android:id="@+id/bomber_spinner" android:layout_width="180dp" android:layout_height="50dp" android:layout_marginLeft="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

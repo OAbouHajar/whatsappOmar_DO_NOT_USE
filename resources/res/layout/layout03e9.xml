@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/dimen0154" android:paddingTop="@dimen/dimen0156" android:paddingRight="@dimen/dimen0154" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+    <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes" app:attr058d="@color/color0075">
+        <FrameLayout android:id="@+id/section_kept" android:paddingLeft="@dimen/dimen0154" android:paddingRight="@dimen/dimen0154" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0422">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaImageView android:id="@+id/kept_icon" android:layout_width="22dp" android:layout_height="wrap_content" android:src="@drawable/ic_action_keep" app:attr0532="@color/color04d2"/>
+                    <com.obwhatsapp.WaTextView android:ellipsize="end" android:id="@+id/kept_title" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/style01bc"/>
+                </LinearLayout>
+                <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_kept" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b9"/>
+            </LinearLayout>
+            <View style="@style/style00f7"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/section_played" android:paddingLeft="@dimen/dimen0154" android:paddingRight="@dimen/dimen0154" android:layout_width="match_parent" android:layout_height="@dimen/dimen0422">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaImageView android:id="@+id/played_icon" android:layout_width="22dp" android:layout_height="wrap_content" android:src="@drawable/msg_status_mic"/>
+                    <com.obwhatsapp.WaTextView android:id="@+id/played_title" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0d42" style="@style/style01bc"/>
+                </LinearLayout>
+                <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_played" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b9"/>
+            </LinearLayout>
+            <View style="@style/style00f7"/>
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@dimen/dimen0154" android:paddingRight="@dimen/dimen0154" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0422">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaImageView android:layout_width="22dp" android:layout_height="wrap_content" android:src="@drawable/msg_status_client" app:attr0532="@color/color0559"/>
+                    <com.obwhatsapp.WaTextView android:id="@+id/title_read" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0d50" style="@style/style01bc"/>
+                </LinearLayout>
+                <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_read" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b9"/>
+            </LinearLayout>
+            <View style="@style/style00f7"/>
+        </FrameLayout>
+        <FrameLayout android:paddingLeft="@dimen/dimen0154" android:paddingRight="@dimen/dimen0154" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0422">
+            <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaImageView android:layout_width="22dp" android:layout_height="wrap_content" android:src="@drawable/msg_status_client" app:attr0532="@color/color055a"/>
+                    <com.obwhatsapp.WaTextView android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0d35" style="@style/style01bc"/>
+                </LinearLayout>
+                <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_delivered" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b9"/>
+            </LinearLayout>
+            <View android:id="@+id/delivered_separator" style="@style/style00f7"/>
+        </FrameLayout>
+        <ViewStub android:id="@+id/biz_agent_stub" android:layout="@layout/layout03e6" android:inflatedId="@+id/biz_agent_container" android:layout_width="match_parent" android:layout_height="@dimen/dimen0422"/>
+        <include android:id="@+id/forwarded_container" layout="@layout/layout03e7"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:paddingLeft="@dimen/dimen0154" android:paddingRight="@dimen/dimen0154" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0422">
+            <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0d59" style="@style/style01bc"/>
+            <com.obwhatsapp.WaTextView android:layout_gravity="left" android:id="@+id/date_time_sent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b9"/>
+        </LinearLayout>
+    </com.obwhatsapp.WaLinearLayout>
+</FrameLayout>

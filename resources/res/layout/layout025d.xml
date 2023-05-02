@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen035e" android:layout_marginRight="@dimen/dimen035e">
+            <com.obwhatsapp.WaTextView android:text="@string/str1551" style="@style/style014a"/>
+            <com.obwhatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/dimen0360" android:layout_marginTop="48dp" android:src="@drawable/ic_key" android:rotation="45" app:attr0532="@color/color0659"/>
+            <com.obwhatsapp.WaTextView android:layout_marginTop="@dimen/dimen0656" android:text="@string/str07b6" style="@style/style0141"/>
+            <com.obwhatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/dimen0360" android:layout_marginTop="48dp" android:src="@drawable/ic_warning" app:attr0532="@color/color0699"/>
+            <com.obwhatsapp.WaTextView android:layout_marginTop="@dimen/dimen0656" android:text="@string/str07b5" style="@style/style0141"/>
+        </com.obwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:id="@+id/enable_education_create_password_button" android:text="@string/str07b4" style="@style/style0146"/>
+    <com.obwhatsapp.components.Button android:id="@+id/enable_education_use_encryption_key_button" style="@style/style0147"/>
+</LinearLayout>

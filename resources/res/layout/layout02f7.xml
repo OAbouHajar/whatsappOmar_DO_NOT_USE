@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/filter_sheet_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.mediacomposer.doodle.ImagePreviewContentLayout android:id="@+id/media_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/layout03cb"/>
+    <include layout="@layout/layout0241"/>
+    <include layout="@layout/layout023d"/>
+    <include layout="@layout/layout0286"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

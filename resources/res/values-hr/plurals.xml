@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Za prijenos je potrebno %1$s na ovom uređaju. Oslobodite prostor pomoću WhatsAppovog alata za upravljanje pohranom.</item>
+    </plurals>
+</resources>

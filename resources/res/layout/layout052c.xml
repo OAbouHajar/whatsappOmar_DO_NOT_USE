@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.search.views.MessageThumbView android:id="@+id/thumb_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.obwhatsapp.search.views.itemviews.MessageGifVideoPlayer android:id="@+id/video_player" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/overlay" android:background="@drawable/gallery_album_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/button_frame" android:paddingLeft="@dimen/dimen06b2" android:paddingBottom="@dimen/dimen06b1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/button_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_marginRight="@dimen/dimen06b0" app:attr0532="@color/color090b"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen06af" android:textColor="@color/color090b" android:layout_gravity="center_vertical" android:id="@+id/media_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <include layout="@layout/layout052b"/>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/dimen052b">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.components.button.ThumbnailButton android:id="@+id/contact_photo" style="@style/style0117"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/dimen04ec" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.obwhatsapp.TextEmojiLabel android:textColor="@color/screen_title_text" android:id="@+id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/style01b9"/>
+            <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style02bc" android:textColor="@color/screen_title_text" android:layout_gravity="right" android:id="@+id/push_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/separator" style="@style/style024b"/>
+</FrameLayout>

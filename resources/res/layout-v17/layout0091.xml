@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/shops_container" android:background="@color/color065f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0454" android:layout_marginBottom="@dimen/dimen0454">
+    <FrameLayout android:id="@+id/shop_product_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen043b" android:layout_marginRight="@dimen/dimen043b" android:layout_marginStart="@dimen/dimen043b" android:layout_marginEnd="@dimen/dimen043b"/>
+</LinearLayout>

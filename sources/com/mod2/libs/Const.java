@@ -1,0 +1,40 @@
+package com.mod2.libs;
+
+public class Const {
+    public static String ActionbarWall = "actionbar_background";
+    public static String BackgroundFileName = "BackgroundFileName";
+    public static String BackgroundHeight = "BackgroundHeight";
+    public static String BackgroundPointer = "BackgroundPointer";
+    public static String BackgroundWidth = "BackgroundWidth";
+    public static String BlockReadSts = "CheckBoxBlockRead.Checked";
+    public static String DataFolder = "/Android/data/";
+    public static String HeaderWall = "background_header";
+    public static String MainTabWall = "background_main_tab";
+    public static String MainWall = "background_main";
+    public static String PhotoDescription = "PhotoDescription";
+    public static String PhotoToUpload = "PhotoToUpload";
+    public static String PopupImage = "PopupImage";
+    public static String PopupMsg = "PopupMsg";
+    public static String PopupNotif = "CheckBoxPopupNotif.Checked";
+    public static String PopupService = "PopupService";
+    public static String PopupTitle = "PopupTitle";
+    public static String PrivateMode_Passwd = "PrivateMode_Passwd";
+    public static String SignbotFileName = "SignbotFileName";
+    public static String SlideWall = "background_slide";
+    public static String SlideWallItem = "background_slide_list_item";
+    public static String TargetPicFolder = "/Pictures";
+    public static String TempPicFolder = "/Temp";
+    public static int TrackBarDef = 40;
+    public static int TrackBarMsgDef = 18;
+    public static int TrackBarRadiusDef = 10;
+    public static String ViewLocker = "ViewLocker";
+    public static String bpkPicPath = "res/drawable-hdpi/";
+    public static String bpkScriptName = "backpack";
+    public static String bpkScriptPath = "res/values/";
+    public static String flagExecApp = "flagExecApp";
+    public static String flagMsgIn = "flagMsgIn";
+    public static int idCameraActivity = 256;
+    public static int idDatePickerDialog = 259;
+    public static int idGalleryActivity = 257;
+    public static int idVideoGalleryActivity = 258;
+}

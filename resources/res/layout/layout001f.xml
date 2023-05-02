@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingRight="11dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/participant_count_circle" android:padding="8dp" android:layout_width="42dp" android:layout_height="42dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp">
+        <com.obwhatsapp.WaTextView android:textColor="@color/color06c5" android:gravity="center" android:id="@+id/participant_count" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0049="12sp" app:attr004a="4sp" app:attr004c="1sp" app:attr004d="1"/>
+    </FrameLayout>
+</FrameLayout>

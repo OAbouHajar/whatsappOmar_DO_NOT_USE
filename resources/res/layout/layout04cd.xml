@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/verify_flash_call_title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0529="@style/style0447">
+        <com.obwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/verify_flash_call_title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str199c" style="@style/style0228"/>
+    </com.obwhatsapp.BidiToolbar>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen03e1" android:layout_marginRight="@dimen/dimen03e1">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/missed_call_circle_background" android:padding="@dimen/dimen03e3" android:layout_width="@dimen/dimen03e5" android:layout_height="@dimen/dimen03e4" android:layout_marginTop="@dimen/dimen03e2" android:layout_marginBottom="@dimen/dimen03df" android:src="@drawable/phone_missed" app:attr0532="@color/color0557"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen03dc" android:textColor="@color/color044a" android:gravity="center" android:id="@+id/flash_call_education_screen_headline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen03df" android:layout_marginRight="@dimen/dimen03df" android:layout_marginBottom="@dimen/dimen03db" android:text="@string/str0901"/>
+            <LinearLayout style="@style/style0182">
+                <com.obwhatsapp.WaImageView android:src="@drawable/call" style="@style/style0180"/>
+                <LinearLayout style="@style/style0181">
+                    <com.obwhatsapp.WaTextView android:id="@+id/make_and_manage_calls" android:text="@string/str0ca4" style="@style/style017f"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout style="@style/style0182">
+                <com.obwhatsapp.WaImageView android:src="@drawable/call_logs" style="@style/style0180"/>
+                <LinearLayout style="@style/style0181">
+                    <com.obwhatsapp.WaTextView android:id="@+id/access_phone_call_logs" android:text="@string/str0010" style="@style/style017f"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen03e0" android:textColor="@color/color06c5" android:textColorLink="@color/color04f8" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/flash_call_learn_more" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen03df" android:layout_marginRight="@dimen/dimen03df" android:layout_marginBottom="@dimen/dimen03df" android:text="@string/str0c14" android:lineSpacingMultiplier="1.25"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen03dd">
+                <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/continue_button" android:layout_width="@dimen/dimen05ce" android:layout_marginBottom="@dimen/dimen03de" android:text="@string/str19ad" style="@style/style03a2"/>
+                <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/verify_with_sms_button" android:layout_width="@dimen/dimen05ce" android:text="@string/str19ae" style="@style/style03aa"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

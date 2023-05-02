@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen0154" android:paddingTop="16dp" android:paddingRight="@dimen/dimen0154" android:paddingBottom="@dimen/dimen0157" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+        <LinearLayout android:orientation="vertical" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0155" android:layout_marginRight="@dimen/dimen0155">
+            <ProgressBar android:layout_gravity="center" android:id="@+id/gdrive_looking_for_backup_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0156" android:indeterminate="true" android:indeterminateOnly="true" style="?android:attr/progressBarStyleLarge"/>
+            <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="@color/color0079" android:layout_gravity="center" android:id="@+id/gdrive_lookup_for_backups_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rc.whatsapp.home.RCTABS.BasicNavigationView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/mOneUiBarView" android:layout_width="match_parent" android:layout_height="56dp">
+    <FrameLayout android:gravity="bottom" android:layout_gravity="bottom" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:paddingBottom="2dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/bnv_camera" android:background="?android:attr/selectableItemBackgroundBorderless" android:paddingLeft="8dp" android:paddingTop="2dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/mICamera" android:layout_width="match_parent" android:layout_height="26dp" android:src="@drawable/cv_ios_cam" android:tint="@color/black"/>
+                <com.obwhatsapp.yo.tf android:textSize="11sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/mTCamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0114" android:singleLine="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bnv_home" android:background="?android:attr/selectableItemBackgroundBorderless" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <FrameLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/mIChats" android:layout_width="match_parent" android:layout_height="30dp" android:src="@drawable/cv_ios_chat_sel" android:tint="@color/black"/>
+                        <com.obwhatsapp.yo.tf android:textSize="11sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/mTChats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0447" android:singleLine="true"/>
+                    </LinearLayout>
+                    <com.obwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:tag="chats_unread" android:background="@drawable/new_messages_indicator" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:minWidth="20dp" android:minHeight="20dp" android:text="7" android:singleLine="true" android:layout_marginStart="15dp"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bnv_group" android:background="?android:attr/selectableItemBackgroundBorderless" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <FrameLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:gravity="center_horizontal" android:id="@+id/mIGroup" android:layout_width="match_parent" android:layout_height="26dp" android:src="@drawable/rc_ios_group_unsel" android:tint="@color/black"/>
+                        <com.obwhatsapp.yo.tf android:textSize="11sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/mTGroups" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0e5a" android:singleLine="true"/>
+                    </LinearLayout>
+                    <com.obwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:tag="groups_unread" android:background="@drawable/new_messages_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:minWidth="20dp" android:minHeight="20dp" android:text="7" android:singleLine="true" android:layout_marginStart="15dp"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bnv_status" android:background="?android:attr/selectableItemBackgroundBorderless" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <FrameLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:gravity="center_horizontal" android:id="@+id/mIStatus" android:layout_width="match_parent" android:layout_height="26dp" android:src="@drawable/rc_ios_status_sel" android:tint="@color/black"/>
+                        <com.obwhatsapp.yo.tf android:textSize="11sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/mTStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str056f" android:singleLine="true"/>
+                    </LinearLayout>
+                    <com.obwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:tag="status_unread" android:background="@drawable/new_messages_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:minWidth="20dp" android:minHeight="20dp" android:text="7" android:singleLine="true" android:layout_marginStart="15dp"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bnv_calls" android:background="?android:attr/selectableItemBackgroundBorderless" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:paddingEnd="8dp">
+                <FrameLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:gravity="center_horizontal" android:id="@+id/mICalls" android:layout_width="match_parent" android:layout_height="26dp" android:src="@drawable/cv_ios_call_unsel" android:tint="@color/black"/>
+                        <com.obwhatsapp.yo.tf android:textSize="11sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/mTCalls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str037e" android:singleLine="true"/>
+                    </LinearLayout>
+                    <com.obwhatsapp.yo.tf android:textSize="10.5sp" android:textStyle="bold" android:textColor="@color/conversations_row_unread_count" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:tag="calls_unread" android:background="@drawable/new_messages_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:minWidth="20dp" android:minHeight="20dp" android:text="7" android:singleLine="true" android:layout_marginStart="15dp"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_gravity="top" android:background="#375e5e5e" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    </FrameLayout>
+</rc.whatsapp.home.RCTABS.BasicNavigationView>

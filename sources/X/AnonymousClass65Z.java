@@ -1,0 +1,19 @@
+package X;
+
+/* renamed from: X.65Z  reason: invalid class name */
+public final /* synthetic */ class AnonymousClass65Z implements Runnable {
+    public final /* synthetic */ AnonymousClass1Vt A00;
+    public final /* synthetic */ C112825ja A01;
+
+    public /* synthetic */ AnonymousClass65Z(AnonymousClass1Vt r1, C112825ja r2) {
+        this.A01 = r2;
+        this.A00 = r1;
+    }
+
+    public final void run() {
+        C112825ja r2 = this.A01;
+        AnonymousClass1Vt r1 = this.A00;
+        r2.A0J.A04(r1);
+        r2.A3y(r1, false);
+    }
+}

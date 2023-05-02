@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp">
+        <com.obwhatsapp.wds.components.button.WDSButton android:id="@+id/advertiseButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str03c1" app:attr02c2="@drawable/ic_business_advertise" app:attr03ae="true" app:attr0568="1" app:attr0594="1"/>
+        <com.obwhatsapp.wds.components.button.WDSButton android:id="@+id/shareButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str03ec" app:attr02c2="@drawable/ic_share" app:attr03ae="true" app:attr0568="1" app:attr0594="1"/>
+    </LinearLayout>
+</HorizontalScrollView>

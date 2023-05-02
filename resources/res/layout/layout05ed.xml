@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.calling.views.VoipCallFooter android:gravity="center" android:orientation="horizontal" android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+    <ScrollView android:id="@+id/dm_scroll_view" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/ephemeral_image" android:background="@drawable/ephemeral_icon_background" android:padding="22dp" android:layout_width="112dp" android:layout_height="112dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" android:src="@drawable/ephemeral_timer" app:attr0532="@color/color0203"/>
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/ephemeral_lottie_animation" android:visibility="gone" android:layout_width="190dp" android:layout_height="120dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" app:attr035c="true" app:attr0364="true"/>
+            <com.obwhatsapp.TextEmojiLabel android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:text="@string/str0819" style="@style/style025c"/>
+            <com.obwhatsapp.TextEmojiLabel android:id="@+id/ephemeral_details" android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:lineSpacingExtra="4dp" style="@style/style025b"/>
+            <View android:layout_width="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" style="@style/style024c"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0660" android:id="@+id/expiring_setting_title" android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="11dp" android:text="@string/str0823"/>
+            <RadioGroup android:orientation="vertical" android:id="@+id/ephemeral_radio_group" android:paddingLeft="32dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:id="@+id/ephemeral_control_disclaimer_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0380" android:layout_marginTop="@dimen/dimen0381" android:layout_marginRight="@dimen/dimen0380" android:layout_marginBottom="@dimen/dimen0381"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/dm_upsell_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:layout_width="match_parent" android:layout_marginTop="8dp" style="@style/style024c"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/dm_upsell_footer" android:background="@drawable/selector_orange_gradient" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0381">
+                    <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginRight="22dp" android:src="@drawable/ic_group_ephemeral_v2"/>
+                    <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/dimen0380" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0660" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str070a"/>
+                        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/str0709"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:id="@+id/dm_subtle_upsell_footer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0380" android:layout_marginTop="@dimen/dimen0381" android:layout_marginRight="@dimen/dimen0380" android:layout_marginBottom="@dimen/dimen0381"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

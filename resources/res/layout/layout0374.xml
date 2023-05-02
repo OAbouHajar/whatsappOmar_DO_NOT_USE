@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:background="@drawable/join_call_menu_item_background" android:paddingLeft="12dp" android:paddingRight="12dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="31dp">
+    <com.obwhatsapp.WaImageView android:id="@+id/call_type" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="8dp" android:src="@drawable/ic_action_videocall" app:attr0532="@color/color019a"/>
+    <com.obwhatsapp.text.AutoSizeTextView android:textSize="13sp" android:textColor="@color/color019a" android:gravity="center_vertical" android:id="@+id/joinable_label" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str1de3" android:textAllCaps="true" android:fontFamily="sans-serif-medium"/>
+</LinearLayout>

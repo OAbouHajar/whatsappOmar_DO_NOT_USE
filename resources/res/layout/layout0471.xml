@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/dimen05ff" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen02a6">
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0710" android:id="@+id/notes_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str17c3" style="@style/style01bc"/>
+        <com.obwhatsapp.text.ReadMoreTextView android:textColor="@color/color0711" android:gravity="left" android:id="@+id/payment_note_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginRight="@dimen/dimen05ff" android:singleLine="false" android:drawablePadding="4dp" android:layout_below="@+id/notes_title" app:attr041f="2" app:attr0421="@color/color04f8" app:attr0422="@string/str134e" style="@style/style01bc"/>
+    </RelativeLayout>
+</FrameLayout>

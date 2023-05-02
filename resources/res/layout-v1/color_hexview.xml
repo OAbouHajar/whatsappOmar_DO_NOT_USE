@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.yo.tf android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10px" android:text="HEX"/>
+        <EditText android:id="@+id/color_hex_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10px" android:minWidth="150px" android:maxLength="10"/>
+    </LinearLayout>
+    <Button android:id="@+id/color_hex_btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OK"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.yo.tf android:textColor="#ffff0000" android:id="@+id/color_hex_txtError" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10px" android:text="@string/color_hex_invalid"/>
+    </LinearLayout>
+</LinearLayout>

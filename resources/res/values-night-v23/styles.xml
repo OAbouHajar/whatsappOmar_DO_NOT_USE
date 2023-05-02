@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style030a">
+        <item name="?0x10104e0">false</item>
+        <item name="attr00ef">@color/color064b</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/status_sharing_row_view" android:background="?attr/attr044b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaButton android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:background="@color/color0792" android:paddingLeft="@dimen/dimen04ec" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1614" android:singleLine="true" android:layout_toLeftOf="@+id/status_row_share_to_third_party_button" android:layout_alignParentLeft="true" style="@style/style03a5"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/status_row_share_to_third_party_button" android:paddingLeft="@dimen/dimen04ec" android:paddingRight="@dimen/dimen04ec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:src="@drawable/ic_share" android:layout_alignParentRight="true" android:contentDescription="@string/str1615" app:attr0532="@color/color071f" style="@style/style0000"/>
+    </RelativeLayout>
+</FrameLayout>

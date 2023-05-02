@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/eula_layout" android:paddingLeft="@dimen/dimen068f" android:paddingRight="@dimen/dimen068f" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.whatsapp.util.MarqueeToolbar android:id="@+id/debug_toolbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0529="@style/style0447"/>
+    <View style="@style/style038b"/>
+    <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen068c" android:layout_gravity="top|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/str0879" android:maxLines="1" android:layout_weight="1" app:attr0049="@dimen/dimen068c" app:attr004a="@dimen/dimen068b" app:attr004d="1" style="@style/style0228"/>
+    <View style="@style/style038b"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/eula_logo" android:layout_width="260dp" android:layout_height="@dimen/dimen0688" android:src="@drawable/ill_eula" android:layout_weight="5" app:attr0532="@color/color020d"/>
+    <View style="@style/style038b"/>
+    <com.obwhatsapp.TextEmojiLabel android:gravity="center" android:layout_gravity="bottom" android:id="@+id/eula_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/str0877" android:lineSpacingMultiplier="1.25" style="@style/style0227"/>
+    <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/show_accounts" android:layout_width="@dimen/dimen05ce" android:layout_marginTop="12dp" android:text="@string/show_accounts" style="@style/style03a2"/>
+    <com.obwhatsapp.yo.NorahPermissionButton android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@+id/norah_eula_permission_setting" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/norah_permission_setting" android:layout_centerInParent="true" style="@style/WA.Button.Error"/>
+    <com.obwhatsapp.youbasha.backuprestore.RestoreBtn android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="@dimen/dimen05ce" android:layout_marginTop="12dp" android:text="@string/str009e" style="@style/WA.Button.Error"/>
+    <com.obwhatsapp.components.Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/eula_accept" android:layout_width="@dimen/dimen05ce" android:layout_marginTop="12dp" android:text="@string/str0874" style="@style/style03a2"/>
+    <View style="@style/style038b"/>
+</LinearLayout>

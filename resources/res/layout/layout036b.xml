@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:paddingLeft="@dimen/dimen0652" android:paddingTop="@dimen/dimen0652" android:paddingRight="@dimen/dimen0652" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaTextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" app:attr031d="0" app:attr0321="0" style="@style/style00d9"/>
+    <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color0659" android:gravity="right" android:layout_gravity="right" android:id="@+id/search_location_address" android:paddingLeft="@dimen/dimen0656" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0655" android:layout_weight="1" android:fontFamily="sans-serif-medium" app:attr0318="@+id/title" app:attr031b="0" app:attr0321="0" style="@style/style01c9"/>
+</LinearLayout>

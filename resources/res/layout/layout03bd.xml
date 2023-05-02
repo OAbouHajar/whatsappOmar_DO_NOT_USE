@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/manual_proxy_setting_divider" style="@style/style0257"/>
+    <com.obwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen070b" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen070b" android:text="@string/str1328" style="?attr/attr0462"/>
+    <LinearLayout android:orientation="vertical" android:background="?android:attr/selectableItemBackground" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:id="@+id/manual_proxy_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1327" style="?attr/attr0467"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/proxy_connection_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str065e" style="?attr/attr0463"/>
+    </LinearLayout>
+</LinearLayout>

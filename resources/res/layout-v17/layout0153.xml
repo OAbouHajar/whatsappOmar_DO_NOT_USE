@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.obwhatsapp.WaImageView android:enabled="false" android:id="@+id/back" android:background="?attr/secondary_text_default_material_dark" android:paddingRight="0dp" android:layout_width="@dimen/dimen0239" android:layout_height="@dimen/dimen0239" android:scaleType="center" android:minWidth="0dp" android:minHeight="0dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/str1baf" android:paddingEnd="0dp" app:attr04b4="?attr/attr02b9"/>
+    <FrameLayout android:id="@+id/icon_layout_anchor" android:background="?attr/secondary_text_default_material_dark" android:layout_width="wrap_content" android:layout_height="@dimen/dimen025e" android:layout_marginRight="0dp" android:layout_toRightOf="@+id/back" android:layout_centerVertical="true" android:importantForAccessibility="yes">
+        <com.obwhatsapp.WaImageView android:id="@+id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/style0133"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/subgroup_facepile_toolbar_photo" android:layout="@layout/layout01eb" android:inflatedId="@+id/subgroup_facepile_toolbar_photo" android:layout_width="@dimen/dimen0242" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/change_photo_progress_stub" android:layout="@layout/layout0151" style="@style/style0133"/>
+        <com.obwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ephemeral" app:attr0053="@color/color064b" app:attr0532="@color/color06ac"/>
+    </FrameLayout>
+</merge>

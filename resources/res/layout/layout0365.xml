@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.avatar.profilephoto.AvatarProfilePhotoColorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/attr044c" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dimen0093" android:layout_height="@dimen/dimen0093" android:layout_marginLeft="@dimen/dimen0099" android:layout_marginRight="@dimen/dimen0099"/>

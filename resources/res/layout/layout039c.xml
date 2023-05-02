@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/live_location_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style019e">
+    <LinearLayout android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="68dp">
+        <FrameLayout android:paddingLeft="@dimen/dimen0457" style="@style/style0183">
+            <com.obwhatsapp.WaTextView android:id="@+id/media_title" android:text="@string/str0555" style="@style/style0186"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dimen0457" android:paddingTop="10dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:textSize="17sp" android:textColor="@color/color0507" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/live_location_info" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.obwhatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/livelocation_indicator" android:paddingLeft="20dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_info_live_location"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.obwhatsapp.InfoCard>

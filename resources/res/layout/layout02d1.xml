@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/group_chat_info_layout" android:background="@color/color065f" android:paddingRight="@dimen/dimen04ec" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen074d">
+    <com.obwhatsapp.WaImageView android:id="@+id/avatar" android:layout_marginLeft="@dimen/dimen074b" style="@style/style0118"/>
+    <com.obwhatsapp.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@+id/wdsProfilePicture" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen074b" android:layout_marginRight="@dimen/dimen074b" android:scaleType="fitCenter" app:attr03f1="1"/>
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.obwhatsapp.TextEmojiLabel android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01bc"/>
+            </LinearLayout>
+            <com.obwhatsapp.TextEmojiLabel android:gravity="center" android:id="@+id/counter" android:text="?" style="@style/GroupMemberStatus.Admin"/>
+            <com.obwhatsapp.WaTextView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/owner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0762" android:text="@string/str0a2c" style="@style/style0197"/>
+            <com.obwhatsapp.TextEmojiLabel android:ellipsize="end" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/push_name_alternative" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0762" android:maxWidth="120dp" android:maxLines="1" style="@style/style02bd"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color0167" android:gravity="start" android:layout_gravity="start" android:id="@+id/community_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0dd0" android:layout_weight="1" style="@style/style01b9"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen04eb" android:textColor="@color/color079e" android:gravity="left" android:layout_gravity="left" android:id="@+id/status" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style01bb"/>
+            <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style02bc" android:id="@+id/secondary_name_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0762"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/group_chat_info_pin_indicator" android:visibility="gone" android:layout_width="@dimen/dimen0766" android:layout_height="@dimen/dimen0766" android:layout_marginLeft="@dimen/dimen026e" android:src="@drawable/ic_inline_pin_new" android:scaleType="fitStart" android:tint="@color/color055a" android:contentDescription="@string/str0d07"/>
+</LinearLayout>

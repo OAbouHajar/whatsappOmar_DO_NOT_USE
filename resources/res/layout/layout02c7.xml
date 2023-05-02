@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:attr037b="@+id/bottom_sheet">
+    <View android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_sheet" android:paddingTop="@dimen/dimen0065" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0061="@dimen/dimen0065" app:attr02fc="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View style="@style/style01c4"/>
+        <LinearLayout android:orientation="vertical" android:background="@color/color0477" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/search_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0002">
+                <include layout="@layout/layout02f3"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_holder" android:layout_width="match_parent" android:layout_height="@dimen/dimen0002">
+                <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="?attr/attr00e6" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str14c8" android:layout_weight="1"/>
+                <com.obwhatsapp.WaImageView android:id="@+id/search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_search_teal" android:contentDescription="@string/str1d7c" style="@style/style0000"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorSecondary" android:layout_gravity="center_horizontal" android:id="@+id/search_no_matches" android:padding="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.obwhatsapp.components.MainChildCoordinatorLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0660" android:gravity="left" android:id="@+id/delete_reason_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="16dp" android:text="@string/str067d" android:lineSpacingExtra="3dp"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:textColorHint="@color/color0710" android:gravity="start" android:id="@+id/select_delete_reason" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:layout_marginBottom="16dp" android:hint="@string/str0681" android:singleLine="true" android:inputType="none" app:attr0053="@color/color0708" style="@style/style00cb"/>
+            <com.obwhatsapp.WaEditText android:textSize="16sp" android:textColor="@color/color0711" android:textColorHint="@color/color0710" android:gravity="top" android:id="@+id/delete_reason_additional_comments_edittext" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:layout_marginBottom="16dp" android:hint="@string/str0668" android:maxLines="4" android:maxLength="500"/>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@+id/bottom_button_container" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/delete_account_submit" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/str153c" style="@style/style03a7"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/incentive_info_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0652" android:layout_marginRight="@dimen/dimen0652">
+        <View android:id="@+id/incentive_message_divider" android:background="@drawable/payments_divider_gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginBottom="4dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/incentive_blurb_container" android:background="@drawable/incentive_info_rounded_bg" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp">
+            <com.obwhatsapp.WaImageView android:id="@+id/incentive_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="16dp" android:src="@drawable/ic_light_gift"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:id="@+id/incentive_info_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

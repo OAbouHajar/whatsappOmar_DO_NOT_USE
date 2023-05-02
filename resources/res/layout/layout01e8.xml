@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/select_list_layout" android:background="@drawable/rounded_bottom_sheet_dialog" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="top" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageButton android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/close" android:background="@null" android:padding="@dimen/dimen045b" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str1c24"/>
+        <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color0660" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/select_list_title" android:paddingLeft="0dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:maxLines="1" android:layout_centerInParent="true" app:attr028d="sans-serif-medium"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <View android:id="@+id/shadow_top" android:background="@drawable/list_downward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/select_list_items" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02f8="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <View android:layout_gravity="bottom" android:id="@+id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+    </FrameLayout>
+    <FrameLayout android:paddingLeft="12dp" android:paddingTop="14dp" android:paddingRight="12dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color06c5" android:gravity="center" android:layout_gravity="center" android:id="@+id/tab_to_select" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str14cb"/>
+        <com.obwhatsapp.components.Button android:id="@+id/select_list_button" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str14e6" style="@style/style03a2"/>
+    </FrameLayout>
+</LinearLayout>

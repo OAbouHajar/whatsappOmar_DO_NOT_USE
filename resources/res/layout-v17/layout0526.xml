@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/business_search_location" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style00da">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:paddingLeft="68dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="68dp" style="@style/style01c8">
+        <com.obwhatsapp.WaImageView android:id="@+id/location_icon" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_location_nearby" android:scaleType="fitCenter" app:attr0532="@color/color0659"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/search_location_address" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginStart="2dp" style="@style/style01c9"/>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:background="@color/color070c" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+</LinearLayout>

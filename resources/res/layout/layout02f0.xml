@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/groups_banner" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <FrameLayout android:layout_width="@dimen/dimen04e5" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/groups_banner_icon" android:background="@drawable/banner_info_circle" android:padding="@dimen/dimen00a6" android:layout_width="@dimen/dimen00a5" android:layout_height="@dimen/dimen00a5" android:src="@drawable/ic_add_new_group" app:attr0532="@color/color0083"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="18dp" android:layout_weight="1">
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen00a1" android:textColor="@color/color0660" android:id="@+id/groups_banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str167b" android:includeFontPadding="false" app:attr028d="sans-serif-medium"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen00a1" android:textColor="@color/color06c5" android:id="@+id/groups_banner_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/str167c" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/dismiss_groups_banner_container" android:background="?android:attr/selectableItemBackground" android:layout_width="@dimen/dimen00a4" android:layout_height="@dimen/dimen00a4" android:layout_marginLeft="@dimen/dimen00a2" android:layout_marginRight="@dimen/dimen00a3">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" app:attr0532="@color/color06c5"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/reactions_bg" android:layout_width="wrap_content" android:layout_height="36dp">
+    <FrameLayout android:id="@+id/reactions_left" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageView android:id="@+id/reaction_lol" android:padding="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sticker_reaction_lol_focus" android:scaleType="center" android:contentDescription="@string/str16b6" app:attr0532="@color/color06da" app:attr0533="5"/>
+    </FrameLayout>
+    <com.obwhatsapp.WaImageView android:id="@+id/reaction_love" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sticker_reaction_love_focus" android:scaleType="center" android:contentDescription="@string/str16b7" app:attr0532="@color/color06da" app:attr0533="5"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/reactions_right" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageView android:id="@+id/reaction_sad" android:padding="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sticker_reaction_sad_focus" android:scaleType="center" android:contentDescription="@string/str16b8" app:attr0532="@color/color06da" app:attr0533="5"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/reaction_wow" android:padding="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sticker_reaction_wow_focus" android:scaleType="center" android:contentDescription="@string/str16b9" app:attr0532="@color/color06da" app:attr0533="5"/>
+    </LinearLayout>
+</LinearLayout>

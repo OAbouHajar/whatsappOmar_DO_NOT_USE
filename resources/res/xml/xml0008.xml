@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/str1da5">
+    <com.obwhatsapp.preference.WaCheckBoxPreference android:persistent="false" android:title="@string/str1da0" android:key="jid_use_custom" android:defaultValue="false" app:attr02c7="false"/>
+    <com.obwhatsapp.preference.WaPreferenceCategory android:title="@string/str1d99" android:key="notification" app:attr0034="false" app:attr02c7="false">
+        <com.obwhatsapp.preference.WaRingtonePreference android:persistent="false" android:title="@string/str1d9e" android:key="jid_message_tone" android:summary="@string/str1d9f" android:defaultValue="content://settings/system/notification_sound" app:attr0036="true" app:attr02c7="false"/>
+        <com.obwhatsapp.preference.WaListPreference android:persistent="false" android:entries="@array/array001d" android:title="@string/str1da3" android:key="jid_message_vibrate" android:summary="@string/str1da4" android:defaultValue="1" android:entryValues="@array/array001e" app:attr0034="true" app:attr0036="true" app:attr02c7="false"/>
+        <com.obwhatsapp.preference.WaListPreference android:persistent="false" android:entries="@array/array0018" android:title="@string/str1d9c" android:key="jid_message_popup" android:summary="@string/str1d9d" android:defaultValue="0" android:entryValues="@array/array0019" app:attr0034="true" app:attr0036="true" app:attr02c7="false"/>
+        <com.obwhatsapp.preference.WaListPreference android:persistent="false" android:title="@string/str1d9a" android:key="jid_message_light" android:summary="@string/str1d9b" android:defaultValue="FFFFFF" android:entryValues="@array/array0015" app:attr0034="true" app:attr0036="true" app:attr02c7="false"/>
+        <com.obwhatsapp.preference.WaCheckBoxPreference android:persistent="false" android:title="@string/str1da1" android:key="jid_use_high_priority_notifications" android:summary="@string/str1da2" android:defaultValue="true" app:attr0034="true" app:attr02c7="false"/>
+    </com.obwhatsapp.preference.WaPreferenceCategory>
+    <com.obwhatsapp.preference.WaPreferenceCategory android:title="@string/str1d8e" android:key="jid_call" app:attr0034="false" app:attr02c7="false">
+        <com.obwhatsapp.preference.WaRingtonePreference android:persistent="false" android:title="@string/str1d8f" android:key="jid_call_ringtone" android:summary="@string/str1d90" android:defaultValue="content://settings/system/ringtone" app:attr0036="true" app:attr02c7="false"/>
+        <com.obwhatsapp.preference.WaListPreference android:persistent="false" android:entries="@array/array001d" android:title="@string/str1da3" android:key="jid_call_vibrate" android:summary="@string/str1d91" android:defaultValue="1" android:entryValues="@array/array001e" app:attr0034="true" app:attr0036="true" app:attr02c7="false"/>
+    </com.obwhatsapp.preference.WaPreferenceCategory>
+</PreferenceScreen>

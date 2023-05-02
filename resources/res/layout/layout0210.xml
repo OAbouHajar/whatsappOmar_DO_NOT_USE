@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scroll_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_warning" app:attr0532="@color/color0707"/>
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0707" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/str066e" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="4dp" app:attr028d="sans-serif-medium"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="72dp" android:paddingRight="18dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <com.obwhatsapp.WaTextView android:id="@+id/delete_whatsapp_account_warning_text" android:layout_marginTop="4dp" android:text="@string/str0673" style="@style/style0255"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/delete_message_history_warning_text" android:text="@string/str0674" style="@style/style0255"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/delete_whatsapp_group_warning_text" android:text="@string/str0675" style="@style/style0255"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/delete_google_drive_warning_text" android:text="@string/str0676" style="@style/style0255"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/delete_payments_account_warning_text" android:text="@string/str0677" style="@style/style0255"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/color070c" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="72dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+                <com.obwhatsapp.WaImageView android:id="@+id/change_number_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_change_number" app:attr0532="@color/color070f"/>
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/str153d" android:maxLines="2" android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+            <com.obwhatsapp.components.Button android:id="@+id/delete_account_change_number_option" android:layout_marginLeft="72dp" android:layout_marginTop="12dp" android:layout_marginBottom="24dp" android:text="@string/str1533" style="@style/style03a2"/>
+        </LinearLayout>
+        <View android:background="@color/color070c" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/delete_account_instructions_with_payments" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+                <com.obwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_checklist" app:attr0532="@color/color070f"/>
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0711" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/str0672" android:maxLines="2" android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="72dp">
+                <com.obwhatsapp.WaTextView android:id="@+id/delete_account_instructions_payments_1" android:layout_marginTop="4dp" android:text="@string/str0670" style="@style/style0255"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/delete_account_instructions_payments_2" android:visibility="gone" android:layout_marginTop="4dp" style="@style/style0255"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingRight="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="72dp">
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0711" android:id="@+id/delete_account_instructions" android:paddingTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str066f" android:lineSpacingMultiplier="1.3"/>
+            <fragment android:name="com.obwhatsapp.phonematching.MatchPhoneNumberFragment" android:id="@+id/delete_account_match_phone_number_fragment" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.components.Button android:id="@+id/delete_account_submit" android:layout_marginTop="24dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:text="@string/str153c" style="@style/style03a7"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

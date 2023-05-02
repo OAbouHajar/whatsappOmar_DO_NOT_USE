@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/dimen006b">
+    <com.obwhatsapp.WaImageView android:layout_width="@dimen/dimen006d" android:layout_height="@dimen/dimen006d" android:layout_marginTop="@dimen/dimen006c" android:src="@drawable/ic_wa_locked" app:attr0532="@color/color0039"/>
+    <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0070" android:textColor="@color/color0711" android:id="@+id/auth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen006f"/>
+    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="0.5"/>
+    <com.obwhatsapp.authentication.FingerprintView android:id="@+id/fingerprint_view" android:padding="@dimen/dimen03da" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.obwhatsapp.WaTextView android:textSize="16sp" android:id="@+id/app_unlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1894" android:textAllCaps="true" app:attr028d="sans-serif-medium" style="@style/style03a4"/>
+    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

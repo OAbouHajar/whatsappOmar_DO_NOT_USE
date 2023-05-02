@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/color0482" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/header_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.ui.voip.MultiContactThumbnail android:layout_gravity="center" android:id="@+id/multi_contact_photo" android:layout_width="@dimen/dimen0200" android:layout_height="@dimen/dimen0200" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" app:attr037c="0.75dp" app:attr037d="24dp"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/call_type_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen011c" android:layout_toRightOf="@+id/multi_contact_photo" android:layout_alignTop="@+id/multi_contact_photo" android:layout_marginEnd="@dimen/dimen011c">
+                <com.obwhatsapp.WaTextView android:textSize="17sp" android:textColor="@color/color0507" android:id="@+id/call_type_text" android:layout_width="0dp" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1" app:attr028d="sans-serif"/>
+                <com.obwhatsapp.WaImageView android:id="@+id/call_type_icon" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="4dp" app:attr04b4="@drawable/vec_ic_call_incoming_or_missed"/>
+            </LinearLayout>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0505" android:id="@+id/call_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/call_type_container" android:layout_alignLeft="@+id/call_type_container"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/call_date" android:layout_alignLeft="@+id/call_date">
+                <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0505" android:id="@+id/call_duration" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <View android:id="@+id/dot" android:background="@drawable/dot_divider" android:layout_width="3dp" android:layout_height="3dp" android:layout_marginLeft="4dp"/>
+                <com.obwhatsapp.WaTextView android:textColor="@color/color0505" android:id="@+id/call_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/call_link_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen011f" android:layout_marginStart="@dimen/dimen011f">
+            <View android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="@dimen/dimen011d" android:layout_marginTop="@dimen/dimen011c"/>
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen011b" android:textColor="@color/color04f8" android:id="@+id/call_link_text" android:background="@drawable/selector_orange_gradient" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen011c"/>
+            <com.obwhatsapp.WaButton android:id="@+id/join_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen011c" android:text="@string/str1de3" android:drawablePadding="@dimen/dimen011e" app:attr0568="1" style="@style/style03a2"/>
+            <View android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="@dimen/dimen011d" android:layout_marginTop="@dimen/dimen011c" android:layout_marginBottom="@dimen/dimen011a"/>
+        </LinearLayout>
+        <View android:id="@+id/divider" android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="0.1dp" android:layout_marginTop="16dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/participants_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

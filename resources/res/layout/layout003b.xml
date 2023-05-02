@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/stub_toolbar_search" android:layout="@layout/layout05b9" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:paddingTop="@dimen/dimen0199" android:paddingBottom="@dimen/dimen0199" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@+id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style00fe"/>
+            </FrameLayout>
+            <View style="@style/style01c1"/>
+            <androidx.viewpager.widget.ViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/catalog_search_host" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

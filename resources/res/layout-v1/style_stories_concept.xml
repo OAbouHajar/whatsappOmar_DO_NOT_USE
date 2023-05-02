@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginRight="3dp">
+    <FrameLayout android:id="@+id/contact_selector" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.obwhatsapp.status.ContactStatusThumbnail android:layout_gravity="center" android:id="@+id/contact_photo" android:padding="4dp" android:visibility="visible" android:layout_width="65dp" android:layout_height="65dp" android:scaleType="centerCrop" app:attr04fd="2.5dp" app:attr0500="80dp" app:tbtnForegroundOnly="false"/>
+                    <rc.whatsapp.rounded.RoundedStories android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/mThumbnail" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+                    </rc.whatsapp.rounded.RoundedStories>
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/mThumbnailHolder" android:padding="3dp" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginLeft="37dp" android:layout_marginTop="37dp">
+                    <rc.whatsapp.rounded.RoundedStories android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/mThumbnail1" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/rc_profile"/>
+                    </rc.whatsapp.rounded.RoundedStories>
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/add_button" android:padding="3dp" android:layout_width="31.5dp" android:layout_height="31.5dp" android:layout_marginLeft="35dp" android:layout_marginTop="35dp">
+                    <ImageView android:layout_gravity="center" android:id="@+id/add_ic" android:padding="2.3dp" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/rc_add_plus"/>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/mCounterHolder" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp">
+                    <FrameLayout android:id="@+id/mCounterHolder1" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+                    <com.obwhatsapp.yo.tf android:id="@+id/mCounter" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+                </FrameLayout>
+            </FrameLayout>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="?android:attr/textColorPrimary" android:gravity="center_horizontal" android:id="@+id/contact_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="You" android:singleLine="true"/>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

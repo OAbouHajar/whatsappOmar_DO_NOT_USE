@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/input_container" android:background="@drawable/ib_new_round" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0148" android:layout_marginBottom="@dimen/dimen0146" android:minHeight="@dimen/dimen0147" android:layout_toLeftOf="@+id/send" android:layout_alignParentLeft="true" android:backgroundTint="#ffffffff">
+            <FrameLayout android:id="@+id/mention_attach" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.obwhatsapp.mediacomposer.bottombar.caption.CaptionView android:orientation="horizontal" android:id="@+id/input_container_inner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.obwhatsapp.WaImageButton android:id="@+id/send" android:background="@drawable/input_circle" android:layout_width="@dimen/dimen014e" android:layout_height="@dimen/dimen014c" android:layout_marginLeft="@dimen/dimen0149" android:layout_marginRight="@dimen/dimen014b" android:src="@drawable/input_send" android:scaleType="center" android:layout_alignBottom="@+id/input_container" android:layout_alignParentRight="true" android:contentDescription="@string/str14e7"/>
+        <com.obwhatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/input_container"/>
+    </RelativeLayout>
+</merge>

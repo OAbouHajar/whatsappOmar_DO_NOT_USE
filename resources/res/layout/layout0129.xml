@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/color0792" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/header" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="@dimen/dimen0456">
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/contact_info_container" android:paddingRight="14dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/call_controls" android:layout_alignParentLeft="true">
+            <FrameLayout android:gravity="center" android:id="@+id/profile_pic_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12dp" android:layout_centerVertical="true">
+                <ProgressBar android:layout_gravity="center" android:id="@+id/photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+                <com.obwhatsapp.WaImageView android:id="@+id/photo_btn" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/str1d6a"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/profile_pic_frame" android:layout_centerVertical="true">
+                <com.obwhatsapp.TextEmojiLabel android:ellipsize="end" android:layout_gravity="left" android:id="@+id/conversation_contact_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/attr0343"/>
+                <com.obwhatsapp.WaTextView android:ellipsize="end" android:layout_gravity="left" android:id="@+id/conversation_contact_status" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/attr0342"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/call_controls" android:layout_width="120dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <com.obwhatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/call_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:src="@drawable/ic_action_call" android:contentDescription="@string/str011d" app:attr0532="@color/color00eb" style="@style/style03ca"/>
+            <com.obwhatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/video_call_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:src="@drawable/ic_action_videocall" android:contentDescription="@string/str19b6" app:attr0532="@color/color00eb" style="@style/style03ca"/>
+        </LinearLayout>
+        <View android:id="@+id/divider" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

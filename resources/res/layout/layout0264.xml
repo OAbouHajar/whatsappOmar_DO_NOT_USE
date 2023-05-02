@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen035e" android:layout_marginRight="@dimen/dimen035e">
+            <com.obwhatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/dimen035f" android:layout_marginTop="@dimen/dimen0362" android:layout_marginBottom="@dimen/dimen0361" android:src="@drawable/illust_cloud_lock_on"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_validate_password_info_title" android:text="@string/str07e0" style="@style/style014a"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/enc_backup_validate_password_info_subtitle_info" android:text="@string/str07df" style="@style/style0141"/>
+        </com.obwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:id="@+id/enc_backup_validate_password_continue_button" android:text="@string/str07db" style="@style/style0146"/>
+    <com.obwhatsapp.components.Button android:id="@+id/enc_backup_validate_password_turn_off_button" android:text="@string/str07e1" style="@style/style0147"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40dp">
+        <include layout="@layout/layout01b4"/>
+        <include layout="@layout/layout01c1"/>
+        <FrameLayout android:id="@+id/media_container" android:padding="@dimen/dimen02a5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <view android:id="@+id/media_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.obwhatsapp.conversation.conversationrow.ConversationRowImageAlbum$AlbumGridFrame">
+                <com.obwhatsapp.WaFrameLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/thumb_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:attr058b="@color/color00c7" app:attr058c="@color/color00c6">
+                    <include layout="@layout/layout0068"/>
+                </com.obwhatsapp.WaFrameLayout>
+                <com.obwhatsapp.WaFrameLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/thumb_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:attr058b="@color/color00c7" app:attr058c="@color/color00c6">
+                    <include layout="@layout/layout0068"/>
+                </com.obwhatsapp.WaFrameLayout>
+                <com.obwhatsapp.WaFrameLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/thumb_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:attr058b="@color/color00c7" app:attr058c="@color/color00c6">
+                    <include layout="@layout/layout0068"/>
+                </com.obwhatsapp.WaFrameLayout>
+                <com.obwhatsapp.WaFrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/thumb_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:attr058b="@color/color00c7" app:attr058c="@color/color00c6">
+                    <include layout="@layout/layout0068"/>
+                    <com.obwhatsapp.WaTextView android:id="@+id/more" style="@style/style0124"/>
+                </com.obwhatsapp.WaFrameLayout>
+            </view>
+            <ViewStub android:layout_gravity="center" android:id="@+id/media_control" android:layout="@layout/layout01a9" android:inflatedId="@+id/media_control" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

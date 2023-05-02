@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.KeyboardPopupLayout android:id="@+id/cart" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.obwhatsapp.WaImageButton android:id="@+id/cart_close_btn" style="@style/style01d8"/>
+        <com.obwhatsapp.WaTextView android:id="@+id/order_detail_title" android:text="@string/str1ba9" android:layout_alignTop="@+id/cart_close_btn" android:layout_alignBottom="@+id/cart_close_btn" style="@style/style01d9"/>
+        <View android:id="@+id/cart_title_divider" android:layout_below="@+id/cart_close_btn" style="@style/style024c"/>
+        <include layout="@layout/layout0299"/>
+        <include layout="@layout/layout029a"/>
+    </com.obwhatsapp.KeyboardPopupLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

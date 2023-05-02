@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/mHolder" android:background="@drawable/rc_dialog_bg_full" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="120dp" android:backgroundTint="@color/primary_surface">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/list_item_title" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:tag="title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="3dp" android:textAllCaps="true" android:layout_marginStart="6dp"/>
+    <com.obwhatsapp.components.PhoneNumberEntry android:tag="dialog_phone_entry" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginStart="6dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:tag="dial_videocall" android:background="?android:attr/selectableItemBackground" android:padding="12dp" android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_videocall" app:attr0532="@color/list_item_title"/>
+        </LinearLayout>
+        <TextView android:textSize="16sp" android:textColor="@color/list_item_disabled" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="|"/>
+        <LinearLayout android:gravity="top" android:layout_gravity="center" android:orientation="vertical" android:tag="dial_voicecall" android:background="?android:attr/selectableItemBackground" android:padding="12dp" android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_call" app:attr0532="@color/list_item_title"/>
+        </LinearLayout>
+        <TextView android:textSize="16sp" android:textColor="@color/list_item_disabled" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="|"/>
+        <LinearLayout android:gravity="top" android:layout_gravity="center" android:orientation="vertical" android:tag="dial_msg" android:background="?android:attr/selectableItemBackground" android:padding="12dp" android:paddingTop="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_message" app:attr0532="@color/list_item_title"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/business_product_list_holder" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/product_list" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02f8="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <View android:layout_gravity="bottom" android:id="@+id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen00e0"/>
+    </FrameLayout>
+    <com.obwhatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@+id/view_cart_button" android:visibility="gone" android:layout_width="match_parent" android:layout_marginLeft="@dimen/dimen081b" android:layout_marginTop="@dimen/dimen081a" android:layout_marginRight="@dimen/dimen081b" android:layout_marginBottom="@dimen/dimen081a" android:text="@string/str19d0" style="@style/style03a2"/>
+</LinearLayout>

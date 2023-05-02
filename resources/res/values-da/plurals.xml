@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Der mangler %1$s på denne enhed, før der kan overføres. Frigør plads ved hjælp af WhatsApps værktøj til lageradministration.</item>
+    </plurals>
+</resources>

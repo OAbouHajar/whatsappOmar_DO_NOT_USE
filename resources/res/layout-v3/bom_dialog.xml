@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@color/delta_primary" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/delta_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/title_autotext"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.yo.tf android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_autotext_input"/>
+        <EditText android:id="@+id/mInput" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+        <com.obwhatsapp.yo.tf android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/title_autotext_count"/>
+        <EditText android:id="@+id/mCount" android:background="@null" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:singleLine="true" android:inputType="number"/>
+    </LinearLayout>
+</LinearLayout>

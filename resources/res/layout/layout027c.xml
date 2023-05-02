@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <View android:id="@+id/top_border" android:background="@color/color01db" android:layout_width="match_parent" android:layout_height="1dp" app:attr031d="0" app:attr0321="0"/>
+    <androidx.constraintlayout.widget.Barrier android:id="@+id/title_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr005a="3" app:attr00f9="close_button,themes_title"/>
+    <com.obwhatsapp.WaImageButton android:id="@+id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str1c24" app:attr0314="2" app:attr031d="0" app:attr0320="@+id/top_border" app:attr0532="@color/color0142" style="?attr/attr000f"/>
+    <com.obwhatsapp.WaTextView android:textAppearance="@style/style0280" android:textSize="@dimen/dimen03b2" android:textStyle="normal" android:textColor="@color/color0660" android:id="@+id/themes_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen01ef" android:layout_marginRight="@dimen/dimen01ef" app:attr0304="@+id/close_button" app:attr030a="0" app:attr031d="0" app:attr0321="@+id/close_button"/>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/expressive_bg_loading_shimmer" android:paddingLeft="11dp" android:paddingTop="18dp" android:paddingRight="11dp" android:paddingBottom="42dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="134dp" app:attr031d="0" app:attr0320="@+id/title_barrier" style="@style/style01e0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/layout027d"/>
+            <include layout="@layout/layout027d"/>
+            <include layout="@layout/layout027d"/>
+            <include layout="@layout/layout027d"/>
+            <include layout="@layout/layout027d"/>
+            <include layout="@layout/layout027d"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/backgrounds_download_error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen03b3" app:attr031d="0" app:attr0320="@+id/themes_title">
+        <com.obwhatsapp.WaTextView android:textAppearance="@style/style027d" android:textColor="@color/color0660" android:id="@+id/download_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0653" android:text="@string/str014c" android:contentDescription="@string/str014c" app:attr030a="0" app:attr031d="0" app:attr0321="0"/>
+        <com.obwhatsapp.components.Button android:id="@+id/retry_backgrounds_download" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="42dp" android:layout_marginTop="12dp" android:layout_marginRight="42dp" android:text="@string/str014d" android:contentDescription="@string/str014d" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/download_error_message" style="@style/style03aa"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/expressive_themes_list" android:paddingLeft="11dp" android:paddingTop="18dp" android:paddingRight="11dp" android:paddingBottom="42dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="134dp" app:attr02f8="androidx.recyclerview.widget.LinearLayoutManager" app:attr031d="0" app:attr0320="@+id/title_barrier"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

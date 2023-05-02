@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/permission_request_dialog" android:layout_width="0dp" android:layout_height="wrap_content" app:attr0304="0" app:attr030a="0" app:attr031d="0" app:attr0321="0" app:attr0326="560dp">
+        <com.obwhatsapp.WaFrameLayout android:layout_gravity="center" android:background="@drawable/panel_popup_top" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr058a="@color/color05db">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingTop="40dp" android:paddingBottom="40dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/permission_image" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/permission_image_1" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.obwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/permission_image_2" android:paddingLeft="12dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.obwhatsapp.WaFrameLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr058d="@color/color05da">
+                <android.widget.Space android:layout_width="match_parent" android:layout_height="16dp"/>
+                <com.obwhatsapp.WaTextView android:textSize="16sp" android:textStyle="bold" android:gravity="left" android:id="@+id/permission_title" android:paddingLeft="@dimen/dimen043b" android:paddingTop="8dp" android:paddingRight="@dimen/dimen043b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" style="@style/style027b"/>
+                <com.obwhatsapp.WaTextView android:textSize="14sp" android:gravity="left" android:id="@+id/permission_message" android:paddingLeft="@dimen/dimen043b" android:paddingTop="16dp" android:paddingRight="@dimen/dimen043b" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" style="@style/style027b"/>
+                <com.obwhatsapp.components.AutoOrientationLinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/footer_layout" android:paddingLeft="@dimen/dimen043b" android:paddingTop="12dp" android:paddingRight="@dimen/dimen043b" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.WaButton android:id="@+id/cancel" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str11b0" style="@style/style03a5"/>
+                    <com.obwhatsapp.WaButton android:id="@+id/submit" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str11c7" style="@style/style03a5"/>
+                </com.obwhatsapp.components.AutoOrientationLinearLayout>
+            </com.obwhatsapp.WaLinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/auto_Replay_schdulr">
+        <Preference android:title="@string/acjauto" android:summary="@string/acjauto">
+            <intent android:targetPackage="com.obwhatsapp" android:targetClass="com.obwhatsapp.yo.autoschedreply.Auto_message"/>
+        </Preference>
+        <Preference android:title="@string/acjschdulr" android:summary="@string/acjschdulr">
+            <intent android:targetPackage="com.obwhatsapp" android:targetClass="com.obwhatsapp.yo.autoschedreply.ListMessages"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

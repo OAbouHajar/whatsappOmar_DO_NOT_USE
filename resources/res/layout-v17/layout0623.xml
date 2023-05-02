@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/large_thumb_frame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp">
+        <com.obwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/large_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <View android:layout_gravity="center" android:id="@+id/inline_layer" android:background="@color/color0092" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.obwhatsapp.text.ShadowDimsTextView android:textSize="12sp" android:textColor="@color/color090b" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/inline_indication" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:text="@string/str1ceb" android:drawableTop="@drawable/ic_pip_indication" android:drawablePadding="6dp" android:layout_marginStart="50dp" android:layout_marginEnd="50dp" app:attr0469="@color/color061e" app:attr046b="1dp" app:attr046c="6dp"/>
+        <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/large_progress" android:layout_width="80dp" android:layout_height="80dp" android:indeterminateOnly="true" app:attr0113="@color/color0792" app:attr0114="@color/color0582" app:attr0115="@color/color0792" app:attr0116="@color/color0583" app:attr0117="1dp" app:attr0118="10"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/play_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_play_conv" android:contentDescription="@string/str12aa"/>
+        </FrameLayout>
+        <com.obwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/logo_button" android:padding="@dimen/dimen045b" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/str0e93"/>
+    </FrameLayout>
+</merge>

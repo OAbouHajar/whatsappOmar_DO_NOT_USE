@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scroll_view" android:background="@color/color01d5" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/style01c4"/>
+        <com.obwhatsapp.group.GroupSettingsRowView android:id="@+id/restricted_mode_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0460="@string/str1ce8"/>
+        <View android:id="@+id/restricted_mode_separator" style="@style/style0185"/>
+        <View android:id="@+id/announcement_group_layout_top_shadow" android:visibility="gone" style="@style/style01c4"/>
+        <com.obwhatsapp.group.GroupSettingsRowView android:id="@+id/announcement_group_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0460="@string/str1ce7"/>
+        <View android:id="@+id/announcement_group_layout_bottom_shadow" style="@style/style01b6"/>
+        <View android:id="@+id/frequently_forwarded_divider_top" style="@style/style01c4"/>
+        <com.obwhatsapp.group.GroupSettingsRowView android:id="@+id/frequently_forwarded_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:id="@+id/frequently_forwarded_divider_bottom" style="@style/style01b6"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/manage_admins_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View style="@style/style01c4"/>
+            <FrameLayout android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.obwhatsapp.WaTextView android:textAppearance="@style/style01bc" android:id="@+id/manage_admins" android:text="@string/str0762" style="@style/style0112"/>
+            </FrameLayout>
+            <View style="@style/style01b6"/>
+        </LinearLayout>
+        <View android:id="@+id/membership_approval_divider_top" android:visibility="gone" style="@style/style01c4"/>
+        <ViewStub android:id="@+id/membership_approval_row_view_stub_v1" android:layout="@layout/layout02e5" android:inflatedId="@+id/membership_approval_row" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/membership_approval_row_view_stub_v2" android:layout="@layout/layout02e6" android:inflatedId="@+id/membership_approval_row" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

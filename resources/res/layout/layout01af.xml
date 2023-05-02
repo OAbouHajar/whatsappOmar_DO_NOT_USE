@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0274" android:minHeight="30dp">
+        <include layout="@layout/layout01b6"/>
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01b1"/>
+        <view android:layout_gravity="left" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.obwhatsapp.components.TextAndDateLayout">
+            <com.obwhatsapp.TextEmojiLabel android:textAppearance="@style/style03b3" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="@dimen/dimen026f" android:paddingTop="2dp" android:paddingRight="@dimen/dimen026f" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <include layout="@layout/layout0186"/>
+        </view>
+        <View android:id="@+id/button_div" style="@style/style024c"/>
+        <include layout="@layout/layout01ae"/>
+    </LinearLayout>
+</merge>

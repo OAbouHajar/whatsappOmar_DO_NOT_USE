@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/media_view_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/pager_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="top" android:id="@+id/title_protection" android:background="@drawable/media_view_header_gradient" android:layout_width="match_parent" android:layout_height="150dp"/>
+    <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:transitionName="@string/str1dd3">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:background="@color/color0793" android:layout_width="match_parent" android:layout_height="@dimen/dimen005e" app:attr03dc="@style/style0382" app:attr0529="@style/style036b"/>
+    </FrameLayout>
+    <View android:layout_gravity="top" android:id="@+id/media_preview_header" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str1dd6"/>
+    <View android:layout_gravity="bottom" android:id="@+id/media_preview_footer" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str1dd5"/>
+    <View android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/media_preview_send" android:layout_width="0dp" android:layout_height="0dp" android:transitionName="@string/str1dd8"/>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str1dd2"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

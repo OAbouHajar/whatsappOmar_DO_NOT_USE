@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/color088a"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/dimen0774" android:top="@dimen/dimen0774" android:right="@dimen/dimen0774" android:bottom="@dimen/dimen0774">
+        <bitmap android:src="@drawable/ic_attachment_gallery" android:tint="@color/color090b"/>
+    </item>
+</layer-list>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaTextView android:id="@+id/title" android:paddingTop="@dimen/dimen0652" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0652" android:text="@string/str01cd" android:fontFamily="sans-serif-medium" style="@style/style00d9"/>
+    <com.google.android.material.chip.ChipGroup android:id="@+id/suggestion_chip_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen0652" app:attr00c6="@dimen/dimen0656" app:attr00c7="@dimen/dimen0656"/>
+</LinearLayout>

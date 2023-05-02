@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Pentru transfer, acest dispozitiv trebuie să aibă disponibili %1$s. Eliberați spațiu folosind funcția WhatsApp de gestionare a spațiului de stocare.</item>
+        <item quantity="one">Pentru transfer, acest dispozitiv trebuie să aibă disponibil %1$s. Eliberați spațiu folosind funcția WhatsApp de gestionare a spațiului de stocare.</item>
+    </plurals>
+</resources>

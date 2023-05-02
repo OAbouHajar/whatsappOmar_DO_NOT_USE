@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/add_third_party_sticker_dialog_view" android:paddingLeft="@dimen/dimen07ab" android:paddingTop="@dimen/dimen07af" android:paddingRight="@dimen/dimen07ab" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen07ab">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/progress_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0305="@+id/barrier" app:attr030a="0" app:attr031d="0">
+        <ProgressBar android:id="@+id/progress_bar" android:layout_width="@dimen/dimen07ad" android:layout_height="@dimen/dimen07ae"/>
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen07ac" android:layout_gravity="center" android:id="@+id/message_text_view" android:paddingLeft="@dimen/dimen043b" android:paddingRight="@dimen/dimen043b" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen043b"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/buttons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen07aa" android:layout_marginBottom="@dimen/dimen07aa" android:layout_marginVertical="@dimen/dimen07aa" app:attr0304="0" app:attr031b="0" app:attr0320="@+id/progress_container">
+        <com.obwhatsapp.WaButton android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0394" style="?android:attr/buttonBarButtonStyle"/>
+        <com.obwhatsapp.WaButton android:id="@+id/add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str00c4" style="?android:attr/buttonBarButtonStyle"/>
+        <com.obwhatsapp.WaButton android:id="@+id/ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0e87" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+    <View android:id="@+id/bottom_margin_view" android:visibility="invisible" android:layout_width="@dimen/dimen07a9" android:layout_height="@dimen/dimen07af" app:attr0304="0" app:attr031b="0" app:attr0320="@+id/progress_container"/>
+    <androidx.constraintlayout.widget.Barrier android:id="@+id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr005a="2" app:attr00f9="bottom_margin_view,buttons_container"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

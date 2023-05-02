@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+    <com.obwhatsapp.components.WaSwitchView android:id="@+id/notify_new_message_switch_view" android:paddingLeft="24dp" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0585="@string/str1be0" app:attr0586="?attr/attr0463" app:attr0587="@string/str1bdf" app:attr0588="?attr/attr0467"/>
+    <com.obwhatsapp.components.WaSwitchView android:id="@+id/auto_hide_switch_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0585="@string/str1bdd" app:attr0587="@string/str1bde"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0765" android:layout_marginBottom="@dimen/dimen0769" android:src="@drawable/ic_dm_setting_header_icon"/>
+            <com.obwhatsapp.WaTextView android:layout_gravity="center" android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0762" android:text="@string/str071c" style="@style/style0263"/>
+            <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color06c5" android:gravity="center" android:layout_gravity="center" android:id="@+id/dm_description" android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762" android:layout_marginBottom="@dimen/dimen0765"/>
+            <View style="?attr/attr044e"/>
+            <com.obwhatsapp.WaTextView android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762" android:text="@string/str0714" style="@style/style025c"/>
+            <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/dm_setting_default_messsage_timer_row" android:background="@color/color0509" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_settings_person" app:attr0348="@string/str071e"/>
+            <com.obwhatsapp.WaTextView android:paddingLeft="@dimen/dimen0380" android:paddingRight="@dimen/dimen0380" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762" android:text="@string/str0711" style="@style/style025c"/>
+            <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/dm_setting_chat_picker_row" android:background="@color/color0509" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_settings_list" app:attr0348="@string/str0712"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

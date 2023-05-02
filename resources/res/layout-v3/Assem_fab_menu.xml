@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.mod.bomfab.fab.FloatingActionMenu android:id="@+id/FloatingActionMenu1" android:paddingLeft="3dp" android:paddingTop="10dp" android:paddingRight="3dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_alignParentRight="true">
+        <com.mod.bomfab.fab.FloatingActionButton android:id="@+id/subFloatingMenu7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sends_wa" android:onClick="Assem_Impress_Icon" app:fab_title="send AssemWA"/>
+        <com.mod.bomfab.fab.FloatingActionButton android:id="@+id/subFloatingMenu2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_bigtext_off" android:onClick="gotoToggleBigText" app:fab_title="@string/Aero_EmojiYazi"/>
+        <com.mod.bomfab.fab.FloatingActionButton android:id="@+id/subFloatingMenu5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/heart_emogi" android:onClick="Assem_Heart_Impress_Icon" app:fab_title="send heart"/>
+        <com.mod.bomfab.fab.FloatingActionButton android:id="@+id/subFloatingMenu6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/thank_u_emogi" android:onClick="Assem_Thenk_U_Icon" app:fab_title="send thanku"/>
+        <com.mod.bomfab.fab.FloatingActionButton android:id="@+id/subFloatingMenu3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/top_autoset" app:fab_title="Bomb Settings"/>
+        <com.mod.bomfab.fab.FloatingActionButton android:id="@+id/subFloatingMenu1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/top_autotext" app:fab_title="Bomb"/>
+    </com.mod.bomfab.fab.FloatingActionMenu>
+</FrameLayout>

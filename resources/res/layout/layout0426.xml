@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/ongoing_media_controls" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:gravity="center" android:id="@+id/ongoing_media_control_btn" android:background="@color/color0792" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/inline_audio_play" android:scaleType="center" android:contentDescription="@string/str1d62" app:attr0532="@color/color005c"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/ongoing_media_audio_seekbar" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style03fe"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
+        <TextView android:ellipsize="end" android:id="@+id/ongoing_media_text" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1" style="@style/style02b5"/>
+        <TextView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ongoing_media_timeLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b1"/>
+    </LinearLayout>
+</LinearLayout>

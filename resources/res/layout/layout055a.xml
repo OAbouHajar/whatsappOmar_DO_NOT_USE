@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/payment_entry_action" android:background="@drawable/input_circle" android:addStatesFromChildren="true" android:layout_width="@dimen/dimen0494" android:layout_height="@dimen/dimen0494" android:layout_marginRight="@dimen/dimen0492" android:layout_marginBottom="@dimen/dimen0492">
+    <com.obwhatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/send_payment_send" android:background="@android:color/transparent" android:layout_width="47dp" android:layout_height="47dp" android:src="@drawable/input_send" android:scaleType="center" android:contentDescription="@string/str14e7"/>
+</FrameLayout>

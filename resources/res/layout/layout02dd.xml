@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/group_participants_search" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@android:id/list" android:background="@color/color01d5" android:paddingTop="@dimen/dimen0002" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/selector_orange_gradient" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
+    <FrameLayout android:id="@+id/search_holder" android:layout_width="match_parent" android:layout_height="@dimen/dimen0002">
+        <include layout="@layout/layout02f3"/>
+    </FrameLayout>
+</FrameLayout>

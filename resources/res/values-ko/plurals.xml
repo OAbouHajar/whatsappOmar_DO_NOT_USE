@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">이전하려면 이 기기에 %1$s가 필요합니다. WhatsApp 저장 공간 관리 도구를 사용해 공간을 확보하세요.</item>
+    </plurals>
+</resources>

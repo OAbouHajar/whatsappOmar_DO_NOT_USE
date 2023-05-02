@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="right" android:orientation="vertical" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:minWidth="@dimen/dimen0268" android:minHeight="30dp">
+        <include layout="@layout/layout01b4"/>
+        <include layout="@layout/layout01c1"/>
+        <com.obwhatsapp.conversation.conversationrow.InteractiveMessageView android:orientation="vertical" android:id="@+id/interactive_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/dimen0268"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:id="@+id/date" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b2"/>
+            <com.obwhatsapp.WaImageView android:id="@+id/status" android:paddingLeft="4dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:id="@+id/button_div" style="@style/style024c"/>
+        <com.obwhatsapp.conversation.conversationrow.InteractiveMessageButton android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/button" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

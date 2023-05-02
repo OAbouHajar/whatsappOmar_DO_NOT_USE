@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color06c5" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/title" android:paddingLeft="@dimen/dimen06bd" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen06b4" android:includeFontPadding="false" android:textAllCaps="true" app:attr028d="sans-serif-medium"/>
+</merge>

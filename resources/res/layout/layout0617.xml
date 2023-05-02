@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style0369" android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" style="@style/style0380"/>
+        <View android:id="@+id/separator" style="@style/style024b"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/color_grid" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

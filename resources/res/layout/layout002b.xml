@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/actions_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style019e">
+    <LinearLayout android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <com.obwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/vcards_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:paddingRight="@dimen/dimen0457" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459" android:text="@string/str197e" style="@style/style01bc"/>
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/mute_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_settings_notification" app:attr0348="@string/str0d01"/>
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/notifications_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0344="@string/str062f" app:attr0345="@drawable/vec_ic_music_note" app:attr0348="@string/str062e"/>
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/media_visibility_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/vec_ic_media_visibility" app:attr0348="@string/str1591"/>
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/starred_messages_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_action_star" app:attr0348="@string/str1678"/>
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/kept_messages_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_action_keep" app:attr0348="@string/str0bee"/>
+        <com.obwhatsapp.ListItemWithLeftIcon android:id="@+id/payment_transactions_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0345="@drawable/ic_rupee_currency" app:attr0348="@string/str0fdf"/>
+    </LinearLayout>
+</com.obwhatsapp.InfoCard>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textUp">المصحف الشريف بالأجزاء</string>
+    <string name="textDown1">جزء رقم</string>
+    <string name="textDown2">1</string>
+    <string name="btn">إفتح</string>
+    <string name="btndev">المطور</string>
+    <string name="empty" />
+    <string name="texty">\"\"</string>
+    <string name="edit2">أدخل رقم السورة</string>
+    <string name="textUp1">المصحف الشريف بالسور</string>
+    <string name="textDown3">سورة رقم</string>
+    <string name="edit">أدخل رقم الجزء</string>
+</resources>

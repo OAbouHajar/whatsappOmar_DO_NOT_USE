@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/attr0350" android:paddingStart="24dp" android:paddingEnd="12dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.obwhatsapp.WaTextView android:textAppearance="?attr/attr0516" android:textColor="?attr/attr0521" android:ellipsize="marquee" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <com.obwhatsapp.WaTextView android:textAppearance="@style/style0283" android:textColor="?attr/attr0521" android:ellipsize="marquee" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <RadioButton android:gravity="top" android:id="@+id/radio" android:paddingRight="12dp" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="35dp" android:layout_height="wrap_content"/>
+</LinearLayout>

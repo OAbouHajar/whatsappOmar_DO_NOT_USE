@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/attr0007">
+        <com.obwhatsapp.WaImageButton android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:src="@drawable/ic_back" android:contentDescription="@string/str014a" app:attr0532="@color/color0226" style="?attr/attr000f"/>
+        <FrameLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:id="@+id/fbpay_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbpay_logo"/>
+            <com.obwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0223" android:gravity="center_horizontal" android:id="@+id/title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str08ae" android:textAllCaps="false" app:attr028d="sans-serif-medium"/>
+        </FrameLayout>
+        <com.obwhatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/ic_fbpay_lock_gray" app:attr0532="@color/color0226"/>
+    </FrameLayout>
+</merge>

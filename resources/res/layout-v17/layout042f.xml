@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/dimen05ff" android:paddingTop="@dimen/dimen070f" android:paddingRight="@dimen/dimen05ff" android:paddingBottom="@dimen/dimen070f" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3">
+    <com.obwhatsapp.WaImageView android:id="@+id/pay_hub_icon" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="@dimen/dimen05ff" android:src="@drawable/av_fb_pay"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="40dp" android:layout_weight="3">
+        <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0713" android:textColor="@color/color0711" android:id="@+id/pay_hub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str08ae"/>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/pay_hub_desc_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr046d="false" style="@style/style0016">
+            <com.obwhatsapp.WaTextView android:textSize="@dimen/dimen0712" android:textColor="@color/color0710" android:id="@+id/pay_hub_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str08af" android:maxLines="10"/>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginStart="8dp">
+        <com.obwhatsapp.WaImageView android:id="@+id/pay_hub_add" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_action_add" app:attr0532="@color/color06f8"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/pay_hub_chevron" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="6dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:src="@drawable/chevron_right" android:layout_marginStart="6dp" app:attr05a1="true"/>
+        <com.obwhatsapp.WaImageView android:id="@+id/pay_hub_alert" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_alert_round" app:attr0532="@color/color06f9"/>
+    </FrameLayout>
+</LinearLayout>

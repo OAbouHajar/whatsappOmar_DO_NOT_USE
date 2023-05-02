@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color08a4"/>
+            <padding android:left="@dimen/dimen05cf" android:top="@dimen/dimen05d0" android:right="@dimen/dimen05cf" android:bottom="@dimen/dimen05d0"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_community_people_icon"/>
+</layer-list>

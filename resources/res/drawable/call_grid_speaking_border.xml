@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/background_shape" android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="@dimen/dimen0829">
+    <stroke android:width="@dimen/dimen010b" android:color="@color/color0792"/>
+    <corners android:radius="@dimen/dimen0109"/>
+    <solid android:color="@color/color0792"/>
+</shape>

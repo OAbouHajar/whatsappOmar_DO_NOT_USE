@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <SwitchPreference android:title="@string/pref_quick_contact" android:key="key_quick_view" android:summary="@string/sum_enable" android:defaultValue="false" android:summaryOn="@string/sum_enable" android:summaryOff="@string/sum_disable"/>
+    <ListPreference android:entries="@array/quick_entry" android:title="@string/title_quick_position" android:key="key_quick_position" android:summary="%s" android:defaultValue="top" android:entryValues="@array/quick_value"/>
+    <SwitchPreference android:title="@string/trans_icon" android:key="hide_translation_icon" android:summary="@string/trans_icon_sum" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/na_fab_chat_hide" android:key="naljaede_key_fab_caht" android:summary="@string/na_fab_chat_hide_sum" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/grpAdmin_indicator" android:key="grpAdmin_enabled" android:defaultValue="true"/>
+    <SwitchPreference android:title="@string/convo_confirm_before_sendingStkr" android:key="stkr_wantsendconfirmation" android:defaultValue="true"/>
+    <SwitchPreference android:title="@string/new_convoattachment_design" android:key="newAttach_BottomDesign" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/customwall" android:key="custom_wall" android:summary="@string/customwallS" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/custom_wall_profilepic" android:key="custom_wall_profilepic" android:summary="@string/custom_wall_profilepicS" android:dependency="custom_wall" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/yoHideInfo" android:key="yo_hideinfo" android:summary="@string/yoHideInfoSum" android:defaultValue="true"/>
+    <PreferenceCategory android:title="@string/yoAudio">
+        <SwitchPreference android:title="@string/yoAudioSensor" android:key="Audio_sensor" android:summary="@string/yoAudioSensorSum" android:defaultValue="true"/>
+        <SwitchPreference android:title="@string/yoAudioEars" android:key="Audio_ears" android:summary="@string/yoAudioEarsSum" android:dependency="Audio_sensor" android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

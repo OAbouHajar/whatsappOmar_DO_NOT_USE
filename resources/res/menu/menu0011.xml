@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_shopping_cart" android:id="@+id/menu_cart" android:title="@string/str1c1c" app:attr0484="1"/>
+    <item android:icon="@drawable/ic_action_forward" android:id="@+id/menu_forward" android:title="@string/str1c1b"/>
+    <item android:icon="@drawable/ic_invite_link" android:id="@+id/menu_share" android:title="@string/str1c20"/>
+    <item android:icon="@drawable/ic_action_forward" android:id="@+id/menu_more_info" android:title="@string/str1c7f"/>
+    <item android:id="@+id/menu_report" android:title="@string/str1c1e" app:attr0484="0"/>
+</menu>

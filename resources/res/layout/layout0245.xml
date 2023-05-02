@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0299" android:textColor="@color/color01b3" android:id="@+id/top_message" android:paddingLeft="@dimen/dimen026f" android:paddingTop="2dp" android:paddingRight="@dimen/dimen026f" android:paddingBottom="4dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.obwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr002c="true">
+        <com.obwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen029a" android:textColor="@color/color01a2" android:layout_gravity="left" android:id="@+id/bottom_message" android:paddingLeft="@dimen/dimen026f" android:paddingTop="2dp" android:paddingRight="@dimen/dimen026f" android:paddingBottom="@dimen/dimen0295" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="6dp" android:paddingRight="6dp" android:paddingBottom="@dimen/dimen0244" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b1"/>
+        </LinearLayout>
+    </com.obwhatsapp.components.TextAndDateLayout>
+</merge>

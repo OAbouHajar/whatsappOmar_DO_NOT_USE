@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.TextEmojiLabel android:orientation="vertical" android:id="@+id/dialog_text_message" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen0769" android:layout_marginTop="@dimen/dimen0762" android:layout_marginRight="@dimen/dimen0769"/>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+    <FrameLayout android:layout_width="@dimen/dimen01cb" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:layout_gravity="top" android:id="@+id/app_bar" android:background="@color/color0792" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0163="0dp">
+            <com.obwhatsapp.BidiToolbar android:id="@+id/toolbar" android:background="@color/color0792" android:layout_width="match_parent" android:layout_height="?attr/attr0007" app:attr0100="0dp" app:attr0102="0dp" app:attr0103="0dp" app:attr02fd="1" style="@style/style037e"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/communityPhoto" android:layout_width="@dimen/dimen01c9" android:layout_height="@dimen/dimen01c9" android:src="@drawable/avatar_parent_large" android:scaleType="centerCrop"/>
+        <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="@dimen/dimen01cd" android:layout_height="@dimen/dimen0002">
+            <ProgressBar android:layout_gravity="center" android:id="@+id/change_subject_and_desription_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.google.android.material.appbar.AppBarLayout android:background="@color/color0792" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0335="3">
+                <RelativeLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/headerView" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.obwhatsapp.TextEmojiLabel android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/communityName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0765" android:maxLines="3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/style02cf"/>
+                    <com.obwhatsapp.WaTextView android:ellipsize="end" android:gravity="center" android:id="@+id/communityStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0762" android:maxLines="3" android:layout_below="@+id/communityName" android:layout_centerHorizontal="true" style="@style/style02cd"/>
+                    <Space android:layout_width="match_parent" android:layout_height="12dp" android:layout_below="@+id/communityStatus"/>
+                </RelativeLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <androidx.appcompat.widget.SearchView android:layout_gravity="center_vertical" android:id="@+id/search_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="flagNoExtractUi" style="@style/style024a"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/subgroup_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" app:attr02fc="@string/str1bdb"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

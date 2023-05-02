@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:attr030a="0" app:attr031d="0" app:attr0321="0" layout="@layout/layout05b7"/>
+    <ScrollView android:id="@+id/scroll_view" android:scrollbars="none" android:layout_width="0dp" android:layout_height="0dp" app:attr0305="@+id/mapper_value_props_continue" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaImageView android:id="@+id/mapper_value_props_image_section" android:layout_width="248dp" android:layout_height="161dp" android:layout_marginTop="16dp" android:src="@drawable/ic_upi_mapper_value_prop" app:attr030a="0" app:attr031d="0" app:attr0321="0"/>
+            <com.obwhatsapp.WaTextView android:textSize="20sp" android:textColor="@color/color0507" android:gravity="center" android:id="@+id/mapper_value_props_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="24dp" android:layout_marginRight="16dp" android:text="@string/str0cbe" android:fontFamily="sans-serif-medium" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/mapper_value_props_image_section"/>
+            <com.obwhatsapp.TextEmojiLabel android:textColor="@color/color06c5" android:gravity="center" android:id="@+id/mapper_value_props_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:text="@string/str0cbd" app:attr030a="0" app:attr031d="0" app:attr0320="@+id/mapper_value_props_title"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.obwhatsapp.components.Button android:gravity="center" android:id="@+id/mapper_value_props_continue" android:visibility="visible" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:text="@string/str02ac" android:maxLines="1" app:attr0305="@+id/bhim_upi_logo" app:attr030a="0" app:attr031d="0" style="@style/style03a9"/>
+    <com.obwhatsapp.WaImageView android:id="@+id/bhim_upi_logo" android:layout_marginTop="20dp" android:layout_marginBottom="16dp" app:attr0304="0" app:attr030a="0" app:attr031d="0" style="@style/style00d7"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

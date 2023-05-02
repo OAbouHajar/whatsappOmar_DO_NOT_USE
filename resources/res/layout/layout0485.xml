@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/hero_payments" android:layout_width="137dp" android:layout_height="137dp" android:layout_marginTop="46dp" android:src="@drawable/ic_hero_payments" android:contentDescription="@null"/>
+        <com.obwhatsapp.WaTextView android:textSize="23sp" android:textColor="@color/color0660" android:gravity="center" android:layout_gravity="center" android:id="@+id/unlink_payment_accounts_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginTop="40dp" android:layout_marginRight="36dp" android:text="@string/str1166" android:lineSpacingExtra="6dp" app:attr028d="sans-serif-light"/>
+        <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color06c5" android:gravity="center" android:layout_gravity="center" android:id="@+id/unlink_payment_accounts_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginTop="94dp" android:layout_marginRight="36dp" android:layout_marginBottom="24dp" android:text="@string/str13db" android:lineSpacingExtra="6dp"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34dp" style="?android:attr/progressBarStyleInverse"/>
+    </LinearLayout>
+</ScrollView>

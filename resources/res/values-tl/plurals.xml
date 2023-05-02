@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Kailangan ng %1$s sa device na ito para sa paglilipat. Mangyaring magbakante ng espasyo sa pamamagitan ng paggamit sa storage management tool ng WhatsApp.</item>
+    </plurals>
+</resources>

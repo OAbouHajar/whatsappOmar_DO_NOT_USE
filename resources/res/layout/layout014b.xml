@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.obwhatsapp.qrcode.WaQrScannerView android:id="@+id/qr_scanner_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.obwhatsapp.qrcode.QrScannerOverlay android:id="@+id/overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0407="1" app:attr0408="@string/str1c3d" app:attr0409="@dimen/dimen0210" app:attr040a="@dimen/dimen020f"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/qr_scan_from_gallery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:src="@drawable/ic_album" android:contentDescription="@string/str148d" app:attr0532="@color/color090b" style="@style/style0000"/>
+    <com.obwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/qr_scan_flash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:src="@drawable/flash_off" app:attr0532="@color/color090b" style="@style/style0000"/>
+</FrameLayout>

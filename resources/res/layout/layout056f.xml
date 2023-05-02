@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/media_recipients" android:layout_width="match_parent" android:layout_height="28dp">
+    <com.obwhatsapp.WaImageView android:id="@+id/privacy_prompt_icon" android:layout_width="wrap_content" android:layout_height="28dp" android:layout_marginLeft="16dp" android:layout_marginRight="8dp" android:src="@drawable/chevron" app:attr0532="@color/color090b"/>
+    <HorizontalScrollView android:layout_gravity="center_vertical" android:id="@+id/privacy_scroller" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="60dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:requiresFadingEdge="horizontal">
+        <com.obwhatsapp.TextEmojiLabel android:textSize="13sp" android:textColor="@color/color090b" android:layout_gravity="center_vertical" android:id="@+id/privacy_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.5" app:attr028d="sans-serif-medium"/>
+    </HorizontalScrollView>
+</LinearLayout>

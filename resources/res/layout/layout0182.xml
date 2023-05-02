@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/contact_card" android:layout_width="@dimen/dimen0292" android:layout_height="wrap_content">
+        <include layout="@layout/layout01b4"/>
+        <include layout="@layout/layout01c1"/>
+        <include layout="@layout/layout01e6"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="@dimen/dimen026f" android:layout_marginRight="@dimen/dimen026f">
+            <com.obwhatsapp.components.button.ThumbnailButton android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/picture" android:layout_width="@dimen/dimen0746" android:layout_height="@dimen/dimen0746" android:scaleType="fitCenter" app:attr04fe="false" app:attr0500="-1dp"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.obwhatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/vcard_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/style0130"/>
+                <com.obwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color00cc" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/account_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.obwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="@color/color00d2" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0745" android:layout_marginRight="@dimen/dimen026f" android:maxLines="2"/>
+        <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingRight="14dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.obwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style03b1"/>
+        </LinearLayout>
+        <View android:id="@+id/button_div" style="@style/style024c"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.obwhatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:id="@+id/msg_contact_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str14f4" android:layout_weight="1" style="@style/style0131"/>
+            <View android:id="@+id/button_vert_div" style="@style/style0250"/>
+            <com.obwhatsapp.TextEmojiLabel android:textColor="@drawable/flat_button_link_color_incoming" android:id="@+id/action_contact_btn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str00a8" android:layout_weight="1" style="@style/style0131"/>
+        </LinearLayout>
+        <ViewStub android:id="@+id/action_view_business_container" android:layout="@layout/layout0126" android:inflatedId="@+id/action_view_business_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

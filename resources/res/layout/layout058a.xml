@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.productinfra.avatar.ui.stickers.upsell.AvatarStickerUpsellView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/sticker_avatar_upsell" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp" app:attr00d6="false" app:attr016a="0" app:attr048a="true"/>

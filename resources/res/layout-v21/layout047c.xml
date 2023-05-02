@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/layout05b9"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@+id/appBarLayout" android:background="@color/color065f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0163="0dp">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@+id/collapsing_filters_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0335="15">
+                <HorizontalScrollView android:id="@+id/payment_filters" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr02fd="1">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.obwhatsapp.payments.ui.widget.MultiExclusionChipGroup android:id="@+id/payment_filter_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen05f2" app:attr049b="true"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionGroup="true" app:attr02fa="@+id/appBarLayout" app:attr02fb="50" app:attr02fc="@string/str1bdb">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@+id/transaction_list_header_container" android:background="@color/color065f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <View android:id="@+id/transaction_list_header_container_separator" android:background="@color/color01d5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen05fe"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/transaction_list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                        <com.obwhatsapp.StickyHeadersRecyclerView android:id="@+id/transaction_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" app:attr0497="0dp"/>
+                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/empty_list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <com.obwhatsapp.WaImageView android:id="@+id/empty_container_image" android:layout_width="48dp" android:layout_height="40dp" android:src="@drawable/ic_txn_empty" android:scaleType="fitXY" app:attr0305="@+id/empty_container_text" app:attr0317="0" app:attr031b="0" app:attr0321="0" app:attr0323="2"/>
+                            <com.obwhatsapp.WaTextView android:id="@+id/empty_container_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:text="@string/str1115" app:attr0304="0" app:attr0317="0" app:attr031b="0" app:attr0320="@+id/empty_container_image" app:attr0323="2" style="@style/style01b9"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </FrameLayout>
+                    <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color090b" android:gravity="center" android:id="@+id/bottom_button" android:background="@color/color0791" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:textAllCaps="true"/>
+                </LinearLayout>
+                <ScrollView android:id="@android:id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.obwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorPrimary" android:layout_gravity="center" android:paddingBottom="64dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1062"/>
+                </ScrollView>
+                <com.obwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="64dp" android:layout_height="64dp" android:indeterminateOnly="true" app:attr0113="@android:color/transparent" app:attr0114="@color/color0659"/>
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

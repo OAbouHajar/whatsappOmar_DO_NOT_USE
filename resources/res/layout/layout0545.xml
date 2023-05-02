@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/style025d">
+    <com.obwhatsapp.TextEmojiLabel android:id="@+id/status_row" android:maxLines="1" android:singleLine="true" style="@style/style025f"/>
+    <com.obwhatsapp.WaImageView android:id="@+id/status_selected_check" android:src="@drawable/ic_done" app:attr0532="@color/color06fc" style="@style/style0254"/>
+</LinearLayout>

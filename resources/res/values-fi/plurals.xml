@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals019a">
+        <item quantity="other">Laitteen tilasta tarvitaan %1$s siirtoa varten. Vapauta tilaa käyttämällä WhatsAppin tallennustilan hallintatyökalua.</item>
+    </plurals>
+</resources>

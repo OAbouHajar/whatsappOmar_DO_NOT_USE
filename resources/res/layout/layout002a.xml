@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/actions_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style019e">
+    <LinearLayout android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/vcards_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:paddingRight="@dimen/dimen0457" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459" android:text="@string/str197e" style="@style/style01bc"/>
+        <View android:id="@+id/mute_separator" android:visibility="gone" style="@style/style0185"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/mute_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0459">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.obwhatsapp.WaTextView android:id="@+id/mute_notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0d01" style="@style/style01bc"/>
+                <com.obwhatsapp.WaTextView android:id="@+id/mute_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01bb"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:id="@+id/mute_switch" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:id="@+id/notifications_separator" style="@style/style0185"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/notifications_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459">
+            <com.obwhatsapp.WaTextView android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str062e" style="@style/style01bc"/>
+            <com.obwhatsapp.WaTextView android:id="@+id/notifications_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str062f" style="@style/style01bb"/>
+        </LinearLayout>
+        <View android:id="@+id/media_visibility_separator" style="@style/style0185"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/media_visibility_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459">
+            <com.obwhatsapp.WaTextView android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1591" style="@style/style01bc"/>
+        </LinearLayout>
+        <View android:id="@+id/starred_messages_separator" android:visibility="gone" style="@style/style0185"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/starred_messages_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459">
+            <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str1678" android:layout_weight="1" style="@style/style01bc"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0503" android:layout_gravity="center_vertical" android:id="@+id/starred_messages_count" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true"/>
+        </LinearLayout>
+        <View android:id="@+id/kept_messages_separator" android:visibility="gone" style="@style/style0185"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/kept_messages_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459">
+            <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str0bee" android:layout_weight="1" style="@style/style01bc"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0503" android:layout_gravity="center_vertical" android:id="@+id/kept_messages_count" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true"/>
+        </LinearLayout>
+        <View android:id="@+id/payment_transactions_separator" android:visibility="gone" style="@style/style0185"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/payment_transactions_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459">
+            <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str0fdf" android:layout_weight="1" style="@style/style01bc"/>
+            <com.obwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0503" android:layout_gravity="center_vertical" android:id="@+id/payment_transactions_count" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true"/>
+        </LinearLayout>
+        <View android:id="@+id/group_settings_separator" android:visibility="gone" style="@style/style0185"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/group_settings_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen0457" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0459">
+            <com.obwhatsapp.WaTextView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0b0e" style="@style/style01bc"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.obwhatsapp.InfoCard>

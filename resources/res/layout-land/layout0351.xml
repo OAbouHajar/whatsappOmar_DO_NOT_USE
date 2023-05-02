@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/color065f" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen068f" android:layout_marginRight="@dimen/dimen068f">
+    <com.obwhatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="4dp" android:text="@string/str13dc" style="@style/style0228"/>
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/initial_sync_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+        <com.obwhatsapp.WaTextView android:textSize="14dp" android:textColor="@color/color00ae" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str13db"/>
+    </LinearLayout>
+    <com.obwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/logo" android:layout_width="260dp" android:layout_height="0dp" android:src="@drawable/ill_eula" android:layout_weight="1" app:attr0532="@color/color020d"/>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/photo_progress" android:visibility="invisible" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginBottom="8dp" style="?android:attr/progressBarStyleLarge"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.obwhatsapp.WaTextView android:textColor="@color/color04f8" android:gravity="center" android:id="@+id/pay_ed_contact_support" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1377" android:contentDescription="@string/str1377"/>
+    </LinearLayout>
+</LinearLayout>

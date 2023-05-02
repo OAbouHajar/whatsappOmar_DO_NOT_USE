@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.obwhatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.obwhatsapp.WaTextView android:textColor="@color/color06c5" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/feedback_explanation" android:layout_marginTop="@dimen/dimen012d" android:text="@string/str07ed" style="@style/style0340"/>
+    <com.obwhatsapp.StarRatingBar android:layout_gravity="center_horizontal" android:id="@+id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen012d" android:importantForAccessibility="yes"/>
+    <com.obwhatsapp.WaTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/rating_description" android:visibility="invisible" style="@style/style0340"/>
+</com.obwhatsapp.WaLinearLayout>
